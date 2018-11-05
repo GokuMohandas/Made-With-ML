@@ -19,7 +19,7 @@
 2. Go to https://github.com/GokuMohandas/practicalAI/tree/master/notebooks
 3. Click on upload files.
 
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/upload_files.png">
+<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/upload.png">
 
 4. Upload the .ipynb file.
 5. Write a detailde commit title and message.
