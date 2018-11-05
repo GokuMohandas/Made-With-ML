@@ -26,8 +26,8 @@
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/upload.png">
 
 4. Upload the .ipynb file.
-5. Write a detailde commit title and message.
-6. Name your branch as <USERNAME>_<NOTEBOOK NAME>_<FIX NAME>
+5. Write a detailed commit title and message.
+6. Name your branch as `<USERNAME>_<NOTEBOOK NAME>_<FIX NAME>`
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
 
