@@ -50,7 +50,7 @@
 * ~~Convolutional neural networks~~
 * ~~Embeddings~~
 * ~~Recurrent neural networks~~
-* Tensorboard to MLP notebook
+* ~~Tensorboard to MLP notebook~~
 * Add batch normalization to CNN notebook w/ diagram
 * Add layer normalization to RNN notebook w/ diagram
 * Kmeans clustering
