@@ -27,7 +27,7 @@
 
 4. Upload the .ipynb file.
 5. Write a detailed commit title and message.
-6. Name your branch as `<USERNAME>_<NOTEBOOK NAME>_<FIX NAME>`
+6. Name your branch as appropriately
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
 
@@ -51,7 +51,7 @@
 * ~~Embeddings~~
 * ~~Recurrent neural networks~~
 * ~~Tensorboard to MLP notebook~~
-* Add batch normalization to CNN notebook w/ diagram
+* ~~Add batch normalization to CNN notebook w/ diagram~~
 * Add layer normalization to RNN notebook w/ diagram
 * Kmeans clustering
 * Topic modeling
