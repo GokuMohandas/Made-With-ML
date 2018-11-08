@@ -50,21 +50,16 @@
 - [x] Convolutional neural networks
 - [x] Embeddings
 - [x] Recurrent neural networks
-- [x] Tensorboard to MLP notebook
-- [x] Add batch normalization to CNN notebook w/ diagram
-- [x] Add layer normalization to RNN notebook w/ diagram
-- [ ] Conditioned RNN
 - [ ] CNN image classification and segmentation
+- [ ] Advanced RNNs (conditioned hidden state, attention, char-level embeddings from CNN)
+- [ ] Highway networks, residual, etc.
 - [ ] Kmeans clustering
 - [ ] Topic modeling
 - [ ] AE, DAE, VAE, CVAE
 - [ ] GANs
-- [ ] Advanced sequence modeling (attention, hidden state)
-- [ ] Char-level + word level into bilstm (w/ attention?)
 - [ ] Recommendation systems (matrix factorization, ALS, SGD)
 - [ ] Topic modeling with LDA
 - [ ] Transfer learning (language modeling), ELMO
 - [ ] Multitask learning
-- [ ] Highway networks, residual, etc.
 - [ ] Transformers
 
