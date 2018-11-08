@@ -52,7 +52,9 @@
 * ~~Recurrent neural networks~~
 * ~~Tensorboard to MLP notebook~~
 * ~~Add batch normalization to CNN notebook w/ diagram~~
-* Add layer normalization to RNN notebook w/ diagram
+* ~~Add layer normalization to RNN notebook w/ diagram~~
+* Conditioned RNN
+* CNN image classification and segmentation
 * Kmeans clustering
 * Topic modeling
 * AE, DAE, VAE, CVAE
