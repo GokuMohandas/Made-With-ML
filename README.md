@@ -58,8 +58,37 @@
 - [ ] AE, DAE, VAE, CVAE
 - [ ] GANs
 - [ ] Recommendation systems (matrix factorization, ALS, SGD)
-- [ ] Topic modeling with LDA
 - [ ] Transfer learning (language modeling), ELMO
 - [ ] Multitask learning
 - [ ] Transformers
+
+|              Notebook              |                           ToDo                           |
+|------------------------------------|----------------------------------------------------------|
+| 00_Notebooks                       | <ul><li>- [x] text cells</li><li>- [x] code cells</li><li>- [x] saving notebook</li></ul> |
+| 01_Python                          |                                                          |
+| 02_NumPy                           |                                                          |
+| 03_Pandas                          |                                                          |
+| 04_Linear_Regression               |                                                          |
+| 05_Logistic_Regression             |                                                          |
+| 06_Random_Forests                  |                                                          |
+| 07_PyTorch                         |                                                          |
+| 08_Multilayer_Perceptron           |                                                          |
+| 09_Data_and_Models                 |                                                          |
+| 10_Object_Oriented_ML              |                                                          |
+| 11_Convolutional_Neural_Networks   |                                                          |
+| 12_CNNs_for_Text                   |                                                          |
+| 13_Embeddings                      |                                                          |
+| 14_Recurrent_Neural_Networks       |                                                          |
+| 15_Advanced_RNNs                   |                                                          |
+| 16_Highway_and_Residual_Networks   |                                                          |
+| 17_Time_Series_Analysis            |                                                          |
+| 18_Kmeans_Clustering               |                                                          |
+| 19_Topic_Modeling                  |                                                          |
+| 20_Auto_Encoders                   |                                                          |
+| 21_Generative_Adversarial_Networks |                                                          |
+| 22_Recommendation_Systems          |                                                          |
+| 23_Transfer_Learning               |                                                          |
+| 24_Multitask_Learning              |                                                          |
+| 25_Low_Shot_Learning               |                                                          |
+| 26_Reinforcement_Learning          |                                                          |
 
