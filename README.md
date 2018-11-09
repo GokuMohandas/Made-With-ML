@@ -36,31 +36,6 @@
 
 
 ### TODO
-- [x] Notebook basics
-- [x] Python
-- [x] NumPy
-- [x] Pandas
-- [x] Linear regression
-- [x] Logistic regression
-- [x] Random forests
-- [x] PyTorch
-- [x] Multi-layer perceptron
-- [x] Data and models
-- [x] Object oriented ML
-- [x] Convolutional neural networks
-- [x] Embeddings
-- [x] Recurrent neural networks
-- [ ] CNN image classification and segmentation
-- [ ] Advanced RNNs (conditioned hidden state, attention, char-level embeddings from CNN)
-- [ ] Highway networks, residual, etc.
-- [ ] Kmeans clustering
-- [ ] Topic modeling
-- [ ] AE, DAE, VAE, CVAE
-- [ ] GANs
-- [ ] Recommendation systems (matrix factorization, ALS, SGD)
-- [ ] Transfer learning (language modeling), ELMO
-- [ ] Multitask learning
-- [ ] Transformers
 
 |              Notebook              |                 Completed                 |                 ToDo                 |
 |------------------------------------|-------------------------------------------|--------------------------------------|
@@ -75,11 +50,11 @@
 | 08_Multilayer_Perceptron           | <ul> <li>- [x] overview </li> <li>- [x] training </li> <li>- [x] data </li> <li>- [x] linear model </li> <li>- [x] non-linear model </li> <li>- [x] tensorboardd </li> <li>- [x] activation functions </li> <li>- [x] initialize weights </li> <li>- [x] overfitting </li> <li>- [x] dropout </li> </ul> | <ul> <li>- [ ] interpretability </li> <li>- [ ] dropconnect </li> <li>- [ ] PReLU </li> </ul> |
 | 09_Data_and_Models                 | <ul> <li>- [x] data </li> <li>- [x] quality </li> <li>- [x] quantity </li> <li>- [x] modeling </li> </ul> |   |
 | 10_Object_Oriented_ML              | <ul> <li>- [x] overview </li> <li>- [x] set up </li> <li>- [x] data </li> <li>- [x] Vocabulary </li> <li>- [x] Vectorizer </li> <li>- [x] Dataset </li> <li>- [x] Model </li> <li>- [x] Trainer </li> <li>- [x] Inference </li> </ul> | <ul> <li>- [ ] tqdm </li> </ul>|
-| 11_Convolutional_Neural_Networks   |                                                          |  |
-| 12_CNNs_for_Text                   |                                                          |  |
-| 13_Embeddings                      |                                                          |  |
-| 14_Recurrent_Neural_Networks       |                                                          |  |
-| 15_Advanced_RNNs                   |                                                          |  |
+| 11_Convolutional_Neural_Networks   | <ul> <li>-[x] overview </li> <li>-[x] filters </li> <li>-[x] pooling </li> </ul> | <ul> <li>-[ ] classification </li> <li>-[ ] pretrained models </li> <li>-[ ] finetuning </li> <li>-[ ] segmentation </li> <li>-[ ] classification </li> <li>-[ ] 3x3 filters </li> <li>-[ ] network-in-network </li> <li>-[ ] residual connections </li> <li>-[ ] interpretability w/ activation maps </li> </ul> |
+| 12_CNNs_for_Text                   | <ul> <li>-[x] overview </li> <li>-[x] task </li> <li>-[x] batchnorm </li> </ul> | <ul> <li>-[ ] conv1D diagram </li> <li>-[ ] conv2D diagram </li> <li>-[ ] conv3D diagram </li> <li>-[ ] interpretable n-grams </li> </ul>|
+| 13_Embeddings                      | <ul> <li>-[x] overview </li> <li>-[x] learning embeddings </li> <li>-[x] pretrained embeddings </li> <li>-[x] using embeddings </li> <li>-[x] freezing embeddings </li> </ul> | <ul> <li>-[ ] interpretable conv filters </li> <li>-[ ] contextualized embeddings </li> </ul> |
+| 14_Recurrent_Neural_Networks       | <ul> <li>-[x] overview </li> <li>-[x] sequenitial data </li> <li>-[x] gradient issues </li> <li>-[x] BiRNN </li> <li>-[x] document classification </li> <li>-[x] layernorm </li> </ul> | <ul> <li>-[ ] interpretability </li> </ul> |
+| 15_Advanced_RNNs                   | | <ul> <li>-[ ] conditioned RNN </li> <li>-[ ] attention </li> <li>-[ ] char-level embeddings </li> <li>-[ ] QRNN </li> </ul> |
 | 16_Highway_and_Residual_Networks   |                                                          |  |
 | 17_Time_Series_Analysis            |                                                          |  |
 | 18_Kmeans_Clustering               |                                                          |  |
