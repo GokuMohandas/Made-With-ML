@@ -64,7 +64,7 @@
 
 |              Notebook              |                           ToDo                           |
 |------------------------------------|----------------------------------------------------------|
-| 00_Notebooks                       | <ul><li>- [x] text cells</li><li>- [x] code cells</li><li>- [x] saving notebook</li></ul> |
+| 00_Notebooks                       | - [x] text cells </br> - [x] code cells </br> - [x] saving notebook |
 | 01_Python                          |                                                          |
 | 02_NumPy                           |                                                          |
 | 03_Pandas                          |                                                          |
