@@ -64,17 +64,17 @@
 
 |              Notebook              |                           ToDo                           |
 |------------------------------------|----------------------------------------------------------|
-| 00_Notebooks                       | - [x] text cells </br> - [x] code cells </br> - [x] saving notebook |
-| 01_Python                          |                                                          |
-| 02_NumPy                           |                                                          |
-| 03_Pandas                          |                                                          |
-| 04_Linear_Regression               |                                                          |
-| 05_Logistic_Regression             |                                                          |
-| 06_Random_Forests                  |                                                          |
-| 07_PyTorch                         |                                                          |
-| 08_Multilayer_Perceptron           |                                                          |
-| 09_Data_and_Models                 |                                                          |
-| 10_Object_Oriented_ML              |                                                          |
+| 00_Notebooks                       | <ul> <li>- [x] text cells </li> <li>- [x] code cells </li> <li>- [x] saving notebook </li> </ul> |
+| 01_Python                          | <ul> <li>- [x] lists, tuples, dicts </li> <li>- [x] functions </li> <li>- [x] classes </li> </ul> |
+| 02_NumPy                           | <ul> <li>- [x] indexing </li> <li>- [x] arithmetic </li> <li>- [x] advanced </li> </ul> |
+| 03_Pandas                          | <ul> <li>- [x] loading data </li> <li>- [x] exploratory analysis </li> <li>- [x] preprocessing </li> <li>- [x] feature engineering </li> <li>- [x] saving data </li> </ul> |
+| 04_Linear_Regression               | <ul> <li>- [x] overview </li> <li>- [x] training </li> <li>- [x] data </li> <li>- [x] scikit </li> <li>- [x] interpretability </li> <li>- [x] regularization </li> <li>- [x] categorical </li> <li>- [ ] polynomial </li> <li>- [ ] normal equation </li> </ul> |
+| 05_Logistic_Regression             | <ul> <li>- [x] overview </li> <li>- [x] training </li> <li>- [x] data </li> <li>- [x] scikit </li> <li>- [x] metrics </li> <li>- [x] metrics </li> <li>- [x] interpretability </li> <li>- [x] cross validation </li> <li>- [ ] interaction terms </li> <li>- [ ] odds ratio </li> <li>- [ ] coordinate descent </li> </ul>|
+| 06_Random_Forests                  | <ul> <li>- [x] decision tree </li> <li>- [x] training </li> <li>- [x] data </li> <li>- [x] scikit </li> <li>- [x] interpretability </li> <li>- [x] random forests </li> <li>- [x] interpretability </li> <li>- [x] grid search </li> <li>- [ ] regression example </li> <li>- [ ] gini vs. entropy </li> </ul> |
+| 07_PyTorch                         | <ul> <li>- [x] tensors </li> <li>- [x] indexing </li> <li>- [x] gradients </li> <li>- [x] CUDA </li> <li>- [ ] customized function </li> </ul> |
+| 08_Multilayer_Perceptron           | <ul> <li>- [x] overview </li> <li>- [x] training </li> <li>- [x] data </li> <li>- [x] linear model </li> <li>- [x] non-linear model </li> <li>- [x] tensorboardd </li> <li>- [x] activation functions </li> <li>- [x] initialize weights </li> <li>- [x] overfitting </li> <li>- [x] dropout </li> <li>- [ ] interpretability </li> <li>- [ ] dropconnect </li> <li>- [ ] PReLU </li> </ul> |
+| 09_Data_and_Models                 | <ul> <li>- [x] data </li> <li>- [x] quality </li> <li>- [x] quantity </li> <li>- [x] modeling </li> </ul> |
+| 10_Object_Oriented_ML              | <ul> <li>- [x] overview </li> <li>- [x] set up </li> <li>- [x] data </li> <li>- [x] Vocabulary </li> <li>- [x] Vectorizer </li> <li>- [x] Dataset </li> <li>- [x] Model </li> <li>- [x] Trainer </li> <li>- [x] Inference </li> <li>- [ ] tqdm </li> </ul>|
 | 11_Convolutional_Neural_Networks   |                                                          |
 | 12_CNNs_for_Text                   |                                                          |
 | 13_Embeddings                      |                                                          |
