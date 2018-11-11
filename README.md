@@ -1,4 +1,5 @@
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175> - <a href="https://goku.me/practicalAI" target="_blank">https://goku.me/practicalAI</a>
+<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175>
+<a href="https://goku.me/practicalAI" target="_blank">https://goku.me/practicalAI</a>
 
 # Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the `notebooks` directory in this repo.
