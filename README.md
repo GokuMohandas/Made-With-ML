@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=150>
+<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=200>
 
 # Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the `notebooks` directory in this repo.
@@ -10,9 +10,6 @@
 
 5. Rename this new notebook by removing the `Copy of` part in the title.
 6. Run the code, make changes, etc. and it's all automatically saved to you personal Google Drive.
-
-
----
 
 
 # Contributing to notebooks
@@ -30,9 +27,6 @@
 6. Name your branch as appropriately
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
-
-
----
 
 
 # TODO
