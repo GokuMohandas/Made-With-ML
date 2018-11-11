@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=150>
 
-### Running the notebooks
+# Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the `notebooks` directory in this repo.
 2. Replace `https://github.com/` with `https://colab.research.google.com/github/` in the notebook URL or use this [Chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) to do it with one click.
 3. Sign into your Google account.
@@ -15,7 +15,7 @@
 ---
 
 
-### Contributing to notebooks
+# Contributing to notebooks
 1. Make your changes and download the Google colab notebook as a .ipynb file.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/download_ipynb.png">
@@ -35,7 +35,7 @@
 ---
 
 
-### TODO
+# TODO
 
 |              Notebook              |                 Completed                 |                 ToDo                 |
 |------------------------------------|-------------------------------------------|--------------------------------------|
