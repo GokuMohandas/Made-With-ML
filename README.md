@@ -19,16 +19,16 @@
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/download_ipynb.png">
 
 2. Go to https://github.com/GokuMohandas/practicalAI/tree/master/notebooks
-3. Click on upload files.
+3. Click on `Upload files`.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/upload.png">
 
-4. Upload the .ipynb file.
-5. Write a detailed commit title and message.
-6. Name your branch as appropriately
+5. Upload the .ipynb file.
+6. Write a detailed commit title and message.
+7. Name your branch as appropriately.
+8. Click on `Propose changes`.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
-
 
 ## TODO
 
@@ -45,7 +45,7 @@
 | <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/08_Multilayer_Perceptron.ipynb" target="_blank">08_Multilayer_Perceptron</a> | <ul> <li>- [x] overview </li> <li>- [x] training </li> <li>- [x] data </li> <li>- [x] linear model </li> <li>- [x] non-linear model </li> <li>- [x] tensorboardd </li> <li>- [x] activation functions </li> <li>- [x] initialize weights </li> <li>- [x] overfitting </li> <li>- [x] dropout </li> </ul> | <ul> <li>- [ ] interpretability </li> <li>- [ ] dropconnect </li> <li>- [ ] PReLU </li> </ul> |
 | <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/09_Data_and_Models.ipynb" target="_blank">09_Data_and_Models</a> | <ul> <li>- [x] data </li> <li>- [x] quality </li> <li>- [x] quantity </li> <li>- [x] modeling </li> </ul> |   |
 | <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/10_Object_Oriented_ML.ipynb" target="_blank">10_Object_Oriented_ML</a> | <ul> <li>- [x] overview </li> <li>- [x] set up </li> <li>- [x] data </li> <li>- [x] Vocabulary </li> <li>- [x] Vectorizer </li> <li>- [x] Dataset </li> <li>- [x] Model </li> <li>- [x] Trainer </li> <li>- [x] Inference </li> </ul> | <ul> <li>- [ ] tqdm </li> </ul>|
-| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/11_Convolutional_Neural_Networks.ipynb" target="_blank">11_Convolutional_Neural_Networks</a> | <ul> <li>-[x] overview </li> <li>-[x] filters </li> <li>-[x] pooling </li> </ul> | <ul> <li>-[ ] classification </li> <li>-[ ] pretrained models </li> <li>-[ ] finetuning </li> <li>-[ ] segmentation </li> <li>-[ ] classification </li> <li>-[ ] 3x3 filters </li> <li>-[ ] network-in-network </li> <li>-[ ] residual connections </li> <li>-[ ] interpretability w/ activation maps </li> </ul> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/11_Convolutional_Neural_Networks.ipynb" target="_blank">11_Convolutional_Neural_Networks</a> | <ul> <li>-[x] overview </li> <li>-[x] filters </li> <li>-[x] pooling </li> <li>-[x] char-level conv </li> </ul> | <ul> <li>-[ ] interpretability w/ activation maps </li> </ul> |
 | <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/12_Embeddings.ipynb" target="_blank">12_Embeddings</a> | <ul> <li>-[x] overview </li> <li>-[x] learning embeddings </li> <li>-[x] pretrained embeddings </li> <li>-[x] using embeddings </li> <li>-[x] freezing embeddings </li> </ul> | <ul> <li>-[ ] interpretable conv filters </li> <li>-[ ] contextualized embeddings </li> </ul> |
 | <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/13_Recurrent_Neural_Networks.ipynb" target="_blank">13_Recurrent_Neural_Networks</a> | <ul> <li>-[x] overview </li> <li>-[x] sequenitial data </li> <li>-[x] gradient issues </li> <li>-[x] BiRNN </li> <li>-[x] document classification </li> <li>-[x] layernorm </li> </ul> | <ul> <li>-[ ] interpretability </li> </ul> |
 | 15_Advanced_RNNs                   | | <ul> <li>-[ ] conditioned RNN </li> <li>-[ ] attention </li> <li>-[ ] char-level embeddings </li> <li>-[ ] QRNN </li> </ul> |
