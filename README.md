@@ -14,7 +14,7 @@
 
 
 ## Contributing to notebooks
-1. Make your changes and download the Google colab notebook as a .ipynb file.
+1. Make your changes and download the Google colab notebook as an .ipynb file.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/download_ipynb.png">
 
