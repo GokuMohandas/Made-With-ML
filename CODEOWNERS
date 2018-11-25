@@ -1,0 +1,13 @@
+# @GokuMohandas is the code owner for
+# practicalAI and should review any PRs
+* @GokuMohandas
+
+data/                 @GokuMohandas
+images/               @GokuMohandas
+notebooks/            @GokuMohandas
+.gitignore            @GokuMohandas
+CODE_OF_CONDUCT.md    @GokuMohandas
+CODEOWNERS            @GokuMohandas
+LICENSE               @GokuMohandas
+README.md             @GokuMohandas
+requirements.txt      @GokuMohandas
