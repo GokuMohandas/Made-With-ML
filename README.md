@@ -1,11 +1,19 @@
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175>
 <a href="https://goku.me/practicalAI" target="_blank">https://goku.me/practicalAI</a>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
+
+Empowering you to use machine learning to get valuable insights from data.
+- 🎓 No computer science or math degrees required.<br>
+- 🤖 Learn when to use specific ML techniques for your tasks.<br>
+- 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.<br>
+- 🖥️ Run everything on the browser without any setup.
 
 ## Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the `notebooks` directory in this repo.
-2. Replace `https://github.com/` with `https://colab.research.google.com/github/` in the notebook URL or use this [Chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) to do it with one click.
-3. Sign into your Google account.
-4. Click the `COPY TO DRIVE` button on the toolbar. This will open the notebook on a new tab.
+2. You can run these notebook on Google Colab (no set up) or on your local machine.
+3. Replace `https://github.com/` with `https://colab.research.google.com/github/` in the notebook URL or use this [Chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) to do it with one click.
+4. Sign into your Google account.
+5. Click the `COPY TO DRIVE` button on the toolbar. This will open the notebook on a new tab.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/copy_to_drive.png">
 
