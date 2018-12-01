@@ -6,7 +6,7 @@
     <img href="https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/binder_button.png" width=132>
 </p>
 
-[![colab](https://raw.githubusercontent.com/GokuMohandas/practicalAI/cv/images/google_colab_button.png)](https://goku.me/practicalAI)
+[![colab](https://raw.githubusercontent.com/GokuMohandas/practicalAI/cv/images/binder_button.png)](https://goku.me/practicalAI)
 
 Empowering you to use machine learning to get valuable insights from data.
 - 🎓 No computer science or math degrees required.<br>
