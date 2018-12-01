@@ -1,5 +1,5 @@
 <p float="left">
-    <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175>
+    <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175><br>
     <a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
 </p>
 
