@@ -1,6 +1,5 @@
-<p float="left">
-    <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175> - <a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
-</p>
+<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/logo.png" width=175>
+<a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
 
 <p float="left">
     <img href="https://goku.me/practicalAI" target="_blank" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/google_colab_button.png" width=170>
