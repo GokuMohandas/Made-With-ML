@@ -2,6 +2,7 @@
 <a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
 
 [![Colab](https://img.shields.io/badge/launch-Google%20Colab-orange.svg)](https://goku.me/practicalAI)
+[![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
 
 Empowering you to use machine learning to get valuable insights from data.
 - 🎓 No computer science or math degrees required.<br>
