@@ -1,8 +1,12 @@
 # PracticalAI
 <a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
 
-<img href="https://goku.me/practicalAI" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/google_colab_button.png" width=165> → Launch on Google Colaboratory
-<img href="https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/binder_button.png" width=132> → Launch on Binder
+<p float="left">
+    <img href="https://goku.me/practicalAI" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/google_colab_button.png" width=165>
+    <img href="https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/binder_button.png" width=132>
+</p>
+
+[![colab](https://raw.githubusercontent.com/GokuMohandas/practicalAI/cv/images/google_colab_button2.png)](https://goku.me/practicalAI)
 
 Empowering you to use machine learning to get valuable insights from data.
 - 🎓 No computer science or math degrees required.<br>
