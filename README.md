@@ -11,8 +11,8 @@ Empowering you to use machine learning to get valuable insights from data.
 - 🖥️ Run everything on the browser without any set up using Google Colab.
 
 ## Notebooks
-|Basics|Deep Learning|Advanced DL|Topics|
-|:-|:-|:-|:-|
+|Basics|Deep Learning|Advanced|Topics|
+|-|-|-|-|
 | 📓 [Notebooks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/00_Notebooks.ipynb)|🔥 [PyTorch](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/07_PyTorch.ipynb)|📚 [Advanced RNNs](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/14_Advanced_RNNs.ipynb)|📸 [Computer Vision](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/15_Computer_Vision.ipynb)|
 | 🐍 [Python](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/01_Python.ipynb)|🎛️ [Multilayer Perceptrons](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/08_Multilayer_Perceptron.ipynb)|🏎️ Highway and Residual Networks|⏰ Time Series Analysis|
 |🔢 [NumPy](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/02_NumPy.ipynb)|🔎 [Data & Models](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/09_Data_and_Models.ipynb)|🔮 Autoencoders|🏘️ Topic Modeling|
