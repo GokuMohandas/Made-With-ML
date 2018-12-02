@@ -9,7 +9,7 @@ Empowering you to use machine learning to get valuable insights from data.
 
 ## Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the `notebooks` directory in this repo.
-2. You can run these notebook on Google Colab (no set up) or on your local machine.
+2. You can run these notebook on Google Colab (recommended) or on your local machine.
 3. Replace `https://github.com/` with `https://colab.research.google.com/github/` in the notebook URL or use this [Chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) to do it with one click.
 4. Sign into your Google account.
 5. Click the `COPY TO DRIVE` button on the toolbar. This will open the notebook on a new tab.
