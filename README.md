@@ -10,6 +10,18 @@ Empowering you to use machine learning to get valuable insights from data.
 - 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.<br>
 - 🖥️ Run everything on the browser without any set up using Google Colab.
 
+## Notebooks
+|Basics|Deep Learning|Advanced|Topics|
+|-|-|-|-|
+| 📓 [Notebooks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/00_Notebooks.ipynb)|🔥 [PyTorch](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/07_PyTorch.ipynb)|📚 [Advanced RNNs](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/14_Advanced_RNNs.ipynb)|📸 [Computer Vision](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/15_Computer_Vision.ipynb)|
+| 🐍 [Python](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/01_Python.ipynb)|🎛️ [Multilayer Perceptrons](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/08_Multilayer_Perceptron.ipynb)|🏎️ Highway and Residual Networks|⏰ Time Series Analysis|
+|🔢 [NumPy](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/02_NumPy.ipynb)|🔎 [Data & Models](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/09_Data_and_Models.ipynb)|🔮 Autoencoders|🏘️ Topic Modeling|
+| 🐼 [Pandas](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/03_Pandas.ipynb) |📦 [Object Oriented ML](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/10_Object_Oriented_ML.ipynb)|🎭 Generative Adversarial Networks|🛒 Recommendation Systems|
+|📈 [Linear Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/04_Linear_Regression.ipynb)|🖼️ [Convolutional Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/11_Convolutional_Neural_Networks.ipynb)|🐝 Spatial Transformer Networks|🗣️ Pretrained Language Modeling|
+|📊 [Logistic Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb)|💬 [Embeddings](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/12_Embeddings.ipynb)||🤷 Multitask Learning|
+|🌳 [Random Forests](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/06_Random_Forests.ipynb)|📗 [Recurrent Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/13_Recurrent_Neural_Networks.ipynb)||🧠 Low Shot Learning|
+|💥 KMeans Clustering|||🤖 Reinforcement Learning|
+
 
 ## Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the [`notebooks`](https://github.com/GokuMohandas/practicalAI/tree/master/notebooks) directory in this repo.
