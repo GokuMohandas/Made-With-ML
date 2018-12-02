@@ -6,7 +6,7 @@
 
 Empowering you to use machine learning to get valuable insights from data.
 - 🎓 No computer science or math degrees required.<br>
-- 🤖 Learn when to use specific ML techniques for your tasks.<br>
+- 🤖 Learn when to use specific ML techniques for your meaningful tasks.<br>
 - 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.<br>
 - 🖥️ Run everything on the browser with Google Colab without any setup.
 
