@@ -1,6 +1,8 @@
 # PracticalAI
 <a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
+
 Empowering you to use machine learning to get valuable insights from data.
 - 🎓 No computer science or math degrees required.<br>
 - 🤖 Learn when to use specific ML techniques for your tasks.<br>
