@@ -1,13 +1,6 @@
 # PracticalAI
 <a href="https://goku.me/practicalAI">https://goku.me/practicalAI</a>
 
-<p float="left">
-    <img href="https://goku.me/practicalAI" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/google_colab_button.png" width=165>
-    <img href="https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master" src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/binder_button.png" width=132>
-</p>
-
-[![colab](https://raw.githubusercontent.com/GokuMohandas/practicalAI/cv/images/google_colab_button2.png)](https://goku.me/practicalAI) [![binder](https://raw.githubusercontent.com/GokuMohandas/practicalAI/cv/images/binder_button2.png)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
-
 Empowering you to use machine learning to get valuable insights from data.
 - 🎓 No computer science or math degrees required.<br>
 - 🤖 Learn when to use specific ML techniques for your tasks.<br>
@@ -77,9 +70,6 @@ Empowering you to use machine learning to get valuable insights from data.
 | 26_Reinforcement_Learning          |                                                          |  |
 
 
-Follow me on Twitter for more updates:
-<a href="https://twitter.com/intent/follow?screen_name=shields_io">
-    <img src="https://img.shields.io/twitter/follow/shields_io.svg?style=social&logo=twitter" alt="follow on Twitter">
-</a>
+Follow me on Twitter for more updates → [@GokuMohandas](https://twitter.com/gokumohandas)
 
 
