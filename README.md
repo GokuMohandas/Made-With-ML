@@ -11,10 +11,33 @@ Empowering you to use machine learning to get valuable insights from data.
 - 🖥️ Run everything on the browser with Google Colab without any setup.
 
 ### Notebooks
-- Notebooks
-- Python
-- NumPy
-- Pandas
+|              Notebook              |
+|------------------------------------|
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/00_Notebooks.ipynb" target="_blank">00_Notebooks</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/03_Pandas.ipynb" target="_blank">03_Pandas</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/04_Linear_Regression.ipynb" target="_blank">04_Linear_Regression</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb" target="_blank">05_Logistic_Regression</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/06_Random_Forests.ipynb" target="_blank">06_Random_Forests</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/07_PyTorch.ipynb" target="_blank">07_PyTorch</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/08_Multilayer_Perceptron.ipynb" target="_blank">08_Multilayer_Perceptron</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/09_Data_and_Models.ipynb" target="_blank">09_Data_and_Models</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/11_Convolutional_Neural_Networks.ipynb" target="_blank">11_Convolutional_Neural_Networks</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/12_Embeddings.ipynb" target="_blank">12_Embeddings</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/13_Recurrent_Neural_Networks.ipynb" target="_blank">13_Recurrent_Neural_Networks</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/14_Advanced_RNNs.ipynb" target="_blank">14_Advanced_RNNs</a> |
+| <a href="https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/15_Computer_Vision.ipynb" target="_blank">15_Computer_Vision</a> |
+| 16_Highway_and_Residual_Networks   |
+| 17_Time_Series_Analysis            |
+| 18_Kmeans_Clustering               |
+| 19_Topic_Modeling                  |
+| 20_Auto_Encoders                   |
+| 21_Generative_Adversarial_Networks |
+| 22_Recommendation_Systems          |
+| 23_Pretrained_Language_Models      |
+| 24_Multitask_Learning              |
+| 25_Low_Shot_Learning               |
+| 26_Reinforcement_Learning          |
+
 
 ## Running the notebooks
 1. Access the notebooks at https://goku.me/practicalAI or in the `notebooks` directory in this repo.
