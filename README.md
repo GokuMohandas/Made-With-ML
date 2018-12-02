@@ -55,6 +55,6 @@ Empowering you to use machine learning to get valuable insights from data.
 
 ---
 
-Follow me on Twitter for more updates → [@GokuMohandas](https://twitter.com/gokumohandas)
+[![Twitter](https://img.shields.io/badge/Follow%20on%20Twitter-%40GokuMohandas-blue.svg)](https://twitter.com/gokumohandas)
 
 
