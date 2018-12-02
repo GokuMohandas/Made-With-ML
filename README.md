@@ -76,3 +76,10 @@ Empowering you to use machine learning to get valuable insights from data.
 | 25_Low_Shot_Learning               |                                                          |  |
 | 26_Reinforcement_Learning          |                                                          |  |
 
+
+Follow me on Twitter for more updates:
+<a href="https://twitter.com/intent/follow?screen_name=shields_io">
+    <img src="https://img.shields.io/twitter/follow/shields_io.svg?style=social&logo=twitter" alt="follow on Twitter">
+</a>
+
+
