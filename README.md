@@ -52,8 +52,4 @@ Empowering you to use machine learning to get valuable insights from data.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
 
----
-
-[![Twitter](https://img.shields.io/badge/Follow%20on%20Twitter-%40GokuMohandas-blue.svg)](https://twitter.com/GokuMohandas)
-
 
