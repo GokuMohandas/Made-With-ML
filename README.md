@@ -4,7 +4,6 @@
 [![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
 
 Empowering you to use machine learning to get valuable insights from data.
-- 🤖 Learn when to use specific ML techniques for your meaningful tasks.
 - 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.
 - 🖥️ Run everything on the browser without any set up using Google Colab.
 - 📦 Learn object-oriented ML to code for products, not just tutorials.
