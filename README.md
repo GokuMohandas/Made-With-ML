@@ -8,7 +8,7 @@ Empowering you to use machine learning to get valuable insights from data.
 - 🤖 Learn when to use specific ML techniques for your meaningful tasks.<br>
 - 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.<br>
 - 🖥️ Run everything on the browser without any set up using Google Colab.
-- 💡 Learn object-oriented ML to code for products, not just tutorials
+- 🏆 Learn object-oriented ML to code for products, not just tutorials
 
 ## Notebooks
 |Basics|Deep Learning|Advanced|Topics|
