@@ -18,7 +18,7 @@ Empowering you to use machine learning to get valuable insights from data.
 |📈 [Linear Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/04_Linear_Regression.ipynb)|🖼️ [Convolutional Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/11_Convolutional_Neural_Networks.ipynb)|🐝 Spatial Transformer Networks|🗣️ Pretrained Language Modeling|
 |📊 [Logistic Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb)|📝 [Embeddings](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/12_Embeddings.ipynb)||🤷 Multitask Learning|
 |🌳 [Random Forests](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/06_Random_Forests.ipynb)|📗 [Recurrent Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/13_Recurrent_Neural_Networks.ipynb)||🎯 Low Shot Learning|
-|💥 KMeans Clustering|||🤖 Reinforcement Learning|
+|💥 KMeans Clustering|||🍒 Reinforcement Learning|
 
 
 ## Running the notebooks
