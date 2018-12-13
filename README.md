@@ -1,7 +1,7 @@
 # PracticalAI
 
 [![Colab](https://img.shields.io/badge/launch-Google%20Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
+[![Binder](https://img.shields.io/badge/launch-Jupyter-blue.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
 [![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
 
 Empowering you to use machine learning to get valuable insights from data.
