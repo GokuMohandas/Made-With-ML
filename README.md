@@ -1,6 +1,7 @@
 # PracticalAI
 
 [![Colab](https://img.shields.io/badge/launch-Google%20Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
 [![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
 
 Empowering you to use machine learning to get valuable insights from data.
@@ -19,7 +20,6 @@ Empowering you to use machine learning to get valuable insights from data.
 |📊 [Logistic Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb)|📝 [Embeddings](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/12_Embeddings.ipynb)||🤷 Multitask Learning|
 |🌳 [Random Forests](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/06_Random_Forests.ipynb)|📗 [Recurrent Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/13_Recurrent_Neural_Networks.ipynb)||🎯 Low Shot Learning|
 |💥 KMeans Clustering|||🍒 Reinforcement Learning|
-
 
 ## Running the notebooks
 1. Access the notebooks in the [`notebooks`](https://github.com/GokuMohandas/practicalAI/tree/master/notebooks) directory in this repo.
