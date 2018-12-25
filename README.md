@@ -1,8 +1,11 @@
 # PracticalAI
 
-[![Colab](https://img.shields.io/badge/launch-Google%20Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
-[![Binder](https://img.shields.io/badge/launch-Jupyter-blue.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
-[![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
+[![Colab](https://img.shields.io/badge/launch-Google%20Colab-#45aaf2.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
+[![Binder](https://img.shields.io/badge/launch-Jupyter-##5eba00.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
+[![Rmotr](https://img.shields.io/badge/launch-Rmotr-##cd201f.svg)](https://notebooks.rmotr.com/clone/gh/GokuMohandas/practicalAI)
+[![Kesci](https://img.shields.io/badge/launch-Kesci-#fd9644.svg)](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63)
+[![MIT](https://img.shields.io/badge/license-MIT-#f1c40f.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
+[![PRs](https://img.shields.io/badge/PRs-welcome-#6574cd.svg)]()
 
 Empowering you to use machine learning to get valuable insights from data.
 - 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.
