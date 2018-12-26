@@ -1,4 +1,4 @@
-# practicalAI
+# <img src="https://github.com/GokuMohandas/practicalAI/blob/master/images/logo.png" width="200" />
 
 [![Colab](https://img.shields.io/badge/launch-Google%20Colab-45aaf2.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
 [![Binder](https://img.shields.io/badge/launch-Jupyter-5eba00.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
@@ -35,6 +35,8 @@ Empowering you to use machine learning to get valuable insights from data.
 
 5. Rename this new notebook by removing the `Copy of` part in the title.
 6. Run the code, make changes, etc. and it's all automatically saved to you personal Google Drive.
+
+🇨🇳 - If you are from China or another country where Google is blocked, checkout the links above to the other free services like [Jupyter Binder](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master). Also check out [Kesci](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63) for the content in Chinese.
 
 
 ## Contributing to notebooks
