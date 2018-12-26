@@ -1,4 +1,4 @@
-# practicalAI
+# <img src="https://github.com/GokuMohandas/practicalAI/blob/master/images/logo.png" width="200" />
 
 [![Colab](https://img.shields.io/badge/launch-Google%20Colab-45aaf2.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
 [![Binder](https://img.shields.io/badge/launch-Jupyter-5eba00.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
