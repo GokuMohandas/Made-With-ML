@@ -30,6 +30,7 @@ Empowering you to use machine learning to get valuable insights from data.
 3. Click on a notebook and replace `https://github.com/` with `https://colab.research.google.com/github/` in the notebook URL or use this [Chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) to do it with one click.
 4. Sign into your Google account.
 5. Click the `COPY TO DRIVE` button on the toolbar. This will open the notebook on a new tab.
+If you are from 🇨🇳 - China or another country where Google is blocked, checkout the links above to the other free services like [Jupyter Binder](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master). Also check out [Kesci](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63) for the content in Chinese.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/copy_to_drive.png">
 
