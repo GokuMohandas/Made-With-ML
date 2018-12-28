@@ -40,7 +40,7 @@ Empowering you to use machine learning to get valuable insights from data.
 
 
 ## Contributing to notebooks
-1. Make your changes and download the Google colab notebook as an .ipynb file.
+1. Make your changes and download the Google colab notebook as an `.ipynb` file.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/download_ipynb.png">
 
@@ -49,9 +49,9 @@ Empowering you to use machine learning to get valuable insights from data.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/upload.png">
 
-5. Upload the .ipynb file.
+5. Upload the `.ipynb` file.
 6. Write a detailed commit title and message.
-7. Name your branch as appropriately.
+7. Name your branch appropriately.
 8. Click on `Propose changes`.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
