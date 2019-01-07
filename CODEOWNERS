@@ -6,7 +6,8 @@ data/                 @GokuMohandas
 images/               @GokuMohandas
 notebooks/            @GokuMohandas
 .gitignore            @GokuMohandas
-.CODE-OF-CONDUCT.md   @GokuMohandas
+CODE_OF_CONDUCT.md    @GokuMohandas
+CODEOWNERS            @GokuMohandas
 LICENSE               @GokuMohandas
 README.md             @GokuMohandas
 requirements.txt      @GokuMohandas
