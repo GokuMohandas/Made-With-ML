@@ -57,3 +57,12 @@ Empowering you to use machine learning to get valuable insights from data.
 8. Click on `Propose changes`.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
+
+### Code Visualization:
+
+Here is a cool visualization of the code evolution
+
+ [![Watch the video](https://img.youtube.com/vi/dWRRdghtas4/0.jpg)](https://www.youtube.com/watch?v=dWRRdghtas4)
+
+ [https://www.youtube.com/watch?v=dWRRdghtas4](https://www.youtube.com/watch?v=dWRRdghtas4)
+
