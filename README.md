@@ -7,7 +7,7 @@
 [![MIT](https://img.shields.io/badge/license-MIT-f1c40f.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-6574cd.svg)]()
 
-**NOTE**: 🎥 Video lessons coming soon!
+🎥 Video lessons coming soon!
 Empowering you to use machine learning to get valuable insights from data.
 - 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.
 - 🖥️ Run everything on the browser without any set up using Google Colab.
