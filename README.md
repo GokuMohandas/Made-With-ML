@@ -1,6 +1,6 @@
 # <img src="https://github.com/GokuMohandas/practicalAI/blob/master/images/logo.png" width="200" />
 
-[![Colab](https://img.shields.io/badge/launch-Google%20Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
+[![Colab](https://img.shields.io/badge/launch-Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
 [![Binder](https://img.shields.io/badge/launch-Jupyter-45aaf2.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
 [![Kesci](https://img.shields.io/badge/Kesci-中文-cd201f.svg)](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63)
 [![MIT](https://img.shields.io/badge/license-MIT-5eba00.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
