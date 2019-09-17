@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.dockerfile
+tasks:
+- init: mkdir /home/gitpod/.jupyter &&
+        jupyter notebook password &&
+        cp /home/gitpod/.jupyter/jupyter_notebook_config.json ./jupyter_notebook_config.json
+  command: jupyter notebook --ip=0.0.0.0 --config=$(pwd)/jupyter_notebook_config.json
+
+ports:
+- port: 8888

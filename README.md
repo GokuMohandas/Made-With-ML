@@ -1,6 +1,7 @@
 # <img src="https://github.com/GokuMohandas/practicalAI/blob/master/images/logo.png" width="200" />
 
 [![Colab](https://img.shields.io/badge/launch-Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
+[![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/#https://github.com/GokuMohandas/practicalAI)
 [![Binder](https://img.shields.io/badge/launch-Jupyter-45aaf2.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
 [![Kesci](https://img.shields.io/badge/Kesci-中文-cd201f.svg)](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63)
 [![MIT](https://img.shields.io/badge/license-MIT-5eba00.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
@@ -56,3 +57,7 @@ Empowering you to use machine learning to get valuable insights from data.
 8. Click on `Propose changes`.
 
 <img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
+
+## Open in Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GokuMohandas/practicalAI)
