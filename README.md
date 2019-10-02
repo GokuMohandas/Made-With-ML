@@ -1,58 +1,229 @@
-# <img src="https://github.com/GokuMohandas/practicalAI/blob/master/images/logo.png" width="200" />
+<div align="center">
+<a href="https://practicalai.me"><img src="https://practicalai.me/static/img/practicalAI/logo.png" width="200" /></a>
 
-[![Colab](https://img.shields.io/badge/launch-Colab-orange.svg)](https://github.com/GokuMohandas/practicalAI#notebooks)
-[![Binder](https://img.shields.io/badge/launch-Jupyter-45aaf2.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
-[![Kesci](https://img.shields.io/badge/Kesci-中文-cd201f.svg)](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63)
-[![MIT](https://img.shields.io/badge/license-MIT-5eba00.svg)](https://github.com/GokuMohandas/practicalAI/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social)](https://twitter.com/GokuMohandas)
+A <i><b>practical</b></i> approach to machine learning.
 
-🎥 - Video lessons coming soon!
+<a class="ai-header-badge" target="_blank" href="https://github.com/GokuMohandas/practicalAI">
+<img class="ai-header-badge-img" src="https://img.shields.io/github/stars/GokuMohandas/practicalAI.svg?style=social&label=Star">
+</a>
+<a class="ai-header-badge" target="_blank" href="https://www.youtube.com/channel/UCgW4K2UDK21kHIzxpjNos7Q">
+<img class="ai-header-badge-img" src="https://img.shields.io/badge/style--5eba00.svg?label=Subscribe&logo=youtube&style=social">
+</a>
+<a class="ai-header-badge" target="_blank" href="https://twitter.com/GokuMohandas">
+<img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social">
+</a>
+<a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/practicalai-me">
+<img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+</a>
 
-Empowering you to use machine learning to get valuable insights from data.
-- 🔥 Implement basic ML algorithms and deep neural networks with <a href="https://pytorch.org/" target="_blank" style="color:#ee4c2c">PyTorch</a>.
-- 🖥️ Run everything on the browser without any set up using Google Colab.
-- 📦 Learn object-oriented ML to code for products, not just tutorials.
+<sub>Created by
+<a href="https://goku.me" target="_blank">Goku Mohandas</a> and
+<a href="https://github.com/GokuMohandas/practicalAI/graphs/contributors" target="_blank">
+contributors
+</a>
+</sub>
+</div>
 
 ## Notebooks
-|Basics|Deep Learning|Advanced|Topics|
-|-|-|-|-|
-| 📓 [Notebooks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/00_Notebooks.ipynb)|🔥 [PyTorch](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/07_PyTorch.ipynb)|📚 [Advanced RNNs](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/14_Advanced_RNNs.ipynb)|📸 [Computer Vision](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/15_Computer_Vision.ipynb)|
-| 🐍 [Python](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/01_Python.ipynb)|🎛️ [Multilayer Perceptrons](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/08_Multilayer_Perceptron.ipynb)|🏎️ Highway and Residual Networks|⏰ Time Series Analysis|
-|🔢 [NumPy](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/02_NumPy.ipynb)|🔎 [Data & Models](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/09_Data_and_Models.ipynb)|🔮 Autoencoders|🏘️ Topic Modeling|
-| 🐼 [Pandas](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/03_Pandas.ipynb) |📦 [Object-Oriented ML](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/10_Object_Oriented_ML.ipynb)|🎭 Generative Adversarial Networks|🛒 Recommendation Systems|
-|📈 [Linear Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/04_Linear_Regression.ipynb)|🖼️ [Convolutional Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/11_Convolutional_Neural_Networks.ipynb)|🐝 Transformer Networks|🗣️ Pretrained Language Modeling|
-|📊 [Logistic Regression](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb)|📝 [Embeddings](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/12_Embeddings.ipynb)||🤷 Multitask Learning|
-|🌳 [Random Forests](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/06_Random_Forests.ipynb)|📗 [Recurrent Neural Networks](https://colab.research.google.com/github/GokuMohandas/practicalAI/blob/master/notebooks/13_Recurrent_Neural_Networks.ipynb)||🎯 One-shot Learning|
-|💥 Clustering|||🍒 Reinforcement Learning|
+<ul>
+    <li>
+        🌎 → <a href="https://practicalai.me">https://practicalai.me</a>
+    </li>
+    <li>
+        All of these notebooks are in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a> but you can find old PyTorch notebooks in the <a href="https://github.com/practicalAI/practicalAI/tree/4ad626098aca25db5628fe67895e738d5a5c2c2a">v0.1</a> release.
+    </li>
+    <li>
+        If you prefer Jupyter Notebooks or want to add/fix content, check out the <a href="https://github.com/practicalAI/practicalAI/tree/master/notebooks" target="_blank">notebooks</a> directory.
+    </li>
+</ul>
+<!-- Basic Algorithm Notebooks -->
+<table class="table table-striped table-bordered table-vcenter">
+    <thead class="ai-notebooks-table-header">
+    <tr>
+        <td class="bg-white" colspan="1" rowspan="2">
+        <h4 align="center" class="ai-notebooks-table-title">Basic ML</h4>
+        </td>
+    </tr>
+    <tr class="bg-light">
+        <td align="center"><b>Basics</b></td>
+        <td align="center"><b>Machine Learning</b></td>
+        <td align="center"><b>Tools</b></td>
+        <td align="center"><b>Deep Learning</b></td>
+    </tr>
+    </thead>
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="4" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Learn Python basics with notebooks.</li>
+            <li>Use data science libraries like <a href="https://www.numpy.org/" target="_blank">NumPy</a> and <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>.</li>
+            <li>Implement basic ML models in <a href="https://www.tensorflow.org/overview/" target="_blank">TensorFlow 2.0 + Keras</a>.</li>
+            <li>Create deep learning models for improved performance.</li>
+        </ul>
+        </td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/00_Notebooks.ipynb">📓 Notebooks</a></td>
+        <td><a>📈 Linear Regression</a></td>
+        <td><a>🔎 Data & Models</a></td>
+        <td><a>️🖼 Convolutional Neural Networks</a></td>
+    </tr>
+    <tr>
+        <td><a>🐍 Python</a></td>
+        <td><a>📊 Logistic Regression</a></td>
+        <td><a>🛠 Utilities</a></td>
+        <td><a>👑 Embeddings</a></td>
+    </tr>
+    <tr>
+        <td><a>🔢 NumPy</a></td>
+        <td><a>️🎛 Multilayer Perceptrons</a></td>
+        <td><a>️✂️ Preprocessing</a></td>
+        <td><a>📗 Recurrent Neural Networks</a></td>
+    </tr>
+    <tr>
+        <td><a>🐼 Pandas</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<table class="table table-striped table-bordered table-vcenter">
+    <thead class="ai-notebooks-table-header">
+    <tr>
+        <td colspan="1" rowspan="2"><h4 align="center" class="ai-notebooks-table-title">Production ML</h4></td>
+    </tr>
+    <tr class="bg-light">
+        <td align="center"><b>Local</b></td>
+        <td align="center"><b>Applications</b></td>
+        <td align="center"><b>Scale</b></td>
+        <td align="center"><b>Miscellaneous</b></td>
+    </tr>
+    </thead>
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Setup your local environment for ML.</li>
+            <li>Wrap your ML in RESTful APIs using <a href="http://flask.pocoo.org/" target="_blank">Flask</a> to create applications.</li>
+            <li>Standardize and scale your ML applications with <a href="https://www.docker.com/" target="_blank">Docker</a> and <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>.</li>
+            <li>Deploy simple and scalable ML workflows using <a href="https://www.kubeflow.org/" target="_blank">Kubeflow</a>.</li>
+        </ul>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💻 Local Setup</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌲 Logging</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐳 Docker</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🤝 Distributed Training</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐍 ML Scripts</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⚱️ Flask Applications</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🚢 Kubernetes</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔋 Databases</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">✅ Unit Tests</a></td>
+        <td></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌊 Kubeflow</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔐 Authentication</a></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<table class="table table-striped table-bordered table-vcenter">
+    <thead class="ai-notebooks-table-header">
+    <tr>
+        <td colspan="1" rowspan="2"><h4 align="center" class="ai-notebooks-table-title">Advanced ML</h4></td>
+    </tr>
+    <tr class="bg-light">
+        <td align="center"><b>General</b></td>
+        <td align="center"><b>Sequential</b></td>
+        <td align="center"><b>Popular</b></td>
+        <td align="center"><b>Miscellaneous</b></td>
+    </tr>
+    </thead>
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Dive into architectural and interpretable advancements in neural networks.</li>
+            <li>Implement state-of-the-art NLP techniques.</li>
+            <li>Learn about popular deep learning algorithms used for generation, time-series, etc.</li>
+        </ul>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🧐 Attention</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐝 Transformers</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎭 Generative Adversarial Networks</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔮 Autoencoders</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏎️ Highway Networks</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">👹 BERT, GPT2, XLNet</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎱 Bayesian Deep Learning</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🕷️ Graph Neural Networks</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💧 Residual Networks</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🕘 Temporal CNNs</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🍒 Reinforcement Learning</a></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<table class="table table-striped table-bordered table-vcenter">
+    <thead class="ai-notebooks-table-header">
+    <tr>
+        <td colspan="1" rowspan="2"><h4 align="center" class="ai-notebooks-table-title">Topics</h4></td>
+    </tr>
+    <tr class="bg-light">
+        <td align="center"><b>Computer Vision</b></td>
+        <td align="center"><b>Natural Language</b></td>
+        <td align="center"><b>Unsupervised Learning</b></td>
+        <td align="center"><b>Miscellaneous</b></td>
+    </tr>
+    </thead>
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="4" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Learn how to use deep learning for computer vision tasks.</li>
+            <li>Implement techniques for natural language tasks.</li>
+            <li>Derive insights from unlabeled data using unsupervised learning.</li>
+        </ul>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📸 Image Recognition</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📖 Text classification</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🍡 Clustering</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⏰ Time-series Analysis</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🖼️ Image Segmentation</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💬 Named Entity Recognition</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏘️ Topic Modeling</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🛒 Recommendation Systems</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎨 Image Generation</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🧠 Knowledge Graphs</a></td>
+        <td></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎯 One-shot Learning</a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🗃️ Interpretability</a></td>
+    </tr>
+    </tbody>
+</table>
+<br>
 
-## Running the notebooks
-1. Access the notebooks in the [`notebooks`](https://github.com/GokuMohandas/practicalAI/tree/master/notebooks) directory in this repo.
-2. You can run these notebook on Google Colab (recommended) or on your local machine.
-3. Click on a notebook and replace `https://github.com/` with `https://colab.research.google.com/github/` in the notebook URL or use this [Chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) to do it with one click.
-4. Sign into your Google account.
-5. Click the `COPY TO DRIVE` button on the toolbar. This will open the notebook on a new tab.
 
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/copy_to_drive.png">
-
-5. Rename this new notebook by removing the `Copy of` part in the title.
-6. Run the code, make changes, etc. and it's all automatically saved to you personal Google Drive.
-
-🇨🇳 - If you are from China or another country where Google is blocked, checkout the links above to the other free services like [Jupyter Binder](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master). Also check out [Kesci](https://www.kesci.com/home/column/5c20e4c5916b6200104eea63) for the content in Chinese.
-
-
-## Contributing to notebooks
-1. Make your changes and download the Google colab notebook as an `.ipynb` file.
-
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/download_ipynb.png">
-
-2. Go to https://github.com/GokuMohandas/practicalAI/tree/master/notebooks
-3. Click on `Upload files`.
-
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/upload.png">
-
-5. Upload the `.ipynb` file.
-6. Write a detailed commit title and message.
-7. Name your branch appropriately.
-8. Click on `Propose changes`.
-
-<img src="https://raw.githubusercontent.com/GokuMohandas/practicalAI/master/images/commit.png">
+## Updates
+<a href="https://practicalai.me/#newsletter">📬 Newsletter</a> - Subscribe to get updates on new content
+<div class="offset-md-4 col-md-4 ai-subscribed-social-col">
+<a href="https://twitter.com/practicalai_me" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/tw.png" width="30"></a>
+<a href="https://www.youtube.com/channel/UCgW4K2UDK21kHIzxpjNos7Q" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/ytb.png" width="30"></a>
+<a href="https://github.com/practicalAI/practicalAI" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/gthb.png" width="30"></a>
+<a href="https://www.linkedin.com/company/practicalai-me" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/lnkdn.png" width="30"></a>
+</div>
