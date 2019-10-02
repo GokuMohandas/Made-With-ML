@@ -27,7 +27,10 @@ contributors
 ## Notebooks
 <ul>
     <li>
-        All of these notebooks are in <a href="https://tensorflow.org">TensorFlow + Keras</a> but you can find old PyTorch notebooks in the <a href="https://github.com/practicalAI/practicalAI/tree/4ad626098aca25db5628fe67895e738d5a5c2c2a">v0.1</a> release.
+        🌎 → <a href="https://practicalai.me">https://practicalai.me</a>
+    </li>
+    <li>
+        All of these notebooks are in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a> but you can find old PyTorch notebooks in the <a href="https://github.com/practicalAI/practicalAI/tree/4ad626098aca25db5628fe67895e738d5a5c2c2a">v0.1</a> release.
     </li>
     <li>
         If you prefer Jupyter Notebooks or want to add/fix content, check out the <a href="https://github.com/practicalAI/practicalAI/tree/master/notebooks" target="_blank">notebooks</a> directory.
