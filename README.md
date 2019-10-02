@@ -61,7 +61,7 @@ contributors
             <li>Create deep learning models for improved performance.</li>
         </ul>
         </td>
-        <td><a>📓 Notebooks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/00_Notebooks.ipynb">📓 Notebooks</a></td>
         <td><a>📈 Linear Regression</a></td>
         <td><a>🔎 Data & Models</a></td>
         <td><a>️🖼 Convolutional Neural Networks</a></td>
