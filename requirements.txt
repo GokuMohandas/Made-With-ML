@@ -2,7 +2,7 @@ argparse==1.4.0
 gensim==3.6.0
 jupyter==1.0.0
 matplotlib==2.1.2
-nltk==3.2.5
+nltk==3.4.5
 numpy==1.14.6
 pandas==0.22.0
 requests==2.18.4
