@@ -14,4 +14,4 @@ sklearn==0.0
 tensorflow==2.0.0
 tqdm==4.28.1
 urllib3==1.24.2
-Werkzeug==0.15.3
+Werkzeug==0.16.0
