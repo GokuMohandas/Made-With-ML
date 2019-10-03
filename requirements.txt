@@ -5,7 +5,7 @@ matplotlib==2.1.2
 nltk==3.4.5
 numpy==1.14.6
 pandas==0.22.0
-requests==2.20.0
+requests==2.22.0
 scikit-learn==0.20.1
 scipy==1.1.0
 seaborn==0.7.1
@@ -13,5 +13,5 @@ six==1.11.0
 sklearn==0.0
 tensorflow==2.0.0
 tqdm==4.28.1
-urllib3==1.24.2
-Werkzeug==0.15.3
+urllib3==1.25.6
+Werkzeug==0.16.0
