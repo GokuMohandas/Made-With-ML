@@ -6,6 +6,13 @@ Releases are displayed in reverse chronological order and each release will cont
 - Minor version Y (x.Y.z): When a notebook lesson is complete.
 - Patch version X (x.y.Z): Changes made in between notebook lessons.
 
+## [v1.1.0](https://github.com/practicalAI/practicalAI/releases/tag/v1.0.0)
+#### New:
+- 🐍 Python lesson is complete.
+#### Changed:
+- Code and notebook complete for the python lesson.
+#### Fixed:
+
 ## [v1.0.0](https://github.com/practicalAI/practicalAI/releases/tag/v1.0.0)
 #### New:
 - 📓 Notebooks lesson is complete.
