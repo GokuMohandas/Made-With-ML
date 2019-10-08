@@ -64,7 +64,7 @@ contributors
         <td><a>️🖼 Convolutional Neural Networks</a></td>
     </tr>
     <tr>
-        <td><a>🐍 Python</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/01_Python.ipynb">🐍 Python</a></td>
         <td><a>📊 Logistic Regression</a></td>
         <td><a>🛠 Utilities</a></td>
         <td><a>👑 Embeddings</a></td>
