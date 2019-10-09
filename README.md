@@ -6,14 +6,11 @@ A <i><b>practical</b></i> approach to machine learning.
 <a class="ai-header-badge" target="_blank" href="https://github.com/GokuMohandas/practicalAI">
 <img class="ai-header-badge-img" src="https://img.shields.io/github/stars/GokuMohandas/practicalAI.svg?style=social&label=Star">
 </a>
-<a class="ai-header-badge" target="_blank" href="https://www.youtube.com/channel/UCgW4K2UDK21kHIzxpjNos7Q">
-<img class="ai-header-badge-img" src="https://img.shields.io/badge/style--5eba00.svg?label=Subscribe&logo=youtube&style=social">
+<a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/practicalai-me">
+<img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
 </a>
 <a class="ai-header-badge" target="_blank" href="https://twitter.com/GokuMohandas">
 <img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social">
-</a>
-<a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/practicalai-me">
-<img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
 </a>
 
 <sub>Created by
@@ -67,7 +64,7 @@ contributors
         <td><a>️🖼 Convolutional Neural Networks</a></td>
     </tr>
     <tr>
-        <td><a>🐍 Python</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/01_Python.ipynb">🐍 Python</a></td>
         <td><a>📊 Logistic Regression</a></td>
         <td><a>🛠 Utilities</a></td>
         <td><a>👑 Embeddings</a></td>
