@@ -3,8 +3,8 @@
 
 A <i><b>practical</b></i> approach to machine learning.
 
-<a class="ai-header-badge" target="_blank" href="https://github.com/GokuMohandas/practicalAI">
-<img class="ai-header-badge-img" src="https://img.shields.io/github/stars/GokuMohandas/practicalAI.svg?style=social&label=Star">
+<a class="ai-header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
+<img class="ai-header-badge-img" src="https://img.shields.io/github/stars/practicalAI/practicalAI.svg?style=social&label=Star">
 </a>
 <a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/practicalai-me">
 <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
@@ -70,13 +70,13 @@ contributors
         <td><a>👑 Embeddings</a></td>
     </tr>
     <tr>
-        <td><a>🔢 NumPy</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/02_NumPy.ipynb">🔢 NumPy</a></td>
         <td><a>️🎛 Multilayer Perceptrons</a></td>
         <td><a>️✂️ Preprocessing</a></td>
         <td><a>📗 Recurrent Neural Networks</a></td>
     </tr>
     <tr>
-        <td><a>🐼 Pandas</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/03_Pandas.ipynb">🐼 Pandas</a></td>
         <td></td>
         <td></td>
         <td></td>
