@@ -6,6 +6,16 @@ Releases are displayed in reverse chronological order and each release will cont
 - Minor version Y (x.Y.z): When a notebook lesson is complete.
 - Patch version X (x.y.Z): Changes made in between notebook lessons.
 
+## [v2.0](https://github.com/practicalAI/practicalAI/releases/tag/v2.0)
+#### New:
+- all basic ML notebooks in TensorFlow 2.0 + Keras
+#### Changed:
+- explanations for all concepts
+- visualizations
+- interpretability
+- "From scratch" implementations
+#### Fixed:
+
 ## [v1.2.0](https://github.com/practicalAI/practicalAI/releases/tag/v1.2.0)
 #### New:
 - 🔢 NumPy lesson is complete.

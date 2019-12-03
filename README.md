@@ -9,8 +9,8 @@ A <i><b>practical</b></i> approach to machine learning.
 <a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/practicalai-me">
 <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
 </a>
-<a class="ai-header-badge" target="_blank" href="https://twitter.com/GokuMohandas">
-<img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social">
+<a class="ai-header-badge" target="_blank" href="https://twitter.com/practicalAIme">
+<img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/practicalAIme.svg?label=Follow&style=social">
 </a>
 
 <sub>Created by
@@ -59,21 +59,21 @@ contributors
         </ul>
         </td>
         <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/00_Notebooks.ipynb">📓 Notebooks</a></td>
-        <td><a>📈 Linear Regression</a></td>
-        <td><a>🔎 Data & Models</a></td>
-        <td><a>️🖼 Convolutional Neural Networks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/04_Linear_Regression.ipynb">📈 Linear Regression</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/07_Data_and_Models.ipynb">🔎 Data & Models</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/10_Convolutional_Neural_Networks.ipynb">️🖼 Convolutional Neural Networks</a></td>
     </tr>
     <tr>
         <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/01_Python.ipynb">🐍 Python</a></td>
-        <td><a>📊 Logistic Regression</a></td>
-        <td><a>🛠 Utilities</a></td>
-        <td><a>👑 Embeddings</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb">📊 Logistic Regression</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/08_Utilities.ipynb">🛠 Utilities</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/11_Embeddings.ipynb">👑 Embeddings</a></td>
     </tr>
     <tr>
         <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/02_NumPy.ipynb">🔢 NumPy</a></td>
-        <td><a>️🎛 Multilayer Perceptrons</a></td>
-        <td><a>️✂️ Preprocessing</a></td>
-        <td><a>📗 Recurrent Neural Networks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/06_Multilayer_Perceptrons.ipynb">️🎛 Multilayer Perceptrons</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/09_Preprocessing.ipynb">️✂️ Preprocessing</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/12_Recurrent_Neural_Networks.ipynb">📗 Recurrent Neural Networks</a></td>
     </tr>
     <tr>
         <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/03_Pandas.ipynb">🐼 Pandas</a></td>
@@ -220,7 +220,6 @@ contributors
 <a href="https://practicalai.me/#newsletter">📬 Newsletter</a> - Subscribe to get updates on new content
 <div class="offset-md-4 col-md-4 ai-subscribed-social-col">
 <a href="https://twitter.com/practicalai_me" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/tw.png" width="30"></a>
-<a href="https://www.youtube.com/channel/UCgW4K2UDK21kHIzxpjNos7Q" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/ytb.png" width="30"></a>
 <a href="https://github.com/practicalAI/practicalAI" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/gthb.png" width="30"></a>
 <a href="https://www.linkedin.com/company/practicalai-me" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/lnkdn.png" width="30"></a>
 </div>
