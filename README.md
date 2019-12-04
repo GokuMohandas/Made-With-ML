@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://practicalai.me"><img src="https://practicalai.me/static/img/practicalAI/logo.png" width="200" /></a>
+<a href="https://practicalai.me"><img src="https://raw.githubusercontent.com/practicalAI/images/master/images/logo.png" width="200" /></a>
 
 A <i><b>practical</b></i> approach to machine learning.
 
@@ -15,7 +15,7 @@ A <i><b>practical</b></i> approach to machine learning.
 
 <sub>Created by
 <a href="https://goku.me" target="_blank">Goku Mohandas</a> and
-<a href="https://github.com/GokuMohandas/practicalAI/graphs/contributors" target="_blank">
+<a href="https://github.com/practicalAI/practicalAI/graphs/contributors" target="_blank">
 contributors
 </a>
 </sub>
@@ -27,7 +27,13 @@ contributors
         🌎 → <a href="https://practicalai.me">https://practicalai.me</a>
     </li>
     <li>
-        All of these notebooks are in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a> but you can find old PyTorch notebooks in the <a href="https://github.com/practicalAI/practicalAI/tree/4ad626098aca25db5628fe67895e738d5a5c2c2a">v0.1</a> release.
+        📚 Illustrative ML notebooks in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a>.
+    </li>
+    <li>
+        ⚒️ Build robust models using the functional API w/ custom components
+    </li>
+    <li>
+        📦 Train using simple yet highly customizable loops to build products fast
     </li>
     <li>
         If you prefer Jupyter Notebooks or want to add/fix content, check out the <a href="https://github.com/practicalAI/practicalAI/tree/master/notebooks" target="_blank">notebooks</a> directory.
@@ -217,9 +223,4 @@ contributors
 
 
 ## Updates
-<a href="https://practicalai.me/#newsletter">📬 Newsletter</a> - Subscribe to get updates on new content
-<div class="offset-md-4 col-md-4 ai-subscribed-social-col">
-<a href="https://twitter.com/practicalai_me" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/tw.png" width="30"></a>
-<a href="https://github.com/practicalAI/practicalAI" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/gthb.png" width="30"></a>
-<a href="https://www.linkedin.com/company/practicalai-me" target="_blank"><img class="ai-subscribed-social-icon" src="https://practicalai.me/static/img/media/lnkdn.png" width="30"></a>
-</div>
+<a href="https://practicalai.me/#newsletter">📬 Newsletter</a> - Subscribe to get updates on new content.
