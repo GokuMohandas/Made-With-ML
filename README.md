@@ -64,25 +64,25 @@ contributors
             <li>Create deep learning models for improved performance.</li>
         </ul>
         </td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/00_Notebooks.ipynb">📓 Notebooks</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/04_Linear_Regression.ipynb">📈 Linear Regression</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/07_Data_and_Models.ipynb">🔎 Data & Models</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/10_Convolutional_Neural_Networks.ipynb">️🖼 Convolutional Neural Networks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/00_Notebooks.ipynb">📓 Notebooks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Linear_Regression.ipynb">📈 Linear Regression</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Data_and_Models.ipynb">🔎 Data & Models</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/10_Convolutional_Neural_Networks.ipynb">️🖼 Convolutional Neural Networks</a></td>
     </tr>
     <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/01_Python.ipynb">🐍 Python</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/05_Logistic_Regression.ipynb">📊 Logistic Regression</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/08_Utilities.ipynb">🛠 Utilities</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/11_Embeddings.ipynb">👑 Embeddings</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Python.ipynb">🐍 Python</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Logistic_Regression.ipynb">📊 Logistic Regression</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Utilities.ipynb">🛠 Utilities</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/11_Embeddings.ipynb">👑 Embeddings</a></td>
     </tr>
     <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/02_NumPy.ipynb">🔢 NumPy</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/06_Multilayer_Perceptrons.ipynb">️🎛 Multilayer Perceptrons</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/09_Preprocessing.ipynb">️✂️ Preprocessing</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/12_Recurrent_Neural_Networks.ipynb">📗 Recurrent Neural Networks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_NumPy.ipynb">🔢 NumPy</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Multilayer_Perceptrons.ipynb">️🎛 Multilayer Perceptrons</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Preprocessing.ipynb">️✂️ Preprocessing</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/12_Recurrent_Neural_Networks.ipynb">📗 Recurrent Neural Networks</a></td>
     </tr>
     <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/03_Pandas.ipynb">🐼 Pandas</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb">🐼 Pandas</a></td>
         <td></td>
         <td></td>
         <td></td>
