@@ -1,16 +1,16 @@
 <div align="center">
-<a href="https://practicalai.me"><img src="https://raw.githubusercontent.com/practicalAI/images/master/images/logo.png" width="200" /></a>
+<img src="https://raw.githubusercontent.com/practicalAI/images/master/images/logo.png" width="200" />
 
 A <i><b>practical</b></i> approach to machine learning.
 
 <a class="ai-header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
 <img class="ai-header-badge-img" src="https://img.shields.io/github/stars/practicalAI/practicalAI.svg?style=social&label=Star">
 </a>
-<a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/practicalai-me">
+<a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/madewithml">
 <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
 </a>
-<a class="ai-header-badge" target="_blank" href="https://twitter.com/practicalAIme">
-<img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/practicalAIme.svg?label=Follow&style=social">
+<a class="ai-header-badge" target="_blank" href="https://twitter.com/madewithml">
+<img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/madewithml.svg?label=Follow&style=social">
 </a>
 
 <sub>Created by
@@ -23,9 +23,6 @@ contributors
 
 ## Notebooks
 <ul>
-    <li>
-        🌎 → <a href="https://practicalai.me">https://practicalai.me</a>
-    </li>
     <li>
         📚 Illustrative ML notebooks in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a>.
     </li>

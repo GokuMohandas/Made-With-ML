@@ -1,5 +1,6 @@
 # Mac files
 *.DS_Store
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -52,7 +53,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 .hypothesis/
 *.pytest_cache
 
