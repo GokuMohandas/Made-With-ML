@@ -24,6 +24,9 @@ contributors
 ## Notebooks
 <ul>
     <li>
+        🌎 → <a href="https://madewithml.com">https://madewithml.com</a>
+    </li>
+    <li>
         📚 Illustrative ML notebooks in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a>.
     </li>
     <li>
@@ -217,7 +220,3 @@ contributors
     </tbody>
 </table>
 <br>
-
-
-## Updates
-<a href="https://practicalai.me/#newsletter">📬 Newsletter</a> - Subscribe to get updates on new content.
