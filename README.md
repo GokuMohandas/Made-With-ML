@@ -3,8 +3,8 @@
 
 <p>A <i><b>practical</b></i> approach to machine learning.</p>
 
-<a class="ai-header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
-<img class="ai-header-badge-img" src="https://img.shields.io/github/stars/practicalAI/practicalAI.svg?style=social&label=Star">
+<a class="ai-header-badge" target="_blank" href="https://github.com/madewithml/practicalai">
+<img class="ai-header-badge-img" src="https://img.shields.io/github/stars/madewithml/practicalai.svg?style=social&label=Star">
 </a>
 <a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/madewithml">
 <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
@@ -65,14 +65,14 @@ Talk about why you need to at least be able to read both these days. Great resea
             <li>Learn the basics of deep learning frameworks like <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> and <a href="https://pytorch.org/" target="_blank">PyTorch</a>.</li>
         </ul>
         </td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/00_Notebooks.ipynb">📓 Notebooks</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_NumPy.ipynb">🔢 NumPy</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"> TensorFlow</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/foundation/00_Notebooks.ipynb">📓 Notebooks</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/foundation/02_NumPy.ipynb">🔢 NumPy</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/foundation/03_Pandas.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"> TensorFlow</a></td>
     </tr>
     <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Python.ipynb">🐍 Python</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb">🐼 Pandas</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"> PyTorch</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/foundation/01_Python.ipynb">🐍 Python</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/foundation/03_Pandas.ipynb">🐼 Pandas</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/foundation/03_Pandas.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"> PyTorch</a></td>
     </tr>
     </tbody>
 </table>
@@ -89,43 +89,43 @@ Talk about why you need to at least be able to read both these days. Great resea
         </td>
         <td>
             <a href="https://github.com/madewithml/practicalAI/blob/master/notebooks/basic_ml/01_Linear_Regression">📈 Linear Regression</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Linear_Regression/tf_01_Linear_Regression.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Linear_Regression/pt_01_Linear_Regression.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/01_Linear_Regression/TF_01_Linear_Regression.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/01_Linear_Regression/PT_01_Linear_Regression.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
         <td>
-            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Data_and_Models">🔎 Data & Models</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Data_and_Models/tf_04_Data_and_Models.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Data_and_Models/pt_04_Data_and_Models.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/04_Data_and_Models">🔎 Data & Models</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/04_Data_and_Models/TF_04_Data_and_Models.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/04_Data_and_Models/PT_04_Data_and_Models.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
         <td>
-            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks">️🖼 Convolutional Neural Networks</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks/tf_07_Convolutional_Neural_Networks.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks/pt_07_Convolutional_Neural_Networks.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks">️🖼 Convolutional Neural Networks</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks/TF_07_Convolutional_Neural_Networks.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks/PT_07_Convolutional_Neural_Networks.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
     </tr>
     <tr>
     <td>
-        <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_Logistic_Regression">📊 Logistic Regression</a>
-        <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_Logistic_Regression/tf_02_Logistic_Regression.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_Logistic_Regression/pt_02_Logistic_Regression.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/02_Logistic_Regression">📊 Logistic Regression</a>
+        <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/02_Logistic_Regression/TF_02_Logistic_Regression.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/02_Logistic_Regression/PT_02_Logistic_Regression.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
     </td>
     <td>
-        <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Utilities">🛠 Utilities</a>
-        <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Utilities/tf_05_Utilities.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Utilities/pt_05_Utilities.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/05_Utilities">🛠 Utilities</a>
+        <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/05_Utilities/TF_05_Utilities.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/05_Utilities/PT_05_Utilities.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
     </td>
     <td>
-            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Embeddings">👑 Embeddings</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Embeddings/tf_08_Embeddings.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Embeddings/pt_08_Embeddings.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/08_Embeddings">👑 Embeddings</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/08_Embeddings/TF_08_Embeddings.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/08_Embeddings/PT_08_Embeddings.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
     </tr>
     <tr>
         <td>
-            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons">️🎛 Multilayer Perceptrons</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons/tf_03_Multilayer_Perceptrons.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons/pt_03_Multilayer_Perceptrons.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons">️🎛 Multilayer Perceptrons</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons/TF_03_Multilayer_Perceptrons.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons/PT_03_Multilayer_Perceptrons.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
         <td>
-            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Preprocessing">️✂️ Preprocessing</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Preprocessing/tf_06_Preprocessing.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Preprocessing/pt_06_Preprocessing.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/06_Preprocessing">️✂️ Preprocessing</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/06_Preprocessing/TF_06_Preprocessing.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/06_Preprocessing/PT_06_Preprocessing.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
         <td>
-            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks">📗 Recurrent Neural Networks</a>
-            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks/tf_09_Recurrent_Neural_Networks.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks/pt_09_Recurrent_Neural_Networks.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+            <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks">📗 Recurrent Neural Networks</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks/TF_09_Recurrent_Neural_Networks.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/practicalai/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks/PT_09_Recurrent_Neural_Networks.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
         </td>
     </tr>
     </tbody>
