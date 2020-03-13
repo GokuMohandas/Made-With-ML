@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/practicalAI/images/master/images/logo.png" width="200" />
 
-A <i><b>practical</b></i> approach to machine learning.
+<p>A <i><b>practical</b></i> approach to machine learning.</p>
 
 <a class="ai-header-badge" target="_blank" href="https://github.com/practicalAI/practicalAI">
 <img class="ai-header-badge-img" src="https://img.shields.io/github/stars/practicalAI/practicalAI.svg?style=social&label=Star">
@@ -13,140 +13,186 @@ A <i><b>practical</b></i> approach to machine learning.
 <img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/madewithml.svg?label=Follow&style=social">
 </a>
 
-<sub>Created by
-<a href="https://goku.me" target="_blank">Goku Mohandas</a> and
-<a href="https://github.com/practicalAI/practicalAI/graphs/contributors" target="_blank">
-contributors
-</a>
-</sub>
+<small>🔥 practicalAI is among the <a href="https://github.com/topics/deep-learning" target="_blank">top 10</a> ML repos on GitHub</small>
+
 </div>
+
+
+## <a href="https://madewithml.com">Made With ML</a>
+As you learn ML, it's important to work on projects, so check out <a href="https://madewithml.com">Made With ML</a> for inspiration and to create a profile to showcase your own projects!
+<ul>
+<li>🔍 <i>Discover</i> ML projects with code on niche topics that interest you.</li>
+<li>🛠 <i>Build</i> projects of your own and share it with the community.</li>
+<li>👩‍💻 <i>Showcase</i> your profile on your resume or apply directly to ML managers. </li>
+</ul>
+
+**NOTE**: For those looking for careers in ML, everyone has Coursera, Kaggle, fasti on their resumes, so how are you differentiating yourself? Check out this <a href="https://medium.com/@madewithml/7f509ecf2d57?source=friends_link&sk=ace961d53c9f3cf3089e081c0c4ee69c">post</a> on how to stand out with an MWML profile.
+
+## Video Lessons
+We're going to be doing free in-person lessons (just in the Bay Area for now) in a few months but we will record and post them on online as well. If you're interested in either, please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLSftom2u77alpgB-OuMAhjsNU8TKDukKH232-6NDa7wuO4TIXg/viewform">short survey</a>.
 
 ## Notebooks
 <ul>
     <li>
-        🌎 → <a href="https://madewithml.com">https://madewithml.com</a>
+        📚 Illustrative ML notebooks available in both <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a> and <a href="https://www.pytorch.org/" target="_blank">PyTorch</a>.
+        <ul>
+            <li><b>Should I pick TensorFlow or PyTorch?</b> Choice of framework doesn’t matter! Check out the basic lessons and choose what you find more intuitive/suitable but the most important thing is to work on projects (and share them on <a href="https://madewithml.com">Made With ML</a> so the community can benefit and you can create an awesome portfolio to share).</li>
+            <li><b>Do I need to know both TensorFlow or PyTorch?</b> It is <b>very important</b> to at least know how to read both
+            frameworks because cutting edge research continues to use both frameworks. Luckily, they're both very easy to learn and very easy to rewrite in the other framework.</li>
+        </ul>
+
+Talk about why you need to at least be able to read both these days. Great research that continues to use both frameworks and it’s very easy to learn and very easy to rewrite in the other framework.
+    </li>
+    <li>💻 These are <b>not</b> a set of tutorials where we just load a bunch of packages and apply it on preloaded datasets. We explain every concept in the notebooks with clean code, simple math and visualizations to make them as intuitive as possible.
     </li>
     <li>
-        📚 Illustrative ML notebooks in <a href="https://tensorflow.org">TensorFlow 2.0 + Keras</a>.
+        📆 Typical release cadence will be one new notebook topic per week (starting April 2020).
     </li>
     <li>
-        ⚒️ Build robust models using the functional API w/ custom components
-    </li>
-    <li>
-        📦 Train using simple yet highly customizable loops to build products fast
-    </li>
-    <li>
-        If you prefer Jupyter Notebooks or want to add/fix content, check out the <a href="https://github.com/practicalAI/practicalAI/tree/master/notebooks" target="_blank">notebooks</a> directory.
+        📓 If you prefer Jupyter Notebooks or want to add/fix content, check out the <a href="https://github.com/madewithml/practicalAI/tree/master/notebooks" target="_blank">notebooks</a> directory.
     </li>
 </ul>
-<!-- Basic Algorithm Notebooks -->
+
+
+### Foundation
 <table class="table table-striped table-bordered table-vcenter">
-    <thead class="ai-notebooks-table-header">
+    <tbody class=ai-notebooks-table-content>
     <tr>
-        <td class="bg-white" colspan="1" rowspan="2">
-        <h4 align="center" class="ai-notebooks-table-title">Basic ML</h4>
+        <td colspan="1" rowspan="2" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Learn Python basics with notebooks.</li>
+            <li>Use data science libraries like <a href="https://www.numpy.org/" target="_blank">NumPy</a> and <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>.</li>
+            <li>Learn the basics of deep learning frameworks like <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> and <a href="https://pytorch.org/" target="_blank">PyTorch</a>.</li>
+        </ul>
         </td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/00_Notebooks.ipynb">📓 Notebooks</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_NumPy.ipynb">🔢 NumPy</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"> TensorFlow</a></td>
     </tr>
-    <tr class="bg-light">
-        <td align="center"><b>Basics</b></td>
-        <td align="center"><b>Machine Learning</b></td>
-        <td align="center"><b>Tools</b></td>
-        <td align="center"><b>Deep Learning</b></td>
+    <tr>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Python.ipynb">🐍 Python</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb">🐼 Pandas</a></td>
+        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"> PyTorch</a></td>
     </tr>
-    </thead>
+    </tbody>
+</table>
+
+### Basics
+<table class="table table-striped table-bordered table-vcenter">
     <tbody class=ai-notebooks-table-content>
     <tr>
         <td colspan="1" rowspan="4" class="ai-notebooks-table-points ai-orange-link">
         <ul>
-            <li>Learn Python basics with notebooks.</li>
-            <li>Use data science libraries like <a href="https://www.numpy.org/" target="_blank">NumPy</a> and <a href="https://pandas.pydata.org/" target="_blank">Pandas</a>.</li>
-            <li>Implement basic ML models in <a href="https://www.tensorflow.org/overview/" target="_blank">TensorFlow 2.0 + Keras</a>.</li>
+            <li>Implement basic ML models in <a href="https://www.tensorflow.org/" target="_blank">TensorFlow 2.0 + Keras</a> or <a href="https://www.pytorch.org/" target="_blank">PyTorch</a>.</li>
             <li>Create deep learning models for improved performance.</li>
         </ul>
         </td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/00_Notebooks.ipynb">📓 Notebooks</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Linear_Regression.ipynb">📈 Linear Regression</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Data_and_Models.ipynb">🔎 Data & Models</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/10_Convolutional_Neural_Networks.ipynb">️🖼 Convolutional Neural Networks</a></td>
+        <td>
+            <a href="https://github.com/madewithml/practicalAI/blob/master/notebooks/basic_ml/01_Linear_Regression">📈 Linear Regression</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Linear_Regression/tf_01_Linear_Regression.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Linear_Regression/pt_01_Linear_Regression.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
+        <td>
+            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Data_and_Models">🔎 Data & Models</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Data_and_Models/tf_04_Data_and_Models.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/04_Data_and_Models/pt_04_Data_and_Models.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
+        <td>
+            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks">️🖼 Convolutional Neural Networks</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks/tf_07_Convolutional_Neural_Networks.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/07_Convolutional_Neural_Networks/pt_07_Convolutional_Neural_Networks.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
     </tr>
     <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/01_Python.ipynb">🐍 Python</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Logistic_Regression.ipynb">📊 Logistic Regression</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Utilities.ipynb">🛠 Utilities</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/11_Embeddings.ipynb">👑 Embeddings</a></td>
+    <td>
+        <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_Logistic_Regression">📊 Logistic Regression</a>
+        <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_Logistic_Regression/tf_02_Logistic_Regression.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_Logistic_Regression/pt_02_Logistic_Regression.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+    </td>
+    <td>
+        <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Utilities">🛠 Utilities</a>
+        <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Utilities/tf_05_Utilities.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/05_Utilities/pt_05_Utilities.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+    </td>
+    <td>
+            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Embeddings">👑 Embeddings</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Embeddings/tf_08_Embeddings.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/08_Embeddings/pt_08_Embeddings.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
     </tr>
     <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/02_NumPy.ipynb">🔢 NumPy</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Multilayer_Perceptrons.ipynb">️🎛 Multilayer Perceptrons</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Preprocessing.ipynb">️✂️ Preprocessing</a></td>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/12_Recurrent_Neural_Networks.ipynb">📗 Recurrent Neural Networks</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Pandas.ipynb">🐼 Pandas</a></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons">️🎛 Multilayer Perceptrons</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons/tf_03_Multilayer_Perceptrons.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/03_Multilayer_Perceptrons/pt_03_Multilayer_Perceptrons.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
+        <td>
+            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Preprocessing">️✂️ Preprocessing</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Preprocessing/tf_06_Preprocessing.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/06_Preprocessing/pt_06_Preprocessing.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
+        <td>
+            <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks">📗 Recurrent Neural Networks</a>
+            <div style="margin-top: 0.5rem;"><a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks/tf_09_Recurrent_Neural_Networks.ipynb"><img src="https://www.kubeflow.org/logos/TensorFlow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/practicalAI/practicalAI/blob/master/notebooks/basic_ml/09_Recurrent_Neural_Networks/pt_09_Recurrent_Neural_Networks.ipynb"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="20rem"></a></div>
+        </td>
     </tr>
     </tbody>
 </table>
-<br>
+
+### APIs
 <table class="table table-striped table-bordered table-vcenter">
-    <thead class="ai-notebooks-table-header">
-    <tr>
-        <td colspan="1" rowspan="2"><h4 align="center" class="ai-notebooks-table-title">Production ML</h4></td>
-    </tr>
-    <tr class="bg-light">
-        <td align="center"><b>Local</b></td>
-        <td align="center"><b>Applications</b></td>
-        <td align="center"><b>Scale</b></td>
-        <td align="center"><b>Miscellaneous</b></td>
-    </tr>
-    </thead>
     <tbody class=ai-notebooks-table-content>
     <tr>
         <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
         <ul>
             <li>Setup your local environment for ML.</li>
-            <li>Wrap your ML in RESTful APIs using <a href="http://flask.pocoo.org/" target="_blank">Flask</a> to create applications.</li>
-            <li>Standardize and scale your ML applications with <a href="https://www.docker.com/" target="_blank">Docker</a> and <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>.</li>
-            <li>Deploy simple and scalable ML workflows using <a href="https://www.kubeflow.org/" target="_blank">Kubeflow</a>.</li>
+            <li>Wrap your ML in RESTful APIs using <a href="https://github.com/tiangolo/fastapi" target="_blank">Fast API</a> to create applications.</li>
         </ul>
         </td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💻 Local Setup</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌲 Logging</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐳 Docker</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🤝 Distributed Training</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">✅ Unit Tests</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏎 Fast API</a></td>
     </tr>
     <tr>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐍 ML Scripts</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⚱️ Flask Applications</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🚢 Kubernetes</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔋 Databases</a></td>
-    </tr>
-    <tr>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">✅ Unit Tests</a></td>
-        <td></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌊 Kubeflow</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔐 Authentication</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌲 Logging</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📝 Swagger</a></td>
     </tr>
     </tbody>
 </table>
-<br>
+
+### Full-stack
 <table class="table table-striped table-bordered table-vcenter">
-    <thead class="ai-notebooks-table-header">
-    <tr>
-        <td colspan="1" rowspan="2"><h4 align="center" class="ai-notebooks-table-title">Advanced ML</h4></td>
-    </tr>
-    <tr class="bg-light">
-        <td align="center"><b>General</b></td>
-        <td align="center"><b>Sequential</b></td>
-        <td align="center"><b>Popular</b></td>
-        <td align="center"><b>Miscellaneous</b></td>
-    </tr>
-    </thead>
     <tbody class=ai-notebooks-table-content>
     <tr>
         <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Learn how to collect data and organize it using SQL.</li>
+            <li>Showcase your applications using a simple <a href="https://getbootstrap.com">Boostrap</a> front-end.</li>
+        </ul>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌍 Web scraping</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔋 SQL</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎨 Bootstrap</a></td>
+    </tr>
+    </tbody>
+</table>
+
+
+### Scaling
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Standardize and scale your ML applications with <a href="https://www.docker.com/" target="_blank">Docker</a> and <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>.</li>
+            <li>Deploy simple and scalable ML workflows using <a href="https://mlflow.org/" target="_blank">MLFlow</a>.</li>
+        </ul>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐳 Docker</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🚢 Kubernetes</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🌊 MLFlow</a></td>
+    </tr>
+    </tbody>
+</table>
+
+### Advanced
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="4" class="ai-notebooks-table-points ai-orange-link">
         <ul>
             <li>Dive into architectural and interpretable advancements in neural networks.</li>
             <li>Implement state-of-the-art NLP techniques.</li>
@@ -154,69 +200,110 @@ contributors
         </ul>
         </td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🧐 Attention</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐝 Transformers</a></td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎭 Generative Adversarial Networks</a></td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🔮 Autoencoders</a></td>
     </tr>
     <tr>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏎️ Highway Networks</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">👹 BERT, GPT2, XLNet</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📘 Language Modeling</a></td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎱 Bayesian Deep Learning</a></td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🕷️ Graph Neural Networks</a></td>
     </tr>
     <tr>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💧 Residual Networks</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🕘 Temporal CNNs</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🤗 Transformers</a></td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🍒 Reinforcement Learning</a></td>
-        <td></td>
-    </tr>
-    </tbody>
-</table>
-<br>
-<table class="table table-striped table-bordered table-vcenter">
-    <thead class="ai-notebooks-table-header">
-    <tr>
-        <td colspan="1" rowspan="2"><h4 align="center" class="ai-notebooks-table-title">Topics</h4></td>
-    </tr>
-    <tr class="bg-light">
-        <td align="center"><b>Computer Vision</b></td>
-        <td align="center"><b>Natural Language</b></td>
-        <td align="center"><b>Unsupervised Learning</b></td>
-        <td align="center"><b>Miscellaneous</b></td>
-    </tr>
-    </thead>
-    <tbody class=ai-notebooks-table-content>
-    <tr>
-        <td colspan="1" rowspan="4" class="ai-notebooks-table-points ai-orange-link">
-        <ul>
-            <li>Learn how to use deep learning for computer vision tasks.</li>
-            <li>Implement techniques for natural language tasks.</li>
-            <li>Derive insights from unlabeled data using unsupervised learning.</li>
-        </ul>
-        </td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📸 Image Recognition</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📖 Text classification</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🍡 Clustering</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⏰ Time-series Analysis</a></td>
-    </tr>
-    <tr>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🖼️ Image Segmentation</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💬 Named Entity Recognition</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏘️ Topic Modeling</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🛒 Recommendation Systems</a></td>
-    </tr>
-    <tr>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎨 Image Generation</a></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🧠 Knowledge Graphs</a></td>
-        <td></td>
         <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎯 One-shot Learning</a></td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🗃️ Interpretability</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🤯 SHA-RNN</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🐙 Causal Inference</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⏱ Temporal CNNs</a></td>
     </tr>
     </tbody>
 </table>
-<br>
+
+
+### Topics
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+        <tr>
+            <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
+            <ul>
+                <li>Learn how to use deep learning for computer vision tasks.</li>
+                <li>Implement techniques for natural language tasks.</li>
+                <li>Derive insights from unlabeled data using unsupervised learning.</li>
+            </ul>
+            </td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📸 Image Recognition</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📖 Text classification</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🍡 Clustering</a></td>
+        </tr>
+        <tr>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🖼️ Image Segmentation</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">💬 Named Entity Recognition</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏘️ Topic Modeling</a></td>
+        </tr>
+        <tr>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎨 Image Generation</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🧠 Knowledge Graphs</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🕵️ Anomaly Detection</a></td>
+        </tr>
+    </tbody>
+</table>
+
+### Miscellaneous
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
+        <ul>
+            <li>Learn about miscellaneous topics that are at the forefront of ML research and application.</li>
+        </ul>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⏰ Time-series</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🗃️ Interpretability</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">⚖️ Imbalanced Datasets</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎤 Speech Recognition</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">✍️ Data Annotation</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">👻 Missing Values</a></td>
+    </tr>
+    <tr>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🛒 Recommendation Systems</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">✂️ Model Compression</a></td>
+        <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📊 Data Visualization</a></td>
+    </tr>
+    </tbody>
+</table>
+
+### Statistical Learning
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+        <tr>
+            <td colspan="1" rowspan="4" class="ai-notebooks-table-points ai-orange-link">
+            <ul>
+                <li>Learn the basics of statistics that paved the way for all the topics above.</li>
+                <li>Implement statistical learning methods in <a href="https://scikit-learn.org/">scikit-learn</a>.</li>
+            </ul>
+            </td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🧪 Hypothesis Testing</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📈 Linear Regression</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🏘 Nearest Neighbors</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🥅 Matrix Decomposition</a></td>
+        </tr>
+        <tr>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">❤️ Maximum Likelihood Estimation</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">📊 Logistic Regression</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🍿 Gaussian Processes</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎒 Ensembles</a></td>
+        </tr>
+        <tr>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">👶 Naive Bayes</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🦺 Support Vector Machines</a></td>
+            <td><a data-toggle="tooltip" data-placement="top" title="📅 Coming soon">🎩 Hidden Markov Models</a></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
