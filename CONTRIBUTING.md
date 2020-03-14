@@ -1,10 +1,10 @@
-# Contributing to practicalAI
-Thank you for wanting to contribute to practicalAI. All PRs will need to be approved so please follow the guidelines below.
+# Contributing
+Thank you for wanting to contribute to these lessons. All PRs will need to be approved so please follow the guidelines below.
 
 ## Notebook PRs
 If you're viewing the notebook on Goole Colaboratory then follow these instructions:
 1. Click the **COPY TO DRIVE** button on the toolbar. This will open the notebook on a new tab.
-2. Rename this new notebook by removing the words `Copy of` from the title (change "`Copy of 00_Notebooks`" to "`00_Notebooks`").
+2. Rename this new notebook by removing the words `Copy of` from the title (change "`Copy of 01_Notebooks`" to "`01_Notebooks`").
 3. Now you can run the code, make changes, etc. and it's all automatically saved to your personal Google Drive.
 4. After making your changes, *Runtime* >> *Restart runtime...* to get rid of executed cell numbers.
 5. Then go to *File* >> *Download .ipynb* to download the notebook as an IPython notebook.
