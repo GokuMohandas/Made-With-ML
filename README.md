@@ -139,7 +139,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
         </td>
         <td rowspan="2">
             <a>🏎 APIs</a>
-            <div><a><img src="https://raw.githubusercontent.com/madewithml/images/master/images/youtube.png" width="20"></a> | <a><img src="https://raw.githubusercontent.com/madewithml/images/master/images/github_logo.png" width="17"></a></div> (releasing March 25th)
+            <div><a><img src="https://raw.githubusercontent.com/madewithml/images/master/images/yt_logo.png" width="20"></a> | <a><img src="https://raw.githubusercontent.com/madewithml/images/master/images/github_logo.png" width="17"></a></div> (releasing March 25th)
         </td>
     </tr>
     <tr>
