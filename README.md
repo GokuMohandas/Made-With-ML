@@ -10,7 +10,7 @@
 <a class="ai-header-badge" target="_blank" href="https://twitter.com/madewithml">
 <img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/madewithml.svg?label=Follow&style=social">
 </a>
-<p>🔥 We're among the <a href="https://github.com/topics/deep-learning" target="_blank">top 10</a> ML repos on GitHub</p>
+<p>🔥We're among the <a href="https://github.com/topics/deep-learning" target="_blank">top 10</a> ML repos on GitHub</p>
 
 </div>
 
@@ -23,7 +23,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
 <li>👩‍💻 <i>Showcase</i> your profile on your resume or apply directly to ML managers. </li>
 </ul>
 
-**NOTE**: For those looking for careers in ML, everyone has Coursera, Kaggle, fasti on their resumes, so how are you differentiating yourself? Check out this <a href="https://medium.com/@madewithml/7f509ecf2d57?source=friends_link&sk=ace961d53c9f3cf3089e081c0c4ee69c">post</a> on how to stand out with an MWML profile.
+**NOTE**: Everyone has Coursera, Kaggle, and fastai on their resumes so differentiate yourself by showcasing your projects. Check out this <a href="https://medium.com/@madewithml/7f509ecf2d57?source=friends_link&sk=ace961d53c9f3cf3089e081c0c4ee69c">article</a> on how to stand out with a MWML profile.
 
 [Sign up for your free account →](https://madewithml.com)
 
