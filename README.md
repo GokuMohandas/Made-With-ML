@@ -23,7 +23,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
 <li>👩‍💻 <i>Showcase</i> your profile on your resume or apply directly to ML managers. </li>
 </ul>
 
-**NOTE**: Everyone has Coursera, Kaggle, and fastai on their resumes so differentiate yourself by showcasing your projects. Check out this <a href="https://medium.com/@madewithml/7f509ecf2d57?source=friends_link&sk=ace961d53c9f3cf3089e081c0c4ee69c">article</a> on how to stand out with a MWML profile.
+**Showcase your projects** because everyone has Coursera, Kaggle, and fastai on their resumes so you need to differentiate yourself by showing what you can do using those fantastic resources. Check out this <a href="https://medium.com/@madewithml/7f509ecf2d57?source=friends_link&sk=ace961d53c9f3cf3089e081c0c4ee69c">article</a> on how to stand out with a MWML profile.
 
 [Sign up for your free account →](https://madewithml.com)
 
@@ -128,23 +128,18 @@ As you learn ML, it's important to work on projects, so check out <a href="https
     <tr>
         <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
         <ul>
-            <li>Setup your local environment for ML.</li>
-            <li>Wrap your ML in RESTful APIs using <a href="https://github.com/tiangolo/fastapi" target="_blank">Fast API</a> to create applications.</li>
+            <li>Create a RESTful ML application using <a href="https://github.com/tiangolo/fastapi" target="_blank">Fast API</a> to create applications.</li>
+            <li>Perform <a href="https://docs.pytest.org/en/latest/">unit tests</a> on ML functions and implement
+            appropriate <a href="https://docs.python-guide.org/writing/logging/">logging</a> throughout the application.</li>
+            <li>Walk through modeling and set fallbacks for inference in production.</li>
         </ul>
-        </td>
-        <td><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/03_APIs/01_Local_Setup.ipynb">💻 Local Setup</a></td>
-        <td>
-            <a href="https://github.com/madewithml/lessons/tree/master/notebooks/03_APIs/02_ML_Scripts">🐍 ML Scripts</a>
-            <div><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/03_APIs/02_ML_Scripts/02_TF_ML_Scripts.ipynb"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/tensorflow.png" width="20rem"></a> | <a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/03_APIs/02_ML_Scripts/02_PT_ML_Scripts.ipynb"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/pytorch.png" width="20rem"></a></div>
-        </td>
         <td rowspan="2">
-            <a>🏎 APIs</a>
-            <div><a><img src="https://raw.githubusercontent.com/madewithml/images/master/images/yt.png" width="20"></a> | <a><img src="https://raw.githubusercontent.com/madewithml/images/master/images/github_logo.png" width="17"></a></div> (releasing March 25th)
+            <a>🏎 APIs</a> (releasing very soon)
+            <div>
+            <a href=""><img src="https://raw.githubusercontent.com/madewithml/images/master/images/tensorflow.png" width="20rem"></a> |
+            <a href=""><img src="https://raw.githubusercontent.com/madewithml/images/master/images/pytorch.png" width="20rem"></a> |
+            <a href=""><img src="https://raw.githubusercontent.com/madewithml/images/master/images/yt.png" width="20"></a>
         </td>
-    </tr>
-    <tr>
-        <td><a>✅ Unit Tests</a></td>
-        <td><a>🌲 Logging</a></td>
     </tr>
     </tbody>
 </table>
