@@ -62,8 +62,8 @@ As you learn ML, it's important to work on projects, so check out <a href="https
     </tr>
     <tr>
         <td><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/01_Foundations/04_Pandas.ipynb">🐼 Pandas</a></td>
-        <td><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/01_Foundations/04_Pandas.ipynb"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/tensorflow.png" width="20rem"> TensorFlow</a></td>
-        <td><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/01_Foundations/04_Pandas.ipynb"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/pytorch.png" width="20rem"> PyTorch</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/01_Foundations/05_TensorFlow.ipynb"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/tensorflow.png" width="20rem"> TensorFlow</a></td>
+        <td><a href="https://colab.research.google.com/github/madewithml/lessons/blob/master/notebooks/01_Foundations/06_PyTorch.ipynb"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/pytorch.png" width="20rem"> PyTorch</a></td>
     </tr>
     </tbody>
 </table>
