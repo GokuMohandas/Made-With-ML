@@ -1,14 +1,2 @@
-# @GokuMohandas is the code owner
+# @GokuMohandas is the global code owner
 * @GokuMohandas
-
-data/                 @GokuMohandas
-images/               @GokuMohandas
-notebooks/            @GokuMohandas
-.gitignore            @GokuMohandas
-CHANGES.md            @GokuMohandas
-CODE_OF_CONDUCT.md    @GokuMohandas
-CODEOWNERS            @GokuMohandas
-CONTRIBUTING.md       @GokuMohandas
-LICENSE               @GokuMohandas
-README.md             @GokuMohandas
-requirements.txt      @GokuMohandas

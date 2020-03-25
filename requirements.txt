@@ -1,10 +1,11 @@
 argparse==1.4.0
 gensim==3.6.0
 jupyter==1.0.0
-matplotlib==2.1.2
+matplotlib==3.2.1
 nltk==3.4.5
-numpy==1.14.6
-pandas==0.22.0
+numpy==1.18.2
+pandas==1.0.3
+pytest==5.4.1
 requests==2.22.0
 scikit-learn==0.20.1
 scipy==1.1.0
@@ -12,6 +13,6 @@ seaborn==0.7.1
 six==1.11.0
 sklearn==0.0
 tensorflow==2.0.0
-tqdm==4.28.1
+torch==1.4.0
+tqdm==4.43.0
 urllib3==1.25.6
-Werkzeug==0.16.0

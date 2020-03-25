@@ -1,0 +1,21 @@
+# Files
+*.DS_Store
+.vscode
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+venv/
+
+# Data
+datasets/
+embeddings/
+experiments/
+logs/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# dotenv
+.env
