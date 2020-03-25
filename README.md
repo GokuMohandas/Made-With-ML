@@ -134,7 +134,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
             <li>Walk through modeling and set fallbacks for inference in production.</li>
         </ul>
         <td rowspan="2">
-            <a>🏎 APIs</a> (video releasing very soon)
+            <a href="https://github.com/madewithml/lessons/tree/master/notebooks/03_APIs">🏎 APIs</a> (video releasing very soon)
             <div>
             <a href="https://github.com/madewithml/lessons/tree/master/notebooks/03_APIs/tf-text-classification"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/tensorflow.png" width="20rem"></a> |
             <a href="https://github.com/madewithml/lessons/tree/master/notebooks/03_APIs/pt-text-classification"><img src="https://raw.githubusercontent.com/madewithml/images/master/images/pytorch.png" width="20rem"></a> |
