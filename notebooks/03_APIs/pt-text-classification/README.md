@@ -19,31 +19,48 @@ python text_classification/utils.py
 python text_classification/train.py \
     --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use_glove
 ```
-## Inference via scripts
+
+## Inference
+### Scripts
 ```bash
 python text_classification/predict.py \
     --experiment-id 'latest' \
     --text 'The Wimbledon tennis tournament starts next week!'
 ```
 
-## Endpoints
-```bash
-uvicorn app:app --host 0.0.0.0 --port 5000 --reload
-→ http://localhost:5000/docs
+### cURL
+```
+curl "http://localhost:5000/predict" \
+    -X POST -H "Content-Type: application/json" \
+    -d '{"experiment_id": "latest",
+         "inputs":
+            [{
+                "text": "The Wimbledon tennis tournament starts next week!"
+             },
+             {
+                "text": "The Canadian President signed in the new federal law."
+             }]
+        }'
 ```
 
-## Inference via API
+### Requests
 ```python
 import json
 import requests
 
 headers = {
-    'accept': 'application/json',
     'Content-Type': 'application/json',
 }
 
 data = '''{"experiment_id": "latest",
-           "text": "The Wimbledon tennis tournament starts next week!"}'''
+           "inputs":
+                [{
+                    "text": "The Wimbledon tennis tournament starts next week!"
+                 },
+                 {
+                    "text": "The Canadian President signed in the new federal law."
+                 }]
+           }'''
 
 response = requests.post('http://0.0.0.0:5000/predict',
                          headers=headers, data=data)
@@ -51,10 +68,16 @@ results = json.loads(response.text)
 print (json.dumps(results, indent=2, sort_keys=False))
 ```
 
+## Endpoints
+```bash
+uvicorn app:app --host 0.0.0.0 --port 5000 --reload
+GOTO: http://localhost:5000/docs
+```
+
 ## TensorBoard
 ```bash
 tensorboard --logdir tensorboard
-→ http://localhost:6006/
+GOTO: http://localhost:6006/
 ```
 
 ## Tests

@@ -36,7 +36,7 @@ def get_top_n_grams(tokens, conv_outputs, filter_sizes):
             np.argmax(conv_outputs[filter_size], axis=1))
 
         # Get corresponding text
-        start = popular_indices.most_common(1)[-1][0]
+        start = popular_indices.most_common(2)[-1][0]
         n_gram = " ".join([token for token in tokens[start:start+filter_size]])
         n_grams[filter_size] = n_gram
 
@@ -67,17 +67,19 @@ def predict_step(model, dataset, filter_sizes, device):
     return y_probs, conv_outputs
 
 
-def predict(experiment_id, text):
+def predict(experiment_id, inputs):
     """Predict the class for a text using
     a trained model from an experiment."""
     # Get experiment config
+    if experiment_id == 'latest':
+        experiment_id = max(os.listdir(config.EXPERIMENTS_DIR))
     experiment_dir = os.path.join(config.EXPERIMENTS_DIR, experiment_id)
     experiment_config = utilities.load_json(
         os.path.join(experiment_dir, 'config.json'))
     args = Namespace(**experiment_config)
 
     # Preprocess
-    texts = [text]
+    texts = [sample['text'] for sample in inputs]
     X_tokenizer = data.Tokenizer.load(
         fp=os.path.join(experiment_dir, 'X_tokenizer.json'))
     y_tokenizer = data.LabelEncoder.load(
@@ -129,53 +131,7 @@ if __name__ == '__main__':
                         required=True, help="text to predict")
     args = parser.parse_args()
 
-    # Load model config
-    if args.experiment_id == 'latest':
-        args.experiment_id = max(os.listdir(config.EXPERIMENTS_DIR))
-    experiment_dir = os.path.join(config.EXPERIMENTS_DIR, args.experiment_id)
-    experiment_config = utilities.load_json(
-        os.path.join(experiment_dir, 'config.json'))
-    args = Namespace(**{**args.__dict__, **Namespace(**experiment_config).__dict__})
-    config.logger.info(f"→ Using {args.experiment_id}")
-
-    # Preprocess
-    texts = [args.text]
-    X_tokenizer = data.Tokenizer.load(
-        fp=os.path.join(experiment_dir, 'X_tokenizer.json'))
-    y_tokenizer = data.LabelEncoder.load(
-        fp=os.path.join(experiment_dir, 'y_tokenizer.json'))
-    preprocessed_texts = data.preprocess_texts(
-        texts, lower=args.lower, filters=args.filters)
-
-    # Create dataset
-    X_infer = np.array(X_tokenizer.texts_to_sequences(preprocessed_texts))
-    y_filler = np.array([0]*len(X_infer))
-    infer_set = data.TextDataset(
-        X=X_infer, y=y_filler, batch_size=args.batch_size,
-        max_filter_size=max(args.filter_sizes))
-
-    # Load model
-    model = models.TextCNN(
-        embedding_dim=args.embedding_dim, vocab_size=len(X_tokenizer),
-        num_filters=args.num_filters, filter_sizes=args.filter_sizes,
-        hidden_dim=args.hidden_dim, dropout_p=args.dropout_p,
-        num_classes=len(y_tokenizer.classes))
-    model.load_state_dict(torch.load(os.path.join(experiment_dir, 'model.h5')))
-    device = torch.device('cuda' if (
-        torch.cuda.is_available() and args.cuda) else 'cpu')
-    model = model.to(device)
-
     # Predict
-    results = []
-    y_prob, conv_outputs = predict_step(
-        model=model, dataset=infer_set, filter_sizes=args.filter_sizes, device=device)
-    for index in range(len(X_infer)):
-        results.append({
-            'raw_input': texts[index],
-            'preprocessed_input': X_tokenizer.sequences_to_texts([X_infer[index]])[0],
-            'probabilities': get_probability_distribution(y_prob[index], y_tokenizer.classes),
-            'top_n_grams': get_top_n_grams(tokens=preprocessed_texts[index].split(' '),
-                                           conv_outputs={
-                                               k: v[index] for k, v in conv_outputs.items()},
-                                           filter_sizes=args.filter_sizes)})
+    results = predict(experiment_id=args.experiment_id,
+                      inputs=[{"text": args.text}])
     config.logger.info(json.dumps(results, indent=4, sort_keys=False))

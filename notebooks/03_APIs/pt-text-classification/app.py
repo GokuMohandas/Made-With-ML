@@ -73,16 +73,14 @@ async def _tensorboard():
 
 class PredictPayload(BaseModel):
     experiment_id: str = 'latest'
-    text: str
+    inputs: list = [{}]
 
 
 @utils.construct_response
 @app.post("/predict")
 async def _predict(payload: PredictPayload):
-    if payload.experiment_id == 'latest':
-        payload.experiment_id = max(os.listdir(config.EXPERIMENTS_DIR))
     prediction = predict.predict(
-        experiment_id=payload.experiment_id, text=payload.text)
+        experiment_id=payload.experiment_id, inputs=payload.inputs)
     response = {
         'message': HTTPStatus.OK.phrase,
         'status-code': HTTPStatus.OK,
