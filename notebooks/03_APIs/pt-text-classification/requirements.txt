@@ -2,6 +2,7 @@ fastapi==0.52.0
 matplotlib==3.2.1
 numpy==1.18.2
 pandas==1.0.3
+petname==2.6
 pytest==5.4.1
 sklearn==0.0
 tensorboard==2.1.1

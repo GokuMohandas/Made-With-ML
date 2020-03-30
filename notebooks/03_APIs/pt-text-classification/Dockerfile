@@ -9,13 +9,10 @@ RUN pip install -r requirements.txt
 COPY embeddings embeddings
 COPY experiments experiments
 COPY text_classification text_classification
-COPY app.py app.py
-COPY config.py config.py
 COPY logging.json logging.json
-COPY utilities.py utilities.py
 
 # Export ports
 EXPOSE 5000
 
 # Start app
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "5000"]
+CMD ["uvicorn", "text_classification.app:app", "--host", "0.0.0.0", "--port", "5000"]

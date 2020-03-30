@@ -18,7 +18,7 @@ from tensorflow.keras.utils import Sequence
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-def load_data(url, overfit):
+def load_data(url, data_size):
     """Load dataset from URL."""
     df = pd.read_csv(url)
     df = df.sample(frac=1).reset_index(drop=True) # shuffle
@@ -26,8 +26,7 @@ def load_data(url, overfit):
     # Reduce dataset
     # You should always overfit your models on a small
     # dataset first so you can catch errors quickly.
-    if overfit:
-        df = df[:int(len(df)*0.05)]
+    df = df[:int(len(df)*data_size)]
 
     X = df['title'].values
     y = df['category'].values

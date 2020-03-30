@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.append(".")
 from fastapi import FastAPI
 from fastapi import Path
 from fastapi.responses import RedirectResponse
@@ -6,10 +8,10 @@ from http import HTTPStatus
 import json
 from pydantic import BaseModel
 
-import config
-import utilities as utils
+from text_classification import config
 from text_classification import data
 from text_classification import predict
+from text_classification import utils
 
 app = FastAPI(
     title="text-classification",
@@ -73,7 +75,7 @@ async def _tensorboard():
 
 class PredictPayload(BaseModel):
     experiment_id: str = 'latest'
-    inputs: list = [{}]
+    inputs: list = [{"text": ""}]
 
 
 @utils.construct_response
