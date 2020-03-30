@@ -1,21 +1,22 @@
 import os
+import sys
+sys.path.append(".")
 import logging
 import logging.config
 
-import utilities as utils
+from text_classification import utils
 
 # Directories
 BASE_DIR = os.getcwd()  # project root
+APP_DIR = os.path.dirname(__file__)  # app root
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 EMBEDDINGS_DIR = os.path.join(BASE_DIR, 'embeddings')
 EXPERIMENTS_DIR = os.path.join(BASE_DIR, 'experiments')
-TENSORBOARD_DIR = os.path.join(BASE_DIR, 'tensorboard')
 
 # Create dirs
 utils.create_dirs(LOGS_DIR)
 utils.create_dirs(EMBEDDINGS_DIR)
 utils.create_dirs(EXPERIMENTS_DIR)
-utils.create_dirs(TENSORBOARD_DIR)
 
 # Loggers
 log_config = utils.load_json(

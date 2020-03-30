@@ -70,13 +70,13 @@ print (json.dumps(results, indent=2, sort_keys=False))
 
 ## Endpoints
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 5000 --reload
+uvicorn text_classification.app:app --host 0.0.0.0 --port 5000 --reload
 GOTO: http://localhost:5000/docs
 ```
 
 ## TensorBoard
 ```bash
-tensorboard --logdir tensorboard
+tensorboard --logdir experiments
 GOTO: http://localhost:6006/
 ```
 
@@ -106,6 +106,8 @@ text-classification/
 ├── tensorboard/                        - tensorboard logs
 ├── tests/                              - unit tests
 ├── text_classification/                - ml scripts
+|   ├── app.py                            - app endpoints
+|   ├── config.py                         - configuration
 |   ├── data.py                           - data processing
 |   ├── models.py                         - model architectures
 |   ├── predict.py                        - inference script
@@ -113,40 +115,37 @@ text-classification/
 |   ├── utils.py                          - load embeddings
 ├── .dockerignore                       - files to ignore on docker
 ├── .gitignore                          - files to ignore on git
-├── app.py                              - app endpoints
 ├── CODE_OF_CONDUCT.md                  - code of conduct
 ├── CODEOWNERS                          - code owner assignments
-├── config.py                           - configuration
 ├── CONTRIBUTING.md                     - contributing guidelines
 ├── Dockerfile                          - dockerfile to containerize app
 ├── LICENSE                             - license description
 ├── logging.json                        - logger configuration
 ├── README.md                           - this README
 ├── requirements.txt                    - requirements
-└── utilities.py                        - utilities
 ```
 
 ## Overfit to small subset
 ```
 python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --overfit
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --data-size 0.1
 ```
 
 ## Experiments
 1. Random, unfrozen, embeddings
 ```
-python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle
+python text_classification/hp.py --exp-cmd "python text_classification/train.py \
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle"
 ```
 2. GloVe, frozen, embeddings
 ```
-python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove --freeze-embeddings
+python text_classification/hp.py --exp-cmd "python text_classification/train.py \
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove --freeze-embeddings"
 ```
 3. GloVe, unfrozen, embeddings
 ```
-python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove
+python text_classification/hp.py --exp-cmd "python text_classification/train.py \
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove"
 ```
 
 ## Helpful docker commands

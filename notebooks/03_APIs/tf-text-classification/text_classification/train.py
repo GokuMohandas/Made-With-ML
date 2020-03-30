@@ -8,7 +8,9 @@ import itertools
 import json
 import matplotlib.pyplot as plt
 import numpy as np
+import petname
 import random
+import time
 from tqdm import tqdm
 
 from sklearn.metrics import confusion_matrix
@@ -27,8 +29,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorboard.plugins.hparams import api as hp
 
-import config
-import utilities
+from text_classification import config
 from text_classification import data
 from text_classification import models
 from text_classification import utils
@@ -108,6 +109,8 @@ if __name__ == '__main__':
     parser.add_argument('--filters', type=str,
                         default=r"[!\"'#$%&()*\+,-./:;<=>?@\\\[\]^_`{|}~]",
                         help="text preprocessing filters")
+    parser.add_argument('--data-size', type=float,
+                        default=1.0, help="proportion of data to use")
     parser.add_argument('--train-size', type=float,
                         default=0.7, help="train data proportion")
     parser.add_argument('--val-size', type=float,
@@ -137,8 +140,6 @@ if __name__ == '__main__':
                         default=1e-4, help="initial learning rate")
     parser.add_argument('--patience', type=int, default=3,
                         help="# of epochs of continued performance regression")
-    parser.add_argument('--overfit', action='store_true',
-                        default=False, help="Overfit on a small sample of data.")
     args = parser.parse_args()
     config.logger.info(json.dumps(args.__dict__, indent=4))
 
@@ -148,7 +149,7 @@ if __name__ == '__main__':
     tf.random.set_seed(args.seed)
 
     # Load data
-    X, y = data.load_data(url=args.data_url, overfit=args.overfit)
+    X, y = data.load_data(url=args.data_url, data_size=args.data_size)
     config.logger.info(
         "→ Raw data:\n"
         f"  {X[0]} → {y[0]}")
@@ -241,7 +242,7 @@ if __name__ == '__main__':
             embeddings=glove_embeddings, token_to_index=X_tokenizer.word_index,
             embedding_dim=args.embedding_dim)
         config.logger.info(
-            "→ Embeddings:\n"
+            "→ GloVe Embeddings:\n"
             f"{embedding_matrix.shape}")
 
     # Initialize model
@@ -258,13 +259,13 @@ if __name__ == '__main__':
         model.layers[0].set_weights([embedding_matrix])
 
     # Model dir
-    experiment_id = f'TextCNN_{datetime.now().strftime("%Y-%m-%d-%H:%M:%S")}'
+    experiment_id = f'{int(time.time())}-{petname.Generate(2)}'
     experiment_dir = os.path.join(config.EXPERIMENTS_DIR, experiment_id)
-    utilities.create_dirs(dirpath=experiment_dir)
+    utils.create_dirs(dirpath=experiment_dir)
     model_path = os.path.join(experiment_dir, 'model/cp.ckpt')
 
     # Callbacks
-    tb_log_dir = f'{config.TENSORBOARD_DIR}/{experiment_id}'
+    tb_log_dir = f'{experiment_dir}/tensorboard/'
     callbacks = [EarlyStopping(monitor='val_loss', patience=args.patience, verbose=1, mode='min'),
                  ModelCheckpoint(filepath=model_path, monitor='val_loss', mode='min',
                                  verbose=0, save_best_only=True, save_weights_only=True),
@@ -307,12 +308,12 @@ if __name__ == '__main__':
     plot_confusion_matrix(
         y_pred=y_pred, y_target=y_test, classes=classes,
         fp=os.path.join(experiment_dir, 'confusion_matrix.png'))
-    utilities.save_dict(performance, filepath=os.path.join(
+    utils.save_dict(performance, filepath=os.path.join(
         experiment_dir, 'performance.json'))
     config.logger.info(json.dumps(performance, indent=4, sort_keys=False))
 
     # Save
-    utilities.save_dict(args.__dict__, filepath=os.path.join(
+    utils.save_dict(args.__dict__, filepath=os.path.join(
         experiment_dir, 'config.json'))
     with open(os.path.join(experiment_dir, 'X_tokenizer.json'), 'w') as fp:
         json.dump(X_tokenizer.to_json(), fp, indent=4, sort_keys=False)

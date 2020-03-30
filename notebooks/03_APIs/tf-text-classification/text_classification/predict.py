@@ -11,10 +11,10 @@ from sklearn.preprocessing import LabelEncoder
 
 from tensorflow.keras.preprocessing.text import tokenizer_from_json
 
-import config
-import utilities
+from text_classification import config
 from text_classification import data
 from text_classification import models
+from text_classification import utils
 
 
 def get_probability_distribution(y_prob, classes):
@@ -50,7 +50,7 @@ def predict(experiment_id, inputs):
     if experiment_id == 'latest':
         experiment_id = max(os.listdir(config.EXPERIMENTS_DIR))
     experiment_dir = os.path.join(config.EXPERIMENTS_DIR, experiment_id)
-    experiment_config = utilities.load_json(
+    experiment_config = utils.load_json(
         os.path.join(experiment_dir, 'config.json'))
     args = Namespace(**experiment_config)
 
