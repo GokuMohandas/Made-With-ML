@@ -87,6 +87,6 @@ if __name__ == '__main__':
     # Unzip and write embeddings (may take ~3-5 minutes)
     resp = urlopen('http://nlp.stanford.edu/data/glove.6B.zip')
     embeddings_dir = os.path.join(config.BASE_DIR, 'embeddings')
-    utilities.create_dirs(embeddings_dir)
+    create_dirs(embeddings_dir)
     with ZipFile(BytesIO(resp.read()), 'r') as zr:
         zr.extractall(embeddings_dir)
