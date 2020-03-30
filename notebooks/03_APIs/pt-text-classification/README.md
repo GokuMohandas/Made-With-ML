@@ -17,7 +17,7 @@ python text_classification/utils.py
 ## Training
 ```bash
 python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use_glove
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove
 ```
 
 ## Inference
