@@ -1,17 +1,14 @@
 <div align="center">
-
-# <img src="https://raw.githubusercontent.com/madewithml/images/master/images/mwml_logo.png" width="50"> · Lessons
 <a class="ai-header-badge" target="_blank" href="https://github.com/madewithml/lessons">
 <img class="ai-header-badge-img" src="https://img.shields.io/github/stars/madewithml/lessons.svg?style=social&label=Star">
-</a>
+</a>&nbsp;
 <a class="ai-header-badge" target="_blank" href="https://www.linkedin.com/company/madewithml">
 <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-</a>
+</a>&nbsp;
 <a class="ai-header-badge" target="_blank" href="https://twitter.com/madewithml">
 <img class="ai-header-badge-img" src="https://img.shields.io/twitter/follow/madewithml.svg?label=Follow&style=social">
 </a>
 <p>🔥We're among the <a href="https://github.com/topics/deep-learning" target="_blank">top 10</a> ML repos on GitHub</p>
-
 </div>
 
 
@@ -151,7 +148,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
         <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
         <ul>
             <li>Learn how to collect data and organize it using SQL.</li>
-            <li>Showcase your applications using a simple <a href="https://getbootstrap.com">Boostrap</a> front-end.</li>
+            <li>Showcase your applications using a simple <a href="https://getbootstrap.com">Bootstrap</a> front-end.</li>
         </ul>
         </td>
         <td><a>🌍 Web scraping</a></td>
