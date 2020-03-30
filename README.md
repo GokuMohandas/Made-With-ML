@@ -151,7 +151,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
         <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
         <ul>
             <li>Learn how to collect data and organize it using SQL.</li>
-            <li>Showcase your applications using a simple <a href="https://getbootstrap.com">Boostrap</a> front-end.</li>
+            <li>Showcase your applications using a simple <a href="https://getbootstrap.com">Bootstrap</a> front-end.</li>
         </ul>
         </td>
         <td><a>🌍 Web scraping</a></td>
