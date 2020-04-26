@@ -96,7 +96,7 @@ def predict(experiment_id, inputs):
 
     # Load model
     model = models.TextCNN(
-        embedding_dim=args.embedding_dim, vocab_size=len(X_tokenizer),
+        embedding_dim=args.embedding_dim, vocab_size=len(X_tokenizer)+1,
         num_filters=args.num_filters, filter_sizes=args.filter_sizes,
         hidden_dim=args.hidden_dim, dropout_p=args.dropout_p,
         num_classes=len(y_tokenizer.classes))

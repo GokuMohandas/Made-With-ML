@@ -1,6 +1,6 @@
 # Text classification w/ <img src="https://raw.githubusercontent.com/madewithml/images/master/images/tensorflow.png" width="25rem"> TensorFlow
 
-🚀 This project was created using the [ml-app-template](https://github.com/madewithml/ml-app-template) cookiecutter template. Check it out to start creating your own ML applications.
+🚀 This project was created using the Made With ML [boilerplate](https://github.com/madewithml/boilerplate) template. Check it out to start creating your own ML applications.
 
 ## Set up
 ```
@@ -18,6 +18,12 @@ python text_classification/utils.py
 ```bash
 python text_classification/train.py \
     --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove
+```
+
+## Endpoints
+```bash
+uvicorn text_classification.app:app --host 0.0.0.0 --port 5000 --reload
+GOTO: http://localhost:5000/docs
 ```
 
 ## Inference
@@ -40,7 +46,7 @@ curl "http://localhost:5000/predict" \
              {
                 "text": "The Canadian President signed in the new federal law."
              }]
-        }'
+        }' | json_pp
 ```
 
 ### Requests
@@ -66,12 +72,6 @@ response = requests.post('http://0.0.0.0:5000/predict',
                          headers=headers, data=data)
 results = json.loads(response.text)
 print (json.dumps(results, indent=2, sort_keys=False))
-```
-
-## Endpoints
-```bash
-uvicorn text_classification.app:app --host 0.0.0.0 --port 5000 --reload
-GOTO: http://localhost:5000/docs
 ```
 
 ## TensorBoard
@@ -134,18 +134,18 @@ python text_classification/train.py \
 ## Experiments
 1. Random, unfrozen, embeddings
 ```
-python text_classification/hp.py --exp-cmd "python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle"
+python text_classification/train.py \
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle
 ```
 2. GloVe, frozen, embeddings
 ```
-python text_classification/hp.py --exp-cmd "python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove --freeze-embeddings"
+python text_classification/train.py \
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove --freeze-embeddings
 ```
 3. GloVe, unfrozen, embeddings
 ```
-python text_classification/hp.py --exp-cmd "python text_classification/train.py \
-    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove"
+python text_classification/train.py \
+    --data-url https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv --lower --shuffle --use-glove
 ```
 
 ## Helpful docker commands
@@ -166,7 +166,7 @@ docker run -p 5000:5000 -it madewithml /bin/bash
 
 • Run container with mounted volume
 ```
-docker run -p 5000:5000 -v /Users/goku/Documents/madewithml/:/root/madewithml/ --name madewithml madewithml:latest
+docker run -p 5000:5000 -v $PWD:/root/madewithml/ --name madewithml madewithml:latest
 ```
 
 • Other flags

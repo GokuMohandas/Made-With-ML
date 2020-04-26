@@ -267,7 +267,7 @@ if __name__ == '__main__':
     # Tokenizer
     X_tokenizer = data.Tokenizer(char_level=args.char_level)
     X_tokenizer.fit_on_texts(texts=X_train)
-    vocab_size = len(X_tokenizer)
+    vocab_size = len(X_tokenizer) + 1
     config.logger.info(
         "→ X tokenizer:\n"
         f"  {X_tokenizer}")
@@ -348,7 +348,7 @@ if __name__ == '__main__':
 
     # Initialize model
     model = models.TextCNN(
-        embedding_dim=args.embedding_dim, vocab_size=len(X_tokenizer),
+        embedding_dim=args.embedding_dim, vocab_size=vocab_size,
         num_filters=args.num_filters, filter_sizes=args.filter_sizes,
         hidden_dim=args.hidden_dim, dropout_p=args.dropout_p,
         num_classes=len(y_tokenizer.classes),

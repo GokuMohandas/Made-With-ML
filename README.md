@@ -125,7 +125,7 @@ As you learn ML, it's important to work on projects, so check out <a href="https
     <tr>
         <td colspan="1" rowspan="3" class="ai-notebooks-table-points ai-orange-link">
         <ul>
-            <li>Create a RESTful ML application using <a href="https://github.com/tiangolo/fastapi" target="_blank">Fast API</a> to create applications.</li>
+            <li>Create a RESTful ML application using <a href="https://github.com/tiangolo/fastapi" target="_blank">Fast API</a>.</li>
             <li>Perform <a href="https://docs.pytest.org/en/latest/">unit tests</a> on ML functions and implement
             appropriate <a href="https://docs.python-guide.org/writing/logging/">logging</a> throughout the application.</li>
             <li>Walk through modeling and set fallbacks for inference in production.</li>
