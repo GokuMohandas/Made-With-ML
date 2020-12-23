@@ -151,7 +151,7 @@ Join 20K+ developers in learning how to responsibly <a href="https://madewithml.
 ## FAQ
 
 ### Why is this free?
-While this is for everyone, this content is especially targeted towards people who don't have as much opportunity to learn around the world. I firmly believe that creativity and intelligence are randomly distributed but opportunity is siloed. I want to enable more people to create and contribute to innovation.
+While this content is for everyone, it's especially targeted towards people who don't have as much opportunity to learn. I firmly believe that creativity and intelligence are randomly distributed but opportunity is siloed. I want to enable more people to create and contribute to innovation.
 
 ### Who is the author?
 - I've deployed large scale ML systems at Apple as well as smaller systems with constraints at startups and want to share the common principles I've learned along the way.
