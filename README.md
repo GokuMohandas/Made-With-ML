@@ -77,12 +77,12 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/solution/">Solution</a></td>
         <td><a href="https://madewithml.com/courses/applied-ml/exploratory-data-analysis/">Exploratory data analysis</a></td>
-        <td>Experiment tracking</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/experiment-tracking/">Experiment tracking</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/evaluation/">Evaluation</a></td>
         <td><a href="https://madewithml.com/courses/applied-ml/splitting/">Splitting</a></td>
-        <td>Optimization</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/optimization/">Optimization</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/iteration/">Iteration</a></td>
@@ -103,19 +103,24 @@ Learn how to apply ML to build a production grade product to deliver value.
         <td>Git</td>
     </tr>
     <tr>
-        <td>Formatting</td>
+        <td>Logging</td>
         <td>Testing (data)</td>
         <td>Precommit</td>
     </tr>
     <tr>
-        <td>Packaging</td>
+        <td>Styling</td>
         <td>Testing (model)</td>
-        <td>Makefile</td>
+        <td>Versioning</td>
     </tr>
     <tr>
-        <td>Logging</td>
+        <td>Packaging</td>
         <td></td>
-        <td>Versioning</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Makefile</td>
+        <td></td>
+        <td></td>
     </tr>
 </table>
 
@@ -128,22 +133,22 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td>RESTful API</td>
         <td>Dashboard</td>
-        <td>Monitoring</td>
+        <td>Serving</td>
     </tr>
     <tr>
         <td>Databases</td>
         <td>Docker</td>
-        <td>Active learning</td>
-    </tr>
-    <tr>
-        <td>Authentication</td>
-        <td>Serving</td>
         <td>Feature stores</td>
     </tr>
     <tr>
-        <td>Documentation</td>
+        <td>Authentication</td>
         <td>CI/CD</td>
-        <td>Scaling</td>
+        <td>Workflow management</td>
+    </tr>
+    <tr>
+        <td>Documentation</td>
+        <td>Monitoring</td>
+        <td>Active learning</td>
     </tr>
 </table>
 
