@@ -103,7 +103,7 @@ Learn how to apply ML to build a production grade product to deliver value.
         <td>RESTful API</td>
     </tr>
     <tr>
-        <td>Documentation</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/documentation/">Documentation</a></td>
         <td>Testing <small>(data)</small></td>
         <td>Databases</td>
     </tr>
