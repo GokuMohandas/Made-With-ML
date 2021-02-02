@@ -94,27 +94,32 @@ Learn how to apply ML to build a production grade product to deliver value.
 <table>
     <tr>
         <td align="center"><b>📝&nbsp; Scripting</b></td>
-        <td align="center"><b>✅&nbsp; Testing</b></td>
+        <td align="center"><b>(cont.)</b></td>
         <td align="center"><b>📦&nbsp; Application</b></td>
+        <td align="center"><b>✅&nbsp; Testing</b></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/organization/">Organization</a></td>
-        <td>Testing <small>(code)</small></td>
+        <td><a href="https://madewithml.com/courses/applied-ml/styling/">Styling</a></td>
+        <td><a href="https://madewithml.com/courses/applied-ml/cli/">Command line</a></td>
+        <td>Code</td>
+    </tr>
+    <tr>
+        <td><a href="https://madewithml.com/courses/applied-ml/packaging/">Packaging</a></td>
+        <td><a href="https://madewithml.com/courses/applied-ml/makefile/">Makefile</a></td>
         <td>RESTful API</td>
+        <td>Data</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/documentation/">Documentation</a></td>
-        <td>Testing <small>(data)</small></td>
-        <td>Databases</td>
-    </tr>
-    <tr>
-        <td>Logging</td>
-        <td>Testing <small>(model)</small></td>
-        <td>Authentication</td>
-    </tr>
-    <tr>
-        <td>Styling</td>
         <td></td>
+        <td>Databases</td>
+        <td>Model</td>
+    </tr>
+    <tr>
+        <td><a href="https://madewithml.com/courses/applied-ml/logging/">Logging</a></td>
+        <td></td>
+        <td>Authentication</td>
         <td></td>
     </tr>
 </table>
