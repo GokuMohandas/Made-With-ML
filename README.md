@@ -107,20 +107,14 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/packaging/">Packaging</a></td>
         <td><a href="https://madewithml.com/courses/applied-ml/makefile/">Makefile</a></td>
-        <td>RESTful API</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/api/">RESTful API</a></td>
         <td>Data</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/documentation/">Documentation</a></td>
-        <td></td>
-        <td>Databases</td>
-        <td>Model</td>
-    </tr>
-    <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/logging/">Logging</a></td>
         <td></td>
-        <td>Authentication</td>
-        <td></td>
+        <td>Model</td>
     </tr>
 </table>
 
