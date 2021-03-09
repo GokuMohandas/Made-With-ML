@@ -9,7 +9,7 @@ Join 20K+ developers in learning how to responsibly <a href="https://madewithml.
 <br>
 
 <div align="center">
-    <a target="_blank" href="https://madewithml.com/subscribe/"><img src="https://img.shields.io/badge/Subscribe-20K-brightgreen"></a>&nbsp;
+    <a target="_blank" href="https://newsletter.madewithml.com"><img src="https://img.shields.io/badge/Subscribe-20K-brightgreen"></a>&nbsp;
     <a target="_blank" href="https://github.com/GokuMohandas/madewithml"><img src="https://img.shields.io/github/stars/GokuMohandas/madewithml.svg?style=social&label=Star"></a>&nbsp;
     <a target="_blank" href="https://www.linkedin.com/in/goku"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/GokuMohandas"><img src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social"></a>
@@ -55,7 +55,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
 </table>
 
 📆&nbsp; more topics coming soon!<br>
-<a href="https://madewithml.com/subscribe/" target="_blank">Subscribe</a> for our monthly updates on new content.
+<a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
 
@@ -101,20 +101,20 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/organization/">Organization</a></td>
         <td><a href="https://madewithml.com/courses/applied-ml/styling/">Styling</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/cli/">Command line</a></td>
-        <td>Code</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/cli/">CLI</a></td>
+        <td><a href="https://madewithml.com/courses/applied-ml/testing/">Code</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/packaging/">Packaging</a></td>
         <td><a href="https://madewithml.com/courses/applied-ml/makefile/">Makefile</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/api/">RESTful API</a></td>
-        <td>Data</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/api/">API</a></td>
+        <td><a href="https://madewithml.com/courses/applied-ml/testing/#data">Data</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/applied-ml/documentation/">Documentation</a></td>
         <td><a href="https://madewithml.com/courses/applied-ml/logging/">Logging</a></td>
         <td></td>
-        <td>Model</td>
+        <td><a href="https://madewithml.com/courses/applied-ml/testing/#models">Models</a></td>
     </tr>
 </table>
 
@@ -137,7 +137,7 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td>Versioning</td>
         <td>CI/CD</td>
-        <td>Workflow management</td>
+        <td>Workflows</td>
     </tr>
     <tr>
         <td></td>
@@ -147,7 +147,7 @@ Learn how to apply ML to build a production grade product to deliver value.
 </table>
 
 📆&nbsp; new lesson every week!<br>
-<a href="https://madewithml.com/subscribe/" target="_blank">Subscribe</a> for our monthly updates on new content.
+<a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
 
@@ -178,3 +178,17 @@ Lessons will be released weekly and each one will include:
 
 ### Why is this free?
 While this content is for everyone, it's especially targeted towards people who don't have as much opportunity to learn. I firmly believe that creativity and intelligence are randomly distributed but opportunity is siloed. I want to enable more people to create and contribute to innovation.
+
+
+<hr>
+<!-- Citation -->
+To cite this content, please use:
+
+```bash
+@misc{madewithml,
+    title  = "Made With ML",
+    author = "Goku Mohandas",
+    url    = "https://madewithml.com/"
+    year   = "2021",
+}
+```
