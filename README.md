@@ -127,22 +127,22 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td>Git</td>
         <td>Dashboard</td>
-        <td>Serving</td>
+        <td>Feature stores</td>
     </tr>
     <tr>
         <td>Precommit</td>
         <td>Docker</td>
-        <td>Feature stores</td>
+        <td>Workflows</td>
     </tr>
     <tr>
         <td>Versioning</td>
         <td>CI/CD</td>
-        <td>Workflows</td>
+        <td>Active learning</td>
     </tr>
     <tr>
         <td></td>
         <td>Monitoring</td>
-        <td>Active learning</td>
+        <td></td>
     </tr>
 </table>
 
