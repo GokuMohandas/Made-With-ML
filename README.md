@@ -3,7 +3,7 @@
 <h1><img width="30" src="https://madewithml.com/static/images/rounded_logo.png">&nbsp;<a href="https://madewithml.com/">Made With ML</a></h1>
 Applied ML · MLOps · Production
 <br>
-Join 20K+ developers in learning how to responsibly <a href="https://madewithml.com/about/">deliver value</a> with applied ML.
+Join 20K+ developers in learning how to responsibly <a href="https://madewithml.com/about/">deliver value</a> with ML.
 </div>
 
 <br>
@@ -16,7 +16,7 @@ Join 20K+ developers in learning how to responsibly <a href="https://madewithml.
     <p>🔥&nbsp; Among the <a href="https://github.com/topics/deep-learning" target="_blank">top ML</a> repositories on GitHub</p>
 </div>
 
-## ML Foundations
+## Basics
 Learn the foundations of ML through intuitive explanations, clean code and visuals.
 
 > Code: [GokuMohandas/madewithml/tree/master/notebooks](https://github.com/GokuMohandas/madewithml/tree/master/notebooks)
@@ -54,15 +54,15 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     </tr>
 </table>
 
-📆&nbsp; more topics coming soon!<br>
+📆&nbsp; More topics coming soon!<br>
 <a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
 
-## Applied ML
+## MLOps
 Learn how to apply ML to build a production grade product to deliver value.
 
-> Code: [GokuMohandas/applied-ml](https://github.com/GokuMohandas/applied-ml)
+> Code: [GokuMohandas/mlops](https://github.com/GokuMohandas/mlops)
 <table>
     <tr>
         <td align="center"><b>📦&nbsp; Product</b></td>
@@ -70,23 +70,23 @@ Learn how to apply ML to build a production grade product to deliver value.
         <td align="center"><b>📈&nbsp; Modeling</b></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/objective/">Objective</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/annotation/">Annotation</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/baselines/">Baselines</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/objective/">Objective</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/annotation/">Annotation</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/baselines/">Baselines</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/solution/">Solution</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/exploratory-data-analysis/">Exploratory data analysis</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/experiment-tracking/">Experiment tracking</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/solution/">Solution</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploratory data analysis</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/evaluation/">Evaluation</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/splitting/">Splitting</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/optimization/">Optimization</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/iteration/">Iteration</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/preprocessing/">Preprocessing</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/iteration/">Iteration</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/preprocessing/">Preprocessing</a></td>
         <td></td>
     </tr>
 </table>
@@ -99,54 +99,54 @@ Learn how to apply ML to build a production grade product to deliver value.
         <td align="center"><b>✅&nbsp; Testing</b></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/organization/">Organization</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/styling/">Styling</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/cli/">CLI</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/testing/">Code</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/organization/">Organization</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/styling/">Styling</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/cli/">CLI</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/testing/">Code</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/packaging/">Packaging</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/makefile/">Makefile</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/api/">API</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/testing/#data">Data</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/packaging/">Packaging</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/makefile/">Makefile</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/api/">API</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/testing/#data">Data</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/applied-ml/documentation/">Documentation</a></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/logging/">Logging</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/documentation/">Documentation</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/logging/">Logging</a></td>
         <td></td>
-        <td><a href="https://madewithml.com/courses/applied-ml/testing/#models">Models</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/testing/#models">Models</a></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td align="center"><b>⏰&nbsp; Version control</b></td>
+        <td align="center"><b>♻️&nbsp; Reproducability</b></td>
         <td align="center"><b>🚀&nbsp; Production</b></td>
         <td align="center"><b>(cont.)</b></td>
     </tr>
     <tr>
-        <td>Git</td>
+        <td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
         <td>Dashboard</td>
         <td>Feature stores</td>
     </tr>
     <tr>
-        <td>Precommit</td>
-        <td>Docker</td>
+        <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
+        <td>CI/CD</td>
         <td>Workflows</td>
     </tr>
     <tr>
-        <td>Versioning</td>
-        <td>CI/CD</td>
-        <td>Active learning</td>
+        <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
+        <td>Monitoring</td>
+        <td></td>
     </tr>
     <tr>
+        <td><a href="https://madewithml.com/courses/mlops/docker/">Docker</a></td>
         <td></td>
-        <td>Monitoring</td>
         <td></td>
     </tr>
 </table>
 
-📆&nbsp; new lesson every week!<br>
+📆&nbsp; New lessons every month!<br>
 <a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
@@ -155,8 +155,8 @@ Learn how to apply ML to build a production grade product to deliver value.
 
 ### Who is this content for?
 - ML developers who want to become end-to-end ML developers.
-- Software engineers who want to responsibly deliver value with applied ML.
-- Product managers who want to have a comprehensive understanding of applied ML.
+- Software engineers who want to responsibly deliver value with ML.
+- Product managers who want to have a comprehensive understanding of MLOps.
 
 ### What is the structure?
 Lessons will be released weekly and each one will include:
