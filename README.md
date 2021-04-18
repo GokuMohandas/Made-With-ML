@@ -23,7 +23,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
 
 <table class="table table-striped table-bordered table-vcenter">
     <tr>
-        <td align="center"><b>🔢&nbsp; Basics</b></td>
+        <td align="center"><b>🔢&nbsp; Foundations</b></td>
         <td align="center"><b>📈&nbsp; Modeling</b></td>
         <td align="center"><b>🤖&nbsp; Deep Learning</b></td>
     </tr>
@@ -120,13 +120,13 @@ Learn how to apply ML to build a production grade product to deliver value.
 
 <table>
     <tr>
-        <td align="center"><b>♻️&nbsp; Reproducability</b></td>
+        <td align="center"><b>♻️&nbsp; Reproducibility</b></td>
         <td align="center"><b>🚀&nbsp; Production</b></td>
         <td align="center"><b>(cont.)</b></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
-        <td>Dashboard</td>
+        <td><a href="https://madewithml.com/courses/mlops/dashboard/">Dashboard</a></td>
         <td>Feature stores</td>
     </tr>
     <tr>
