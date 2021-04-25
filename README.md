@@ -10,7 +10,7 @@ Join 20K+ developers in learning how to responsibly <a href="https://madewithml.
 
 <div align="center">
     <a target="_blank" href="https://newsletter.madewithml.com"><img src="https://img.shields.io/badge/Subscribe-20K-brightgreen"></a>&nbsp;
-    <a target="_blank" href="https://github.com/GokuMohandas/madewithml"><img src="https://img.shields.io/github/stars/GokuMohandas/madewithml.svg?style=social&label=Star"></a>&nbsp;
+    <a target="_blank" href="https://github.com/GokuMohandas/MadeWithML"><img src="https://img.shields.io/github/stars/GokuMohandas/MadeWithML.svg?style=social&label=Star"></a>&nbsp;
     <a target="_blank" href="https://www.linkedin.com/in/goku"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/GokuMohandas"><img src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social"></a>
     <p>🔥&nbsp; Among the <a href="https://github.com/topics/deep-learning" target="_blank">top ML</a> repositories on GitHub</p>
@@ -19,7 +19,7 @@ Join 20K+ developers in learning how to responsibly <a href="https://madewithml.
 ## Basics
 Learn the foundations of ML through intuitive explanations, clean code and visuals.
 
-> Code: [GokuMohandas/madewithml/tree/master/notebooks](https://github.com/GokuMohandas/madewithml/tree/master/notebooks)
+> Code: [GokuMohandas/MadeWithML/tree/master/notebooks](https://github.com/GokuMohandas/MadeWithML/tree/master/notebooks)
 
 <table class="table table-striped table-bordered table-vcenter">
     <tr>
@@ -62,7 +62,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
 ## MLOps
 Learn how to apply ML to build a production grade product to deliver value.
 
-> Code: [GokuMohandas/mlops](https://github.com/GokuMohandas/mlops)
+> Code: [GokuMohandas/MLOps](https://github.com/GokuMohandas/MLOps)
 <table>
     <tr>
         <td align="center"><b>📦&nbsp; Product</b></td>
@@ -131,13 +131,13 @@ Learn how to apply ML to build a production grade product to deliver value.
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
-        <td>CI/CD</td>
-        <td>Workflows</td>
+        <td><a href="https://madewithml.com/courses/mlops/cicd/">CI/CD</a></td>
+        <td>Deployment</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
+        <td>Pipelines</td>
         <td>Monitoring</td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/docker/">Docker</a></td>
