@@ -71,22 +71,22 @@ Learn how to apply ML to build a production grade product to deliver value.
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/objective/">Objective</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/annotation/">Annotation</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/labeling/">Labeling</a></td>
         <td><a href="https://madewithml.com/courses/mlops/baselines/">Baselines</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/solution/">Solution</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploratory data analysis</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/preprocessing/">Preprocessing</a></td>
         <td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploratory data analysis</a></td>
         <td><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/iteration/">Iteration</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/preprocessing/">Preprocessing</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
         <td></td>
     </tr>
 </table>
@@ -127,17 +127,17 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
         <td><a href="https://madewithml.com/courses/mlops/dashboard/">Dashboard</a></td>
-        <td>Feature stores</td>
+        <td>Deployment</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
         <td><a href="https://madewithml.com/courses/mlops/cicd/">CI/CD</a></td>
-        <td>Deployment</td>
+        <td>Monitoring</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
-        <td>Pipelines</td>
-        <td>Monitoring</td>
+        <td>Feature stores</td>
+        <td></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/docker/">Docker</a></td>
