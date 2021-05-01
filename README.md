@@ -77,16 +77,21 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/solution/">Solution</a></td>
         <td><a href="https://madewithml.com/courses/mlops/preprocessing/">Preprocessing</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
-    </tr>
-    <tr>
         <td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploratory data analysis</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/iteration/">Iteration</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploratory data analysis</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
+    </tr>
+    <tr>
+        <td></td>
         <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
         <td></td>
     </tr>
 </table>
@@ -95,19 +100,19 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td align="center"><b>📝&nbsp; Scripting</b></td>
         <td align="center"><b>(cont.)</b></td>
-        <td align="center"><b>📦&nbsp; Application</b></td>
+        <td align="center"><b>📦&nbsp; Interfaces</b></td>
         <td align="center"><b>✅&nbsp; Testing</b></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/organization/">Organization</a></td>
         <td><a href="https://madewithml.com/courses/mlops/styling/">Styling</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/cli/">CLI</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/cli/">Command-line</a></td>
         <td><a href="https://madewithml.com/courses/mlops/testing/">Code</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/packaging/">Packaging</a></td>
         <td><a href="https://madewithml.com/courses/mlops/makefile/">Makefile</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/api/">API</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/api/">RESTful API</a></td>
         <td><a href="https://madewithml.com/courses/mlops/testing/#data">Data</a></td>
     </tr>
     <tr>
@@ -131,7 +136,7 @@ Learn how to apply ML to build a production grade product to deliver value.
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/cicd/">CI/CD</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/cicd/">CI/CD workflows</a></td>
         <td>Monitoring</td>
     </tr>
     <tr>
