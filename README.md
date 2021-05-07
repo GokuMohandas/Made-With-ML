@@ -19,7 +19,8 @@ Join 20K+ developers in learning how to responsibly <a href="https://madewithml.
 ## Basics
 Learn the foundations of ML through intuitive explanations, clean code and visuals.
 
-> Code: [GokuMohandas/MadeWithML/tree/master/notebooks](https://github.com/GokuMohandas/MadeWithML/tree/master/notebooks)
+> - Lessons: https://madewithml.com/courses/basics/
+> - Code: [GokuMohandas/MadeWithML/tree/master/notebooks](https://github.com/GokuMohandas/MadeWithML/tree/master/notebooks)
 
 <table class="table table-striped table-bordered table-vcenter">
     <tr>
@@ -62,7 +63,9 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
 ## MLOps
 Learn how to apply ML to build a production grade product to deliver value.
 
-> Code: [GokuMohandas/MLOps](https://github.com/GokuMohandas/MLOps)
+> - Lessons: https://madewithml.com/courses/mlops/
+> - Code: [GokuMohandas/MLOps](https://github.com/GokuMohandas/MLOps)
+
 <table>
     <tr>
         <td align="center"><b>📦&nbsp; Product</b></td>
@@ -141,12 +144,12 @@ Learn how to apply ML to build a production grade product to deliver value.
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
-        <td>Feature stores</td>
+        <td>Pipelines</td>
         <td></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/docker/">Docker</a></td>
-        <td></td>
+        <td>Feature stores</td>
         <td></td>
     </tr>
 </table>
@@ -182,7 +185,7 @@ Lessons will be released weekly and each one will include:
 - Connect with me on <a href="https://twitter.com/GokuMohandas" target="_blank"><i class="fab fa-twitter ai-color-info mr-1"></i>Twitter</a> and <a href="https://www.linkedin.com/in/goku" target="_blank"><i class="fab fa-linkedin ai-color-primary mr-1"></i>LinkedIn</a>
 
 ### Why is this free?
-While this content is for everyone, it's especially targeted towards people who don't have as much opportunity to learn. I firmly believe that creativity and intelligence are randomly distributed but opportunity is siloed. I want to enable more people to create and contribute to innovation.
+While this content is for everyone, it's especially targeted towards people who don't have as much opportunity to learn. I believe that creativity and intelligence are randomly distributed while opportunities are siloed. I want to enable more people to create and contribute to innovation.
 
 
 <hr>
