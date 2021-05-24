@@ -147,28 +147,28 @@ Learn how to apply ML to build a production grade product to deliver value.
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
         <td><a href="https://madewithml.com/courses/mlops/cli/">Command-line</a></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
-        <td>Pipelines</td>
+        <td>Deployment</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
         <td><a href="https://madewithml.com/courses/mlops/api/">RESTful API</a></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
-        <td>Feature stores</td>
+        <td>Monitoring</td>
     </tr>
     <tr>
         <td style="background-color: #fff; border-left: 1px solid #fff !important; border-right: 1px solid #fff !important; border-top: 1px solid #fff !important;"></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important; border-right: 1px solid #fff !important;"></td>
         <td style="background-color: #fff; border-left: 1px solid #fff !important; border-right: 1px solid #fff !important; border-top: 1px solid #fff !important;"></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
-        <td>Deployment</td>
+        <td>Feature stores</td>
     </tr>
     <tr>
         <td align="center"><b>📈&nbsp; Modeling</b></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
         <td align="center"><b>✅&nbsp; Testing</b></td>
         <td style="background-color: #fff; border-top: 1px solid #fff !important; border-bottom: 1px solid #fff !important;"></td>
-        <td>Monitoring</td>
+        <td>Pipelines</td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
