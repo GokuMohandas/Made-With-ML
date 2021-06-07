@@ -115,12 +115,12 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
         <td><a href="https://madewithml.com/courses/mlops/cli/">Command-line</a></td>
-        <td>Deployment</td>
+        <td><a href="https://madewithml.com/courses/mlops/deployment/">Deployment</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
         <td><a href="https://madewithml.com/courses/mlops/api/">RESTful API</a></td>
-        <td>Monitoring</td>
+        <td><a href="https://madewithml.com/courses/mlops/monitoring/">Monitoring</a></td>
     </tr>
     <tr>
         <td align="center"><b>📈&nbsp; Modeling</b></td>
