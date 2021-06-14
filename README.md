@@ -3,7 +3,7 @@
 <h1><img width="30" src="https://madewithml.com/static/images/rounded_logo.png">&nbsp;<a href="https://madewithml.com/">Made With ML</a></h1>
 Applied ML · MLOps · Production
 <br>
-Join 20K+ developers in learning how to responsibly <a href="https://madewithml.com/about/">deliver value</a> with ML.
+Join 30K+ developers in learning how to responsibly <a href="https://madewithml.com/about/">deliver value</a> with ML.
     <br>
 </div>
 
@@ -51,12 +51,12 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     <tr>
         <td><a href="https://madewithml.com/courses/ml-foundations/pandas/">Pandas</a></td>
         <td><a href="https://madewithml.com/courses/ml-foundations/data-quality/">Data Quality</a></td>
-        <td>Attention (TBD)</td>
+        <td><a href="https://madewithml.com/courses/mlops/baselines/#transformers-w-contextual-embeddings">Transformers</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/ml-foundations/pytorch/">PyTorch</a></td>
         <td><a href="https://madewithml.com/courses/ml-foundations/utilities/">Utilities</a></td>
-        <td>Transformers (TBD)</td>
+        <td></td>
     </tr>
 </table>
 
@@ -125,12 +125,12 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td align="center"><b>📈&nbsp; Modeling</b></td>
         <td align="center"><b>✅&nbsp; Testing</b></td>
-        <td>Feature stores</td>
+        <td><a href="https://madewithml.com/courses/mlops/pipelines/">Pipelines</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
         <td><a href="https://madewithml.com/courses/mlops/testing/">Code</a></td>
-        <td>Pipelines</td>
+        <td><a href="https://madewithml.com/courses/mlops/feature-store/">Feature store</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
