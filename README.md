@@ -60,7 +60,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     </tr>
 </table>
 
-📆&nbsp; More topics coming soon!<br>
+ 📆&nbsp; More topics coming soon!<br>
 <a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
