@@ -34,28 +34,28 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
         <td align="center"><b>🤖&nbsp; Deep Learning</b></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/notebooks/">Notebooks</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/linear-regression/">Linear Regression</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/convolutional-neural-networks/">CNNs</a></td>
+        <td><a href="https://madewithml.com/courses/basics/notebooks/">Notebooks</a></td>
+        <td><a href="https://madewithml.com/courses/basics/linear-regression/">Linear Regression</a></td>
+        <td><a href="https://madewithml.com/courses/basics/convolutional-neural-networks/">CNNs</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/python/">Python</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/logistic-regression/">Logistic Regression</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/embeddings/">Embeddings</a></td>
+        <td><a href="https://madewithml.com/courses/basics/python/">Python</a></td>
+        <td><a href="https://madewithml.com/courses/basics/logistic-regression/">Logistic Regression</a></td>
+        <td><a href="https://madewithml.com/courses/basics/embeddings/">Embeddings</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/numpy/">NumPy</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/neural-networks/">Neural Network</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/recurrent-neural-networks/">RNNs</a></td>
+        <td><a href="https://madewithml.com/courses/basics/numpy/">NumPy</a></td>
+        <td><a href="https://madewithml.com/courses/basics/neural-networks/">Neural Network</a></td>
+        <td><a href="https://madewithml.com/courses/basics/recurrent-neural-networks/">RNNs</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/pandas/">Pandas</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/data-quality/">Data Quality</a></td>
+        <td><a href="https://madewithml.com/courses/basics/pandas/">Pandas</a></td>
+        <td><a href="https://madewithml.com/courses/basics/data-quality/">Data Quality</a></td>
         <td><a href="https://madewithml.com/courses/mlops/baselines/#transformers-w-contextual-embeddings">Transformers</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/pytorch/">PyTorch</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/utilities/">Utilities</a></td>
+        <td><a href="https://madewithml.com/courses/basics/pytorch/">PyTorch</a></td>
+        <td><a href="https://madewithml.com/courses/basics/utilities/">Utilities</a></td>
         <td></td>
     </tr>
 </table>
