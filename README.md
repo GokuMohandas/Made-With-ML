@@ -115,7 +115,7 @@ Learn how to apply ML to build a production grade product to deliver value.
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
         <td><a href="https://madewithml.com/courses/mlops/cli/">Command-line</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/deployment/">Deployment</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/infrastructure/">Infrastructure</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
