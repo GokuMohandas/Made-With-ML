@@ -10,7 +10,7 @@ Join 30K+ developers in learning how to responsibly <a href="https://madewithml.
 <br>
 
 <div align="center">
-    <a target="_blank" href="https://newsletter.madewithml.com"><img src="https://img.shields.io/badge/Subscribe-20K-brightgreen"></a>&nbsp;
+    <a target="_blank" href="https://newsletter.madewithml.com"><img src="https://img.shields.io/badge/Subscribe-30K-brightgreen"></a>&nbsp;
     <a target="_blank" href="https://github.com/GokuMohandas/MadeWithML"><img src="https://img.shields.io/github/stars/GokuMohandas/MadeWithML.svg?style=social&label=Star"></a>&nbsp;
     <a target="_blank" href="https://www.linkedin.com/in/goku"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/GokuMohandas"><img src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social"></a>
@@ -34,28 +34,28 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
         <td align="center"><b>🤖&nbsp; Deep Learning</b></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/notebooks/">Notebooks</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/linear-regression/">Linear Regression</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/convolutional-neural-networks/">CNNs</a></td>
+        <td><a href="https://madewithml.com/courses/basics/notebooks/">Notebooks</a></td>
+        <td><a href="https://madewithml.com/courses/basics/linear-regression/">Linear Regression</a></td>
+        <td><a href="https://madewithml.com/courses/basics/convolutional-neural-networks/">CNNs</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/python/">Python</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/logistic-regression/">Logistic Regression</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/embeddings/">Embeddings</a></td>
+        <td><a href="https://madewithml.com/courses/basics/python/">Python</a></td>
+        <td><a href="https://madewithml.com/courses/basics/logistic-regression/">Logistic Regression</a></td>
+        <td><a href="https://madewithml.com/courses/basics/embeddings/">Embeddings</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/numpy/">NumPy</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/neural-networks/">Neural Network</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/recurrent-neural-networks/">RNNs</a></td>
+        <td><a href="https://madewithml.com/courses/basics/numpy/">NumPy</a></td>
+        <td><a href="https://madewithml.com/courses/basics/neural-networks/">Neural Network</a></td>
+        <td><a href="https://madewithml.com/courses/basics/recurrent-neural-networks/">RNNs</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/pandas/">Pandas</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/data-quality/">Data Quality</a></td>
+        <td><a href="https://madewithml.com/courses/basics/pandas/">Pandas</a></td>
+        <td><a href="https://madewithml.com/courses/basics/data-quality/">Data Quality</a></td>
         <td><a href="https://madewithml.com/courses/mlops/baselines/#transformers-w-contextual-embeddings">Transformers</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/ml-foundations/pytorch/">PyTorch</a></td>
-        <td><a href="https://madewithml.com/courses/ml-foundations/utilities/">Utilities</a></td>
+        <td><a href="https://madewithml.com/courses/basics/pytorch/">PyTorch</a></td>
+        <td><a href="https://madewithml.com/courses/basics/utilities/">Utilities</a></td>
         <td></td>
     </tr>
 </table>
@@ -152,9 +152,10 @@ Learn how to apply ML to build a production grade product to deliver value.
 ## FAQ
 
 ### Who is this content for?
-- ML developers who want to become end-to-end ML developers.
-- Software engineers who want to responsibly deliver value with ML.
-- Product managers who want to have a comprehensive understanding of MLOps.
+- `Software engineers` looking to learn ML and become even better software engineers.
+- `Data scientists` who want to learn how to responsibly deliver value with ML.
+- `College graduates` looking to learn the practical skills they'll need for the industry.
+- `Product Managers` who want to develop a technical foundation for ML applications.
 
 ### What is the structure?
 Lessons will be released weekly and each one will include:
@@ -171,7 +172,6 @@ Lessons will be released weekly and each one will include:
 
 ### Who is the author?
 - I've deployed large scale ML systems at Apple as well as smaller systems with constraints at startups and want to share the common principles I've learned.
-- I created the ([old](hhttps://twitter.com/madewithml/status/1284503478685978625)) Made With ML so that the community can explore, learn and build ML and I learned how to build it into an end-to-end product that's currently used by over 20K monthly active users.
 - Connect with me on <a href="https://twitter.com/GokuMohandas" target="_blank"><i class="fab fa-twitter ai-color-info mr-1"></i>Twitter</a> and <a href="https://www.linkedin.com/in/goku" target="_blank"><i class="fab fa-linkedin ai-color-primary mr-1"></i>LinkedIn</a>
 
 ### Why is this free?
