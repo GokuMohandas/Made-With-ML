@@ -183,10 +183,10 @@ While this content is for everyone, it's especially targeted towards people who 
 To cite this content, please use:
 
 ```bibtex
-@misc{gokumohandas2021madewithml,
-    author       = {Mohandas, Goku},
+@misc{madewithml,
+    author       = {Goku Mohandas},
     title        = {Made With ML},
-    howpublished = {\url{https://madewithml.com}},
+    howpublished = {\url{https://madewithml.com/}},
     year         = {2021}
 }
 ```
