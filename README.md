@@ -184,9 +184,9 @@ To cite this content, please use:
 
 ```bibtex
 @misc{gokumohandas2021madewithml,
-    author = {Mohandas, Goku},
-    title  = {Made With ML},
-    url    = {https://madewithml.com},
-    year   = {2021}
+    author       = {Mohandas, Goku},
+    title        = {Made With ML},
+    howpublished = {\url{https://madewithml.com}},
+    year         = {2021}
 }
 ```
