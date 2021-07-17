@@ -182,11 +182,11 @@ While this content is for everyone, it's especially targeted towards people who 
 <!-- Citation -->
 To cite this content, please use:
 
-```bash
-@misc{madewithml,
-    title  = "Made With ML",
-    author = "Goku Mohandas",
-    url    = "https://madewithml.com/"
-    year   = "2021",
+```bibtex
+@misc{gokumohandas2021madewithml,
+    author = {Mohandas, Goku},
+    title  = {Made With ML},
+    url    = {https://madewithml.com},
+    year   = {2021}
 }
 ```
