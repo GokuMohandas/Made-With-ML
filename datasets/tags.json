@@ -1,0 +1,2567 @@
+[
+    {
+        "tag": "3d",
+        "aliases": [
+            "three-dimensional",
+            "3-dimensional"
+        ],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "action-localization",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "action-recognition",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "active-learning",
+        "aliases": [],
+        "parents": [
+            "semi-supervised-learning"
+        ]
+    },
+    {
+        "tag": "activity-recognition",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "adversarial-attacks",
+        "aliases": [],
+        "parents": [
+            "adversarial-learning"
+        ]
+    },
+    {
+        "tag": "adversarial-defense",
+        "aliases": [],
+        "parents": [
+            "adversarial-learning"
+        ]
+    },
+    {
+        "tag": "adversarial-image-detection",
+        "aliases": [],
+        "parents": [
+            "adversarial-learning",
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "adversarial-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "adversarial-text",
+        "aliases": [],
+        "parents": [
+            "adversarial-learning"
+        ]
+    },
+    {
+        "tag": "angular",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "animations",
+        "aliases": [
+            "cartoons"
+        ],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "annotation",
+        "aliases": [
+            "data-annotation",
+            "labeling",
+            "data-labeling"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "anomaly-detection",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "arima",
+        "aliases": [],
+        "parents": [
+            "time-series"
+        ]
+    },
+    {
+        "tag": "artificial-general-intelligence",
+        "aliases": [
+            "agi"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "attention",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "audio-classification",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "audio-generation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "audio-tagging",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "autoencoders",
+        "aliases": [
+            "ae"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "automl",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "autonomous-vehicles",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "aws",
+        "aliases": [
+            "amazon-web-services"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "azure",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "backend",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "bayesian-deep-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "bayesian-inference",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "bidaf",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "boundary-detection",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "c",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "c#",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "c++",
+        "aliases": [
+            "cpp"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "caffe",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "calibration",
+        "aliases": [],
+        "parents": [
+            "robotics"
+        ]
+    },
+    {
+        "tag": "camera-localization",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "captioning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "causal-inference",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "chainer",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "character-embeddings",
+        "aliases": [],
+        "parents": [
+            "embeddings",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "chunking",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "ci-cd",
+        "aliases": [
+            "cicd",
+            "continuous-integration",
+            "continuous-deployment"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "classification",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "clustering",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "code-generation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "code-summarization",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "collaborative-filtering",
+        "aliases": [],
+        "parents": [
+            "recommendation-systems"
+        ]
+    },
+    {
+        "tag": "collaborative-ranking",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "colorization",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "common-sense-reasoning",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "computer-vision",
+        "aliases": [
+            "cv",
+            "vision"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "conditional-random-fields",
+        "aliases": [
+            "crf"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "conditional-variational-autoencoders",
+        "aliases": [],
+        "parents": [
+            "autoencoders"
+        ]
+    },
+    {
+        "tag": "constituency-parsing",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "contextualized-embeddings",
+        "aliases": [],
+        "parents": [
+            "embeddings",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "contour-detection",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "contrastive-loss",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "conversational-ai",
+        "aliases": [
+            "chatbot"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "convolutional-neural-networks",
+        "aliases": [
+            "cnn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "coreference-resolution",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "coreml",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "counterfactuals",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "cropping",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "cross-lingual",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "crowd-counting",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "css",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "d3",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "data-augmentation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "data-mining",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "data-science",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "data-summarization",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "databases",
+        "aliases": [
+            "db"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "deblurring",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "decision-making",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "decision-trees",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "deconvolution",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "deep-learning",
+        "aliases": [
+            "dl"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "deep-q-networks",
+        "aliases": [
+            "dqn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "denoising",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "density-estimation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "dependency-parsing",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "depth-completion",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "depth-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "devops",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "dialogue",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "dictionary-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "dimensionality-reduction",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "disease-prediction",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "disparity-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "distributed-training",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "django",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "dl4j",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "dlib",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "docker",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "document-classification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "document-embeddings",
+        "aliases": [],
+        "parents": [
+            "embeddings",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "document-ranking",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "domain-adaptation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "drug-discovery",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "dynet",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "edge-detection",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "embeddings",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "emotion-recognition",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "enhancement",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "entity-alignment",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "entity-disambiguation",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "entity-extraction",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "entity-linking",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "entity-resolution",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "entity-typing",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "expectation-maximization",
+        "aliases": [
+            "em"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "experiment-tracking",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "exploratory-data-analysis",
+        "aliases": [
+            "eda"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "face-detection",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "face-generation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "face-reconstruction",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "fake-news-detection",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "fastai",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "fastapi",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "fasttext",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "feature-engineering",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "feature-importance",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "feature-selection",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "few-shot-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "fine-tuning",
+        "aliases": [
+            "finetuning",
+            "finetune"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "flask",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "forecasting",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "fraud-detection",
+        "aliases": [],
+        "parents": [
+            "anomaly-detection"
+        ]
+    },
+    {
+        "tag": "frontend",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "gated-recurrent-units",
+        "aliases": [
+            "gru"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "gaussian-processes",
+        "aliases": [
+            "gp"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "gaze-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "generation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "generative-adversarial-networks",
+        "aliases": [
+            "gan"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "geometric-deep-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "gesture-recognition",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "git",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "gluon",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "go",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "gpt",
+        "aliases": [],
+        "parents": [
+            "transformers",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "gradient-boosting",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "graph-classification",
+        "aliases": [],
+        "parents": [
+            "graphs"
+        ]
+    },
+    {
+        "tag": "graph-clustering",
+        "aliases": [],
+        "parents": [
+            "graphs"
+        ]
+    },
+    {
+        "tag": "graph-construction",
+        "aliases": [],
+        "parents": [
+            "graphs"
+        ]
+    },
+    {
+        "tag": "graph-convolutional-networks",
+        "aliases": [
+            "gcn"
+        ],
+        "parents": [
+            "graph-neural-networks"
+        ]
+    },
+    {
+        "tag": "graph-embedding",
+        "aliases": [],
+        "parents": [
+            "embeddings",
+            "graphs"
+        ]
+    },
+    {
+        "tag": "graph-neural-networks",
+        "aliases": [
+            "gnn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "graph-representation-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "graph-similarity",
+        "aliases": [],
+        "parents": [
+            "graphs"
+        ]
+    },
+    {
+        "tag": "graphql",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "graphs",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "grasping",
+        "aliases": [],
+        "parents": [
+            "robotics"
+        ]
+    },
+    {
+        "tag": "h2o",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "hand-pose-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "haskell",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "hidden-markov-models",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "hierarchical-reinforcement-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "highway-networks",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "html",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "huggingface",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "human-detection",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "hyperparameter-optimization",
+        "aliases": [
+            "hp",
+            "hyperparameter-tuning"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "image-captioning",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-categorization",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-classification",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-clustering",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-compression",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-enhancement",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-generation",
+        "aliases": [
+            "image-synthesis"
+        ],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-imputation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-recognition",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-reconstruction",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-restoration",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-similarity-search",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "image-to-image-translation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "imitation-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "imputation",
+        "aliases": [],
+        "parents": [
+            "time-series"
+        ]
+    },
+    {
+        "tag": "inference",
+        "aliases": [
+            "prediction"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "information-extraction",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "information-retrieval",
+        "aliases": [
+            "ir"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "instance-segmentation",
+        "aliases": [],
+        "parents": [
+            "computer-vision",
+            "segmentation"
+        ]
+    },
+    {
+        "tag": "integration-tests",
+        "aliases": [],
+        "parents": [
+            "testing"
+        ]
+    },
+    {
+        "tag": "intent-classification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "intent-detection",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "interpretability",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "java",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "javascript",
+        "aliases": [
+            "js"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "jax",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "julia",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "k-nearest-neighbors",
+        "aliases": [
+            "knn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "keras",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "keyword-extraction",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "keyword-spotting",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "knowledge-base",
+        "aliases": [
+            "kb"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "knowledge-base-question-answering",
+        "aliases": [],
+        "parents": [
+            "qa",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "knowledge-distillation",
+        "aliases": [],
+        "parents": [
+            "model-compression"
+        ]
+    },
+    {
+        "tag": "knowledge-graphs",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "kuberflow",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "kubernetes",
+        "aliases": [
+            "k8s"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "language-identification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "language-modeling",
+        "aliases": [
+            "lm"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "latent-dirichlet-allocation",
+        "aliases": [
+            "lda"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "learning-rates",
+        "aliases": [
+            "lr"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "lemmatization",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "lexical-simplification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "linear-discriminant-analysis",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "linear-regression",
+        "aliases": [],
+        "parents": [
+            "regression"
+        ]
+    },
+    {
+        "tag": "linguistic-acceptability",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "logistic-regression",
+        "aliases": [],
+        "parents": [
+            "regression"
+        ]
+    },
+    {
+        "tag": "lstm",
+        "aliases": [
+            "long-short-term-memory"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "machine-learning",
+        "aliases": [
+            "ml"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "machine-translation",
+        "aliases": [
+            "mt"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "matplotlib",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "medical-imaging",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "meta-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "metrics",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "mlops",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "model-compression",
+        "aliases": [
+            "compression"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "model-management",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "model-selection",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "morphological-analysis",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "morphological-inflection",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "morphological-tagging",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "mortality-prediction",
+        "aliases": [],
+        "parents": [
+            "health"
+        ]
+    },
+    {
+        "tag": "motion-capture",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "motion-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "motion-planning",
+        "aliases": [],
+        "parents": [
+            "robotics"
+        ]
+    },
+    {
+        "tag": "motion-segmentation",
+        "aliases": [],
+        "parents": [
+            "computer-vision",
+            "segmentation"
+        ]
+    },
+    {
+        "tag": "multi-agent-reinforcement-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "multi-armed-bandits",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "multi-modal",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "multi-task-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "multilayer-perceptrons",
+        "aliases": [
+            "perceptron",
+            "mlp"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "multilingual",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "multinomial-regression",
+        "aliases": [],
+        "parents": [
+            "regression"
+        ]
+    },
+    {
+        "tag": "music-generation",
+        "aliases": [],
+        "parents": [
+            "audio"
+        ]
+    },
+    {
+        "tag": "mxnet",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "naive-bayes",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "named-entity-recognition",
+        "aliases": [
+            "ner"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "natural-language-inference",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "natural-language-processing",
+        "aliases": [
+            "nlp",
+            "nlproc"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "natural-language-understanding",
+        "aliases": [
+            "nlu"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "navigation",
+        "aliases": [],
+        "parents": [
+            "robotics"
+        ]
+    },
+    {
+        "tag": "neural-networks",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "node-classification",
+        "aliases": [],
+        "parents": [
+            "graphs"
+        ]
+    },
+    {
+        "tag": "node-js",
+        "aliases": [
+            "node"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "object-classification",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "object-counting",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "object-detection",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "object-localization",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "object-recognition",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "object-reconstruction",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "object-tracking",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "one-shot-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "onnx",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "open-refine",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "optical-character-recognition",
+        "aliases": [
+            "ocr"
+        ],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "optical-flow-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "optimizer",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "outlier-detection",
+        "aliases": [
+            "outliers"
+        ],
+        "parents": [
+            "anomaly-detection"
+        ]
+    },
+    {
+        "tag": "paddlepaddle",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "paraphrase-identification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "part-of-speech-tagging",
+        "aliases": [
+            "pos",
+            "pos-tagging"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "passage-re-ranking",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "phenotyping",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "php",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "phrase-grounding",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "point-cloud-generation",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "policy-gradient-methods",
+        "aliases": [],
+        "parents": [
+            "reinforcement-learning"
+        ]
+    },
+    {
+        "tag": "pose-estimation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "pose-tracking",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "preprocessing",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "pretraining",
+        "aliases": [
+            "pre-training"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "principal-component-analysis",
+        "aliases": [
+            "pca"
+        ],
+        "parents": [
+            "dimensionality-reduction"
+        ]
+    },
+    {
+        "tag": "privacy",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "production",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "pruning",
+        "aliases": [],
+        "parents": [
+            "model-compression"
+        ]
+    },
+    {
+        "tag": "python",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "pytorch",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "q-learning",
+        "aliases": [],
+        "parents": [
+            "reinforcement-learning"
+        ]
+    },
+    {
+        "tag": "quantization",
+        "aliases": [],
+        "parents": [
+            "model-compression"
+        ]
+    },
+    {
+        "tag": "quantum-machine-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "quasi-recurrent-neural-networks",
+        "aliases": [
+            "qrnn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "question-answering",
+        "aliases": [
+            "qa"
+        ],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "question-generation",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "question-similarity",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "r",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "random-forests",
+        "aliases": [],
+        "parents": [
+            "decision-tree"
+        ]
+    },
+    {
+        "tag": "react",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "reading-comprehension",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "recommendation-systems",
+        "aliases": [
+            "recsys"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "recurrent-neural-networks",
+        "aliases": [
+            "rnn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "recursive-neural-networks",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "regression",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "reinforcement-learning",
+        "aliases": [
+            "rl"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "relation-classification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "relation-extraction",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "relational-reasoning",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "representation-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "residual-networks",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "robotics",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "ruby",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "saas",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "safe-exploration",
+        "aliases": [],
+        "parents": [
+            "robotics"
+        ]
+    },
+    {
+        "tag": "sarcasm-detection",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "scala",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "scene-classification",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "scene-generation",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "scikit-learn",
+        "aliases": [
+            "sklearn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "search",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "segmentation",
+        "aliases": [
+            "image-segmentation"
+        ],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "self-attention",
+        "aliases": [],
+        "parents": [
+            "attention"
+        ]
+    },
+    {
+        "tag": "self-supervised-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "semantic-composition",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "semantic-parsing",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "semantic-role-labeling",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "semantic-segmentation",
+        "aliases": [],
+        "parents": [
+            "computer-vision",
+            "segmentation"
+        ]
+    },
+    {
+        "tag": "semi-supervised-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "sentence-embeddings",
+        "aliases": [],
+        "parents": [
+            "embeddings",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "sentiment-analysis",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "sequence-to-sequence",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "siamese-networks",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "similarity-search",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "slot-filling",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "sonnet",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "spacy",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "spark",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "spatial-temporal-cnn",
+        "aliases": [
+            "stcnn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "speaker-diarization",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speaker-identification",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speaker-separation",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speaker-verification",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speech",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "speech-enhancement",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speech-recognition",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speech-separation",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "speech-synthesis",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "spoken-dialogue-systems",
+        "aliases": [],
+        "parents": [
+            "speech"
+        ]
+    },
+    {
+        "tag": "sql",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "stance-detection",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "stata",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "stereo-matching",
+        "aliases": [],
+        "parents": [
+            "audio"
+        ]
+    },
+    {
+        "tag": "stochastic-optimization",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "streaming-data",
+        "aliases": [
+            "data-streams",
+            "data-streaming",
+            "real-time-data"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "streamlit",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "style-transfer",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "subjectivity-analysis",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "super-resolution",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "support-vector-machines",
+        "aliases": [
+            "svm"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "surveillance",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "survival-analysis",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "swift",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "systems-design",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "tabular",
+        "aliases": [
+            "table",
+            "tabular-data"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "temporal-cnn",
+        "aliases": [
+            "tcnn"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "tensor-networks",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "tensorflow",
+        "aliases": [
+            "tf"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "tensorflow-js",
+        "aliases": [
+            "tf-js"
+        ],
+        "parents": [
+            "tensorflow"
+        ]
+    },
+    {
+        "tag": "tensorflow-lite",
+        "aliases": [
+            "tflite"
+        ],
+        "parents": [
+            "tensorflow"
+        ]
+    },
+    {
+        "tag": "text-attribute-transfer",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-classification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-generation",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-matching",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-similarity",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-simplification",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-summarization",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "text-to-speech-synthesis",
+        "aliases": [],
+        "parents": [
+            "speech",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "theano",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "time-series",
+        "aliases": [
+            "time-series-analysis"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "time-series-classification",
+        "aliases": [],
+        "parents": [
+            "time-series"
+        ]
+    },
+    {
+        "tag": "time-series-clustering",
+        "aliases": [],
+        "parents": [
+            "time-series"
+        ]
+    },
+    {
+        "tag": "time-series-forecasting",
+        "aliases": [],
+        "parents": [
+            "time-series"
+        ]
+    },
+    {
+        "tag": "time-series-prediction",
+        "aliases": [],
+        "parents": [
+            "time-series"
+        ]
+    },
+    {
+        "tag": "tokenization",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "topic-modeling",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "torch",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "transfer-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "transformers",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "unit-tests",
+        "aliases": [],
+        "parents": [
+            "testing"
+        ]
+    },
+    {
+        "tag": "unsupervised-learning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "variational-autoencoders",
+        "aliases": [
+            "vae"
+        ],
+        "parents": [
+            "autoencoders"
+        ]
+    },
+    {
+        "tag": "video-captioning",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "video-classification",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "video-question-answering",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "video-semantic-segmentation",
+        "aliases": [],
+        "parents": [
+            "computer-vision",
+            "segmentation"
+        ]
+    },
+    {
+        "tag": "video-summarization",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "visual-navigation",
+        "aliases": [],
+        "parents": [
+            "computer-vision",
+            "robotics"
+        ]
+    },
+    {
+        "tag": "visual-odometry",
+        "aliases": [],
+        "parents": [
+            "robotics"
+        ]
+    },
+    {
+        "tag": "visual-question-answering",
+        "aliases": [
+            "vqa"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "visual-reasoning",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "visual-tracking",
+        "aliases": [],
+        "parents": [
+            "computer-vision"
+        ]
+    },
+    {
+        "tag": "visualization",
+        "aliases": [
+            "data-visualization"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "wandb",
+        "aliases": [
+            "weights and biases"
+        ],
+        "parents": []
+    },
+    {
+        "tag": "word-alignment",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "word-embeddings",
+        "aliases": [],
+        "parents": [
+            "embeddings",
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "word-sense-disambiguation",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "word-sense-induction",
+        "aliases": [],
+        "parents": [
+            "natural-language-processing"
+        ]
+    },
+    {
+        "tag": "xgboost",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "xlnet",
+        "aliases": [],
+        "parents": []
+    },
+    {
+        "tag": "zero-shot-learning",
+        "aliases": [],
+        "parents": []
+    }
+]
