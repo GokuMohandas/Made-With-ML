@@ -55,7 +55,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     <tr>
         <td><a href="https://madewithml.com/courses/foundations/pandas/">Pandas</a></td>
         <td><a href="https://madewithml.com/courses/foundations/data-quality/">Data Quality</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/baselines/#transformers-w-contextual-embeddings">Transformers</a></td>
+        <td><a href="https://madewithml.com/courses/foundations/attention/">Attention</a></td>
     </tr>
     <tr>
         <td><a href="https://madewithml.com/courses/foundations/pytorch/">PyTorch</a></td>
