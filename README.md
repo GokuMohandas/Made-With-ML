@@ -60,7 +60,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     <tr>
         <td><a href="https://madewithml.com/courses/foundations/pytorch/">PyTorch</a></td>
         <td><a href="https://madewithml.com/courses/foundations/utilities/">Utilities</a></td>
-        <td></td>
+        <td><a href="https://madewithml.com/courses/foundations/transformers/">Transformers</a></td>
     </tr>
 </table>
 
