@@ -77,22 +77,22 @@ Learn how to apply ML to build a production grade product to deliver value.
 
 <table>
     <tr>
-        <td align="center"><b>📦&nbsp; Product</b></td>
+        <td align="center"><b>📦&nbsp; Purpose</b></td>
         <td align="center"><b>📝&nbsp; Scripting</b></td>
         <td align="center"><b>♻️&nbsp; Reproducibility</b></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/mlops/objective/">Objective</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/product/">Product</a></td>
         <td><a href="https://madewithml.com/courses/mlops/packaging/">Packaging</a></td>
         <td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/mlops/solution/">Solution</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/#methodology">Methodology</a></td>
         <td><a href="https://madewithml.com/courses/mlops/organization/">Organization</a></td>
         <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/mlops/iteration/">Iteration</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/#project-management">Project</a></td>
         <td><a href="https://madewithml.com/courses/mlops/logging/">Logging</a></td>
         <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
     </tr>
