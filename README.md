@@ -87,12 +87,12 @@ Learn how to apply ML to build a production grade product to deliver value.
         <td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/mlops/#methodology">Methodology</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/product/#system-design">System design</a></td>
         <td><a href="https://madewithml.com/courses/mlops/organization/">Organization</a></td>
         <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
     </tr>
     <tr>
-        <td><a href="https://madewithml.com/courses/mlops/#project-management">Project</a></td>
+        <td><a href="https://madewithml.com/courses/mlops/product/#project">Project</a></td>
         <td><a href="https://madewithml.com/courses/mlops/logging/">Logging</a></td>
         <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
     </tr>
