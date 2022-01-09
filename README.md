@@ -72,7 +72,7 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
 ## MLOps
 Learn how to apply ML to build a production grade product to deliver value.
 
-- Lessons: https://madewithml.com/courses/mlops/
+- Lessons: https://madewithml.com/#mlops
 - Code: [GokuMohandas/MLOps](https://github.com/GokuMohandas/MLOps)
 
 <table>
