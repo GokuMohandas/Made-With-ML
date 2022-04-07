@@ -1,15 +1,5 @@
 [
     {
-        "tag": "3d",
-        "aliases": [
-            "three-dimensional",
-            "3-dimensional"
-        ],
-        "parents": [
-            "computer-vision"
-        ]
-    },
-    {
         "tag": "action-localization",
         "aliases": [],
         "parents": [
@@ -72,11 +62,6 @@
         ]
     },
     {
-        "tag": "angular",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "animations",
         "aliases": [
             "cartoons"
@@ -100,22 +85,10 @@
         "parents": []
     },
     {
-        "tag": "arima",
-        "aliases": [],
-        "parents": [
-            "time-series"
-        ]
-    },
-    {
         "tag": "artificial-general-intelligence",
         "aliases": [
             "agi"
         ],
-        "parents": []
-    },
-    {
-        "tag": "attention",
-        "aliases": [],
         "parents": []
     },
     {
@@ -153,23 +126,6 @@
         ]
     },
     {
-        "tag": "aws",
-        "aliases": [
-            "amazon-web-services"
-        ],
-        "parents": []
-    },
-    {
-        "tag": "azure",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "backend",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "bayesian-deep-learning",
         "aliases": [],
         "parents": []
@@ -180,38 +136,11 @@
         "parents": []
     },
     {
-        "tag": "bidaf",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "boundary-detection",
         "aliases": [],
         "parents": [
             "computer-vision"
         ]
-    },
-    {
-        "tag": "c",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "c#",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "c++",
-        "aliases": [
-            "cpp"
-        ],
-        "parents": []
-    },
-    {
-        "tag": "caffe",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "calibration",
@@ -234,11 +163,6 @@
     },
     {
         "tag": "causal-inference",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "chainer",
         "aliases": [],
         "parents": []
     },
@@ -385,11 +309,6 @@
         ]
     },
     {
-        "tag": "coreml",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "counterfactuals",
         "aliases": [],
         "parents": []
@@ -416,27 +335,7 @@
         ]
     },
     {
-        "tag": "css",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "d3",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "data-augmentation",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "data-mining",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "data-science",
         "aliases": [],
         "parents": []
     },
@@ -524,11 +423,6 @@
         ]
     },
     {
-        "tag": "devops",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "dialogue",
         "aliases": [],
         "parents": [
@@ -563,26 +457,6 @@
         "parents": []
     },
     {
-        "tag": "django",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "dl4j",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "dlib",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "docker",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "document-classification",
         "aliases": [],
         "parents": [
@@ -611,11 +485,6 @@
     },
     {
         "tag": "drug-discovery",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "dynet",
         "aliases": [],
         "parents": []
     },
@@ -695,7 +564,7 @@
     {
         "tag": "experiment-tracking",
         "aliases": [],
-        "parents": []
+        "parents": ["mlops"]
     },
     {
         "tag": "exploratory-data-analysis",
@@ -733,21 +602,6 @@
         ]
     },
     {
-        "tag": "fastai",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "fastapi",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "fasttext",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "feature-engineering",
         "aliases": [],
         "parents": []
@@ -776,11 +630,6 @@
         "parents": []
     },
     {
-        "tag": "flask",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "forecasting",
         "aliases": [],
         "parents": []
@@ -791,11 +640,6 @@
         "parents": [
             "anomaly-detection"
         ]
-    },
-    {
-        "tag": "frontend",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "gated-recurrent-units",
@@ -842,29 +686,6 @@
         "aliases": [],
         "parents": [
             "computer-vision"
-        ]
-    },
-    {
-        "tag": "git",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "gluon",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "go",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "gpt",
-        "aliases": [],
-        "parents": [
-            "transformers",
-            "natural-language-processing"
         ]
     },
     {
@@ -930,11 +751,6 @@
         ]
     },
     {
-        "tag": "graphql",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "graphs",
         "aliases": [],
         "parents": []
@@ -947,21 +763,11 @@
         ]
     },
     {
-        "tag": "h2o",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "hand-pose-estimation",
         "aliases": [],
         "parents": [
             "computer-vision"
         ]
-    },
-    {
-        "tag": "haskell",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "hidden-markov-models",
@@ -975,16 +781,6 @@
     },
     {
         "tag": "highway-networks",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "html",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "huggingface",
         "aliases": [],
         "parents": []
     },
@@ -1143,7 +939,8 @@
         "tag": "integration-tests",
         "aliases": [],
         "parents": [
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -1162,28 +959,6 @@
     },
     {
         "tag": "interpretability",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "java",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "javascript",
-        "aliases": [
-            "js"
-        ],
-        "parents": []
-    },
-    {
-        "tag": "jax",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "julia",
         "aliases": [],
         "parents": []
     },
@@ -1238,18 +1013,6 @@
     {
         "tag": "knowledge-graphs",
         "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "kuberflow",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "kubernetes",
-        "aliases": [
-            "k8s"
-        ],
         "parents": []
     },
     {
@@ -1330,13 +1093,6 @@
         "parents": []
     },
     {
-        "tag": "machine-learning",
-        "aliases": [
-            "ml"
-        ],
-        "parents": []
-    },
-    {
         "tag": "machine-translation",
         "aliases": [
             "mt"
@@ -1344,11 +1100,6 @@
         "parents": [
             "natural-language-processing"
         ]
-    },
-    {
-        "tag": "matplotlib",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "medical-imaging",
@@ -1363,13 +1114,8 @@
         "parents": []
     },
     {
-        "tag": "metrics",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "mlops",
-        "aliases": [],
+        "aliases": ["production"],
         "parents": []
     },
     {
@@ -1388,6 +1134,13 @@
         "tag": "model-selection",
         "aliases": [],
         "parents": []
+    },
+    {
+        "tag": "monitoring",
+        "aliases": [],
+        "parents": [
+            "mlops"
+        ]
     },
     {
         "tag": "morphological-analysis",
@@ -1496,11 +1249,6 @@
         ]
     },
     {
-        "tag": "mxnet",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "naive-bayes",
         "aliases": [],
         "parents": []
@@ -1546,23 +1294,11 @@
         ]
     },
     {
-        "tag": "neural-networks",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "node-classification",
         "aliases": [],
         "parents": [
             "graphs"
         ]
-    },
-    {
-        "tag": "node-js",
-        "aliases": [
-            "node"
-        ],
-        "parents": []
     },
     {
         "tag": "object-classification",
@@ -1619,16 +1355,6 @@
         "parents": []
     },
     {
-        "tag": "onnx",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "open-refine",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "optical-character-recognition",
         "aliases": [
             "ocr"
@@ -1659,11 +1385,6 @@
         ]
     },
     {
-        "tag": "paddlepaddle",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "paraphrase-identification",
         "aliases": [],
         "parents": [
@@ -1689,11 +1410,6 @@
     },
     {
         "tag": "phenotyping",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "php",
         "aliases": [],
         "parents": []
     },
@@ -1757,26 +1473,11 @@
         "parents": []
     },
     {
-        "tag": "production",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "pruning",
         "aliases": [],
         "parents": [
             "model-compression"
         ]
-    },
-    {
-        "tag": "python",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "pytorch",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "q-learning",
@@ -1828,21 +1529,11 @@
         ]
     },
     {
-        "tag": "r",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "random-forests",
         "aliases": [],
         "parents": [
             "decision-tree"
         ]
-    },
-    {
-        "tag": "react",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "reading-comprehension",
@@ -1919,16 +1610,6 @@
         "parents": []
     },
     {
-        "tag": "ruby",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "saas",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "safe-exploration",
         "aliases": [],
         "parents": [
@@ -1941,11 +1622,6 @@
         "parents": [
             "natural-language-processing"
         ]
-    },
-    {
-        "tag": "scala",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "scene-classification",
@@ -1962,13 +1638,6 @@
         ]
     },
     {
-        "tag": "scikit-learn",
-        "aliases": [
-            "sklearn"
-        ],
-        "parents": []
-    },
-    {
         "tag": "search",
         "aliases": [],
         "parents": []
@@ -1980,13 +1649,6 @@
         ],
         "parents": [
             "computer-vision"
-        ]
-    },
-    {
-        "tag": "self-attention",
-        "aliases": [],
-        "parents": [
-            "attention"
         ]
     },
     {
@@ -2066,21 +1728,6 @@
         ]
     },
     {
-        "tag": "sonnet",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "spacy",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "spark",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "spatial-temporal-cnn",
         "aliases": [
             "stcnn"
@@ -2156,21 +1803,11 @@
         ]
     },
     {
-        "tag": "sql",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "stance-detection",
         "aliases": [],
         "parents": [
             "natural-language-processing"
         ]
-    },
-    {
-        "tag": "stata",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "stereo-matching",
@@ -2191,11 +1828,6 @@
             "data-streaming",
             "real-time-data"
         ],
-        "parents": []
-    },
-    {
-        "tag": "streamlit",
-        "aliases": [],
         "parents": []
     },
     {
@@ -2237,11 +1869,6 @@
         "parents": []
     },
     {
-        "tag": "swift",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "systems-design",
         "aliases": [],
         "parents": []
@@ -2267,28 +1894,10 @@
         "parents": []
     },
     {
-        "tag": "tensorflow",
-        "aliases": [
-            "tf"
-        ],
-        "parents": []
-    },
-    {
-        "tag": "tensorflow-js",
-        "aliases": [
-            "tf-js"
-        ],
+        "tag": "testing",
+        "aliases": ["tests"],
         "parents": [
-            "tensorflow"
-        ]
-    },
-    {
-        "tag": "tensorflow-lite",
-        "aliases": [
-            "tflite"
-        ],
-        "parents": [
-            "tensorflow"
+            "mlops"
         ]
     },
     {
@@ -2349,11 +1958,6 @@
         ]
     },
     {
-        "tag": "theano",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "time-series",
         "aliases": [
             "time-series-analysis"
@@ -2401,11 +2005,6 @@
         "parents": []
     },
     {
-        "tag": "torch",
-        "aliases": [],
-        "parents": []
-    },
-    {
         "tag": "transfer-learning",
         "aliases": [],
         "parents": []
@@ -2419,7 +2018,8 @@
         "tag": "unit-tests",
         "aliases": [],
         "parents": [
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -2548,16 +2148,6 @@
         "parents": [
             "natural-language-processing"
         ]
-    },
-    {
-        "tag": "xgboost",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "xlnet",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "zero-shot-learning",
