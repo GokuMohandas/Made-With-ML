@@ -92,6 +92,11 @@
         "parents": []
     },
     {
+        "tag": "audio",
+        "aliases": [],
+        "parents": []
+    },
+    {
         "tag": "audio-classification",
         "aliases": [],
         "parents": []
@@ -770,6 +775,11 @@
         ]
     },
     {
+        "tag": "health",
+        "aliases": [],
+        "parents": []
+    },
+    {
         "tag": "hidden-markov-models",
         "aliases": [],
         "parents": []
@@ -994,14 +1004,6 @@
             "kb"
         ],
         "parents": []
-    },
-    {
-        "tag": "knowledge-base-question-answering",
-        "aliases": [],
-        "parents": [
-            "qa",
-            "natural-language-processing"
-        ]
     },
     {
         "tag": "knowledge-distillation",
@@ -1532,7 +1534,7 @@
         "tag": "random-forests",
         "aliases": [],
         "parents": [
-            "decision-tree"
+            "decision-trees"
         ]
     },
     {

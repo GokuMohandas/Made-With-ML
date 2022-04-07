@@ -1,23 +1,5 @@
 [
     {
-        "id": 1,
-        "created_on": "2020-02-17 06:30:41",
-        "title": "Machine Learning Basics",
-        "description": "A practical set of notebooks on machine learning basics, implemented in both TF2.0 + Keras and PyTorch.",
-        "tags": [
-            "code",
-            "tutorial",
-            "keras",
-            "pytorch",
-            "tensorflow",
-            "deep-learning",
-            "natural-language-processing",
-            "madewithml",
-            "basics",
-            "foundation"
-        ]
-    },
-    {
         "id": 2,
         "created_on": "2020-02-17 06:41:45",
         "title": "Deep Learning with Electronic Health Record (EHR) Systems",
@@ -28,38 +10,6 @@
             "deep-learning",
             "health",
             "ehr"
-        ]
-    },
-    {
-        "id": 3,
-        "created_on": "2020-02-20 06:07:59",
-        "title": "Automatic Parking Management using computer vision",
-        "description": "Detecting empty and parked spaces in car parking using a camera at lamp-post angle. ",
-        "tags": [
-            "code",
-            "tutorial",
-            "video",
-            "python",
-            "machine-learning",
-            "computer-vision",
-            "parking-management",
-            "haar"
-        ]
-    },
-    {
-        "id": 4,
-        "created_on": "2020-02-20 06:21:57",
-        "title": "Easy street parking using region proposal networks",
-        "description": "Get a text on your phone whenever a nearby parking spot you need is free. ",
-        "tags": [
-            "code",
-            "tutorial",
-            "python",
-            "pytorch",
-            "machine-learning",
-            "computer-vision",
-            "opencv",
-            "twilio"
         ]
     },
     {
