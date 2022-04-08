@@ -3929,7 +3929,8 @@
             "attention",
             "neural-turing-machines",
             "adaptive-computation-time",
-            "neural-programmers"
+            "neural-programmers",
+            "recurrent-neural-networks"
         ]
     },
     {
@@ -4796,7 +4797,7 @@
             "rules",
             "snorkel",
             "snorkel-drybell",
-            "weka-supervision",
+            "weak-supervision",
             "arxiv:1812.00417"
         ]
     },

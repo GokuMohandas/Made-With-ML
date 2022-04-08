@@ -381,13 +381,6 @@
         ]
     },
     {
-        "tag": "deep-learning",
-        "aliases": [
-            "dl"
-        ],
-        "parents": []
-    },
-    {
         "tag": "deep-q-networks",
         "aliases": [
             "dqn"
@@ -977,11 +970,6 @@
         "aliases": [
             "knn"
         ],
-        "parents": []
-    },
-    {
-        "tag": "keras",
-        "aliases": [],
         "parents": []
     },
     {
@@ -2112,13 +2100,6 @@
         "tag": "visualization",
         "aliases": [
             "data-visualization"
-        ],
-        "parents": []
-    },
-    {
-        "tag": "wandb",
-        "aliases": [
-            "weights and biases"
         ],
         "parents": []
     },
