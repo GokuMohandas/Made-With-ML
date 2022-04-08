@@ -692,65 +692,10 @@
         "parents": []
     },
     {
-        "tag": "graph-classification",
-        "aliases": [],
-        "parents": [
-            "graphs"
-        ]
-    },
-    {
-        "tag": "graph-clustering",
-        "aliases": [],
-        "parents": [
-            "graphs"
-        ]
-    },
-    {
-        "tag": "graph-construction",
-        "aliases": [],
-        "parents": [
-            "graphs"
-        ]
-    },
-    {
-        "tag": "graph-convolutional-networks",
-        "aliases": [
-            "gcn"
-        ],
-        "parents": [
-            "graph-neural-networks"
-        ]
-    },
-    {
-        "tag": "graph-embedding",
-        "aliases": [],
-        "parents": [
-            "embeddings",
-            "graphs"
-        ]
-    },
-    {
         "tag": "graph-neural-networks",
         "aliases": [
             "gnn"
         ],
-        "parents": []
-    },
-    {
-        "tag": "graph-representation-learning",
-        "aliases": [],
-        "parents": []
-    },
-    {
-        "tag": "graph-similarity",
-        "aliases": [],
-        "parents": [
-            "graphs"
-        ]
-    },
-    {
-        "tag": "graphs",
-        "aliases": [],
         "parents": []
     },
     {
@@ -1281,13 +1226,6 @@
         "aliases": [],
         "parents": [
             "robotics"
-        ]
-    },
-    {
-        "tag": "node-classification",
-        "aliases": [],
-        "parents": [
-            "graphs"
         ]
     },
     {
