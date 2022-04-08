@@ -1500,7 +1500,8 @@
             "code",
             "library",
             "pytest",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -1986,7 +1987,6 @@
             "library",
             "visualization",
             "debugging",
-            "monitoring",
             "arxiv:2001.01215"
         ]
     },
@@ -2164,7 +2164,8 @@
             "pytorch",
             "debugging",
             "experiment-tracking",
-            "wandb"
+            "wandb",
+            "mlops"
         ]
     },
     {
@@ -2518,7 +2519,9 @@
             "machine-learning",
             "library",
             "pandas",
-            "testing"
+            "testing",
+            "monitoring",
+            "mlops"
         ]
     },
     {
@@ -2759,7 +2762,6 @@
             "library",
             "gradient-boosting",
             "k-nearest-neighbors",
-            "decision-tree",
             "gaussian-processes"
         ]
     },
@@ -3061,8 +3063,7 @@
             "article",
             "tutorial",
             "decision-trees",
-            "random-forests",
-            "decision-tree"
+            "random-forests"
         ]
     },
     {
@@ -3089,7 +3090,6 @@
             "decision-trees",
             "random-forests",
             "illustrated",
-            "decision-tree",
             "r2d3"
         ]
     },
@@ -3103,8 +3103,7 @@
             "tutorial",
             "scikit-learn",
             "decision-trees",
-            "random-forests",
-            "decision-tree"
+            "random-forests"
         ]
     },
     {
@@ -3143,8 +3142,7 @@
             "tutorial",
             "scikit-learn",
             "decision-trees",
-            "random-forests",
-            "decision-tree"
+            "random-forests"
         ]
     },
     {
@@ -5108,7 +5106,8 @@
         "tags": [
             "article",
             "tutorial",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -6081,7 +6080,8 @@
             "systems-design",
             "dvc",
             "versioning",
-            "sacred"
+            "sacred",
+            "mlops"
         ]
     },
     {
@@ -6095,7 +6095,8 @@
             "experiment-tracking",
             "wandb",
             "hyperparameter-optimization",
-            "weights-and-biases"
+            "weights-and-biases",
+            "mlops"
         ]
     },
     {
@@ -6141,7 +6142,8 @@
         "tags": [
             "tensorflow",
             "experiment-tracking",
-            "tensorboard"
+            "tensorboard",
+            "mlops"
         ]
     },
     {
@@ -6941,7 +6943,8 @@
             "active-learning",
             "labeling",
             "bayesian-active-learning",
-            "arxiv:1906.08158"
+            "arxiv:1906.08158",
+            "semi-supervised-learning"
         ]
     },
     {
@@ -8305,7 +8308,8 @@
         "tags": [
             "article",
             "tutorial",
-            "experiment-tracking"
+            "experiment-tracking",
+            "mlops"
         ]
     },
     {
@@ -10218,7 +10222,7 @@
             "logistic-regression",
             "random-forests",
             "regression",
-            "decision-tree"
+            "decision-trees"
         ]
     },
     {
@@ -10889,7 +10893,7 @@
             "pandas",
             "numpy",
             "gradient-boosting",
-            "decision-tree",
+            "decision-trees",
             "xgboost",
             "mutual-funds",
             "multiclass-classification",
@@ -11228,7 +11232,7 @@
             "finance",
             "sales",
             "forecasting",
-            "decision-tree",
+            "decision-trees",
             "xgboost",
             "hyperparameter-optimization"
         ]
@@ -14978,7 +14982,7 @@
         "id": 1053,
         "created_on": "2020-05-30 06:56:58",
         "title": "Kick Assist",
-        "description": "An Interactive Dashboard enabling users to make data-driven decisions about their Kickstarter campaign to maximize the probability  for successful funding",
+        "description": "An Interactive Dashboard enabling users to make data-driven decisions about their Kickstarter campaign to maximize the probability for successful funding",
         "tags": [
             "code",
             "flask",
@@ -14989,7 +14993,7 @@
             "feature-engineering",
             "feature-importance",
             "interpretability",
-            "decision-tree",
+            "decision-trees",
             "xgboost",
             "scraping",
             "data-science",
@@ -15333,7 +15337,7 @@
             "random-forests",
             "regression",
             "support-vector-machines",
-            "decision-tree",
+            "decision-trees",
             "ada-boost"
         ]
     },
@@ -16324,7 +16328,7 @@
             "support-vector-machines",
             "pattern-recognition",
             "k-nearest-neighbors",
-            "decision-tree",
+            "decision-trees",
             "matlab",
             "cirebon-mask"
         ]
@@ -19355,7 +19359,7 @@
             "machine-learning",
             "random-forests",
             "classification",
-            "decision-tree",
+            "decision-trees",
             "data-science",
             "exploratory-data-analysis"
         ]
@@ -19894,7 +19898,7 @@
             "regression",
             "natural-language-processing",
             "text-classification",
-            "decision-tree",
+            "decision-trees",
             "xgboost"
         ]
     },
@@ -21645,7 +21649,7 @@
             "regression",
             "gradient-boosting",
             "k-nearest-neighbors",
-            "decision-tree"
+            "decision-trees"
         ]
     },
     {
@@ -22611,7 +22615,7 @@
             "library",
             "automl",
             "gradient-boosting",
-            "decision-tree",
+            "decision-trees",
             "hyperparameter-optimization",
             "genetic-programming",
             "tpot"
@@ -23048,7 +23052,8 @@
             "code",
             "e2e-tests",
             "library",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -23113,7 +23118,8 @@
             "code",
             "model-management",
             "library",
-            "experiment-tracking"
+            "experiment-tracking",
+            "mlops"
         ]
     },
     {
@@ -23125,7 +23131,8 @@
             "code",
             "model-management",
             "library",
-            "experiment-tracking"
+            "experiment-tracking",
+            "mlops"
         ]
     },
     {
@@ -23210,7 +23217,9 @@
             "mlflow",
             "experiment-tracking",
             "apache-spark",
-            "data-versioning"
+            "data-versioning",
+            "mlops",
+            "databricks"
         ]
     },
     {
@@ -23620,7 +23629,8 @@
             "streamalert",
             "airbnb",
             "kinesis",
-            "terraform"
+            "terraform",
+            "mlops"
         ]
     },
     {
@@ -23768,7 +23778,6 @@
             "code",
             "library",
             "distributed-training",
-            "experiment-tracking",
             "hyperparameter-optimization",
             "neural-architecture-search",
             "deeplearning",
@@ -25021,7 +25030,8 @@
             "testing",
             "data-validation",
             "schema",
-            "validation"
+            "validation",
+            "mlops"
         ]
     },
     {
@@ -25285,10 +25295,10 @@
             "code",
             "notebook",
             "library",
-            "experiment-tracking",
             "logging",
             "model-comparison",
-            "model-logger"
+            "model-logger",
+            "mlops"
         ]
     },
     {
@@ -25307,7 +25317,7 @@
             "regression",
             "classification",
             "gradient-boosting",
-            "decision-tree",
+            "decision-trees",
             "exploratory-data-analysis"
         ]
     },
@@ -25495,7 +25505,8 @@
             "tutorial",
             "git",
             "python",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -25873,7 +25884,7 @@
             "regression",
             "support-vector-machines",
             "k-nearest-neighbors",
-            "decision-tree",
+            "decision-trees",
             "cancer"
         ]
     },
@@ -26941,7 +26952,8 @@
             "article",
             "tutorial",
             "pytest",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -27071,7 +27083,8 @@
             "article",
             "code",
             "tutorial",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -27500,7 +27513,8 @@
             "tensorflow-js",
             "mlops",
             "firebase",
-            "serving"
+            "serving",
+            "mlops"
         ]
     },
     {
@@ -27729,7 +27743,8 @@
             "demo",
             "tests",
             "great-expectations",
-            "data-quality"
+            "data-quality",
+            "mlops"
         ]
     },
     {
@@ -27786,7 +27801,8 @@
             "article",
             "e2e-tests",
             "testing",
-            "regression-tests"
+            "regression-tests",
+            "mlops"
         ]
     },
     {
@@ -27801,7 +27817,8 @@
             "library",
             "natural-language-processing",
             "testing",
-            "checklist"
+            "checklist",
+            "mlops"
         ]
     },
     {
@@ -28167,7 +28184,7 @@
             "code",
             "machine-learning",
             "random-forests",
-            "decision-tree",
+            "decision-trees",
             "trading"
         ]
     },
@@ -29281,7 +29298,8 @@
             "article",
             "code",
             "tutorial",
-            "testing"
+            "testing",
+            "mlops"
         ]
     },
     {
@@ -29471,7 +29489,7 @@
             "decision-trees",
             "machine-learning",
             "random-forests",
-            "decision-tree"
+            "decision-trees"
         ]
     },
     {
@@ -30171,7 +30189,7 @@
             "code",
             "machine-learning",
             "random-forests",
-            "decision-tree"
+            "decision-trees"
         ]
     },
     {
@@ -30946,7 +30964,8 @@
             "data-pipelines",
             "github-actions",
             "great-expectations",
-            "data-quality"
+            "data-quality",
+            "mlops"
         ]
     },
     {
@@ -30970,7 +30989,8 @@
         "tags": [
             "video",
             "interpretability",
-            "monitoring"
+            "monitoring",
+            "mlops"
         ]
     },
     {

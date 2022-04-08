@@ -1,12 +1,5 @@
 [
     {
-        "tag": "action-localization",
-        "aliases": [],
-        "parents": [
-            "computer-vision"
-        ]
-    },
-    {
         "tag": "action-recognition",
         "aliases": [],
         "parents": [
@@ -32,21 +25,6 @@
         "aliases": [],
         "parents": [
             "adversarial-learning"
-        ]
-    },
-    {
-        "tag": "adversarial-defense",
-        "aliases": [],
-        "parents": [
-            "adversarial-learning"
-        ]
-    },
-    {
-        "tag": "adversarial-image-detection",
-        "aliases": [],
-        "parents": [
-            "adversarial-learning",
-            "computer-vision"
         ]
     },
     {
@@ -172,14 +150,6 @@
         "parents": []
     },
     {
-        "tag": "character-embeddings",
-        "aliases": [],
-        "parents": [
-            "embeddings",
-            "natural-language-processing"
-        ]
-    },
-    {
         "tag": "chunking",
         "aliases": [],
         "parents": [
@@ -271,24 +241,11 @@
         ]
     },
     {
-        "tag": "contextualized-embeddings",
-        "aliases": [],
-        "parents": [
-            "embeddings",
-            "natural-language-processing"
-        ]
-    },
-    {
         "tag": "contour-detection",
         "aliases": [],
         "parents": [
             "computer-vision"
         ]
-    },
-    {
-        "tag": "contrastive-loss",
-        "aliases": [],
-        "parents": []
     },
     {
         "tag": "conversational-ai",
