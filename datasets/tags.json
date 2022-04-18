@@ -24,7 +24,7 @@
             "nlp",
             "nlproc"
         ]
-    }
+    },
     {
         "tag": "reinforcement-learning",
         "aliases": [
