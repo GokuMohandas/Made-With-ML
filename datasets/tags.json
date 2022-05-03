@@ -30,5 +30,12 @@
         "aliases": [
             "rl"
         ]
+    },
+    {
+        "tag": "time-series",
+        "aliases": [
+            "forecasting",
+            "time-series analysis"
+        ]
     }
 ]
