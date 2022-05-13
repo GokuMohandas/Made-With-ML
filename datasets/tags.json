@@ -24,12 +24,5 @@
             "nlp",
             "nlproc"
         ]
-    },
-    {
-        "tag": "time-series",
-        "aliases": [
-            "forecasting",
-            "time-series analysis"
-        ]
     }
 ]
