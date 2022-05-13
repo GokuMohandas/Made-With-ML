@@ -26,12 +26,6 @@
         ]
     },
     {
-        "tag": "reinforcement-learning",
-        "aliases": [
-            "rl"
-        ]
-    },
-    {
         "tag": "time-series",
         "aliases": [
             "forecasting",
