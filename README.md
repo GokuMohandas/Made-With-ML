@@ -11,25 +11,21 @@ Join 30K+ developers in learning how to responsibly <a href="https://madewithml.
 
 <div align="center">
     <a target="_blank" href="https://newsletter.madewithml.com"><img src="https://img.shields.io/badge/Subscribe-30K-brightgreen"></a>&nbsp;
-    <a target="_blank" href="https://github.com/GokuMohandas/MadeWithML"><img src="https://img.shields.io/github/stars/GokuMohandas/MadeWithML.svg?style=social&label=Star"></a>&nbsp;
+    <a target="_blank" href="https://github.com/GokuMohandas/Made-With-ML"><img src="https://img.shields.io/github/stars/GokuMohandas/Made-With-ML.svg?style=social&label=Star"></a>&nbsp;
     <a target="_blank" href="https://www.linkedin.com/in/goku"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/GokuMohandas"><img src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social"></a>
     <br>
-    🔥&nbsp; Among the <a href="https://github.com/topics/mlops" target="_blank">top MLOps</a> repositories on GitHub
+    🔥&nbsp; Among the <a href="https://github.com/GokuMohandas/Made-With-ML" target="_blank">top MLOps</a> repositories on GitHub
 </div>
 
 <br>
 <hr>
 
-<!-- A project-based course on machine learning & MLOps fundamentals with a focus on intuition and application that teaches you how to apply ML in industry. All the lessons below are **100% free** but we also offer a highly interactive [4-week course](https://madewithml.com/#features) where you'll learn how to master MLOps.
-
-> ⚡️ For more information on our interactive course offering → **[https://madewithml.com/](https://madewithml.com/)** -->
-
 ## Foundations
 Learn the foundations of ML through intuitive explanations, clean code and visuals.
 
 - Lessons: https://madewithml.com/#foundations
-- Code: [GokuMohandas/MadeWithML/tree/master/notebooks](https://github.com/GokuMohandas/MadeWithML/tree/master/notebooks)
+- Code: [GokuMohandas/Made-With-ML/tree/master/notebooks](https://github.com/GokuMohandas/Made-With-ML/tree/master/notebooks)
 
 <table class="table table-striped table-bordered table-vcenter">
     <tr>
@@ -64,91 +60,144 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     </tr>
 </table>
 
-📆&nbsp; More topics coming soon!<br>
+📆&nbsp; More content coming soon!<br>
 <a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
 
-## MLOps
+## MLOps course
 Learn how to apply ML to build a production grade product to deliver value.
 
 - Lessons: https://madewithml.com/#mlops
-- Code: [GokuMohandas/MLOps](https://github.com/GokuMohandas/MLOps)
+- Code: [GokuMohandas/mlops-course](https://github.com/GokuMohandas/mlops-course)
 
 <table>
-    <tr>
-        <td align="center"><b>📦&nbsp; Purpose</b></td>
-        <td align="center"><b>📝&nbsp; Scripting</b></td>
-        <td align="center"><b>♻️&nbsp; Reproducibility</b></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/product/">Product</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/packaging/">Packaging</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/product/#system-design">System design</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/organization/">Organization</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/product/#project">Project</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/logging/">Logging</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
-    </tr>
-    <tr>
-        <td align="center"><b>🔢&nbsp; Data</b></td>
-        <td><a href="https://madewithml.com/courses/mlops/styling/">Styling</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/docker/">Docker</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/labeling/">Labeling</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/makefile/">Makefile</a></td>
-        <td align="center"><b>🚀&nbsp; Production</b></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/preprocessing/">Preprocessing</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/documentation/">Documentation</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/dashboard/">Dashboard</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploratory data analysis</a></td>
-        <td align="center"><b>📦&nbsp; Interfaces</b></td>
-        <td><a href="https://madewithml.com/courses/mlops/cicd/">CI/CD workflows</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/cli/">Command-line</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/infrastructure/">Infrastructure</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/api/">RESTful API</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/monitoring/">Monitoring</a></td>
-    </tr>
-    <tr>
-        <td align="center"><b>📈&nbsp; Modeling</b></td>
-        <td align="center"><b>✅&nbsp; Testing</b></td>
-        <td><a href="https://madewithml.com/courses/mlops/feature-store/">Feature store</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/testing/">Code</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/pipelines/">Pipelines</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/testing/#data">Data</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/continual-learning/">Continual learning</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></td>
-        <td><a href="https://madewithml.com/courses/mlops/testing/#models">Models</a></td>
-        <td></td>
-    </tr>
+	<tbody>
+		<tr>
+			<td><strong>📦&nbsp; Purpose</strong></td>
+			<td></td>
+			<td><strong>💻&nbsp; Developing</strong>&nbsp;</td>
+			<td></td>
+			<td><strong>♻️&nbsp; Reproducibility</strong></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/purpose/">Product</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/packaging/">Packaging</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/git/">Git</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/product/#system-design">System design</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/organization/">Organization</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/pre-commit/">Pre-commit</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/purpose#project-management">Project</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/logging/">Logging</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/versioning/">Versioning</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/documentation/">Documentation</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/docker/">Docker</a></td>
+		</tr>
+		<tr>
+			<td><strong>🔢&nbsp; Data</strong></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/styling/">Styling</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/exploratory-data-analysis/">Exploration</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/makefile/">Makefile</a></td>
+			<td></td>
+			<td><strong>🚀&nbsp; Production</strong></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/labeling/">Labeling</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/dashboard/">Dashboard</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/preprocessing/">Preprocessing</a></td>
+			<td></td>
+			<td><strong>📦&nbsp; Serving</strong></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/cicd/">CI/CD workflows</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/splitting/">Splitting</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/cli/">Command-line</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/infrastructure/">Infrastructure</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/api/">RESTful API</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/monitoring/">Monitoring</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/feature-store/">Feature store</a></td>
+		</tr>
+		<tr>
+			<td><strong>📈&nbsp; Modeling</strong></td>
+			<td></td>
+			<td><strong>✅&nbsp; Testing</strong></td>
+			<td></td>
+			<td><a>Data stack</a>&nbsp;<small>(Aug 2022)</small></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/baselines/">Baselines</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/testing/">Code</a></td>
+			<td></td>
+			<td><a>Orchestration</a>&nbsp;<small>(Aug 2022)</small></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/testing/#data">Data</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
+			<td></td>
+			<td><a href="https://madewithml.com/courses/mlops/testing/#models">Models</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></p>
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
 </table>
 
-📆&nbsp; New lessons every month!<br>
+📆&nbsp; More content coming soon!<br>
 <a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
 
 <br>
