@@ -136,7 +136,7 @@ Learn how to apply ML to build a production grade product to deliver value.
 		<tr>
 			<td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
 			<td><a href="https://madewithml.com/courses/mlops/testing/#data">Data</a></td>
-			<td><a>Orchestration</a>&nbsp;<small>(Aug 2022)</small></td>
+			<td><a href="https://madewithml.com/courses/mlops/orchestration/">Orchestration</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
