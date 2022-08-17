@@ -1,0 +1,1020 @@
+id,created_on,title,description
+6,2020-02-20 06:43:18,Comparison between YOLO and RCNN on real world videos,Bringing theory to experiment is cool. We can easily train models in colab and find the results in minutes.
+7,2020-02-20 06:47:21,"Show, Infer & Tell: Contextual Inference for Creative Captioning","The beauty of the work lies in the way it architects the fundamental idea that humans look at the overall image and then individual pieces of it.
+"
+9,2020-02-24 16:24:45,Awesome Graph Classification,"A collection of important graph embedding, classification and representation learning papers with implementations."
+15,2020-02-28 23:55:26,Awesome Monte Carlo Tree Search,A curated list of Monte Carlo tree search papers with implementations. 
+19,2020-03-03 13:54:31,Diffusion to Vector,Reference implementation of Diffusion2Vec (Complenet 2018) built on Gensim and NetworkX. 
+25,2020-03-07 23:04:31,AttentionWalk,"A PyTorch Implementation of ""Watch Your Step: Learning Node Embeddings via Graph Attention"" (NeurIPS 2018). "
+26,2020-03-07 23:11:58,Graph Wavelet Neural Network,"A PyTorch implementation of ""Graph Wavelet Neural Network"" (ICLR 2019) "
+27,2020-03-07 23:18:15,APPNP and PPNP,"A PyTorch implementation of ""Predict then Propagate: Graph Neural Networks meet Personalized PageRank"" (ICLR 2019). "
+28,2020-03-07 23:23:46,Attributed Social Network Embedding,"A sparsity aware and memory efficient implementation of ""Attributed Social Network Embedding"" (TKDE 2018). "
+29,2020-03-07 23:45:38,Signed Graph Convolutional Network,"A PyTorch implementation of ""Signed Graph Convolutional Network"" (ICDM 2018). "
+44,2020-03-08 00:32:58,Capsule Graph Neural Network,"A PyTorch implementation of ""Capsule Graph Neural Network"" (ICLR 2019)."
+45,2020-03-08 00:39:08,SimGNN,"A PyTorch implementation of ""SimGNN: A Neural Network Approach to Fast Graph Similarity Computation"" (WSDM 2019). "
+61,2020-03-16 17:35:22,Using JAX to Improve Separable Image Filters,Optimizing the filters to improve the filtered images for computer vision tasks.
+65,2020-03-19 18:42:05,Coloring Greyscale Images,Coloring black and white images with neural networks.
+67,2020-03-19 19:04:43,Fruit Detection using Convolution Neural Networks in TensorFlow,"Trained a Convolutional Neural Network Model to predict fruits of over 100+ Classes (types) with a training accuracy of over 95%, and testing accuracy of over 9"
+73,2020-03-19 23:45:14,Face Verification,Implementation of Siamese Neural network model used for face verification. The dataset used for this task is IMDB-WIKI-face images Dataset.
+77,2020-03-20 03:23:27,Sign Language Interpreter using Deep Learning,"A sign language interpreter using live video feed from the camera. The project was completed in 24 hours as part of HackUNT-19, the University of North Texas's "
+78,2020-03-20 03:32:09,The Illustrated Self-Supervised Learning,A visual introduction to self-supervised learning methods in Computer Vision
+80,2020-03-20 05:59:32,NeRF: Neural Radiance Fields,Representing scenes as neural radiance fields for view synthesis.
+81,2020-03-20 06:07:56,GradCAM for the BreaKHis Dataset,An NBDev package for fine-tuning ResNets to visualize gradient-weighted class activation for the BreaKHis dataset.
+84,2020-03-20 15:18:43,Mention Classifier,"Category prediction model
+This repo contains AllenNLP model for prediction of Named Entity categories by its mentions."
+85,2020-03-20 17:35:59,Message Passing GNNs C++,C++ implementation using Eigen for the forward pass of Graph Convolutional Neural Networks.
+89,2020-03-20 18:17:31,Rethinking Batch Normalization in Transformers,"We found that NLP batch statistics exhibit large variance throughout training, which leads to poor BN performance."
+91,2020-03-20 18:30:04,Pytest Board,Continuous pytest runner with awesome visualization.
+92,2020-03-20 18:43:50,Image Spam Buster - Kreate Hackathon,"""Spam Buster"" for user generated IMAGE content."
+98,2020-03-20 19:16:43,Bachelorette Predictor,Predict the Bachelorette winners from profile images.
+99,2020-03-20 21:32:14,Gender Change of People's Face using CycleGAN,CycleGAN architecture in Keras and train the model with CelebA faces dataset to perform gender change on people's faces.
+101,2020-03-21 04:19:04,ELECTRA: Pre-training Text Encoders as Discriminators,PyTorch implementation of the electra model from the paper: ELECTRA - Pre-training Text Encoders as Discriminators Rather Than Generators
+107,2020-03-21 23:09:03,Plant Fruit Classifier,Building a world-class image classifier model with a custom dataset.
+108,2020-03-21 23:17:38,Tuned ALBERT (ensemble model),Top 6 in Squad 2.0
+109,2020-03-21 23:25:33,iyasai: Book Recommendation System,Recommender system for books and stories that could help you and your loved ones lift up your mood whenever you are facing stress or unpleasant situations.
+112,2020-03-21 23:58:46,Learning to See before Learning to Act: Visual Pre-training,We find that pre-training on vision tasks significantly improves generalization and sample efficiency for learning to manipulate objects.
+115,2020-03-22 01:26:14,SOLT: Data Augmentation for Deep Learning,"Data augmentation library for Deep Learning, which supports images, segmentation masks, labels and key points."
+116,2020-03-22 01:37:27,PCDet: 3D Point Cloud Detection,PCDet Toolbox in PyTorch for 3D Object Detection from Point Cloud
+117,2020-03-22 01:47:09,SiamFC++: Towards Robust and Accurate Visual Tracking,"Implementation of a series of basic algorithms which is useful for video understanding, including Single Object Tracking (SOT), Video Object Segmentation (VOS)."
+118,2020-03-22 21:46:52,Sinext,Sign language to text with OpenCV and MNIST sign-language dataset
+120,2020-03-24 04:38:08,Gliding Vertex on Horizontal Bounding Box for Object Detection,Gliding vertex on the horizontal bounding box for multi-oriented object detection.
+121,2020-03-24 04:56:38,Deep Reinforcement Learning in TensorFlow2,deep-rl-tf2 is a repository that implements a variety of polular Deep-RL algorithms using TF2. The key to this repo is an easy to understand code. 
+122,2020-03-24 17:51:35,Custom Classifier on Top of Bert-like Language Model,Take pre-trained language model and build custom classifier on top of it.
+123,2020-03-24 18:20:55,Using Different Decoding Methods for LM with Transformers,A look at different decoding methods for generate subsequent tokens in language modeling.
+124,2020-03-24 21:12:12,Unsupervised Toolbox,"Unsupervised learning Tool box : A micro framework for State of the Art Methods and models for unsupervised learning for NLU / NLG
+"
+126,2020-03-25 15:05:27,Unet Implementation is Keras with GPU,Vector Map generation from aerial imagery using deep learning GeoSpatial UNET
+128,2020-03-25 15:21:34,Multimodal Brain Tumor Segmentation,Segmentation of gliomas in pre-operative MRI scans. Use the provided clinically-acquired training data to produce segmentation labels.
+130,2020-03-25 16:55:31,Gymnast Pose Analysis,"Pose modelling for gymnasts using open-pose and open-cv.
+"
+131,2020-03-25 17:00:54,EfficientDet: Scalable and Efficient Object Detection,Implementation EfficientDet: Scalable and Efficient Object Detection in PyTorch.
+133,2020-03-25 20:21:26,A Survey of Long-Term Context in Transformers,Over the past two years the NLP community has developed a veritable zoo of methods to combat expensive multi-head self-attention.
+136,2020-03-26 17:22:36,Finetune: Scikit-learn Style Model Finetuning for NLP,Finetune is a library that allows users to leverage state-of-the-art pretrained NLP models for a wide variety of downstream tasks.
+137,2020-03-27 14:39:53,Debugging Neural Networks with PyTorch and W&B,A closer look at debugging common issues when training neural networks.
+138,2020-03-27 14:50:02,BachGAN: High-Res Image Synthesis from Salient Object Layout,We propose a new task towards more practical application for image generation - high-quality image synthesis from salient object layout. 
+140,2020-03-28 07:49:03,Visual Paper Summary: ALBERT(A Lite BERT),An illustrated summary of ALBERT paper and how it improves BERT and makes it resource efficient
+141,2020-03-28 17:41:42,First Order Motion Model for Image Animation,Generating a video sequence so that an object in a source image is animated according to the motion of a driving video.
+142,2020-03-28 17:49:20,TorchIO:  Medical Image Processing in Deep Learning and PyTorch,Tools for medical image processing in deep learning and PyTorch
+144,2020-03-29 18:23:06,Finetuning Transformers with JAX + Haiku,"Walking through a port of the RoBERTa pre-trained model to JAX + Haiku, then fine-tuning the model to solve a downstream task."
+145,2020-03-30 04:14:44,Controllable Person Image Synthesis with Attribute-Decomposed GAN,"A novel generative model for controllable person image synthesis, which can produce realistic person images with desired human attributes."
+147,2020-03-30 05:39:57,Back Translation for Text Augmentation with Google Sheets,Learn how to augment existing labeled text data for free using Google Sheets.
+148,2020-03-30 14:13:46,An Illustrated Guide to Graph Neural Networks,A breakdown of the inner workings of GNNs.
+150,2020-04-01 08:26:46,The Illustrated FixMatch for Semi-Supervised Learning,Learn how to leverage unlabeled data using FixMatch for semi-supervised learning
+152,2020-04-01 15:38:58,A Two-Step Graph Convolutional Decoder for Molecule Generation,A simple auto-encoder framework for molecule generation.
+157,2020-04-03 01:56:32,TransMoMo: Invariance-Driven Unsupervised Motion Retargeting,A lightweight video motion retargeting approach that is capable of transferring motion of a person in a source video realistically to another video of a target 
+158,2020-04-03 04:41:07,Tracking Objects as Points,Simultaneous object detection and tracking using center points.
+159,2020-04-03 14:57:11,Drifter-ML,A machine learning testing framework for sklearn and pandas.  The goal is to help folks assess whether things have changed over time.
+162,2020-04-03 20:17:50,Natural Language Processing News,Get the highlights from Natural Language Processing & Machine Learning research & industry straight to your inbox every month.
+163,2020-04-03 20:21:13,NLP Newsletter,"Democratizing Artificial Intelligence Research, Education, and Technologies."
+168,2020-04-04 17:54:28,Self-Supervised Scene De-occlusion,"We investigate the problem of scene de-occlusion, which aims to recover the underlying occlusion ordering and complete the invisible parts of occluded objects."
+173,2020-04-05 03:00:05,Design Patterns for Production NLP Systems,Designs and tips for designing NLP production systems.
+181,2020-04-05 14:56:34,Talking-Heads Attention,"A variation on multi-head attention which includes linear projections across the attention-heads dimension, immediately before and after the softmax operation."
+183,2020-04-05 17:50:10,What does a CNN see?,First super clean notebook showcasing @TensorFlow 2.0. An example of end-to-end DL with interpretability.
+218,2020-04-06 11:29:57,Distributional RL using TensorFlow2,🐳 Implementation of various Distributional Reinforcement Learning Algorithms using TensorFlow2.
+219,2020-04-06 14:10:22,Natural Language Processing: Pretraining - d2l,"An interactive deep learning book with code, math, and discussions, based on the NumPy interface."
+220,2020-04-06 15:19:59,Module 2: Convolutional Neural Networks - CS231n ,In Lecture 5 we move from fully-connected neural networks to convolutional neural networks.
+224,2020-04-06 16:48:44,Understanding Convolutional Neural Networks for NLP,More recently we’ve also started to apply CNNs to problems in Natural Language Processing and gotten some interesting results.
+234,2020-04-06 17:42:52,An Overview of Semantic Image Segmentation,Image segmentation is a computer vision task in which we label specific regions of an image according to what's being shown.
+237,2020-04-06 18:02:48,Common Architectures in Convolutional Neural Networks,"In this post, I'll discuss commonly used architectures for convolutional networks. "
+238,2020-04-06 18:37:33,Googletrans,Googletrans: Free and Unlimited Google translate API for Python. Translates totally free of charge.
+239,2020-04-06 18:39:48,Prophet: Forecasting At Scale,Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
+249,2020-04-06 19:20:12,makesense.ai,Free to use online tool for labelling photos.
+250,2020-04-06 19:24:06,Doccano,Open source text annotation tool for machine learning practitioner. 
+251,2020-04-06 19:28:58,BRAT: Rapid Annotation Tool,BRAT (brat rapid annotation tool) is based on the stav visualiser which was originally made in order to visualise BioNLP'11 Shared Task data.
+252,2020-04-06 20:23:46,Word Embeddings,This tutorial introduces word embeddings. It contains complete code to train word embeddings from scratch on a small dataset.
+253,2020-04-06 20:26:27,On Word Embeddings,This post presents the most well-known models for learning word embeddings based on language modeling.
+254,2020-04-06 20:28:43,NLP for Developers: Word Embeddings | Rasa,"In this video, Rasa Developer Advocate Rachael will talk about what word embeddings are, how they work, when they're used and some  common errors. "
+255,2020-04-06 20:30:27,NLP for Developers: Transformers | Rasa,"In this video, Rasa Developer Advocate Rachael will talk about what transformers are, how they work, when they're used and some  common errors. "
+256,2020-04-06 20:42:05,A Visual Guide to Using BERT for the First Time,Tutorial for how to use a variant of BERT to classify sentences.
+257,2020-04-06 20:45:45,The Illustrated GPT-2 (Visualizing Transformer Language Models),Visuals explaining the inner-workings of transformers.
+259,2020-04-06 20:51:58,The Illustrated Word2vec,"In this post, we’ll go over the concept of embedding, and the mechanics of generating embeddings with word2vec. "
+260,2020-04-06 20:55:32,"The Illustrated BERT, ELMo, and co.",How NLP cracked transfer learning.
+261,2020-04-06 21:00:34,The Illustrated Transformer,"In this post, we will look at The Transformer – a model that uses attention to boost the speed with which these models can be trained."
+262,2020-04-06 21:11:40,Visualizing A Neural Machine Translation Model,Mechanics of seq2seq models with attention.
+264,2020-04-06 21:33:32,The Unreasonable Effectiveness of Recurrent Neural Networks,A close look at how RNNs are able to perform so well.
+268,2020-04-06 21:51:55,A Gentle Introduction to Text Summarization in Machine Learning,Text summarization is the technique for generating a concise and precise summary of voluminous texts while focusing on the sections that convey useful info.
+269,2020-04-06 22:46:54,Attention Mechanism,"Main concepts behind Attention, including an implementation of a sequence-to-sequence Attention model, followed by the application of Attention in Transformers."
+270,2020-04-06 22:50:30,Attention? Attention!,"In this post, we are gonna look into how attention was invented, and various attention mechanisms and models, such as transformer and SNAIL."
+271,2020-04-06 22:58:47,The Annotated Transformer,In this post I present an “annotated” version of the paper in the form of a line-by-line implementation. 
+272,2020-04-06 23:38:26,The Annotated GPT-2,GPT-2 explained with visualization and PyTorch code.
+273,2020-04-06 23:41:52,Transformers - Hugging Face,🤗 Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch. 
+277,2020-04-07 00:30:33,Curriculum for Reinforcement Learning,"Curriculum learning applied to reinforcement learning, with a few exceptions of supervised learning."
+278,2020-04-07 00:34:46,Self-Supervised Representation Learning,What if we can get labels for free for unlabelled data and train unsupervised dataset in a supervised manner? 
+279,2020-04-07 00:36:55,Evolution Strategies,Evolutionary algorithms refer to a division of population-based optimization algorithms inspired by natural selection. 
+280,2020-04-07 00:38:25,Meta Reinforcement Learning,Explore cases when we try to “meta-learn” Reinforcement Learning (RL) tasks by developing an agent that can solve unseen tasks fast and efficiently.
+281,2020-04-07 00:40:59,Generalized Language Models,Trend in large unsupervised pre-trained language models which have achieved amazing SOTA results on a variety of language tasks.
+284,2020-04-07 00:57:12,Policy Gradient Algorithms,"In this post, we are going to look deep into policy gradient, why it works, and many new policy gradient algorithms proposed in recent years."
+285,2020-04-07 03:45:03,A (Long) Peek into Reinforcement Learning,"In this post, we are gonna briefly go over the field of Reinforcement Learning (RL), from fundamental concepts to classic algorithms."
+286,2020-04-07 03:49:15,Object Detection for Dummies,"We will go through several basic concepts, algorithms, and popular deep learning models for image processing and object detection."
+287,2020-04-07 03:59:53,Learning Word Embedding,This post introduces several models for learning word embedding and how their loss functions are designed for the purpose.
+290,2020-04-07 13:38:36,GANSpace: Discovering Interpretable GAN Controls,This paper describes a simple technique to analyze Generative Adversarial Networks (GANs) and create interpretable controls for image synthesis.
+291,2020-04-07 14:07:59,Kornia: Differentiable Computer Vision Library for PyTorch,Set of routines and differentiable modules to solve generic computer vision problems. 
+294,2020-04-07 15:36:13,PyTorch Geometric ,Geometric deep learning extension library for PyTorch.
+295,2020-04-07 15:40:00,DGL: Deep Graph Library,"Python package built to ease deep learning on graph, on top of existing DL frameworks. "
+305,2020-04-07 20:00:37,Question Answering with a Fine-Tuned BERT,What does it mean for BERT to achieve “human-level performance on Question Answering”?
+306,2020-04-07 20:07:28,BERT Research - Key Concepts & Sources,Video series on BERT's key concepts and sources.
+307,2020-04-07 20:11:29,GLUE Explained: Understanding BERT Through Benchmarks,In this post we take a look at an important NLP benchmark used to evaluate BERT and other transfer learning models!
+308,2020-04-07 23:22:18,TinyBERT,TinyBERT is 7.5x smaller and 9.4x faster on inference than BERT-base and achieves competitive performances in the tasks of natural language understanding.
+313,2020-04-08 00:02:27,NVIDIA Neural Modules: NeMo,A toolkit for conversational AI.
+314,2020-04-08 00:06:21,The Autonomous Learning Library,A PyTorch library for building deep reinforcement learning agents.
+315,2020-04-08 00:10:21,VoTT: Visual Object Tagging Tool,An electron app for building end to end Object Detection Models from Images and Videos.
+316,2020-04-08 00:12:26,Clinical BERT,Repository for Publicly Available Clinical BERT Embeddings
+317,2020-04-08 00:14:27,COCO Annotator,"✏️ Web-based image segmentation tool for object detection, localization and key points."
+318,2020-04-08 00:16:55,Computer Vision Annotation Tool (CVAT),"Free, online, interactive video and image annotation tool for computer vision."
+319,2020-04-08 00:19:04,LabelImg,🖍️ A graphical image annotation tool and label object bounding boxes in images.
+327,2020-04-08 14:16:28,How to Steal Modern NLP Systems with Gibberish?,"It’s possible to steal BERT-based models without any real training data, even using gibberish word sequences."
+328,2020-04-08 14:29:22,ProteinGCN: Protein model quality assessment using GCNs,Source code for the paper: ProteinGCN: Protein model quality assessment using Graph Convolutional Networks.
+334,2020-04-08 15:04:28,BioWordVec & BioSentVec,Pre-trained embeddings for biomedical words and sentences
+335,2020-04-08 15:07:44,BioBERT: a pre-trained biomedical language representation model ,"Code for fine-tuning BioBERT for biomedical text mining tasks such as biomedical NER, relation extraction, QA, etc."
+341,2020-04-08 15:42:56,How to Unit Test Machine Learning Code,Wouldn’t suck to have to throw away perfectly good ideas because our implementations were buggy?
+343,2020-04-08 15:52:19,Machine Learning Systems Design,Designing a machine learning system.
+344,2020-04-08 16:11:28,Tokenizers,💥Fast State-of-the-Art Tokenizers optimized for Research and Production.
+345,2020-04-08 16:14:23,HMTL: Hierarchical Multi-Task Learning,🌊 A State-of-the-Art neural network model for several NLP tasks based on PyTorch and AllenNLP
+347,2020-04-08 16:26:05,The State of Transfer Learning in NLP,This post expands on the NAACL 2019 tutorial on Transfer Learning in NLP. It highlights key insights and takeaways and provides updates based on recent work.
+349,2020-04-08 16:35:52,The Dark Secrets of BERT,How much of the linguistically interpretable self-attention patterns that are presumed to be its strength are actually used to solve downstream tasks?
+353,2020-04-08 17:08:41,Keras OCR,A packaged and flexible version of the CRAFT text detector and Keras CRNN recognition model. 
+364,2020-04-08 17:53:15,Named Entity Recognition Tagging,"In this post, we go through an example from Natural Language Processing, in which we learn how to load text data and perform NER tagging for each token."
+372,2020-04-08 18:22:46,An introduction to Q-Learning: Reinforcement Learning,Q-Learning algorithm along with an implementation in Python using Numpy.
+378,2020-04-08 19:37:57,Ray,Ray is a fast and simple framework for building and running distributed applications.
+380,2020-04-08 21:05:06,Graph Nets,"PyTorch Implementation and Explanation of Graph Representation Learning papers involving DeepWalk, GCN, GraphSAGE, ChebNet & GAT."
+384,2020-04-08 21:22:25,Visualizing Memorization in RNNs,Inspecting gradient magnitudes in context can be a powerful tool to see when recurrent units use short-term or long-term contextual understanding.
+388,2020-04-08 21:36:39,ConvNet Playground,An interactive visualization for exploring Convolutional Neural Networks applied to the task of semantic image search.
+392,2020-04-08 21:53:06,Embedding Projector,"Visualization of high dimensional data, namely embeddings."
+395,2020-04-08 22:12:24,Word2Viz: Explore Word Analogies,Interactive visualization of word analogies in GloVe.
+397,2020-04-08 22:17:06,Image-to-Image Translation with Conditional Adversarial Networks,Tensorflow port of Image-to-Image Translation with Conditional Adversarial Nets
+401,2020-04-08 22:29:09,"Quick, Draw",Can a neural network learn to recognize doodling?
+403,2020-04-08 22:44:04,A 2019 Guide to Speech Synthesis with Deep Learning,A look at recent deep learning based speech synthesis research and techniques.
+407,2020-04-08 23:00:02,AllenNLP,"An open-source NLP research library, built on PyTorch."
+408,2020-04-08 23:03:13,FlashTorch,Visualization toolkit for neural networks in PyTorch
+410,2020-04-08 23:09:15,Frameworks for Machine Learning Model Management,This blog post will follow up by comparing three different tools developed to support reproducible machine learning model development.
+411,2020-04-08 23:11:09,W&B: Weights and Biases,Track model training at scale.
+414,2020-04-08 23:18:04,TensorBoard.dev ,"Easily host, track, and share your ML experiments for free."
+415,2020-04-08 23:21:13,BertViz,"Tool for visualizing attention in the Transformer model (BERT, GPT-2, Albert, XLNet, RoBERTa, CTRL, etc.)"
+419,2020-04-09 00:41:03,Text Feature Selection for Causal Inference,"Identifying the linguistic features that cause people to act a certain way after reading a text, regardless of confounding variables, is something people do."
+423,2020-04-09 00:57:49,3D Ken Burns Effect from a Single Image,Implementation of 3D Ken Burns Effect from a Single Image using PyTorch.
+424,2020-04-09 01:02:59,Sparse Sinkhorn Attention,A new efficient and sparse method for learning to attend based on differentiable sorting of internal representations.
+425,2020-04-09 01:41:48,Backtester,A backtesting framework for timeseries data.
+426,2020-04-09 16:37:10,The Transformer Family,"This post presents how the vanilla Transformer can be improved for longer-term attention span, less memory and computation consumption, RL task solving, etc."
+427,2020-04-09 18:57:01,An Overview of Early Vision in InceptionV1,"A guided tour of the first five layers of InceptionV1,
+taxonomized into “neuron groups.”"
+428,2020-04-10 04:57:53,AiLight: Automatic  Highlighting Using BERT,"Automatically highlight pdfs using BERT embeddings and clustering. 
+https://anishthite.github.io/ailight"
+430,2020-04-10 15:28:43,Controlling Text Generation with Plug and Play Language Models,"This article discusses an alternative approach to controlled text generation, titled the Plug and Play Language Model (PPLM)."
+431,2020-04-10 15:35:00,Genomic ULMFiT,ULMFiT for Genomic Sequence Data
+432,2020-04-10 15:39:29,Self-Supervised Learning and Computer Vision,"So, what do you do if there are no pre-trained models in your domain? "
+434,2020-04-10 15:51:52,scispaCy,A full spaCy pipeline and models for scientific/biomedical documents.
+437,2020-04-10 17:14:11,Pruning Bert to Accelerate Inference,"After previously discussing various ways of accelerating models like BERT, in this blog post we empirically evaluate the pruning approach."
+438,2020-04-10 17:26:39,Compressing Bert for Faster Prediction,"In this blog post, we discuss ways to make huge models like BERT smaller and faster. "
+439,2020-04-10 17:33:38,Universal Adversarial Triggers for Attacking and Analyzing NLP,We create short phrases that cause a specific model prediction when concatenated to 𝘢𝘯𝘺 input from a dataset. 
+440,2020-04-10 17:39:19,lazynlp,Library to scrape and clean web pages to create massive datasets.
+443,2020-04-10 17:51:39,AllenNLP Interpret,A Framework for Explaining Predictions of NLP Models
+445,2020-04-10 18:00:50,Natural Language Processing With spaCy in Python,A comprehensive guide to NLP with spaCy.
+446,2020-04-10 18:45:15,Tips for Successfully Training Transformers on Small Datasets,It turns out that you can easily train transformers on small datasets when you use tricks (and have the patience to train a very long time).
+448,2020-04-10 19:14:59,🦄 How to build a SOTA Conversational AI with Transfer Learning,Train a dialog agent leveraging transfer Learning from an OpenAI GPT and GPT-2 Transformer language model.
+451,2020-04-10 20:10:28,Evaluation Metrics for Language Modeling,"In this article, we will focus on traditional intrinsic metrics that are extremely useful during the process of training the language model itself. "
+452,2020-04-10 20:18:20,CS224n: Natural Language Processing with Deep Learning,"In this course, students will gain a thorough introduction to cutting-edge research in Deep Learning for NLP."
+453,2020-04-10 20:23:21,CS231n: Convolutional Neural Networks for Visual Recognition,"Deep dive into details of the deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification."
+454,2020-04-10 20:27:12,All The Ways You Can Compress BERT,In this post I’ll list and briefly taxonomize all the papers I’ve seen compressing BERT. 
+455,2020-04-10 20:31:09,Illustrated: Self-Attention,Step-by-step guide to self-attention with illustrations and code.
+458,2020-04-10 20:58:41,"Limitations of Deep Learning for Vision, and How We Might Fix The",This is an opinion paper about the strengths and weaknesses of Deep Nets for vision.
+459,2020-04-10 21:05:32,Beyond the Pixel Plane: Sensing and Learning in 3d,Recent deep learning techniques that enable 3D object classification and semantic segmentation.
+462,2020-04-11 16:52:35,A Visual Guide to Self-Labelling Images,A self-supervised method to generate labels via simultaneous clustering and representation learning
+465,2020-04-13 02:18:51,3D Photography using Context-aware Layered Depth Inpainting,A multi-layer representation for novel view synthesis that contains hallucinated color and depth structures in regions occluded in the original view. 
+466,2020-04-13 18:48:40,Tokenizers: How Machines Read,A survey of different tokenization strategies in NLP.
+467,2020-04-13 19:43:35,Practical Text Classification With Python and Keras,You will get a grasp of current advancements of (deep) neural networks and how they can be applied to text.
+468,2020-04-13 19:45:46,Text Classification With Torchtext,This example shows how to train a supervised learning algorithm for classification using one of these TextClassification datasets.
+469,2020-04-13 21:17:44,Understanding Text With Bert,Building a machine reading comprehension system using the latest advances in deep learning for NLP.
+470,2020-04-13 21:38:20,Transfer Learning with T5: the Text-To-Text Transfer Transformer,"In the paper, we demonstrate how to achieve state-of-the-art results on multiple NLP tasks using a text-to-text transformer pre-trained on a large text corpus."
+471,2020-04-13 21:48:48,Building a COVID-19 Project Recommendation System,"How to create a GitHub open source repo recommendation system web app with MLflow, Sagemaker, and Booklet.ai."
+473,2020-04-13 22:33:21,Neural Machine Translation With Attention,This notebook trains a sequence to sequence (seq2seq) model for Spanish to English translation. 
+474,2020-04-13 22:48:49,PyTorch Tutorial for Deep Learning Researchers,This repository provides tutorial code for deep learning researchers to learn PyTorch. 
+476,2020-04-14 00:40:10,Show and Tell: A Neural Image Caption Generator,A TensorFlow implementation of the image-to-text model.
+477,2020-04-14 01:46:32,SimpleGAN,A Tensorflow-based framework to ease the training of generative models
+478,2020-04-14 02:41:43,Semantic Segmentation on MIT ADE20K dataset in PyTorch,Pytorch implementation for Semantic Segmentation/Scene Parsing on MIT ADE20K dataset.
+480,2020-04-14 03:46:09,ViLBERT-MT: Multi-Task Vision & Language Representation Learning,A single ViLBERT Multi-Task model can perform 8 different vision and language tasks learnt from 12 datasets!
+481,2020-04-14 03:50:18,Training an Image Classifier in PyTorch,"Torchvision, that has data loaders for common datasets such as Imagenet, CIFAR10, MNIST, etc. and data transformers for images, vizualization and data loaders."
+482,2020-04-14 17:28:37,A Visual Exploration of DeepCluster,DeepCluster is a self-supervised method to combine clustering and representation learning
+486,2020-04-14 20:12:43,A 2019 guide to Human Pose Estimation with Deep Learning,The basics of Human Pose Estimation (2D) and review the literature on this topic.
+487,2020-04-14 21:15:35,Face Alignment in Full Pose Range: A 3D Total Solution,Face Alignment in Full Pose Range: A 3D Total Solution.
+488,2020-04-14 21:21:51,V2V-PoseNet Pytorch,PyTorch implementation of V2V-PoseNet with IntegralPose/PoseFix loss.
+489,2020-04-14 22:22:40,"Deep Learning Based Super Resolution, Without Using a GAN","Techniques and training a deep learning model for image improvement, image restoration, inpainting and super resolution."
+490,2020-04-14 22:35:21,U-Net Deep Learning Colorization of Greyscale Images,This article describes experiments training a neural network to generate 3 channel colour images from single channel greyscale images using deep learning.
+491,2020-04-14 22:38:54,Deep Learning for Image Super-resolution: A Survey,This article aims to provide a comprehensive survey on recent advances of image super-resolution using deep learning approaches.
+492,2020-04-14 22:41:52,Second-order Attention Network for Single Image Super-resolution,We propose a second-order attention network (SAN) for more powerful feature expression and feature correlation learning.
+493,2020-04-14 22:52:49,DeepSORT: Deep Learning to Track Custom Objects in a Video,A look at deep learning based approached for object tracking.
+494,2020-04-14 22:59:56,Fast Online Object Tracking and Segmentation: A Unifying Approach,We illustrate how to perform both realtime object tracking and semi-supervised video object segmentation using a fully-convolutional Siamese approach.
+495,2020-04-14 23:10:48,Neural Style Transfer,This tutorial uses deep learning to compose one image in the style of another image (ever wish you could paint like Picasso or Van Gogh?).
+496,2020-04-14 23:14:59,Fast- Neural Style,Pytorch implementation of an algorithm for artistic style transfer. 
+497,2020-04-14 23:21:16,Torchvision Object Detection Finetuning Tutorial,Finetuning a pre-trained Mask R-CNN model in the Penn-Fudan Database for Pedestrian Detection and Segmentation.
+499,2020-04-14 23:34:32,Deep Learning for Videos: A 2018 Guide to Action Recognition,"In this post, I summarize the literature on action recognition from videos. "
+501,2020-04-15 15:20:56,Shakespeare Meets Google's Flax,Application of RNNs in Flax: Character-Level Language Model.
+505,2020-04-15 15:59:30,"Anomaly detection with Keras, TensorFlow, and Deep Learning",Perform anomaly detection in your own image datasets using deep learning.
+507,2020-04-15 16:12:41,Almost Everything You Need to Know About Time Series,"Understand moving average, exponential smoothing, stationarity, autocorrelation, SARIMA, and more."
+508,2020-04-15 16:29:08,STEFANN: Scene Text Editor using Font Adaptive Neural Network,A generalized method for realistic modification of textual content present in a scene image. ⭐️ Accepted in CVPR 2020.
+509,2020-04-15 16:34:04,Time Series Prediction with LSTM Using PyTorch,Time series applied to forecasting on the Airplane Passengers Dataset.
+513,2020-04-15 17:05:36,lda2vec: Tools for interpreting natural language,The lda2vec model tries to mix the best parts of word2vec and LDA into a single framework.
+516,2020-04-15 17:21:53,Deep Learning for Object Detection: A Comprehensive Review,"A closer look at Tensorflow’s object detection models: Faster R-CNN, R-FCN, and SSD."
+517,2020-04-15 17:31:22,An Intuitive Guide to Deep Network Architectures,"Intuition behind base network architectures like MobileNets, Inception, and ResNet."
+529,2020-04-15 19:39:24,Real-Time Voice Cloning,Clone a voice in 5 seconds to generate arbitrary speech in real-time. Code for Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech.
+549,2020-04-16 03:48:35,15 Best Tools for Tracking Machine Learning Experiments,A feature comparison of all the open-source and commercial options for experiment tracking.
+550,2020-04-16 08:14:50,Cycle GAN in TensorFlow 2.0 with Custom Loops,"Implementation of ""Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"" by Jun-Yan Zhu et al. "
+552,2020-04-16 10:13:12,Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset,The largest dataset of in-the-wild stereo image pairs (50K) crowd-sourced from the Holopix lightfield image-sharing social network.
+558,2020-04-16 15:49:29,PyTorch Notebooks,🔥A collection of PyTorch notebooks for learning and practicing deep learning
+559,2020-04-16 16:18:26,Creating an End-to-End Machine Learning Application,"A complete, end-to-end ML application, implemented in both TensorFlow 2.0 and PyTorch."
+561,2020-04-16 16:27:31,How Docker Can Help You Become A More Effective Data Scientist,A look at Docker from the perspective of a data scientist.
+564,2020-04-17 13:16:09,Optimize your ML models,Learn to use optimize your custom image classification models (built-in tf.keras) using TensorFlow Lite and gain 10x reduction in model's size. 
+566,2020-04-17 21:57:35,Machine learning deserves its own flavor of Continuous Delivery,"When traveling in the data science world, I'm homesick for a smooth continuous delivery flow. My thoughts on approachable CD4ML."
+569,2020-04-18 13:32:36,An Introduction to Transfer Learning and HuggingFace,In this talk I'll start by introducing the recent breakthroughs in NLP that resulted from the combination of Transfer Learning schemes and Transformer architect
+570,2020-04-19 17:40:48,Introduction to Image Inpainting With Deep Learning,"In this article, we are going to learn how to do “image inpainting”, i.e. fill in missing parts of images precisely using deep learning."
+574,2020-04-20 00:23:44,The Abstraction and Reasoning Corpus (ARC),"Can a computer learn complex, abstract tasks from just a few examples? ARC can be used to measure a human-like form of general fluid intelligence."
+579,2020-04-20 00:53:19,Transfer Learning & Fine-Tuning With Keras,Your 100% up-to-date guide to transfer learning & fine-tuning with Keras.
+580,2020-04-20 00:57:03,GitHub Actions & Machine Learning Workflows with Hamel Husain," In this talk, Hamel will provide a brief tutorial on GitHub Actions, and will show you how you can use this new tool to automate your ML workflows."
+581,2020-04-20 01:01:38,How To Create Semantic Search For Arbitrary Objects,An end-to-end example of how to build a system that can search objects semantically. By Hamel Husain & Ho-Hsiang Wu
+582,2020-04-20 21:38:50,CS285: Deep Reinforcement Learning,"A course on deep reinforcement learning, transfer and multi-task learning."
+594,2020-04-21 23:25:53,TorchServe & TorchElastic PyTorch Libraries for Serving/Training,The officially supported way to deploy and manage models with PyTorch.
+598,2020-04-22 16:33:59,The Future of (Transfer Learning in) Natural Language Processing,"Transfer Learning in Natural Language Processing (NLP): Open questions, current trends, limits, and future directions."
+599,2020-04-22 16:43:13,MONAI,AI Toolkit for Healthcare Imaging.
+600,2020-04-22 17:37:25,Building a Simple Chatbot from Scratch in Python (using NLTK),A look at retrieval based and generative conversational AI for creating chatbots.
+601,2020-04-22 17:41:06,How I Used Deep Learning To Train A Chatbot To Talk Like Me,Facebook chatbot that I trained to talk like me using Seq2Seq.
+602,2020-04-23 00:36:02,DialoGPT: Toward Human-Quality Conversational Response Generation,Large-scale pre-training for dialogue.
+605,2020-04-23 03:59:57,Upside Down Reinforcement Learning,Implementation of UDRL as outlined by Juergen Schmidhuber in https://arxiv.org/abs/1912.02875
+608,2020-04-23 12:52:02,PyImageSearch,An online platform of blogs on Computer Vision and Deep Learning.
+612,2020-04-23 13:56:46,Implementing DCGANs using PyTorch C++ API (Libtorch),"The blog discusses the paper review of DCGANs and implementation using PyTorch C++ API in detail. From loading models to visualizing batch of the data, in C++! "
+619,2020-04-23 16:55:27,Implementing Portrait Bokeh Mode using OpenCV and NumPy (Python),"Do you love the portrait mode in your smartphone? This code will help you do the same using OpenCV and NumPy! Detects the faces, asks if you want to blur them!"
+620,2020-04-23 17:26:26,ELECTRA ,"Explaining the new self-supervised task for language representation learning, ELECTRA which uses ""replace token detection""."
+621,2020-04-23 18:17:12,MixNMatch,Multifactor Disentanglement and Encoding for Conditional Image Generation
+622,2020-04-23 21:40:09,MT-Clinical BERT,Scaling Clinical Information Extraction with Multitask Learning
+623,2020-04-24 00:30:02,medaCy,🏥 Medical Text Mining and Information Extraction with spaCy
+624,2020-04-24 00:42:41,How to Train a New Language Model From Scratch Using Transformers,"In this post we’ll demo how to train a “small” model (84 M parameters = 6 layers, 768 hidden size, 12 attention heads)."
+629,2020-04-24 05:01:26,ARIMA Modeling - Guide to Time Series Forecasting in Python,"How ARIMA models works . How to train and forecast using ARIMA, SARIMA, SARIMAX and find the optimal model with Python"
+632,2020-04-24 11:37:13,Lagrangian Neural Networks,"Trying to learn a simulation? Try Lagrangian Neural Networks, which explicitly conserve energy and may generalize better!"
+639,2020-04-24 20:51:18,ML Foundations and Methods for Precision Medicine and Healthcare,"This tutorial will discuss ideas from machine learning that enable personalization (useful for applications in education, retail, medicine and recsys)."
+643,2020-04-26 04:34:02,Albert-base for Sanskrit,Trained Albert-base from scratch on Sanskrit corpus of Wikipedia. I have also added a link to how to train your own Language model from scratch.
+644,2020-04-26 05:42:37,Adversarial Latent Autoencoders,"Introducing the Adversarial Latent Autoencoder (ALAE), a general architecture that can leverage recent improvements on GAN training procedures."
+649,2020-04-28 03:42:29,Spektral,Graph Neural Networks with Keras and Tensorflow 2.
+652,2020-04-28 15:14:00,Optimal Transport and the Sinkhorn Transformer,Understand optimal transport and the Sinkhorn-Knopp algorithm before diving into the Sinkhorn Transformer.
+653,2020-04-28 16:20:29,Semantic Graphs for Generating Deep Questions,"Deep Question Generation (DQG), which aims to generate complex questions that require reasoning over multiple pieces of information of the input passage. "
+658,2020-04-28 21:34:00,Gutenberg Dialog,Build a dialog dataset from online books in many languages.
+661,2020-04-29 02:41:24,Better NLP project,This is a wrapper program/library that encapsulates a couple of NLP libraries that are popular among the AI and ML communities.
+663,2020-04-29 04:42:16,Recipes for building an open-domain chatbot,"Python framework for sharing, training and testing dialogue models, from open-domain chitchat to VQA (Visual Question Answering)."
+665,2020-04-29 10:46:20,Object-detection with multi-template matching,"This python package allows to perform object detection using one or a few template images, it provides a simpler alternative to deep-learning methods"
+666,2020-04-29 12:10:43,AIDeveloper,"GUI-based software for training, evaluating and applying deep neural nets for image classification "
+667,2020-04-29 18:34:28,No Trump Social Chrome Plugin,An AI-driven Browser Extension to Replace Trump Pics with Puppies!
+670,2020-04-29 19:35:22,Attribute2Font: Creating Fonts You Want From Attributes,Official PyTorch implementation of the Attribute2Font: Creating Fonts You Want From Attributes.
+671,2020-04-29 23:22:43,MedCAT - Medical Concept Annotation Tool,A tool used to extract information from Electronic Health Records (EHRs) and link it to biomedical ontologies like SNOMED-CT and UMLS.
+674,2020-04-30 17:52:55,YOLOv4: Optimal Speed and Accuracy of Object Detection,A minimal implementation of YOLOv4.
+679,2020-05-01 16:17:32,Geometric and Relational Deep Learning,Videos from emerging fields of Graph Representation Learning and Geometric Deep Learning.
+681,2020-05-01 16:25:34,The AI Economist,Improving Equality and Productivity with AI-Driven Tax Policies
+683,2020-05-01 16:35:06,TAPAS: Weakly Supervised Table Parsing via Pre-training,Using neural networks to find answers in tables.
+684,2020-05-01 16:48:19,WT5?! Training Text-to-Text Models to Explain their Predictions,We leverage the text-to-text framework proposed by Raffel et al.(2019) to train language models to output a natural text explanation alongside their prediction.
+686,2020-05-01 16:59:48,Jukebox: A Generative Model for Music,"We’re introducing Jukebox, a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. "
+687,2020-05-01 17:17:48,Exploratory Data Analysis of Time Series,"Exploratory Data Analysis of Time Series data in Python. It uses lot of the principles and concepts discussed in Prof. Hyndman's book. The focus is on understa
+"
+688,2020-05-01 17:47:40,Gotchas of Transfer Learning for Image Classification,Discover the things you should care about while doing transfer learning for image classification. 
+689,2020-05-01 17:51:53,Ensemble Forecasts ,"Time series forecasting using classical methods (ETS, Holt-Winter's, SARIMA) and Prophet. I show and discuss advantages of Ensemble Forecast"
+693,2020-05-02 05:05:44,SciTLDR: Extreme Summarization of Scientific Documents,A new automatic summarization task with high source compression requiring expert background knowledge and complex language understanding.
+694,2020-05-02 15:29:06,BLINK: Better entity LINKing,Entity Linking python library that uses Wikipedia as the target knowledge base.
+695,2020-05-02 21:33:31,Five Cool Python Libraries for Data Science,Python is a best friend for the majority of the Data Scientists. Libraries make their life simpler. I have come across five cool Python libraries while working 
+700,2020-05-03 13:49:29,Fastai2 Vision Module,A detailed guide to using fastai2 Datablock API for common computer vision tasks
+702,2020-05-03 20:19:10,Unsupervised Question Decomposition for Question Answering,"Decompose hard (multi-hop) questions into several, easier (single-hop) questions using unsupervised learning, and get better accuracy on multi-hop QA."
+703,2020-05-04 05:09:59,Implementing Graph Neural Networks with JAX,I’ll talk about my experience on how to build and train Graph Neural Networks (GNNs) with JAX.
+704,2020-05-04 11:58:27,Training Batch Norm and Only Batch Norm,Experiments with the ideas presented in https://arxiv.org/abs/2003.00152 by Frankle et al. 
+705,2020-05-04 14:13:13,Deep Learning With Graph-Structured Representations,Novel approaches based on the theme of structuring the representations and computations of neural network-based models in the form of a graph.
+706,2020-05-04 14:18:58,GNNExplainer: Generating Explanations for Graph Neural Networks,General tool for explaining predictions made by graph neural networks (GNNs).
+707,2020-05-05 03:36:50,The Big Bad NLP Database,A collection of 400+ NLP datasets with papers included.
+708,2020-05-05 03:51:53,POINTER: Constrained Text Generation,Constrained Text Generation via Insertion-based Generative Pre-training
+710,2020-05-05 04:01:24,Differential Subspace Search in High-Dimensional Latent Space,"Differential subspace search to allow efficient iterative user exploration in such a space, without relying on domain- or data-specific assumptions."
+712,2020-05-05 05:55:46,Covid-19: A-Geo-Statistical-Analysis,Analysis with the time series data available for various countries.
+713,2020-05-05 07:13:49,Cognito : Data wrangling toolkit,Cognito is an exclusive python data preprocessing library and command-line utility that helps any developer to transform raw data into a machine-learning format
+717,2020-05-05 14:46:57,Synthesizer: Rethinking Self-Attention in Transformer Models,The dot product self-attention is known to be central and indispensable to state-of-the-art Transformer models. But is it really required?
+723,2020-05-05 19:45:50,DeepWay: Autonomous navigation for blind.,I have tried to make something which can be used by blind people to navigate around the streets. Have a look at the video and GitHub repo for details.
+726,2020-05-06 01:10:55,ConvNets-TensorFlow2,Implementing a variety of popular and important CNN architectures
+732,2020-05-06 04:20:43,StellarGraph - Machine Learning on Graphs,"State-of-the-art algorithms for graph machine learning, making it easy to discover patterns and answer questions about graph-structured data."
+733,2020-05-06 04:30:47,LandCover.ai,"Dataset for automatic mapping of buildings, woodlands and water from aerial imagery."
+734,2020-05-06 04:33:15,Generating SOAP Notes from Doctor-Patient Conversations,Evaluate complete pipelines for leveraging these transcripts to train machine learning model to generate these notes.
+737,2020-05-06 18:06:04,Nature-Scene Classification using FASTAI,Classifying Nature-scene images using deep learning  with fastai library
+738,2020-05-06 20:33:00,Machine-Learning-Single-Layer-Multiclass-Perceptron,Implemented a Single Layer Perceptron and applied it on the MNIST dataset for multi-class classification using NumPy.
+741,2020-05-07 01:15:12,Zero-shot Neural Retrieval via Domain-targeted Synthetic Queries,Zero-shot learning for ad-hoc retrieval models that relies on synthetic query generation.
+778,2020-05-07 21:28:34,Harry Potter and the Deep Learning Experiment,RNN built with TensorFlow to generate text based on Harry Potter's books.
+780,2020-05-08 12:06:30,Med7 - clinical natural language processing for EHR,"Med7 is a transferable clinical natural language processing model for electronic health records, compatible with spaCy, for named-entity recognition task"
+783,2020-05-08 14:44:04,NeuralCook — Image2Ingredients and Cooking Recommendation,"Deep learning application to identify ingredients from cooking dishes images and recommend dishes to cook, given a set of ingredients."
+784,2020-05-08 14:59:08,Haystack — Neural Question Answering At Scale,Scaling Question Answering models to find answers in large document stores via retriever and reader approach.
+785,2020-05-08 17:13:36,SimCLR in TensorFlow 2,(Minimally) implements SimCLR (https://arxiv.org/abs/2002.05709) in TensorFlow 2.
+787,2020-05-08 18:15:56,Semantic Cord19 Paper Explorer,Semantic research paper explorer to search Research Papers in COVID and CoronaVirus. Can be easily modified to any Research Paper Database
+788,2020-05-09 04:12:10,NER model for 40 languages trained with the new TFTrainer,This model is a fine-tuned XLM-Roberta-base over the 40 languages proposed in XTREME from Wikiann. 
+791,2020-05-09 14:30:08,Pose Animator,Takes a 2D vector illustration and animates its containing curves in real-time based on the recognition result from PoseNet and FaceMesh.
+792,2020-05-09 16:59:54,A Commit History of BERT and its Forks,What a commit history of version-controlled research papers could look like?
+795,2020-05-10 04:51:17,U^2-Net,"The code for our newly accepted paper in Pattern Recognition 2020: ""U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."""
+796,2020-05-10 05:08:27,Age and Gender Estimation using Multi-Task CNN,Used a multi task CNN to predict the age group and gender of the person in the image.
+797,2020-05-10 15:31:27,Data augmentation recipes in tf.keras image-based models,Learn about different ways of doing data augmentation when training an image classifier in tf.keras.
+799,2020-05-11 00:40:49,Injecting Inductive Bias in Graph Neural Networks (MIT talk),Equivariant Mesh Neural Networks and Neural Augmented (Factor) Graph Neural Networks.
+800,2020-05-11 00:44:10,Feature Stores for ML,List of production ML groups and their open-source feature store architectures.
+803,2020-05-11 02:13:32,Image Semantic Segmentation of UAV mining area based on Deeplabv3,"Data: UAV mining area image
+Tools: PyTorch
+Frame: Deeplabv3
+Semantic Segmentation "
+807,2020-05-11 02:25:51,Introduction to Machine Learning Problem Framing,This course helps you frame machine learning (ML) problems.
+820,2020-05-11 14:19:18,A Comprehensive Survey on Graph Neural Networks,A Comprehensive Survey on Graph Neural Networks.
+821,2020-05-11 15:03:57,Hidden Technical Debt in Machine Learning Systems,"Using the software engineering framework of technical debt, we find it is common to incur massive ongoing maintenance costs in real-world ML systems. "
+822,2020-05-11 15:10:09,In-Domain GAN Inversion for Real Image Editing,"We propose an in-domain GAN inversion method, which faithfully reconstructs the input image but also ensures the inverted code to be semantically meaningful."
+825,2020-05-11 23:07:39,Neural Networks for NLP (CMU CS 11-747),"This class will start with a brief overview of neural networks, then spend the majority of the class demonstrating how to apply neural networks to language."
+826,2020-05-12 03:02:02,DANet PyTorch,A Pytorch implementation of Dual Attention Network for Scene Segmentation
+828,2020-05-12 05:04:58,BART version of closed-book QA,"This is a BART version of sequence-to-sequence model for open-domain QA in a closed-book setup, based on PyTorch and Huggingface's Transformers."
+829,2020-05-12 05:07:35,Unsupervised Reinforcement Learning,Lecture on unsupervised reinforcement learning by Sergey Levine. Originally prepared for AAMAS 2020.
+831,2020-05-13 02:24:24,CCNet_PyTorch,A PyTorch Implementation of  CCNet: Criss-Cross Attention for Semantic Segmentation
+832,2020-05-13 04:22:09,Image segmentation in 2020,"Architectures, Losses, Datasets, and Frameworks"
+833,2020-05-13 04:27:08,Plan2Explore: Plan to Explore via Self-Supervised World Models,A self-supervised reinforcement learning agent that tackles task-specific and the sample efficiency challenges.
+834,2020-05-13 04:36:33,TailorGAN: Making User-Defined Fashion Designs,Generate a photo-realistic image which combines the texture from reference A and the new attribute from reference B.
+835,2020-05-13 04:39:31,Toward Better Storylines with Sentence-Level Language Models,We propose a sentence-level language model which selects the next sentence in a story from a finite set of fluent alternatives.
+836,2020-05-13 04:43:57,Epipolar Transformers,"Differentiable ""epipolar transformer"", which enables the 2D detector to leverage 3D-aware features to improve 2D pose estimation."
+840,2020-05-13 05:03:33,Machine Learning on Graphs: A Model and Comprehensive Taxonomy,We propose a simple framework (GraphEDM) and a comprehensive Taxonomy to review and unify several graph representation learning methods.
+841,2020-05-13 05:10:58,BLEURT: Learning Robust Metrics for Text Generation,A metric for Natural Language Generation based on transfer learning.
+842,2020-05-13 13:20:07,Identifying Brain Tumor from MRI images using FastAI -DynamicUnet,"To use FASTAI unet learner to identify tumours from MRI of Brain, logging loss metrics in Neptune AI logger and compare the results after hyperparameter tuning."
+843,2020-05-13 14:49:21,T5 fine-tuning,A colab notebook to showcase how to fine-tune T5 model on various NLP tasks (especially non text-2-text tasks with text-2-text approach)
+847,2020-05-13 22:53:36,HuggingTweets,Tweet Generation with Huggingface.
+849,2020-05-13 22:59:38,Top Down Introduction to BERT with HuggingFace and PyTorch,I will also provide some intuition into how BERT works with a top down approach (applications to algorithm).
+850,2020-05-13 23:02:29,Transformers from Scratch,"Attempt to explain directly how modern transformers work, and why, without some of the historical baggage."
+852,2020-05-14 07:11:26,Scene Classification using Pytorch and Fast.ai,The objective is to classify Multi-label images using deep learning. Here I have used Fast.ai library for implementing the model. 
+854,2020-05-14 12:05:20,ASAP: Pooling for Graph Neural Network (AAAI 2020),ASAP is a sparse and differentiable pooling method that addresses the limitations of previous graph pooling layers.
+855,2020-05-14 12:32:20,Fake new detection Pytorch,Fake News Detection by Learning Convolution Filters through Contextualized Attention.
+857,2020-05-14 14:25:11,FastHugs: Sequence Classification with Transformers and Fastai,Fine-tune a text classification model with HuggingFace 🤗 transformers and fastai-v2.
+858,2020-05-14 14:35:37,Open-Dialog Chatbots for Learning New Languages,A tutorial for automatically generate code comments using Deep Learning.
+860,2020-05-14 17:35:04,Electra,ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
+862,2020-05-14 19:13:59,DQN In Pytorch Livestream Series,I'm doing a series of streams about reinforcement learning (starting from Q learning) focused on showing the work in as much detail as possible (e.g. debugging)
+863,2020-05-15 04:24:58,S2IGAN: Speech-to-Image Generation via Adversarial Learning,A speech-to-image generation (S2IG) framework is proposed which translates speech descriptions to photo-realistic images without using any text information.
+864,2020-05-15 13:04:19,Twitter Sentiment Analysis,"This project is based on Natural Language processing (NLP), in this we do sentiment analysis(i.e, how much it is positive or negative) of tweets of any account."
+866,2020-05-15 13:51:56,HuggingFace nlp library,"nlp is a lightweight and extensible library to easily share and load dataset and evaluation metrics, already providing access to ~100 datasets and ~10 evaluatio"
+868,2020-05-15 14:07:47,RXNMapper: Unsupervised Attention-Guided Atom-Mapping,The atom-mapping information was learned by an ALBERT model trained in an unsupervised fashion on a large dataset of chemical reactions.
+869,2020-05-15 14:08:12,ICLR 2020 Trends: Better & Faster Transformers for NLP,A summary of promising directions from ICLR 2020 for better and faster pretrained tranformers language models. 
+875,2020-05-15 22:53:58,Differentiable Reasoning over Text,We consider the task of answering complex multi-hop questions using a corpus as a virtual knowledge base (KB).
+877,2020-05-16 02:42:32,Semi-supervised image classification with GANs,"Shows how to perform semi-supervised image classification with GANs. The cover image is from Chapter 7, GANs in Action."
+878,2020-05-16 05:27:56,Exploratory Data Analysis on MS COCO Style Datasets,A Simple Toolkit to do exploratory data analysis on MS COCO style formatted datasets.
+879,2020-05-16 10:57:53,HighRes-net: Multi-Frame Super-Resolution of satellite imagery,"Pytorch implementation of HighRes-net, a neural network for multi-frame super-resolution, trained and tested on the European Space Agency’s Kelvin competition."
+880,2020-05-16 11:50:31,How Deep Is Your Love For Transfer Learning In NLP?,A review of NLP research
+881,2020-05-16 13:32:51,Time Series Forecasting with TensorFlow.js,Machine learning is becoming increasingly popular these days and a growing number of the world’s population see it is as a magic crystal ball: predicting when a
+882,2020-05-16 13:35:31,Phrases extraction and D3 Wordcloud,100% JavaScript solution to extracting phrases from text and display key points in a beautiful D3 wordcloud.
+883,2020-05-16 13:37:44,Reinforcement Learning Tic Tac Toe with Value Function,"A reinforcement learning algorithm for agents to learn the tic-tac-toe, using the value function
+
+"
+884,2020-05-16 13:40:07,Build a Textual Similarity Web App with TensorFlow.js,Have you wondered how search engines understand your queries and retrieve relevant results? How chatbots extract your intent from your questions and provide the
+890,2020-05-16 19:51:33,cyBERT: Applying BERT to Windows event logs,"This blog shows how interpreting cybersecurity logs as a natural language, improving upon the standard regex-based parsing of log data."
+892,2020-05-17 02:08:12,DPOD: Pose Estimator,PyTorch recreation of a SOTA 6D Pose estimation research paper. 
+893,2020-05-17 04:44:04,ESTorch,ESTorch is an Evolution Strategy Library build around PyTorch.
+894,2020-05-17 04:47:40,"A Large-Scale, Open-Domain, Mixed-Interface Dialogue-Based ITS ","Korbit, a large-scale, open-domain, mixed-interface, dialogue-based intelligent tutoring system (ITS)."
+898,2020-05-17 05:11:22,Single-Stage Semantic Segmentation from Image Labels,"We attain competitive results by training a single network model
+for segmentation in a self-supervised fashion using only
+image-level annotations"
+900,2020-05-17 08:14:24,A Visual Survey of Data Augmentation in NLP,An extensive overview of text data augmentation techniques for Natural Language Processing
+901,2020-05-17 09:57:38,DoYouEvenLearn,Essential Guide to keep up with AI/ML/DL/CV
+902,2020-05-18 00:57:27,Differentiable Adaptive Computation Time for Visual Reasoning ,"DACT, a new algorithm for achieving adaptive computation time that, unlike existing approaches, is fully differentiable. "
+903,2020-05-18 11:15:12,Semixup: In- and Out-of-Manifold Regularization,Semixup is a semi-supervised learning method based on in/out-of-manifold regularization.
+905,2020-05-18 14:40:51,Deep Reinforcement Learning for Supply Chain & Price Optimization,Explore how deep reinforcement learning methods can be applied in several basic supply chain and price management scenarios.
+906,2020-05-18 14:50:45,NLPAug,Data augmentation for NLP
+907,2020-05-18 14:53:33,TextAttack,A Python framework for building adversarial attacks on NLP models.
+913,2020-05-19 03:19:59,aitextgen,A robust Python tool for text-based AI training and generation using GPT-2.
+914,2020-05-19 03:25:11,How Hugging Face achieved a 2x performance boost for QA,Question Answering with DistilBERT in Node.js
+916,2020-05-19 08:11:05,Get Subreddit Suggestions for a Post,"Trained on 4M Reddit posts from 4k Subreddits. End-to-end ML pipeline built with fasttext and FastAPI, deployed to Valohai."
+917,2020-05-19 13:45:03,Transfer Learning In NLP,A brief history of Transfer Learning In NLP
+918,2020-05-19 22:36:09,Accelerate your NLP pipelines using Hugging Face and ONNX,How the ONNX Runtime team and Hugging Face are working together to address challenges in training and deployment of Transformer models.
+919,2020-05-20 02:29:48,IntelliCode Compose: Code Generation Using Transformer,"Code completion tool which is capable of predicting sequences of code tokens of arbitrary types, generating up to entire lines of syntactically correct code."
+920,2020-05-20 02:35:11,Attentron,Few-shot text-to-speech exploiting attention-based variable length embedding
+921,2020-05-20 02:39:09,Torch Points3D,Pytorch framework for doing deep learning on point clouds.
+922,2020-05-20 07:23:50,NLP Model Selection ,NLP model selection guide to make it easier to select models. This is prescriptive in nature and has to be used with caution.
+925,2020-05-20 16:20:28,Model-Agnostic Meta-Learning for Reinforcement Learning with TF2,Reimplementation of Model-Agnostic Meta-Learning (MAML) applied on Reinforcement Learning problems in TensorFlow 2.
+927,2020-05-21 03:16:17,FashionBERT,Text and image matching with adaptive loss for cross-modal retrieval.
+934,2020-05-21 03:45:38,📈 Automated Time Series Forecasting,This data app uses Facebook's open-source Prophet library to automatically forecast values into the future. 
+935,2020-05-21 14:22:01,"Look inside the workings of ""Label Smoothing""","This blog post describes how and why does ""trick"" of label smoothing improves the model accuracy and when should we use it "
+938,2020-05-22 01:01:32,Content and Style Disentanglement for Artistic Style Transfer,Hi-Res style transfer and interpolation between styles
+939,2020-05-22 03:08:40,Time Series Classification Using Deep Learning,"In this article, I will introduce you to a new package called timeseries for fastai2 that I lately developed. "
+940,2020-05-22 03:16:29,TAO: A Large-Scale Benchmark for Tracking Any Object,"A diverse dataset for Tracking Any Object (TAO) consisting of 2,907 high resolution videos, captured in diverse environments, which are half a minute long on "
+941,2020-05-22 03:21:10,BiT: Exploring Large-Scale Pre-training for Compute,"We are excited to share the best BiT models pre-trained on public datasets, along with code in TF2, Jax, and PyTorch. "
+943,2020-05-22 06:27:43,Transfer Learning in NLP with Tensorflow Hub and Keras,Learn how to integrate and finetune tensorflow-hub modules in Tensorflow 2.0
+946,2020-05-22 07:57:14,Replicating Airbnb's Amenity Detection (documentary series),Airbnb's engineering team shared an article on how they used computer vision to detection amenities in photos. It read like a recipe so I replicated it.
+947,2020-05-22 13:34:30,Self Driving Car,This project is a demonstration of a working model of self driving car 🚗🚗 identifying and following lanes using powerful computer vision 🕶🕶 algorithms.
+948,2020-05-22 13:39:15,Plant Disease Detection,This website help you to detect disease in your plant🌳 based to the plant's leaf🍃 image
+951,2020-05-23 03:19:00,YoloV3 implementation in keras and tensorflow 2.2,YoloV3 Real Time Object Detector in tensorflow 2.2.
+952,2020-05-23 03:22:11,Face Mask Detector,A simple Streamlit frontend for face mask detection in images using a pre-trained Keras CNN model + OpenCV and model interpretability.
+957,2020-05-23 09:18:52,Colbert AI,Colbert AI is a Deep Learning Language Model that generates text in the style of Stephen Colbert's famous monologues.
+961,2020-05-23 16:01:21,How to Build Robust Embeddings for Visual Similarity Tasks,This repository I package a bunch of tips and tricks to efficiently train deep learning models in computer vision
+962,2020-05-24 00:09:28,Basic ML Algorithms from scratch.,Implement basic Machine Learning Algorithms from scratch in python.
+963,2020-05-24 03:13:28,Build your first data warehouse with Airflow on GCP,What are the steps in building a data warehouse? What cloud technology should you use? How to use Airflow to orchestrate your pipeline?
+965,2020-05-24 08:14:30,GANs in Computer Vision : An article review series ,"An article series where we review the most important research papers on GANs from 2015 to today.  6 articles,  20 papers, 20000 words"
+966,2020-05-24 10:24:03,Building an Intelligent Twitter Bot,The volume of information going through Twitter per day makes it one of the best platforms to get information on any subject of interest. 
+968,2020-05-24 16:40:46,Self Supervised Representation Learning in NLP,An overview of self-supervised pretext tasks in Natural Language Processing
+970,2020-05-24 20:01:29,Job Classification,"Job Classification done using Techniques of NLP and ML.
+
+Dataset used from Kaggle of Indeeed job posting."
+972,2020-05-25 03:23:16,Next Word Prediction,Using transformers to predict next word and predict <mask> word.
+974,2020-05-25 03:28:32,PixelLib,Pixellib is a library for performing segmentation of images. 
+978,2020-05-25 05:53:46,TensorFlow.js - Gesture Controlled 2048,Gesture Controlled 2048 built with TensorFlow.js
+979,2020-05-25 11:04:50,Taxi Demand Prediction NewYorkCity,Predict the number of pickups as accurately as possible for each region in a 10 -min interval.
+980,2020-05-25 14:52:17,Super-BPD for Fast Image Segmentation,"We propose direction-based super-BPD, an alternative to superpixel, for fast generic image segmentation, achieving state-of-the-art real-time result."
+986,2020-05-26 03:47:15,Neural Topological SLAM for Visual Navigation,Topological representations for space that effectively leverage semantics and afford approximate geometric reasoning.
+987,2020-05-26 13:16:48,Zero To One For NLP,A collection of all resources for learning NLP
+989,2020-05-26 17:17:14,NLP for Developers: Shrinking Transformers | Rasa,"In this video, Rasa Senior Developer Advocate Rachael will talk about different approaches to make transformer models smaller."
+991,2020-05-27 05:09:20,NLP Viewer 🤗,A simple website for browsing popular NLP datasets.
+993,2020-05-27 05:26:33,DETR: End-to-End Object Detection with Transformers,A new method that views object detection as a direct set prediction problem. 
+997,2020-05-28 03:20:06,AutoSweep: Recovering 3D Editable Objects from a Single Photo,Fully automatic framework for extracting editable 3D objects directly from a single photograph.
+999,2020-05-28 03:32:05,MediaPipe,"Simplest way for researchers and developers to build world-class ML solutions and applications for mobile, edge, cloud and the web. "
+1000,2020-05-28 03:33:52,CMU LTI Low Resource NLP Bootcamp 2020,A low-resource natural language and speech processing bootcamp held by the Carnegie Mellon University Language Technologies Institute in May 2020.
+1007,2020-05-28 21:30:37,Humour.ai : Language Model that can crack Jokes,"A Language model that can make you laugh. Humour.ai model tries to
+complete a sentence in a humourous way given some input words. "
+1008,2020-05-29 02:28:53,face mask detection ,detects whether a person wearing a mask or not
+1009,2020-05-29 02:47:06,Train ALBERT for NLP with TensorFlow on Amazon SageMaker,"To train BERT in 1 hour, we efficiently scaled out to 2,048 NVIDIA V100 GPUs by improving the underlying infrastructure, network, and ML framework. "
+1010,2020-05-29 02:51:39,GPT-3: Language Models are Few-Shot Learners,"We show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior SOTA."
+1011,2020-05-29 02:57:44,ML in Production - Deployment Series,"A multi-part blog series on deploying machine learning models in an automated, reproducible, and auditable manner."
+1013,2020-05-29 03:06:41,Guided Uncertainty-Aware Policy Optimization,Combining learning and model-based strategies for sample-efficient policy learning.
+1018,2020-05-29 08:09:04,GOTURN-PyTorch,"PyTorch implementation of ""Learning to Track at 100 FPS with Deep Regression Networks"""
+1019,2020-05-29 08:14:05,Visual Object Tracking using Adaptive Correlation Filters,This article gives step by step tutorial with code on understanding MOSSE tracking algorithm
+1020,2020-05-29 09:54:04,Applying Modern Best Practices to Autoencoders,This project applies best modern practices found in other areas of image research to autoencoders. Comparing models from other areas of image research.
+1021,2020-05-29 10:33:26,Sentiment analysis ,"Sentiment analysis by combining three dataset amazon,yelp, IMDb reviews to train our,model to classify if a comment is negative or positive denoted by 0 and 1."
+1022,2020-05-29 13:27:20,The designer - gpt2 bot that talks about UX Design,"This twitter profile spits out thoughts on design and development. Trained with hundreds of Books on UX design and Front end development, it has opinions."
+1024,2020-05-29 14:15:30,Sentiment Classification for UtaPass & KKBOX Reviews,Text classification for reviews of UtaPass & KKBOX using different deep learning models.
+1025,2020-05-29 14:18:59,Forex Prediction,Using neural networks to predict movement of forex direction.
+1026,2020-05-29 14:24:07,Lyrics-Based Music Genre Classifier,"Classify the genre (Rock, Pop, Hip-Hop, Not Available, Metal, Other, Country, Jazz, Electronic, R&B, Indie, Folk) of the song by its lyrics."
+1028,2020-05-29 14:39:16,ARBML,"Implementation of many Arabic NLP and ML projects. Providing real time experience using many interfaces like web, command line and notebooks."
+1032,2020-05-29 14:50:28,Pix2Pix with Tf-js,"Implementation of web friendly ML models using TensorFlow.js. pix2pix, face segmentation, fast style transfer and many more ..."
+1035,2020-05-29 16:11:11,Zero Shot Topic Classification,Bart with a classification head trained on MNLI.
+1045,2020-05-30 01:35:24,Illustrated Guide to Transformers: Step by Step Explanation,"In this post, we’ll focus on the one paper that started it all, “Attention is all you need”."
+1046,2020-05-30 01:39:25,Illustrated Guide to Transformers,A component by component breakdown analysis.
+1055,2020-05-30 09:02:27,Automatic-Face-Detection-Annotation-and-Preprocessing,"Automatically detect , annotate , collect the coordinates , convert to csv and to tfrecord"
+1056,2020-05-30 09:08:31,Font Recognition Using Deep Learning - DeepFont ( Adobe ),DeepFont Paper is a technique created by Adobe.Inc to detect font from images using deep learning . They published their work as a paper for the public .
+1058,2020-05-30 09:43:39,SmartFeed.ai,NLP Based Article Recommendation System 
+1059,2020-05-30 10:50:55,Wheat Detection 🌾,This is a project for detecting and creating bounding box of wheat heads 🌾.
+1068,2020-05-30 18:20:40,Effects of News Sentiments on Stock Predictions,Project is based on the Natural Language Processing technique called Sentiment Analysis. Stock market and news related to it as the subject of analysis.
+1069,2020-05-30 20:04:49,NLP News Category,The objective of this repository is to create a NLP bot for when you give the robot the headline of the news and a short description it will return the genre.
+1070,2020-05-30 20:06:48,AI Debate Master,"Created and deployed a bot made to debate with a human on any
+given topic. Employed a Doc2Vec model using Gensim library in Python"
+1075,2020-05-31 04:44:27,Zero-Shot Learning for Text Classification,"A visual summary of “Train Once, Test Anywhere” paper for zero-shot text classification"
+1078,2020-05-31 05:04:44,Building Footprint Extraction,The project retrieves satellite imagery from Google and performs building footprint extraction using a U-Net. 
+1080,2020-05-31 05:23:23,Dash DETR Detection App,A User Interface for DETR built with Dash. 100% Python.
+1081,2020-05-31 05:28:53,AI Basketball Analysis,🏀   AI web app and API to analyze basketball shots and shooting pose. 
+1083,2020-05-31 08:20:06,Reverse Image Search,Have you ever wondered how google image search works or How amazon can retrieve products similar to the image that we upload in the app/site? To achieve this ta
+1084,2020-05-31 08:22:45,Beginner’s guide to Machine Learning Model Deployment,Are you a beginner in the field of machine learning and wondering how to bring your project to live. I'm was in the same situation when I started learning ML. M
+1093,2020-05-31 17:39:22,MedicalZoo PyTorch,A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation
+1094,2020-05-31 19:11:28,Paraphrase Any Question with T5  (Text-To-Text  Transformer),"Given a question, generate paraphrased versions of the question with T5 transformer. Pretrained model and training script provided."
+1100,2020-06-01 05:56:43,Movie Recommendation System,This is a web app which recommends movies based on their plots found on IMDb.
+1104,2020-06-01 10:02:09,Convnet Galaxy Morphology Classifier,Classify galaxies from Hubble Tuning Fork using Convnet. 
+1107,2020-06-01 14:52:29,2nd Place Solution to Ship Identification Hackathon ,The problem statement was to identify the type of ship from photos taken from the survey boats. The hackathon was organized by Analytics Vidhya.
+1110,2020-06-01 16:44:55,Deep learning Architecture: AlexNet,Explaining network architecture for AlexNet
+1111,2020-06-01 18:13:26,Movement Pruning: Adaptive Sparsity by Fine-Tuning,"We propose the use of movement pruning, a simple, deterministic first-order weight pruning method that is more adaptive to pretrained model fine-tuning."
+1112,2020-06-01 18:57:31,Document search engine,NLP based search engine for single page pdf files.
+1114,2020-06-01 21:00:24,Reinforcement Learning in JAX,"Implementation of interesting Deep Reinforcement Learning Algorithms using JAX based libraries (flax, haiku and rlax) As of now tasks come from OpenAI gym"
+1115,2020-06-01 21:07:53,Softbot design with WANNS,"Soft robots are robots built from highly compliant materials, similar to those found in living organisms. This project explored CPPNs and WANNs to design them"
+1121,2020-06-02 05:07:17,Motion2Vec,Semi-Supervised Representation Learning from Surgical Videos
+1122,2020-06-02 05:10:18,Machine Learning: Tests and Production,Best practices for testing ML-based systems.
+1130,2020-06-02 11:51:38,Generate True or False questions from any content,"Automatically generate “True or False” questions like the ones you see in school textbooks using  OpenAI GPT2, Sentence BERT, and Berkley parser"
+1131,2020-06-02 13:41:32,Sized Fill-in-the-blank or Multi Mask filling with RoBERTa,Sized fill-in-the-blank or conditional text filling is the idea of filling missing words of a sentence with the most probable choice of words.
+1132,2020-06-02 14:56:10,T5 for Sentiment Span Extraction,Exploring how T5 works and applying it for sentiment span extraction.
+1133,2020-06-02 14:58:58,Getting Started with Time Series analysis using Pandas,An introductory guide to get started with the Time Series datasets in Python
+1135,2020-06-02 15:06:34,Melanoma Detection with Pytorch,"In this video, I show you how you can build a deep learning model to detect melanoma with a very high accuracy."
+1139,2020-06-02 19:53:37,"RoBERTa → Longformer: Build a ""Long"" Version of Pretrained Models",This notebook replicates the procedure descriped in the Longformer paper to train a Longformer model starting from the RoBERTa checkpoint. 
+1145,2020-06-03 01:51:14,Learning Dexterity End-to-End,We trained a human-like robot hand to manipulate physical objects with unprecedented dexterity.
+1148,2020-06-03 02:28:20,A Practical guide to building a conversational chatbot,Building a Chatbot from scratch using Keras and NLTK library for a customer service company
+1151,2020-06-03 07:25:27,Web Mining and Information theory,"Mining the Web and playing with Natural Language processing. Implementing Information retrieval System tasks. Going towards the NLP and Performing Machine Learning algorithms. Through these codes and problems, I have understood the information retrieval process of any search engine. These are very useful problems towards sentiment analysis."
+1155,2020-06-03 15:22:11,GaborNet,Modified network architecture that focuses on improving convergence and reducing training complexity.
+1159,2020-06-03 18:17:01,Learning To Classify Images Without Labels,A two-step approach where feature learning and clustering are decoupled.
+1162,2020-06-03 22:05:30,Deep Q-Network on Space Invaders. ,This is a PyTorch implementation of a Deep Q-Network agent trained to play the Atari 2600 game of Space Invaders.
+1165,2020-06-04 03:53:43,YOLOv4,A TensorFlow 2.0 implementation of YOLOv4: Optimal Speed and Accuracy of Object Detection.
+1166,2020-06-04 03:55:53,Acme: A Research Framework for Reinforcement Learning,A library of reinforcement learning components and agents.
+1167,2020-06-04 03:58:21,From Pre-trained Word Embeddings to Pre-trained Language Models,from Static Word Embedding to Dynamic (Contextualized) Word Embedding.
+1172,2020-06-04 07:01:13,Converting images to TF Records,A Colab Notebook showing how to convert an image dataset (for classification) to TF Records and more.
+1176,2020-06-04 09:10:07,doc2vec Paragraph Embeddings for Text Classification,Text classification model which uses gensim's Doc2Vec for generating paragraph embeddings and scikit-learn Logistic Regression for classification. 
+1178,2020-06-04 12:19:52,Machine Learning with Fastai,"The fastai library is based on research into deep learning best practices undertaken at fast.ai, and includes support for Vision, Text, tabular and Collab"
+1180,2020-06-04 14:58:19,The Transformer … “Explained”?,"An intuitive explanation of the Transformer by motivating it through the lens of CNNs, RNNs, etc."
+1181,2020-06-04 16:28:24,TensorflowTTS: Real-Time SOTA Speech Synthesis for Tensorflow 2.0,"TensorflowTTS provides real-time state-of-the-art speech synthesis architectures such as Tacotron2, Melgan, FastSpeech."
+1185,2020-06-04 22:36:31,PyTorch Transformers Tutorials,"A set of annotated Jupyter notebooks, that give user a template to fine-tune transformers model to downstream NLP tasks such as classification, NER etc. "
+1192,2020-06-05 04:28:52,BERT Summarization,This folder contains colab notebooks that guide you through the summarization by BERT and GPT-2 to play with your data.
+1194,2020-06-05 04:35:14,Divide Hugging Face Transformers Training Time By 2,Reducing training time helps to iterate more in a fixed budget time and thus achieve better results.
+1199,2020-06-05 15:39:56,How NLP has evolved for Financial Sentiment Analysis,Do we still need humans to read boring financial statements?
+1202,2020-06-05 17:51:33,The NLP Pandect - All NLP resources in one place,The NLP Pandect was created to help you find almost anything related to Natural Language Processing that is available online.
+1203,2020-06-05 18:18:18,Summary of 🤗 Transformers Models,A high-level summary of the differences between each model in HuggingFace's Transformer library.
+1204,2020-06-05 22:56:38,Snaked: Classifying Snake Species using Images,Proof of concept that it is possible to identify snake species and whether poisonous from photographs (PyTorch code/model with Android app)
+1211,2020-06-06 15:13:13,Literate Lamp: Answering Question with Common Sense,We study the problem of answering questions that require common sense to be answered using Transformer-based models and the ConceptNet knowledge base.
+1215,2020-06-06 19:00:39,Pytorch Faster RCNN,Fine Tune Faster RCNN in pytorch for your task.
+1222,2020-06-07 04:34:58,Paragraph Summarizer,Uses the extractive way of summarizing the text by finding the score and ranking it.
+1223,2020-06-07 04:39:32,Leafy: Plant Leaf Classifier,The sequential model trained on images from the leafsnap.com
+1236,2020-06-07 21:03:31,"COVID-Q: A Dataset of 1,690 Questions about COVID-19","This dataset consists of COVID-19 questions which have been annotated into a broad category (e.g. Transmission, Prevention) and a more specific class such that "
+1237,2020-06-08 03:43:45,Keras notifications on Slack!,Get slack notifications of your model's training progress when training with Keras (or tf.keras)
+1239,2020-06-08 07:05:15,Zero-shot Text Classification With Generative Language Models,An overview of a text generation approach to zero-shot text classification with GPT-2
+1241,2020-06-08 08:25:01,Funnel-Transformer: Filtering out Sequential Redundancy,Funnel-Transformer is a self-attention model that gradually compresses the sequence of hidden states to a shorter one and hence reduces the computation cost.
+1243,2020-06-08 08:39:34,Timeseries Anomaly Detection using an Autoencoder,Detect anomalies in a timeseries using an Autoencoder.
+1246,2020-06-08 09:47:02,Fairseq-tagging,"a Fairseq fork for sequence tagging/labeling tasks
+"
+1249,2020-06-08 16:59:01,Know-Corona : Kaggle COVID-19 Open Research Dataset Challenge (CO,"NLP/state-of-the-art language model (BERT) based Question & Answering pipeline to answer all task questions after analyzing articles abstract of COVID-19, SARS-"
+1251,2020-06-08 18:38:49,Automatic Asset Classification,This project aims to automate the task of labelling images of flood defence assets as well as clustering images to find possibly better groupings.
+1255,2020-06-09 01:50:33,TransformerTTS,🤖💬 Transformer TTS: Implementation of a non-autoregressive Transformer based neural network for text to speech.
+1257,2020-06-09 01:58:48,How Big Should My Language Model Be?,Tool to explore language model training and optimize the compute costs.
+1258,2020-06-09 02:04:49,MSeg: A Composite Dataset for Multi-domain Semantic Segmentation,A composite dataset that unifies semantic segmentation datasets from different domains.
+1259,2020-06-09 02:11:15,Network Fusion for Content Creation With Conditional Inns,"We present a method to repurpose powerful, existing models for new tasks, even though they have never been designed for them."
+1260,2020-06-09 02:14:59,Advanced Deep Learning for Computer Vision (ADL4CV),"The Visual Computing Group offers a variety of lectures and seminars on a regular basis, covering hot areas in computer graphics, vision, and machine learning."
+1266,2020-06-09 16:09:08,Text Classification using Bert from Tensorflow-Hub,This Tutorial helps to learn about Bert Models for Classification  task on a #Tweet dataset.
+1272,2020-06-10 05:13:41,Linformer: Self-Attention with Linear Complexity,We demonstrate that the self-attention mechanism can be approximated by a low-rank matrix.
+1274,2020-06-10 05:21:00,Getting Machine Learning to Production,"Machine learning is hard and there are a lot, a lot of moving pieces."
+1275,2020-06-10 05:24:07,Exploration Strategies in Deep Reinforcement Learning,Exploitation versus exploration is a critical topic in reinforcement learning. This post introduces several common approaches for better exploration in Deep RL.
+1278,2020-06-10 12:50:41,Automatically Generate Multiple Choice Questions (MCQs) ,"Automatically Generate Multiple Choice Questions (MCQs) from any content with BERT Summarizer, Wordnet, and Conceptnet"
+1286,2020-06-10 17:24:19,Exploring Knowledge Captured in Probability of Strings,An exploration of simple knowledge captured by language models with code examples
+1287,2020-06-10 18:27:24,BERT Loses Patience: Fast and Robust Inference with Early Exit,"Patience-based Early Exit, a inference method that can be used as a plug-and-play technique to simultaneously improve the efficiency of a pretrained LM."
+1298,2020-06-11 04:18:27,PEGASUS: a SOTA model for Abstractive Text Summarization,A State-of-the-Art Model for Abstractive Text Summarization.
+1301,2020-06-11 04:29:24,Big GANs Are Watching You, We demonstrate that object saliency masks for GAN-produced images can be obtained automatically with BigBiGAN.
+1309,2020-06-11 19:04:31,Sentiment Analysis on News Article,Used Twitter API to extract news-related tweets. Did some preprocessing and then calculated the tweets' polarity.
+1310,2020-06-11 20:30:38,GPT-3 Language Model: A Technical Overview,"Technical details of the GPT-3 model, training, inference and what to expect next. "
+1312,2020-06-11 20:37:47,OpenAI API,API for accessing new AI models developed by OpenAI.
+1320,2020-06-12 04:17:08,Implementation of a Contextual Chatbot in PyTorch,Simple chatbot implementation with PyTorch.
+1325,2020-06-12 11:06:34,Author Identification using Doc2Vec,Web app of an author identification model trained on PAN 2012 dataset and Kaggle's Spooky Authorship Dataset
+1329,2020-06-12 12:44:18,Training game agents with supervised learning,This is a continuing research project trying find ways to learn complex tasks such as games without using Reinforcement Learning.
+1363,2020-06-13 13:46:44,Short Notes on Batch Constrained Deep Reinforcement Learning,Blog article on Off-Policy Deep Reinforcement Learning without Exploration paper by Fujimoto et al. (ICML 2019)
+1371,2020-06-13 17:16:07,Baymax - ChatBot,"Baymax Chatbot is a part of my summer training program @AdHoc Networks, Jaipur.
+
+A chatbot that allows user to signup and login to maintain their record. When c"
+1372,2020-06-13 17:21:43,How to Evaluate Longformer on TriviaQA using NLP,We will evaluate a pretrained LongformerForQuestionAnswering model on the validation dataset of TriviaQA.
+1374,2020-06-13 17:28:13,Extracting Structured Data from Templatic Documents,"Automatically extract data from structured documents—invoices, receipts, etc.—with the potential to streamline many business workflows."
+1392,2020-06-13 20:58:33,StackOver Flow Data Analysis,"Analysing certain aspects of the stack overflow data and creating ""Tag Predictor"" which predicts tag based on the post posted. "
+1398,2020-06-14 05:51:06,Super-resolution Variational Auto-Encoders,VAE with RealNVP prior and Super-Resolution VAE in PyTorch.
+1399,2020-06-14 05:57:16,Video object grounding,Video object grounding using semantic roles in language description. 
+1418,2020-06-14 17:43:34,Short Notes on Behavior Regularized Offline RL,Blog Article on Behavior Regularized Offline Reinforcement Learning by Yifan Wu et al. (2019)
+1423,2020-06-14 22:10:57,Entity Embedding with LSTM for Time-Series,"Demonstration of using LSTM for forecasting with structured time-series data, containing categorical and numerical features."
+1424,2020-06-15 02:27:55,Why We Switched from Flask to FastAPI for Production ML,The most popular tool isn’t always the best.
+1425,2020-06-15 02:31:48,Building a Captcha OCR in TF2.0,A Kaggle notebook showcasing the use of an Endpoint layer for CTC loss function used for building a Captcha Reader in TensorFlow.
+1426,2020-06-15 02:34:27,From GRU to Transformer,How recurrent units and self-attention are related to each other.
+1427,2020-06-15 02:40:48,101 Ways to Solve Search - Dair AI ft. Pratik Bhavsar,A comprehensive overview of explaining how NLP is used for search.
+1430,2020-06-15 04:24:12,Melanoma Classification,This was Shubhamai 3-week project for working a new kaggle competition and deploying a web application to predicting benign or malignant based on images.
+1434,2020-06-15 07:52:13,Universal Sentence Encoder Visually Explained,A deep-dive into how Universal Sentence Encoder learns to generate fixed-length sentence embeddings
+1438,2020-06-15 11:06:35,Multimodal Meme Classification,UNITER has given state of the art results in various image-text related problems. This project aims at finetuning UNITER to solve Hateful memes challenge
+1445,2020-06-15 17:49:16,Image Smoothing via L0 Gradient Minimization,This is a edge-aware image smoothing algorithm. This algorithm tries to smoothen the image while preserving the global structural information of the image. 
+1450,2020-06-15 21:00:47,BERT NLP — How To Build a Question Answering Bot,Understanding the intuition with hands-on PyTorch code for BERT fine-tuned on SQuAD.
+1451,2020-06-16 01:21:09,EfficientDet (PyTorch),A PyTorch implementation of EfficientDet faithful to the original Google implementation with ported weights.
+1453,2020-06-16 01:32:49,Interpretable Machine Learning for Computer Vision,"Recent progress we made on visualization, interpretation, and explanation methodologies for analyzing both the data and the models in computer vision."
+1455,2020-06-16 02:32:53,Predicting Unintentional Action in Video,"We introduce a dataset of in-the-wild videos of unintentional action, as well as a suite of tasks for recognizing, localizing, and anticipating its onset. "
+1457,2020-06-16 02:46:25, Synthesizing High-Resolution Images with StyleGAN2,"Developed by NVIDIA Researchers, StyleGAN2 yields state-of-the-art results in data-driven unconditional generative image modeling."
+1458,2020-06-16 02:51:13,PIFuHD: High-Resolution 3D Human Digitization ,"This repository contains a pytorch implementation of ""Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization""."
+1459,2020-06-16 03:06:10,SuperGlue: Learning Feature Matching with Graph Neural Networks,"SuperGlue, a neural network that matches two sets of local features by jointly finding correspondences and rejecting non-matchable points."
+1460,2020-06-16 03:21:07,Instance Shadow Detection,Instance shadow detection aims to find shadow instances paired with object instances.
+1461,2020-06-16 03:24:02,Detectron2,FAIR's next-generation platform for object detection and segmentation.
+1462,2020-06-16 03:28:40,Open Compound Domain Adaptation,"Pytorch implementation for ""Open Compound Domain Adaptation"""
+1473,2020-06-16 22:37:58,tslearn,A machine learning toolkit dedicated to time-series data.
+1475,2020-06-16 22:45:15,PyTorch3D,FAIR's library of reusable components for deep learning with 3D data.
+1476,2020-06-16 22:48:45,Course Review - Causal Inference,Types of understanding that causal inference researchers value.
+1478,2020-06-16 22:56:31,Unsupervised Learning of Probably Symmetric Deformable 3D Objects,"A method to learn 3D deformable object categories from raw single-view images, without external supervision."
+1480,2020-06-16 23:06:13,A Guide to Natural Language Processing With AllenNLP,basics of using AllenNLP
+1482,2020-06-17 12:12:03,Real Time Object Detection using CNN YOLO,"This project is done on real time object detection using a deep learning object detection algorithm i.e., YOLO."
+1483,2020-06-17 14:38:33,Short Notes on Model-Based Offline Reinforcement Learning (MOReL),Blog article on Model-Based Offline Reinforcement Learning (MOReL) paper by Rahul Kidambi & Aravind Rajeswaran et al.
+1485,2020-06-17 16:33:50,Sudoku-Game-Solver,This is a Computer Vision Application that solves a 9x9 sudoku board game using Deep Learning and Backtracking algorithm.
+1488,2020-06-17 19:27:36,Smart Picture Editor,Tool to automatically remove unwanted objects from photos
+1491,2020-06-18 00:04:34,Image GPT: Generative Pretraining from Pixels, Transformers trained on pixel sequences can generate coherent image completions and samples.
+1492,2020-06-18 00:06:53,Q*BERT,Agents that build knowledge graphs and explore textual worlds by asking questions.
+1494,2020-06-18 00:14:40,Object Goal Navigation using Goal-oriented Semantic Exploration,Embodied interactive learning for object detection by using semantic curiosity to learn an exploration policy on set of the training environments.
+1499,2020-06-18 13:41:39,History of Language Models - Alec Radford,A quick history of language models
+1501,2020-06-18 18:17:18,Traffic-Sign-Recognition-Using-Deep-Learning,"The training dataset contains around 39,000 images while test dataset contains around 12,000 images containing 43 different classes. We will be using Convolutio"
+1502,2020-06-18 19:45:49,Generate Boolean (Yes/No) Questions From Any Content ,Question generation algorithm trained on the BoolQ dataset using T5 text-to-text transformer model.
+1504,2020-06-19 06:19:25,Fast Neural Style Transfer (feed-forward method) ⚡💻 + 🎨 = ❤️,This repo contains a concise PyTorch implementation of the original feed-forward NST paper.
+1505,2020-06-19 06:22:56,Diverse Image Generation via Self-Conditioned GANs,A simple but effective unsupervised method for generating realistic & diverse images using a class-conditional GAN model without using manually annotated class.
+1506,2020-06-19 06:26:17,Using GitHub Actions for MLOps & Data Science,A collection of resources on how to facilitate Machine Learning Ops with GitHub.
+1508,2020-06-19 06:43:47,Long Form Question Answering with ELI5,A model for open domain long form question answering.
+1511,2020-06-19 06:54:23,RepNet - Class Agnostic Video Repetition Counting in the Wild,Counting Out Time: Class Agnostic Video Repetition Counting in the Wild
+1515,2020-06-19 16:37:10,"Cut, Paste and Learn: Surprisingly Easy Synthesis for Detection",Generate synthetic scenes and bounding box annotations for object detection.
+1519,2020-06-20 05:40:46,Image and Bounding Box Annotation Slicer,This easy-to-use library slices (also resizes) images and its bounding box annotations into tiles of specific sizes or any arbitrary number of equal parts. ✂️
+1524,2020-06-20 10:42:25,Machine Learning Projects ,"This Repo contains projects done by me while learning the basics. All the familiar types of regression, classification, and clustering methods have been used."
+1525,2020-06-20 16:21:38,Huggingtweets,This is a streamlit app built around the huggingtweets project. I fine-tune a pre-trained gpt2 model to tweet like a user given twitter handle.  
+1528,2020-06-20 22:06:48,The Future of Computer Vision is Self-Supervised Learning,Talk by Yann Lecun on the applications of self-supervised learning on computer vision during CVPR 2020.
+1529,2020-06-20 22:11:14,Using Selective Attention in Reinforcement Learning Agents,"In this work, we establish that self-attention can be viewed as a form of indirect encoding, which enables us to construct highly parameter-efficient agents."
+1539,2020-06-21 12:45:42,A Visual Guide to FastText Word Embeddings,A deep-dive into how FastText enriches word vectors with sub-word information  
+1540,2020-06-21 13:03:19,codeBERT - Masked Language Model for source code ,Tutorial to use codeBERT a MLM for Python code. Model trained from scratch using roBERTa
+1542,2020-06-21 20:46:12,Autocoder - Finetuning GPT-2 for Auto Code Completion,"A basic and simple tool for code auto completion, built upon GPT-2"
+1546,2020-06-22 00:46:32,DeepSNAP,Python library assists deep learning on graphs.
+1547,2020-06-22 00:50:30,RoBERTa meets TPUs,Understanding and applying the RoBERTa model to the current challenge.
+1549,2020-06-22 01:00:45,Deep Model-Based RL for Real-World Robotic Control,Short talk about model-based RL by Sergey Levine.
+1551,2020-06-22 03:17:48,Pokemon Classifier,I want to build a classifier that can classify 150 types of Pokemon.
+1552,2020-06-22 03:45:01,Workshop on Scalability in Autonomous Driving - Andrej Karpathy,An overview of autonomous driving and computer vision at Tesla.
+1560,2020-06-22 15:56:00,Battle-Tested Techniques for Scoping Machine Learning Projects,One of the challenges of managing an ML project is project scoping. Even small changes in data or architecture can create huge differences in model outputs.
+1563,2020-06-22 16:04:10,Classify photos in 600 classes using nine million Open Images,"If you’re looking build an image classifier but need training data, look no further than Google Open Images."
+1569,2020-06-22 16:52:01,Trackable,The project deals with tracking humans in a narrow hallway under different lighting conditions.
+1571,2020-06-23 02:04:12,Stochastic Segmentation Networks,An efficient probabilistic method for modelling aleatoric uncertainty with any image segmentation network architecture.
+1575,2020-06-23 02:30:20,Deep Learning for Computer Vision ,Special topics class on deep learning for computer vision from the University of Michigan taught by Justin Johnson.
+1576,2020-06-23 02:37:15,VPSNet for Video Panoptic Segmentation,Video panoptic segmentation by generating consistent panoptic segmentation as well as an association of instance ids across video frames.
+1580,2020-06-24 03:00:16,What I Learned From Looking at 200 Machine Learning Tools,"To better understand the landscape of available tools for machine learning production, I decided to look up every AI/ML tool I could find."
+1581,2020-06-24 03:04:31,Discovering Symbolic Models from Deep Learning w/ Inductive Bias,A general approach to distill symbolic representations of a learned deep model by introducing strong inductive biases.
+1585,2020-06-24 03:18:20,Breaking the cycle—Colleagues are all you need,A novel approach to performing image-to-image translation between unpaired domains.
+1587,2020-06-24 03:25:25,Deep Learning Based Text Classification: A Comprehensive Review,An overview of deep learning approaches to text classification.
+1588,2020-06-24 03:29:51,Multi-task Training with Hugging Face Transformers and NLP, A recipe for multi-task training with Transformers' Trainer and NLP datasets.
+1589,2020-06-24 03:33:09,jiant,A software toolkit for research on general-purpose text understanding models.
+1592,2020-06-24 04:27:58,Text Classification,"Re-implemented an article (link is given below) which was on Text classification with CNN, beside this I tried out some ML classification algorithm."
+1595,2020-06-24 15:42:20,multi-task-NLP,A utility toolkit enabling NLP developers to easily train and infer a single model for multiple tasks.
+1597,2020-06-25 00:17:39,Maximizing Business Impact with Machine Learning,how to effectively leverage machine learning to build intelligent products as efficiently as possible.
+1598,2020-06-25 00:29:18,Automatic Data Augmentation for  Generalization in Deep RL,We compare three approaches for automatically finding an appropriate augmentation combined with two novel regularization terms for the policy and value function
+1599,2020-06-25 00:42:36,High-Fidelity Generative Image Compression,How to combine Generative Adversarial Networks and learned compression to obtain a state-of-the-art generative lossy compression system.
+1600,2020-06-25 00:45:26,BERT Distillation with Catalyst,How to distill BERT with Catalyst.
+1602,2020-06-25 04:03:38,Unet Model for Image Segmentation With EfficientNet Encoder,Implemented using tensorflow 2.2.0 with custom train and test step.
+1603,2020-06-25 10:40:56,A Million of ML Predictions at the Tip of Your Fingers,Announcement - SashiDo is breaking the barrier to Machine Learning by introducing a fully open-sourced Content Moderation Service.
+1605,2020-06-26 02:19:39,NetHack Learning Environment (NLE),A procedurally-generated grid-world dungeon-crawl game that strikes a great balance between complexity and speed for single-agent RL research.
+1606,2020-06-26 02:24:53,Paraphrase Generation Using T5 model,Simple application using T5 base model fine tuned in Quora Question Pairs to generate paraphrased questions.
+1607,2020-06-26 02:28:15,Message Passing Query Embedding,"MPQE is a model for answering complex queries over knowledge graphs, that learns embeddings of entities in the knowledge graph, & embeddings for variable types."
+1608,2020-06-26 02:31:17,Quantifying Attention Flow in Transformers,"I explain two simple but effective methods, called Attention Rollout and Attention Flow"
+1614,2020-06-27 04:15:51,Natural Language Processing Roadmap,Roadmap for learning NLP topics.
+1615,2020-06-27 04:29:04,Weight Poisoning Attacks on Pre-trained Models,"How Bert can be infused with nefarious behavior, even after fine-tuning."
+1616,2020-06-27 04:37:16,Leveraging Temporal Context for Object Detection,"Object detection architecture leveraging contextual clues across time for each camera deployment in a network, improving recognition of objects"
+1617,2020-06-27 04:42:47,Expressive Power of Graph Neural Networks,"Graph isomorphism problem, the Weisfeiler-Lehman heuristic for graph isomorphism testing, and how it can be used to analyse the expressive power of GNNs."
+1620,2020-06-27 10:27:43,rlx: A modular Deep RL library for research,"""rlx"" is a Deep RL library written on top of PyTorch & built for educational and research purpose."
+1622,2020-06-27 14:18:13,Building AI Trading Systems,Lessons learned building a profitable algorithmic trading system using Reinforcement Learning techniques.
+1623,2020-06-27 14:20:49,Introduction to NLP using Fastai,Implementing and decoding the revolutionary ULMFiT approach to train a language model on any downstream NLP task.
+1628,2020-06-28 06:12:20,Deep Reinforcement Learning Amidst Lifelong Non-Stationarity,"How can robots learn in changing, open-world environments? We introduce dynamic-parameter MDPs, to capture environments with persistent, unobserved changes. "
+1629,2020-06-28 07:37:00,TF Lite Semantic Segmentation Models,Faster and lighter TF Lite models can perform semantic segmentation. 
+1630,2020-06-28 07:40:40,Semantic Segmentation + Background Removal + Style Transfer,"Running multiple TF Lite models to perform semantic segmentation, remove background, and apply style transfer. "
+1636,2020-06-29 00:00:47,Automatic translation of the SQUAD dataset to spanish,"Machine translation is used on the SQuAD dataset to produce an equivalent dataset in Spanish. Word alignment is applied to produce a synthetic spanisQA corpus.
+"
+1638,2020-06-29 02:56:43,Dakshina Dataset,A collection of text in both Latin and native scripts for 12 South Asian languages.
+1639,2020-06-29 02:58:52,Computer Vision Recipes,This repository provides examples and best practice guidelines for building computer vision systems.
+1644,2020-06-29 12:42:44,A research guide for data scientists,Tips on research from top data scientists
+1645,2020-06-29 17:16:17,Using Data Science Pipelines for Disaster Response,Uses ETL and ML pipeline to build an NLP system for classification of messages into appropriate disaster categories
+1646,2020-06-29 19:47:58,Twitter Turing Test,Can you guess whether this tweet is written by a human or generated by a neural network?
+1648,2020-06-30 02:34:54,STUMPY: A Powerful and Scalable Python Library for Time Series,"STUMPY is a powerful and scalable Python library for computing a Matrix Profile, which can be used for a variety of time series data mining tasks."
+1649,2020-06-30 02:39:32,Model Serving using FastAPI and streamlit,Simple example of usage of streamlit and FastAPI for ML model serving.
+1650,2020-06-30 02:49:57,The Reformer - Pushing the Limits of Language Modeling,An in-depth understanding of each of the key features of the Reformer.
+1651,2020-06-30 02:52:41,High-Resolution Image Inpainting,"High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling.
+"
+1653,2020-06-30 03:01:50,MARGE: Pre-training via Paraphrasing,"A retrieval model maps a document to a set of related documents, which a reconstruction model paraphrases to maximize the likelihood of the original. "
+1654,2020-06-30 03:58:46,3D Detection and Domain Adaptation,1st Place Solution for Waymo Open Dataset Challenge
+1657,2020-06-30 18:00:11,Fast Api with Dockerization of your ML Models,In this GitHub repo you can able to know and learn how to build a fast API for testing your ML model and can test your ML model with UI and to Dockerize your ML
+1658,2020-07-01 02:22:10,SimCLR - Contrastive Learning of Visual Representations,How to load pretrained/finetuned SimCLR models from hub modules for fine-tuning.
+1659,2020-07-01 02:26:20,Evaluation of Text Generation: A Survey,Evaluation methods of natural language generation (NLG) and language modeling.
+1661,2020-07-01 06:42:59,SpineNet: A Novel Architecture for Object Detection,"A meta architecture called a scale-permuted model that enables two major improvements on backbone architecture design,iscovered with neural architecture search."
+1662,2020-07-01 07:00:50,Image synthesis at CVPR 2020,An overview of the different approaches to image synthesis at CVPR 2020.
+1663,2020-07-01 07:08:45,Sktime,A python toolbox for machine learning with time series.
+1664,2020-07-01 07:14:00,"Sentiment Analysis: Key Milestones, Challenges and New Directions","An overview of sentiment analysis, it's progress and what's ahead."
+1665,2020-07-01 07:17:48,BERTology Meets Biology,Interpreting Attention in Protein Language Models.
+1666,2020-07-01 07:20:52,Serverless BERT with HuggingFace and AWS Lambda,"Build a serverless question-answering API with BERT, HuggingFace, the Serverless Framework, and AWS Lambda."
+1668,2020-07-01 13:33:49,Model-based Reinforcement Learning: A Survey,"A survey of the integration of both fields, better known as model-based reinforcement learning."
+1677,2020-07-02 04:06:19,Building Level 3 Conversational AI Assistants,"Presentations, panels, and fireside chats addressing all topics related to the creation of Level 3 AI assistants."
+1678,2020-07-02 12:13:19,NSFW Image Classification REST API built with TensorFlow.JS,A ready-to-use & open-source NSFW Image Classification REST API built with TensorFlow.JS and NSFW.JS for effortless Content Moderation
+1681,2020-07-03 04:02:52,A Survey on Deep Learning for Localization and Mapping,Towards the Age of Spatial Machine Intelligence
+1685,2020-07-03 04:12:28,Text Data Cleanup - Dynamic Embedding Visualisation,Identify noisy text in a Machine Translation dataset through dynamic text embedding visualisation.
+1688,2020-07-03 04:23:58,Python Implementation of Reinforcement Learning: An Introduction ,"Plot replications, exercise solutions and Anki flashcards for the entire book by chapters."
+1689,2020-07-03 04:29:04,Offline Reinforcement Learning,"Challenges, algorithms and benchmarks."
+1691,2020-07-03 04:40:05,The Simplest Way to Serve your NLP Model in Production w/ Python ,"From scikit-learn to Hugging Face Pipelines, learn the simplest way to deploy ML models using Ray Serve."
+1692,2020-07-03 04:42:45,Low-Dimensional Hyperbolic Knowledge Graph Embeddings,Low-dimensional knowledge graph embeddings that simultaneously capture hierarchical relations and logical patterns.
+1698,2020-07-04 01:07:48,Learning to Cartoonize Using White-box Cartoon Representations,An approach for image cartoonization using GANs.
+1699,2020-07-04 01:10:18,Reinforcement Learning Tutorial,"Important reinforcement learning (RL) algorithms, including policy iteration, Q-Learning, and Neural Fitted Q."
+1702,2020-07-04 04:51:18,Face Recognition Techniques,Face Detection and Recognition techniques using traditional CV and also using new deep learning method.
+1703,2020-07-04 09:22:50,Awesome Deep RL,This project is built for people who are learning and researching on the latest deep reinforcement learning methods.
+1704,2020-07-04 10:42:53,LSTM Forecast Model for Stock Price Prediction using Keras," Easy to understand LSTM forecast model for Stock Price Prediction. The dataset contains daywise details of the GOOGL stock from May,2019-May 2018."
+1706,2020-07-04 11:05:28,PokeZoo,A deep learning based web-app developed using the MERN stack and Tensorflow.js. 
+1709,2020-07-05 05:25:34,Anti-Patterns in NLP (8 types of NLP idiots),A talk which discusses the recurring industrial problems in making NLP solutions. 
+1710,2020-07-05 05:47:35,NLP-task-visualizer-app,This application designed with streamlit library will help in visualizing NLP tasks on text entered by you. 
+1715,2020-07-06 18:25:16,Image Classifier,Pure JavaScript Image Classifier
+1717,2020-07-07 04:09:35,TaBERT,Pretraining for Joint Understanding of Textual and Tabular Data
+1719,2020-07-07 04:17:11,Texthero,"Text preprocessing, representation and visualization from zero to hero."
+1721,2020-07-07 04:21:20,TensorflowTTS,Real-Time State-of-the-art Speech Synthesis for Tensorflow 2.
+1722,2020-07-07 04:23:38,spaczz: Fuzzy matching and more for spaCy,Fuzzy matching and more functionality for spaCy.
+1723,2020-07-07 04:26:45,BioSyn,Biomedical Entity Representations with Synonym Marginalization
+1724,2020-07-08 04:02:50,Image Classifier: In the Browser,Using Tensorflow.js to make the prediction directly in the browser.
+1726,2020-07-08 04:15:07,Photon: A Robust Cross-Domain Text-to-SQL System,"A robust, modular, cross-domain NLIDB that can flag natural language input to which a SQL mapping cannot be immediately determined. "
+1728,2020-07-08 04:24:07,Bounding Box Prediction from Scratch using PyTorch,Multi-Task learning — Bounding Box Regression + Image Classification
+1729,2020-07-08 04:28:13,Comment Classification Using BERT (multi-language) Fine-Tuning,We are going to use BERT layer in a model applying Keras.
+1730,2020-07-08 04:30:28,TextBrewer,a PyTorch-based model distillation toolkit for natural language processing.
+1737,2020-07-08 18:22:40,codeBERT - Automated code docstring review with transformers,"codeBERT provide a one command line to check if your code docstrings are up-to-date.
+"
+1743,2020-07-09 01:51:41,How to Benchmark Models with Transformers,HuggingFace's Transformer library allows users to benchmark models for both TensorFlow 2 and PyTorch using the PyTorchBenchmark and TensorFlowBenchmark classes.
+1748,2020-07-09 02:23:25,Continuous Machine Learning (CML),CML helps to organize MLOps infrastructure on top of the traditional software engineering stack instead of creating separate AI platforms.
+1750,2020-07-09 10:30:30,picTranslate: Seamless live Image Text translator,"Given an image with text on it, this app can give you a new image with text modified into a different language."
+1753,2020-07-10 02:44:11,TUDatasets,A collection of benchmark datasets for graph classification and regression.
+1754,2020-07-10 02:46:07,Full Stack Deep Learning,Full Stack Deep Learning helps you bridge the gap from training machine learning models to deploying AI systems in the real world.
+1755,2020-07-10 02:51:24,Easy OCR,"Ready-to-use OCR with 40+ languages supported including Chinese, Japanese, Korean and Thai.
+
+"
+1756,2020-07-10 02:53:13,Linear Attention Transformer,A fully featured Transformer that mixes (QKᵀ)V local attention with Q(KᵀV) global attention (scales linearly with respect to sequence length).
+1759,2020-07-10 18:54:54,Emotion Recognition from Tom and Jerry videos,"Developed an application that classifies the emotion depicted by Tom and Jerry in each frame into one of the following : happy, angry, sad or suprised."
+1767,2020-07-11 05:05:31,Imagenette,Imagenette is a subset of 10 easily classified classes from Imagenet.
+1768,2020-07-11 05:08:02,TextAugment,Improving Short Text Classification through Global Augmentation Methods
+1769,2020-07-11 05:10:10,niacin,"A Python library for replacing the missing variation in your text data.
+
+"
+1770,2020-07-11 05:12:49,imgaug,"Image augmentation for machine learning experiments.
+
+"
+1771,2020-07-11 05:16:17,Albumentations,Fast image augmentation library and easy to use wrapper around other libraries.
+1772,2020-07-11 05:19:05,Augmentor,Image augmentation library in Python for machine learning.
+1777,2020-07-11 05:37:12,tsfresh,Automatic extraction of relevant features from time series.
+1779,2020-07-11 05:48:03,All Models and checkpoints - Hugging Face,"Massive (and growing) collection of NLP models are nearly any NLP tasks, especially those involving the use of transformers."
+1792,2020-07-11 06:28:58,Anomaly Detection Toolkit (ADTK),"A Python toolkit for rule-based/unsupervised anomaly detection in time series
+
+"
+1795,2020-07-11 06:37:35,Chakin ,Simple downloader for pre-trained word vectors.
+1796,2020-07-11 06:39:39,Top2Vec,"Top2Vec learns jointly embedded topic, document and word vectors.
+
+"
+1797,2020-07-11 06:42:29,Contextualized Topic Models,A python package to run contextualized topic modeling.
+1799,2020-07-11 06:49:38,FlashText,"Extract Keywords from sentence or Replace keywords in sentences.
+
+"
+1800,2020-07-11 06:51:58,jellyfish,🎐 a python library for doing approximate and phonetic matching of strings.
+1802,2020-07-11 06:57:28,SentencePiece,"Unsupervised text tokenizer for Neural Network-based text generation.
+
+"
+1803,2020-07-11 06:59:08,A Deep Dive into the Wonderful World of Preprocessing in NLP,A glimpse into the surprisingly deep and interesting world of preprocessing in NLP.
+1804,2020-07-11 07:04:25,Text Preprocessing in Python using spaCy library,"In this article, we have explored Text Preprocessing in Python using spaCy library in detail. This is the fundamental step to prepare data for applications."
+1805,2020-07-11 07:12:32,Segmentation Models,"Segmentation models with pretrained backbones. Keras and TensorFlow Keras.
+
+"
+1813,2020-07-11 07:45:01,Pytest,"The pytest framework makes it easy to write small tests, yet scales to support complex functional testing
+
+"
+1817,2020-07-11 07:55:23,Artifacts - Weights & Biases,"Effortless pipeline tracking and production model management
+
+"
+1818,2020-07-11 08:07:35,DeepkitAI,The Open-Source Machine Learning Devtool and Training Suite.
+1819,2020-07-11 08:14:03,Neptune.ai,The most lightweight experiment management tool that fits any workflow.
+1820,2020-07-11 08:17:17,Rasa,An open source machine learning framework to automate text-and voice-based conversations. 
+1825,2020-07-11 08:43:20,MLflow: A Machine Learning Lifecycle Platform,Open source platform for the machine learning lifecycle.
+1827,2020-07-11 08:56:02,token2index,"A lightweight but powerful library to build token indices for NLP tasks, compatible with major Deep Learning frameworks like PyTorch and Tensorflow."
+1831,2020-07-11 11:36:26,TF Sprinkles,Fast and efficient sprinkles augmentation implemented in TensorFlow.
+1834,2020-07-11 17:19:43,Laplacian Pyramid Reconstruction and Refinement for Semantic Seg., Pytorch implementation of multi-resolution reconstruction architecture based on a Laplacian pyramid that uses skip connections.
+1836,2020-07-11 18:15:19,Training a pets detector model with TFOD API (TF 2),"In this notebook, we will be training a custom object detection model using the latest TensorFlow Object Detection (TFOD) API which is based on TensorFlow 2.2. "
+1840,2020-07-12 00:59:27,TensorFlow 2 meets the Object Detection API,TF Object Detection API (OD API) officially supports TensorFlow 2!
+1843,2020-07-12 13:35:20,Cortex,Build machine learning APIs.
+1844,2020-07-12 16:24:10,Semi-Supervised Learning in Computer Vision,A comprehensive overview of recent semi-supervised learning methods in Computer Vision
+1845,2020-07-12 21:42:52,Face Predicting Web App,Interactive Deep Learning Model that utilizes your computer webcam to predict your age and gender in seconds! 
+1847,2020-07-13 03:46:32,Driver Identification Based on Vehicle's telematics data,"In this paper, we proposed a deep learning model, which can identify drivers from their driving behaviors based on vehicle telematics data."
+1848,2020-07-13 05:00:40,Comprehensive analysis of important metrics in ML,"In this work, the authors present a comprehensive analysis of important metrics in practical applications."
+1851,2020-07-13 15:21:13,StreamAlert,"A serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerts."
+1853,2020-07-13 20:23:32,The Transformer Neural Network Architecture Explained,"⚙️ It is time to explain how Transformers work. If you are looking for an easy explanation, you are exactly right!"
+1855,2020-07-14 03:17:25,ULMFiT Airline Sentiment Analysis,Transfer Learning using pretrained ULMFiT model
+1856,2020-07-14 03:21:00,DeepDream Video Style Transfer,DeepDream on Video
+1858,2020-07-14 03:30:14,QSVM,Quantum SVM for sentiment analysis
+1859,2020-07-14 04:01:18,"You Trained a Machine Learning Model, Now What?","Three often overlooked parts of this process occur after the model is actually built: model evaluation, deployment, and monitoring."
+1860,2020-07-14 09:53:19,NSFW Image Moderation Automation Engine built with TensorFlow.JS ,"An open-source NSFW Image Classifier including an Automation Engine for fast deletion & moderation built with Node.js, TensorFlow, and Parse Server"
+1865,2020-07-14 22:55:08,PDFTableExtract,Build a parser to extract the table in PDF document with RetinaNet
+1866,2020-07-14 22:58:15,PYthon Automated Term Extraction,"Term extraction algorithms such as C-Value, Basic, Combo Basic, Weirdness and Term Extractor using spaCy POS tagging."
+1867,2020-07-14 23:03:02,YOLOv4 With TensorFlow,"YOLOv4, YOLOv4-tiny, YOLOv3, YOLOv3-tiny Implemented in Tensorflow 2.0, Android. Convert YOLO v4 .weights tensorflow, tensorrt and tflite."
+1868,2020-07-15 03:52:31,Selfie2Anime with TFLite,An end-to-end tutorial with TensorFlow Lite for Selfie2Anime (U-GAT-IT). 
+1869,2020-07-15 20:31:37,Bridging PyTorch and TVM,"Taking Hugging Face transformer BERT from PyTorch and running it on 
+ApacheTVM for both inference (with reasonable timings) and training."
+1870,2020-07-15 20:38:36,Interpretability and Analysis of Models for NLP,An in-depth look at interpretability and analysis of models for NLP (ACL 2020).
+1871,2020-07-16 03:58:21,Summarize a webapge,A Flask application that extracts and summarizes webpage using Natural Language Processing. Powered by nlp-akash.
+1872,2020-07-16 04:19:37,An Icon Classifier with TensorFlow Lite Model Maker,An Icon Classifier with TensorFlow Lite Model Maker
+1879,2020-07-16 17:40:33,Cross-lingual Transfer Learning - Sebastian Ruder,"An overview of approaches that transfer knowledge across languages and enable us to scale NLP models to more of the world's 7,000 languages."
+1880,2020-07-16 17:43:48,AdapterHub: A Framework for Adapting Transformers,Huggingface Transformers + Adapters
+1882,2020-07-16 17:51:48,Object Detection with RetinaNet,Implementing RetinaNet: Focal Loss for Dense Object Detection.
+1884,2020-07-17 01:41:33,Deploying your ML Model with TorchServe,"In this talk, Brad Heintz walks through how to use TorchServe to deploy trained models at scale without writing custom code. "
+1886,2020-07-17 08:27:56,Medical Zoo - 3D Multi-modal Medical Image Segmentation,My articles on deep learning in medical imaging
+1887,2020-07-17 16:48:13,Computer Vision Pretrained Models,A collection of computer vision pre-trained models.
+1888,2020-07-17 16:53:37,Monitoring Machine Learning Models in Production,Once you have deployed your machine learning model to production it rapidly becomes apparent that the work is not over.
+1889,2020-07-17 17:20:20,NLP Pretrained Models,"A collection of Natural language processing pre-trained models.
+
+"
+1896,2020-07-19 00:40:37,Machine Learning Production Pipeline,"Project Flow and Landscape
+"
+1898,2020-07-19 00:47:53,Tempering Expectations for GPT-3 and OpenAI’s API,"A closer look at the ""magic"" behind GPT-3 and caveats to be aware of."
+1899,2020-07-19 03:59:41,StyleGAN Encoder,Encodes real images into the latent space of a StyleGAN model.
+1900,2020-07-19 04:12:40,WikiArt StyleGAN 2 Model,A conditional StyleGAN 2 model trained on images from WikiArt
+1901,2020-07-19 08:31:43,Quora Question Pair Similarity,"Identify which questions asked on Quora are duplicates of questions that have already been asked. Using Text features, classifying them as duplicates or not.
+
+"
+1902,2020-07-19 10:19:24,Indian Paper Currency Prediction,"The trained model takes an image (Indian Paper Currency) as an input and predict the class of image from 10, 20, 50, 100, 200, 500, 2000 denomination."
+1903,2020-07-19 11:31:25,"Neural Style Transfer (Gatys et al., PyTorch)",My implementation of the original neural style transfer paper by Gatys et al. (In PyTorch).
+1904,2020-07-19 12:44:53,Implementation of Face Net  in TensorFlow -  2.0,This repository is a naive unofficial  implementation of Face Net paper  - 2015 .This implementation opts online mode of semi - hard triplet mining.
+1905,2020-07-19 14:51:57,PyTorch CNN Trainer,A simple package to fine-tune CNNs from torchvision and Pytorch Image models by Ross Wightman.
+1910,2020-07-19 15:44:21,Azure Machine Learning Template,Azure Machine Learning template for MNIST classifier
+1913,2020-07-19 16:55:33,Teachable Machine (Image Classifier),A teachable image classifier that runs on any browser built using TensorFlow JS.
+1914,2020-07-19 16:59:37,TensorFlow JS- Object Detection in Browser,A real-time object detection model in your browser using TensorFlow JS.
+1916,2020-07-20 00:01:38,How to Stop Worrying About Compositionality,"Review the tenets of compositionality, and to highlight how each theory has evolved to match particular theoretical positions about the nature of language."
+1918,2020-07-20 05:48:38,Spacy-Go,spacy-go is Golang interface for accessing linguistic annotations provided by spaCy using Google's gRPC. This module only supports basic functionalities like lo
+1919,2020-07-20 05:53:12,Dframcy,DframCy is a light-weight utility module to integrate Pandas Dataframe to spaCy's linguistic annotation and training tasks.
+1921,2020-07-20 14:04:48,NSFW Image Moderation Admin App with ReactJS,"A fully-functional NSFW Admin Application for simplified image classification & moderation built with Node.js, TensorFlow.js, and React"
+1923,2020-07-20 18:59:04,PyTorch Geometric Temporal,A Temporal Extension Library for PyTorch Geometric 
+1924,2020-07-20 20:34:47,Why is it Important to Monitor Machine Learning Models?,The importance of monitoring and how monitoring ML is different from application performance management (APM).
+1925,2020-07-20 20:54:00,PyTorch Implementation of PaletteNet,"PyTorch implementation of PaletteNet: Image Recolorization with Given Color Palette (Cho et al., 2017)."
+1927,2020-07-20 21:21:12,ECG arrhythmia classification using a convolutional neural net,This is an implementation of the paper on ECG arrhythmia classification https://arxiv.org/pdf/1804.06812.pdf.
+1929,2020-07-20 23:55:33,Structured Self Attention,Implementation for the paper A Structured Self-Attentive Sentence Embedding (https://arxiv.org/abs/1703.03130 ). Model interpretability / explainability.
+1933,2020-07-21 01:42:42,TurboTransformers,A fast and user-friendly runtime for transformer inference on CPU and GPU.
+1934,2020-07-21 01:47:01,Graphein,Protein Graph Library
+1935,2020-07-21 04:44:52,Integrated Gradients in TensorFlow 2,"In this tutorial, you will walk through an implementation of IG step-by-step in TensorFlow 2 to understand the pixel feature importances of an image classifier."
+1938,2020-07-21 11:50:53,Rasa NLU Examples,Experimental components for Rasa NLU pipelines. 
+1940,2020-07-21 19:01:54,Change Detection using Siamese networks,"The blog is a primer on Siamese Networks and how they're used for observing change in satellite images over time, or observing facial changes as people age"
+1941,2020-07-21 19:13:05,My Artificial Intelligence Bookmarks,"A curated list of my reads, implementations, and core concepts of Artificial Intelligence, Deep Learning, Machine Learning by best folk in the world."
+1943,2020-07-22 03:32:30,Do we Need Deep Graph Neural Networks?,Does depth in graph neural network architectures bring any advantage?
+1945,2020-07-22 03:39:13,Pandera,A flexible and expressive pandas data validation library.
+1950,2020-07-23 00:42:09,GPT-3: A Hitchhiker's Guide,Post to guide your thinking on GPT-3.
+1952,2020-07-24 06:28:15,TensorFlow Serving,"A flexible, high-performance serving system for machine learning models, designed for production environments. "
+1953,2020-07-24 06:30:44,BentoML,BentoML is an open-source framework for high-performance ML model serving.
+1954,2020-07-24 06:43:59,Azure ML,MLOps using Azure ML.
+1955,2020-07-24 06:47:29,Shape and Viewpoint without Keypoints,"Recover the 3D shape, pose and texture from a single image, trained on an image collection without any ground truth 3D shape, multi-view, camera viewpoints."
+1959,2020-07-24 10:00:13,TeachEasy: Web app for Text Summarization & Q/A generation,An intuitive Streamlit based web app for Text Summarization and Question Answer generation so as to reduce the work for School teachers.
+1961,2020-07-24 10:38:52,Python Template for All Projects,"A template that gives the batteries required to package code, CI checks, auto build and deploy docs, easy PyPi publishing support and docker files."
+1964,2020-07-25 02:52:36,MLOps Tutorial Series,How to create an automatic model training & testing setup using GitHub Actions and Continuous Machine Learning (CML).
+1965,2020-07-25 02:58:40,model-logger,Model-Logger is a Python library for storing model's profile and rapid inter model comparison.
+1968,2020-07-26 04:48:40,Sentiment Analysis With Transformers,"Sentiment analysis neural network trained by fine-tuning BERT, ALBERT, or DistilBERT on the Stanford Sentiment Treebank."
+1971,2020-07-27 02:30:42,Attention based YOLO: Object Detection,"An easy to follow, YOLO implementation with keras lib.  Used a attention based architecture to extract more fine grained information about object."
+1972,2020-07-27 02:54:19,Evolution of Representations in the Transformer,"The evolution of representations of individual tokens in Transformers trained with different training objectives (MT, LM, MLM - BERT-style)."
+1975,2020-07-27 14:09:26,Ensemble methods for object detection,"In this repository, we provide the code for ensembling the output of object detection models, and applying test-time augmentation for object detection. This lib"
+1976,2020-07-27 14:12:03,Close-Domain fine-tuning for table detection,"In this project, we show the benefits of using models trained on a close domain, using the TableBank dataset, for fine-tuning table detection models. In additio"
+1977,2020-07-27 14:14:10,LabelDetection: simplifying the use and construction of deep dete,LabelDetection is a graphical tool that aims to facilitate all the steps required in the pipeline to construct and use a deep-learning base object detection mod
+1978,2020-07-27 14:34:12,How to Set Up a Python Project For Automation and Collaboration,"How to set up a Python repo with unit tests, code coverage, lint checking, type checking, Makefile wrapper, and automated build with GitHub Actions."
+1980,2020-07-27 14:51:03,Understanding & Implementing SimCLR - an ELI5 guide,"I explain the SimCLR and its contrastive loss function step by step, build image embeddings and then show how to use them to train image classifier on top."
+1983,2020-07-28 04:14:12,CoreML Model Zoo,Collection of unified and converted pre-trained models.
+1984,2020-07-28 04:18:00,How GPT3 Works - Visualizations and Animations,A compilation of my threads explaining GPT3. 
+1985,2020-07-28 04:19:58,Temporal Graph Networks,"In this post, we describe Temporal Graph Network, a generic framework for deep learning on dynamic graphs."
+1986,2020-07-28 07:44:13,Behavioral Testing of NLP models with CheckList,An overview of the “CheckList” framework for fine-grained evaluation of NLP models
+1992,2020-07-29 03:41:04,Time series forecasting,A thorough introduction to time series forecasting using TensorFlow.
+1993,2020-07-29 04:47:55,Real-time text detection with EAST in TFLite,Demonstrates the conversion process from the original EAST model to TFLite and how to use it on static images and also on real-time video feeds. 
+1994,2020-07-29 04:51:30,Understanding the Effectivity of Ensembles in Deep Learning,"The report explores the ideas presented in Deep Ensembles: A Loss Landscape Perspective by Stanislav Fort, Huiyi Hu, and Balaji Lakshminarayanan."
+1997,2020-07-29 16:13:46,Image Classification by @carrycooldude,Image Classification using TFLite and ImageNet  by  @carrycooldude
+1999,2020-07-30 03:57:32,Small differences in BLEU are meaningless,Only big differences in metric scores are meaningful in MT.
+2002,2020-07-30 04:08:46,Multi-target in Albumentations,"Many images, many masks, bounding boxes, and key points. How to transform them in sync?"
+2005,2020-07-30 11:19:02,Social Distance Detection,"If people are very close to each other, a red bounding box is displayed around them indicating that they are not maintaining social distance."
+2006,2020-07-30 11:30:56,Deep Learning Techniques for NLP in Healthcare,A talk discussing the recent advancements of deep learning to facilitate the adaption of NLP in the healthcare domain.
+2007,2020-07-30 14:47:39,CLoDSA: A Tool for Augmentation in Computer Vision tasks,"CLoDSA is an open-source image augmentation library for object classification, localization, detection, semantic segmentation and instance segmentation. It supp"
+2008,2020-07-30 14:50:30,Extension to block NSFW content using AI,"NSFW Filter is an extension that blocks NSFW content from your browser.
+It uses a computer vision model to detect NSFW content and hides it from the user."
+2009,2020-07-30 14:55:57,ATLASS: AutoML using Transfer and Semi-Supervised Learning,"This repository includes the code, application, and notebooks for the work ""AutoML using Transfer and Semi-Supervised Learning"". The tools presented here can be"
+2010,2020-07-30 15:00:43,FrImCla: A framework for image classification,"
+FrImCla is an open-source framework for Image Classification using traditional and deep learning techniques. It supports a wide variety of deep learning and c"
+2011,2020-07-30 15:02:04,UFOD: A Unified Framework for Object Detection,UFOD is an open-source framework that enables the training and comparison of object detection models on custom datasets using different underlying frameworks an
+2012,2020-07-30 15:04:28,LabelStoma: stomata detection using YOLO,LabelStoma is a graphical image tool for automatically detecting stomata in images. 
+2013,2020-07-30 15:07:54,DeepClas4Bio,DeepClas4Bio is a project that aims to facilitate the interoperability of bioimaging tools with deep learning frameworks.
+2016,2020-07-31 15:30:38,Meme Classifier Using TFlite and flutter,Meme classifier using fine tuned mobilenet. This app showcases how you can perform low latency realtime classification apps using TFlite
+2020,2020-08-01 12:14:26,Text Summarization using TF-IDF Algorithm,This Article explains the TF-IDF algorithm and shows the implemtnation from scratch to summarize the text.
+2022,2020-08-01 14:41:37,Simple Transformers,"Transformers for Classification, NER, QA, Language Modeling, Language Generation, T5, Multi-Modal, and Conversational AI."
+2023,2020-08-01 14:46:19,Why You Should Do NLP Beyond English,7000+ languages are spoken around the world but NLP research has mostly focused on English. This post outlines why you should work on languages other than Eng.
+2024,2020-08-01 14:49:31,DeText: A Deep Neural Text Understanding Framework,DeText: A Deep Neural Text Understanding Framework for Ranking and Classification Tasks.
+2025,2020-08-01 14:57:11,Haystack — Neural Question Answering At Scale,"🔍 Transformers at scale for question answering & search
+
+"
+2026,2020-08-01 15:04:37,Efficient Serverless Deployment of PyTorch Models on Azure,A tutorial for serving models cost-effectively at scale using Azure Functions and ONNX Runtime.
+2027,2020-08-01 15:27:29,Nearest Celebrity Face,Implementation of FaceNet: A Unified Embedding for Face Recognition and Clustering to find the celebrity whose face matches the closest to yours. The input face
+2030,2020-08-02 12:38:08,A Few Favorite Recipes in Computer Vision & Deep Learning,This blog post enlists a few of my favorite recipes in deep learning in the context of computer vision (as of August 2020).
+2031,2020-08-02 14:46:10,NeuralQA - API and Visual Interface for Extractive QA,A Usable Library for Question Answering on Large Datasets with BERT
+2032,2020-08-02 20:00:23,Object tracking in 75 lines of code,"Object tracking is straightforward conceptually. And if you have a good detector, simple methods can be pretty effective."
+2033,2020-08-03 03:49:22,FARM: Framework for Adapting Representation Models,🏡 Fast & easy transfer learning for NLP. Harvesting language models for the industry.
+2034,2020-08-03 04:00:29,Finding Similar Documents with Transformers,How transformers can help us distill text documents into points in N-dimensional vector spaces.
+2035,2020-08-04 02:49:24,Act - GitHub Actions locally,Run your GitHub Actions locally.
+2038,2020-08-04 03:53:36,Curated papers & articles on DS & ML in production,"Learn how organizations & business solved machine learning problems, including problem statement, research, methodology, and results."
+2039,2020-08-04 16:45:09,Tensorflow2 Object Detection Tutorial,"In this tutorial, we will be going step by step the complete training process of Tensorflow2 Object Detection. "
+2040,2020-08-04 18:00:56,A Barebones Image Retrieval System,This project presents a simple framework to retrieve images similar to a query image.
+2042,2020-08-05 02:07:24,ONNX T5,"Summarization, translation, Q&A, text generation and more at blazing speed using a T5 version implemented in ONNX."
+2043,2020-08-05 02:17:10,DeLighT: Very Deep and Light-weight Transformers,Similar or better performance than transformer-based models with significantly fewer parameters
+2045,2020-08-05 06:40:32,Evaluation Metrics For Information Retrieval,Learn about common metrics used to evaluate performance of information retrieval systems
+2047,2020-08-05 15:18:46,Test-Time Data Augmentation,Tutorial on how to properly implement test-time image data augmentation in a production environment with limited computational resources.
+2048,2020-08-05 16:50:22,SadedeGel: An extraction based Turkish news summarizer,"""Sadede Gel"" in Turkish, means ""cut to the chase"".  "
+2051,2020-08-05 20:13:51,MobyDick word frequency,Getting the count of the words in Moby Dick story using both web scraping and NLP
+2053,2020-08-05 20:30:33,Image Classification with Keras,Build a pipeline to train an image classifier in Keras and tune hyperparameters to optimize the performance of our classifier.
+2054,2020-08-05 20:34:09,Dropout in PyTorch – An Example,"An example of adding Dropout to a PyTorch model, and observe the effect dropout has on the model's performance by tracking our models in Weights & Biases."
+2056,2020-08-06 00:30:49,Fast Sentence Embeddings (fse),Fast Sentence Embeddings is a Python library that serves as an addition to Gensim.
+2057,2020-08-06 04:06:11,"Data Science Meets Devops: MLOps with Jupyter, Git, & Kubernetes","An end-to-end example of deploying a machine learning product using Jupyter, Papermill, Tekton, GitOps and Kubeflow."
+2061,2020-08-06 04:59:21,Detectron 2 Demo from Facebook,This Project contains the process of getting started with Facebook FAIR's detectron2 project on windows 10 without any Nvidia GPU.
+2062,2020-08-06 12:38:55,Predict Vehicle Speed From Dash Cam Video,A series of experiments attempting to predict vehicle speed from dash cam videos using optical flow and neural networks.
+2098,2020-08-06 23:15:45,Digital Image Processing in Python,Play around with pixel values with Python programming language.
+2100,2020-08-07 04:24:28,A 2020 guide to Semantic Segmentation,"Concept of image segmentation, discuss the relevant use-cases, different neural network architectures involved in achieving the results, metrics and datasets."
+2106,2020-08-08 15:06:18,Fast NST for Videos (+ person segmentation) 🎥 + ⚡💻 + 🎨 = ❤️,Create NST videos and pick separate styles for the person in the video and for the background.
+2109,2020-08-09 07:24:57,Live demo : State-of-the-art MCQ Generator from any content,"Demo for state-of-the-art MCQ (Multiple Choice Questions) generator from any content built using T5 transformer, HuggingFace, and Sense2vec
+"
+2111,2020-08-10 03:26:16,InvoiceNet,"Deep neural network to extract intelligent information from PDF invoice documents.
+"
+2112,2020-08-10 03:41:31,Search for visual datasets,"By task, application, class, label or format."
+2113,2020-08-10 04:01:03,GAN-BERT,Enhancing the BERT training with Semi-supervised Generative Adversarial Networks.
+2114,2020-08-10 04:03:51,tsaug,A Python package for time series augmentation.
+2116,2020-08-10 04:15:38,Machine Learning Pipelines for Kubeflow.,Kubeflow pipelines are reusable end-to-end ML workflows built using the Kubeflow Pipelines SDK.
+2117,2020-08-10 04:17:57,Structuring Unit Tests in Python,"Where to put tests, how to write fixtures and the awesomeness of test parametrization."
+2121,2020-08-10 21:59:41,DeepR — Training TensorFlow Models for Production,DeepR is a Python library to build complex pipelines as easily as possible on top of Tensorflow.
+2124,2020-08-11 00:20:42,Neural Architecture Search,"A look at neural architecture search w.r.t search space, search algorithms and evolution strategies."
+2131,2020-08-13 01:39:01,How to Trust Your Deep Learning Code,"We will focus on how to write reusable unit tests, so that you “Don’t repeat yourself”."
+2135,2020-08-13 01:52:06,Temporal Convolutional Networks for Time-Series,"We introduce several novels using TCN, including improving traffic prediction, sound event localization & detection, and probabilistic forecasting."
+2136,2020-08-13 02:05:11,Machine Learning Deployment: Shadow Mode,"“How do I test my new model in production?” One answer, and a method I often employ when initially deploying models, is shadow mode."
+2137,2020-08-13 02:10:03,Unpopular Opinion - Data Scientists Should Be More End-to-End,I believe data scientists can be more effective by being end-to-end.
+2138,2020-08-13 18:12:46,Extract Stock Sentiment from News Headlines," In this project, you will generate investing insight by applying sentiment analysis on financial news headlines from Finviz. "
+2141,2020-08-14 03:15:38,hloc - the hierarchical localization toolbox,Visual localization made easy.
+2147,2020-08-15 01:17:07,Practical Tips and Tricks for Successful Transfer Learning,Training models to learn knowledge and skills from other related tasks that will transfer and boost performance on tasks of interest.
+2148,2020-08-15 01:22:01,txtai: AI-powered search engine,AI-powered search engine.
+2151,2020-08-15 05:32:22,Drowsiness Detection System using OpenCV and Flask in Python ,"This system provides an overview of a system that detects whether a person is drowsy while driving and if so, alerts him by using voice messages in real-time. "
+2155,2020-08-15 14:49:16,"GPT-3, The model simply knows!",Brief Introduction about the gigantic GPT-3. a new leap in AI and Natural Language processing. 
+2159,2020-08-16 01:02:18,Solaris,CosmiQ Works Geospatial Machine Learning Analysis Toolkit.
+2163,2020-08-17 03:19:46,Safe Space - Github Action,Github action that checks the toxicity level of comments and PR reviews to help make repos safe spaces.
+2164,2020-08-17 03:24:46,Intro to Autoencoders,"This tutorial introduces autoencoders with three examples: the basics, image denoising, and anomaly detection."
+2166,2020-08-17 05:19:41,Pix2Pix,"Tensorflow 2.0 Implementation of the paper Image-to-Image Translation using Conditional GANs by Philip Isola, Jun-Yan Zhu, Tinghui Zhou and Alexei A. Efros."
+2167,2020-08-17 06:27:31,Insight,Project Insight is designed to create NLP as a service with code base for both front end GUI (streamlit) and backend server (FastAPI) the usage of transformers 
+2168,2020-08-17 10:55:43,Onceupon.space,NLP experiment in story-telling  that creates illustrations (text to sketch) and content (text generation)
+2172,2020-08-18 04:12:18,Compression of Deep Learning Models for Text: A Survey,"In this survey, we discuss six different types of methods for compression of such models to enable their deployment in real industry NLP projects."
+2173,2020-08-18 04:16:33,Fine-tuning with custom datasets,This tutorial will take you through several examples of using 🤗 Transformers models with your own datasets.
+2185,2020-08-18 23:12:27,Language Interpretability Tool (LIT),"The Language Interpretability Tool (LIT) is a visual, interactive model-understanding tool for NLP models."
+2186,2020-08-18 23:24:41,AI in Medicine and Imaging - Stanford Symposium 2020,Through the AIMI Symposium we hope to address gaps and barriers in the field and catalyze more evidence-based solutions to improve health for all.
+2188,2020-08-19 15:16:46,Great Expectations,Always know what to expect from your data.
+2193,2020-08-20 00:39:05,Effective testing for machine learning systems,"Why testing machine learning systems can be different, and discuss some strategies for writing effective tests for machine learning systems."
+2195,2020-08-20 20:45:52,Streamlit Terran Timeline,A face-recognition timeline generator tool for any kind of video!
+2199,2020-08-21 08:37:20,How to Set Up Continuous Integration for Machine Learning,How to Set Up Continuous Integration for Machine Learning with Github Actions and Neptune: Step by Step Guide.
+2200,2020-08-21 12:45:54,Bad passwords and the NIST guidelines,"Example project provided by DataCamp. In this project, you will write code that  automatically detects and flags the bad passwords."
+2202,2020-08-22 03:55:27,Graph Representation Learning Book,"Introduction to graph representation learning, including methods for embedding graph data, graph neural networks, and deep generative models of graphs."
+2203,2020-08-22 05:58:20,Image Similarity Search in PyTorch,"Simple Convolutional Auto-encoder based image similarity
+search to find similar images to given image or features.
+Fully written in PyTorch."
+2204,2020-08-22 17:19:00,Tensorflow Object Detection with Tensorflow 2,Object Detection with Tensorflow 2 and the Tensorflow Object Detection API 
+2207,2020-08-23 04:38:45,Rules of Machine Learning: Best Practices for ML Engineering,A basic knowledge of machine learning get the benefit of best practices in machine learning from around Google.
+2214,2020-08-24 11:16:47,vedaseg,vedaseg is an open source semantic segmentation toolbox based on PyTorch.
+2215,2020-08-24 11:52:10,vedastr,vedastr is an open source scene text recognition toolbox based on PyTorch.
+2218,2020-08-25 13:57:49,CascadeTabNet,"An approach for end-to-end table detection and structure recognition from image-based documents
+"
+2220,2020-08-25 16:13:31,"Table Detection, Information Extraction and Structuring using ML",Table Extraction (TE) is the task of detecting and decomposing table information in a document.
+2223,2020-08-26 04:21:37,AxCell,Automatic Extraction of Results from Machine Learning Papers
+2226,2020-08-27 01:54:16,Hyperparameter Optimization for 🤗 Transformers: A Guide,"Basic grid search is not the most optimal, and in fact, the hyperparameters we choose can have a significant impact on our final model performance."
+2232,2020-08-27 11:00:34,GenRL,GenRL is a PyTorch-First Reinforcement Learning library centered around reproducible and generalizable algorithm implementations.
+2235,2020-08-27 16:03:12,Shift-Ctrl-F: Semantic Search for the Browser,🔎: Search the information available on a webpage using natural language instead of an exact string match.
+2238,2020-08-28 01:24:08,Spinning Up in Deep RL (OpenAI),An educational resource to help anyone learn deep reinforcement learning.
+2239,2020-08-28 07:07:39,An Introduction to Adversarial Examples in Deep Learning,"This report provides an intuitive introduction to adversarial examples, discusses a wide variety of different adversarial attacks and, most notably, provides ad"
+2242,2020-08-29 08:10:21,Deep dive into ROI layer in Object Detection Models,In this blog post we will implement in torch ROI Pool and ROI Align models from scratch.
+2245,2020-08-30 02:51:07,On the Bottleneck of Graph Neural Networks and its Implications,The mechanism of propagating information between neighbors creates a bottleneck when every node aggregates messages from its neighbors.
+2246,2020-08-30 06:05:21,Questgen- An NLP library for state-of-the-art Question Generation,"Questgen AI is an opensource, easy to use NLP library for Question generation. It can generate MCQs, Boolean (Yes/No), FAQs and also paraphrase any question.
+"
+2247,2020-08-30 11:48:19,Unsupervised Keyphrase Extraction,Learn about unsupervised algorithms for automatically extracting representative keyword and phrases from documents
+2250,2020-08-31 09:20:55,Text Data Augmentation with MarianMT,Learn how to use machine translation models in Hugging Face Transformers for data augmentation.
+2251,2020-08-31 10:05:12,Practical AI: Using NLP word embeddings to solve localization ,"Using NLP word vectors (word2vec, glove, etc) in a novel way to solve the problem of localization in edtech."
+2252,2020-08-31 23:40:26,Explore then Execute,Adapting without Rewards via Factorized Meta-Reinforcement Learning
+2255,2020-09-01 04:49:38,"Tensorflow, Pytorch, Transformer, Fastai, etc. Tutorials","BERT Classification, Question Answering, Seq2Seq Machine Translation, Contextual Topic Modeling, Large Scale Multilabelclassification, etc"
+2258,2020-09-02 09:05:08,Graph Convolutions for dummies,An article explaining Graph Convolutional Networks as simply as possible.
+2259,2020-09-02 23:08:03,ECCV 2020: Some Highlights,A sort of a snapshot of the conference by summarizing some papers (& listing some) that grabbed my attention.
+2260,2020-09-02 23:13:20,CVPR 2020: A Snapshot,A snapshot of the conference by summarizing some papers (& listing some) that grabbed my attention.
+2262,2020-09-03 12:10:24,R.U.Stoked,NLP (Sentiment Analysis) project to demonstrate a pipeline of data from the very first stage of data collection through ML model deployment.
+2263,2020-09-03 23:05:32,TTT: Fine-tuning Transformers with TPUs or GPUs acceleration,"TTT is short for a package for fine-tuning 🤗 Transformers with TPUs, written in Tensorflow2.0+."
+2264,2020-09-04 01:24:22,MushroomRL,Python library for Reinforcement Learning.
+2266,2020-09-04 01:42:26,Wav2Lip: Accurately Lip-syncing Videos In The Wild,A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild
+2267,2020-09-04 02:50:39,What Is MLOps?,"Machine learning operations, MLOps, are best practices for businesses to run AI successfully with help from an expanding software products and cloud services."
+2268,2020-09-05 01:06:07,NLP Course | For You,This is an extension to the (ML for) Natural Language Processing course I teach at the Yandex School of Data Analysis (YSDA) since fall 2018. 
+2269,2020-09-05 01:09:06,Learning to Summarize with Human Feedback,Human feedback models outperform much larger supervised models and reference summaries on TL;DR
+2271,2020-09-05 07:10:06,Latest advancements in video streaming with AI,"AI developments in video streaming using Super-resolution, Per-title encoding, P2P"
+2273,2020-09-05 18:22:44,ONNX Transformers,Accelerated NLP pipelines for fast inference 🚀 on CPU. Built with 🤗 Transformers and ONNX runtime.
+2275,2020-09-06 07:26:21,hugdatafast: huggingface/nlp + fastai,The elegant integration of huggingface/nlp and fastai2 and handy transforms using pure huggingface/nlp 
+2280,2020-09-06 18:59:46,Top 10 Deep Learning Breakthroughs — Deep Reinforcement Learning,The article unravels the journey behind reaching the point when Reinforcement Learning combined with Deep Learning defeated a Go player world champion.
+2283,2020-09-07 07:13:04,Data analysis made easy: Text2Code for Jupyter notebook,A jupyter notebook extension for Text2Code for basic pandas and plotly commands
+2284,2020-09-07 10:42:32,electra_pytorch:  ELECTRA in PyTorch (fastai + huggingface),Unofficial reimplementation of <ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators>
+2285,2020-09-07 13:36:55,Images of radio boxes,I have collected about 15+k raw images of radio boxes across 500+ forms and hand-picked 200+  images that can be used to determine if a radio box is checked.
+2287,2020-09-07 20:56:51,omega|ml - building and deploying ML models the easy way,Deploying  ML is hard. It should not be. omega|ml makes it a breeze.
+2289,2020-09-08 04:12:41,ElasticTransformers,Making BERT stretchy. Semantic Elasticsearch with Sentence Transformers.
+2290,2020-09-09 00:16:32,Fine-tune a non-English GPT-2 Model with Huggingface," In this tutorial, we are going to use the transformers library by Huggingface. We will use the new Trainer class and fine-tune out GPT-2 model."
+2294,2020-09-09 16:14:37,Getting started with large-scale ETL jobs using Dask and AWS EMR,"EMR is AWS’s distributed data platform, which we can interact with and submit jobs to from a JupyterLab notebook running on our local machine."
+2295,2020-09-09 16:36:45,How to Create a Cartoonizer with TensorFlow Lite?,An end-to-end tutorial on how to convert to TensorFlow Lite (TFLite) model and deploy it to an Android app for cartoonizing an image captured by camera.
+2296,2020-09-10 01:15:57,How to Test Machine Learning Code and Systems,"🚦 Minimal examples of testing machine learning for correct implementation, expected learned behaviour, and model performance.
+
+"
+2298,2020-09-11 00:02:10,torchCDE,Differentiable controlled differential equation solvers for PyTorch with GPU support and memory-efficient adjoint backpropagation.
+2299,2020-09-11 00:07:11,Latent graph neural networks: Manifold learning 2.0?,Parallels between recent works on latent graph learning and older techniques of manifold learning.
+2300,2020-09-11 00:11:14,Real Python Recommendation Engine,A full stack data science project that performs document similarity on RealPython.com content. Content recommendations are implemented via a Chrome extension.
+2304,2020-09-11 17:54:04,Graph Neural Networks,A descriptive guide for Graph Neural Networks.
+2310,2020-09-12 12:33:20,Image Super-Resolution,In this project we learn how to train a super-resolution model ESPCN on DIV2K dataset to upscale images using AI by 3x
+2312,2020-09-12 22:33:56,Codequestion,Ask coding questions directly from the terminal.
+2317,2020-09-14 05:32:45,End-to-end Object Detection in TensorFlow Lite,"This project shows how to train a custom detection model with the TFOD API, optimize it with TFLite, and perform inference with the optimized model."
+2318,2020-09-14 11:55:33,Jepto - Digital Marketing Analytics,KPI Prediction and Anomaly Detection of digital marketing data for both technical and non-technical marketers and business owners.
+2319,2020-09-14 19:21:33,Cartoonizer with TensorFlow.js,An app to turn your photos into cartoon-styled images 🎨 within your browsers using White-box Cartoonization GAN.
+2325,2020-09-16 13:43:20,Implementing Content-Based Image Retrieval with Siamese Networks,"With content-based image retrieval, we refer to the task of finding images containing attributes which are not in the image metadata, but in its visual content."
+2326,2020-09-17 00:18:51,NLP for Developers: Multilingual NLP | Rasa,"In this video, Rasa Developer Advocate Rachael will talk about common approaches to handle language input in more than one language."
+2327,2020-09-17 15:36:45,Paint with Machine Learning,This web app allows you to create a landscape painting in the style of Bob Ross using a deep learning model served using a Spell model server.
+2328,2020-09-17 16:04:29,Distilling Knowledge in Neural Networks,This project demonstrates the compelling model optimization technique - knowledge distillation with code walkthroughs in TensorFlow. 
+2332,2020-09-18 08:49:55,Recurrent Neural Networks: building GRU cells VS LSTM cells ,What are the advantages of RNN’s over transformers? When to use GRU’s over LSTM? What are the equations of GRU really mean? How to build a GRU cell in Pytorch?
+2336,2020-09-19 08:40:37,G-SimCLR,TensorFlow implementation of G-SimCLR. 
+2339,2020-09-19 11:17:48,Neural CDEs for Long Time-Series via the Log-ODE Method,NCDEs for Long Time-Series via the Log-ODE Method.
+2341,2020-09-20 00:34:03,PyTorch Forecasting,Time series forecasting with PyTorch.
+2342,2020-09-20 03:24:58,Norfair,Lightweight Python library for adding real-time 2D object tracking to any detector.
+2344,2020-09-21 00:20:00,Labelai,"Labelai is an online tool designed to label images, useful for training AI models."
+2345,2020-09-21 00:26:02,Remo,🐰 Python lib for remo - the app for annotations and images management in Computer Vision.
+2348,2020-09-21 23:47:06,Layered Neural Rendering for Retiming People in Video,Manipulating and editing the time in which different motions of individuals in the video occur.
+2350,2020-09-22 03:07:29,"Part 1: Deep Representations, a way towards neural style transfer",A top down approach to conceiving neural style transfer
+2351,2020-09-22 03:42:58,Simple Transformers: Transformers Made Easy,Simple Transformers removes complexity and lets you get down to what matters – model training and experimenting with the Transformer model architectures.
+2353,2020-09-22 13:04:04,TF Geometric,Efficient and Friendly Graph Neural Network Library for TensorFlow 1.x and 2.x.
+2356,2020-09-23 04:56:15,"Part 2: Deep Representations, a way towards neural style transfer",A top-down approach to conceiving neural style transfer
+2357,2020-09-23 10:27:15,Sudoku Solver,Solving Sudoku by extracting the puzzle from photo using Computer Vision and OCR and solving it.
+2360,2020-09-23 13:56:29,"3D Face: Fast, Accurate and Stable Reconstruction","This work extends the previous work 3DDFA, named 3DDFA_V2, titled Towards Fast, Accurate and Stable 3D Dense Face Alignment, accepted by ECCV 2020. "
+2366,2020-09-25 02:26:00,Help-Me-Read: Text Summarization using Flask and HuggingFace.,"Text summarization, translation and Questions Answers generation using HuggingFace and deployed using Flask, Streamlit. Detailed guide on github. "
+2367,2020-09-25 07:39:43,Interactive Analysis of Sentence Embeddings,Learn how to interactively explore sentence embedding and labels in Tensorflow Embedding Projector.
+2368,2020-09-25 07:47:27,TableQA,AI tool for querying  natural language on tabular data like csvs and other dataframes.
+2369,2020-09-25 15:44:08,GP-GAN: Towards Realistic High-Resolution Image Blending,Blending composite images using a generative model and a Gaussian-Poisson equation with a Laplacian Pyramid
+2371,2020-09-25 18:10:13,From Research to Production with Deep Semi-Supervised Learning,Semi-Supervised Learning (SSL) has blossomed in the deep learning research community — we share lessons learned over 15 months of taking SSL into production.
+2372,2020-09-25 18:39:59, A spaced repetition app for keeping your reinforcement learning,We aim to keep your reinforcement learning knowledge fresh by periodically reminding you of concepts making you a master of RL knowledge!!
+2373,2020-09-25 22:41:22,GraphNorm,A Principled Approach to Accelerating Graph Neural Network Training.
+2384,2020-09-27 08:42:46,Intro to Facebook Prophet,Everything you need to know when starting out with Facebook’s time series forecasting tool
+2387,2020-09-27 14:22:51,GitHub Actions for Machine Learning,This presentation discusses the use of GitHub Actions to automate certain steps of a toy ML project. 
+2388,2020-09-27 22:09:32,SemTorch,Different deep learning architectures definitions that can be applied to image segmentation.
+2389,2020-09-28 05:34:15,bingoset - CLI tool  to create image dataset.,CLI Toolkit to quickly create an image dataset using Bing Image Search API.
+2390,2020-09-28 05:46:03,mini-pokedex end to end tutorial  -  Gotta classify 'em all!,"Build a Pokemon image classifier to classify the awesome starters Pikachu, Charmander, Squirtle, and Bulbasaur."
+2394,2020-09-28 22:46:36,Why Data Quality is Key to Successful ML Ops,A look at ML Ops and highlight how and why data quality is key to ML Ops workflows.
+2395,2020-09-28 22:51:23,Python caching in GitHub Actions,How to speed up slow Python builds in GitHub Actions with effective caching.
+2396,2020-09-29 00:36:12,EfficientDet meets Pytorch Lightning,Beginner friendly guide to object detection using EfficientDet.
+2397,2020-09-29 02:15:46,Optimizing MobileDet for Mobile Deployments,Learn about the criticalities of effectively optimizing MobileDet object detectors for mobile deployments.
+2402,2020-09-30 22:11:07,Adapting Text Augmentation to Industry Problems,"In this post I will talk about the recent advances in exploiting language models for data generation and also show how, where we can implement them in Industry."
+2403,2020-09-30 22:15:07,Easy Data Augmentation (EDA),Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks
+2404,2020-09-30 22:22:07,12 Factors of Reproducible Machine Learning in Production,We took our experience to deduce 12 factors (as a nod to the 12 factor app) that build the backbone of successful ML in production.
+2410,2020-10-01 13:42:23,Serving PyTorch models in production with the Amazon SageMaker,TorchServe is now natively supported in Amazon SageMaker as the default model server for PyTorch inference. 
+2411,2020-10-01 14:55:12,How to Make Sense of the Reinforcement Learning Agents?,What and Why I Log During Training and Debug?
+2412,2020-10-01 18:50:05,Introduction to 3D Medical Imaging: Preprocessing & Augmentations,"Learn how to apply 3D transformations for medical image preprocessing and augmentation, to setup your awesome deep learning pipeline."
+2413,2020-10-01 23:50:04,Keeping Data Pipelines healthy w/ Great Expectations GH Actions,"We show you how you can use GitHub Actions together with the open source project Great Expectations to automatically test, document, and profile data pipelines."
+2415,2020-10-01 23:55:36,Explainable ML Monitoring,"The video covers an overview of some of the risks of AI, the need for explainable monitoring, and what exactly we mean when we talk about it."
+2417,2020-10-02 09:44:25,Parallelizing Prophet Cross-Validation with Dask,Applied Example w/ Code
+2418,2020-10-02 10:16:17,Top Research Papers from the ECML-PKDD 2020 Conference,ECML-PKDD -> selectionof the best reaesch papers
+2419,2020-10-02 15:37:27,GANs in Computer Vision Free Ebook / Article-series,This free ebook/article-series follows the chronological order of 20 peer-reviewed highly-cited papers as they presented in a series of 6 articles.
+2422,2020-10-02 21:48:21,Pattern-Exploiting Training (PET),"This repository contains the code for ""Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference"""
+2423,2020-10-03 20:27:36,Imaginaire,NVIDIA PyTorch GAN library with distributed and mixed precision support.
+2428,2020-10-05 02:09:23,Efficient Transformers: A Survey,"Characterizes a large and thoughtful selection of recent efficiency-flavored ""X-former"" models."
+2429,2020-10-05 02:16:34,Meta-learning for Few-shot Natural Language Processing: A Survey,"Clear definitions, progress summary and some common datasets of applying meta-learning to few-shot NLP."
+2430,2020-10-05 10:09:28,Transection: Transformers for English to Chinese Translation 基于t,Tutorials on how to fine-tune a BART based transformer for English to Chinese translation.
+2431,2020-10-05 12:36:02,A Survey of the State of Explainable AI for NLP,Overview of the operations and explainability techniques currently available for generating explanations for NLP model predictions.
+2432,2020-10-05 13:09:58,Topic Modeling with BERT,Leveraging 🤗 Transformers and a class-based TF-IDF to create dense clusters allowing for easily interpretable topics. 
+2434,2020-10-06 02:13:01,OpenMMLab Computer Vision,"MMCV is a python library for CV research and supports many research projects such as object detection, segmentation, pose estimation, action classification.
+
+"
+2436,2020-10-06 13:29:44,Machine Learning Methods Explained (+ Examples),Most common techniques used in data science projects; get to know them through easy-to-understand examples and put them into practice in your own ML projects!
+2437,2020-10-06 14:53:39,Rasoee,"A powerful web and mobile application that identifies food dishes from a given input image, and provides an ingredient list along with relevant recipes."
