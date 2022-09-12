@@ -10,7 +10,7 @@ Join 30K+ developers in learning how to responsibly <a href="https://madewithml.
 <br>
 
 <div align="center">
-    <a target="_blank" href="https://newsletter.madewithml.com"><img src="https://img.shields.io/badge/Subscribe-30K-brightgreen"></a>&nbsp;
+    <a target="_blank" href="https://madewithml.com/"><img src="https://img.shields.io/badge/Subscribe-40K-brightgreen"></a>&nbsp;
     <a target="_blank" href="https://github.com/GokuMohandas/Made-With-ML"><img src="https://img.shields.io/github/stars/GokuMohandas/Made-With-ML.svg?style=social&label=Star"></a>&nbsp;
     <a target="_blank" href="https://www.linkedin.com/in/goku"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/GokuMohandas"><img src="https://img.shields.io/twitter/follow/GokuMohandas.svg?label=Follow&style=social"></a>
@@ -22,7 +22,7 @@ Join 30K+ developers in learning how to responsibly <a href="https://madewithml.
 <hr>
 
 ## Foundations
-Learn the foundations of ML through intuitive explanations, clean code and visuals.
+Learn the foundations of machine learning through intuitive explanations, clean code and visualizations.
 
 - Lessons: https://madewithml.com/#foundations
 - Code: [GokuMohandas/Made-With-ML/tree/master/notebooks](https://github.com/GokuMohandas/Made-With-ML/tree/master/notebooks)
@@ -60,13 +60,10 @@ Learn the foundations of ML through intuitive explanations, clean code and visua
     </tr>
 </table>
 
-📆&nbsp; More content coming soon!<br>
-<a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
-
 <br>
 
 ## MLOps course
-Learn how to apply ML to build a production grade product to deliver value.
+Learn how to combine machine learning with software engineering to build production-grade applications.
 
 - Lessons: https://madewithml.com/#mlops
 - Code: [GokuMohandas/mlops-course](https://github.com/GokuMohandas/mlops-course)
@@ -121,27 +118,27 @@ Learn how to apply ML to build a production grade product to deliver value.
 		<tr>
 			<td><a href="https://madewithml.com/courses/mlops/augmentation/">Augmentation</a></td>
 			<td><a href="https://madewithml.com/courses/mlops/api/">RESTful API</a></td>
-			<td><a href="https://madewithml.com/courses/mlops/data-stack/">Data stack</a></td>
+            <td><a href="https://madewithml.com/courses/mlops/systems-design/">Systems design</a></td>
 		</tr>
 		<tr>
 			<td><strong>📈&nbsp; Modeling</strong></td>
 			<td><strong>✅&nbsp; Testing</strong></td>
-			<td><a href="https://madewithml.com/courses/mlops/systems-design/">Systems design</a></td>
+            <td><strong>⎈&nbsp; Data engineering</strong></td>
 		</tr>
 		<tr>
 			<td>&nbsp;<a href="https://madewithml.com/courses/mlops/baselines/">Baselines</a></td>
 			<td><a href="https://madewithml.com/courses/mlops/testing/">Code</a></td>
-			<td><a href="https://madewithml.com/courses/mlops/feature-store/">Feature store</a></td>
+			<td><a href="https://madewithml.com/courses/mlops/data-stack/">Data stack</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://madewithml.com/courses/mlops/evaluation/">Evaluation</a></td>
 			<td><a href="https://madewithml.com/courses/mlops/testing/#data">Data</a></td>
-			<td><a href="https://madewithml.com/courses/mlops/orchestration/">Orchestration</a></td>
+            <td><a href="https://madewithml.com/courses/mlops/orchestration/">Orchestration</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://madewithml.com/courses/mlops/experiment-tracking/">Experiment tracking</a></td>
 			<td><a href="https://madewithml.com/courses/mlops/testing/#models">Models</a></td>
-			<td>&nbsp;</td>
+			<td><a href="https://madewithml.com/courses/mlops/feature-store/">Feature store</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://madewithml.com/courses/mlops/optimization/">Optimization</a></td>
@@ -151,25 +148,20 @@ Learn how to apply ML to build a production grade product to deliver value.
 	</tbody>
 </table>
 
-📆&nbsp; More content coming soon!<br>
-<a href="https://newsletter.madewithml.com" target="_blank">Subscribe</a> for our monthly updates on new content.
-
 <br>
 
-## FAQ
+### Mission
+
+ML is **not a separate industry**, instead, it's a powerful **way of thinking** about data, so let's make sure we have a solid foundation before we start changing the world with it. Made With ML is our medium to catalyze this goal and though we're off to great start, we still have a long way to go.
+
+### Interactive MLOps course
+While all the lessons above are **100% free**, it's hard to learn everything on your own. That's why we're offering an interactive course with the structure and community to actually complete and master these lessons.  More details &nbsp;👉&nbsp; [here](https://madewithml.com/#interactive-course).
 
 ### Who is this content for?
 - `Software engineers` looking to learn ML and become even better software engineers.
 - `Data scientists` who want to learn how to responsibly deliver value with ML.
 - `College graduates` looking to learn the practical skills they'll need for the industry.
 - `Product Managers` who want to develop a technical foundation for ML applications.
-
-### What is the structure?
-Lessons will be released weekly and each one will include:
-- `intuition`: high level overview of the concepts that will be covered and how it all fits together.
-- `code`: simple code examples to illustrate the concept.
-- `application`: applying the concept to our specific task.
-- `extensions`: brief look at other tools and techniques that will be useful for difference situations.
 
 ### What makes this content unique?
 - `hands-on`: If you search production ML or MLOps online, you'll find great blog posts and tweets. But in order to really understand these concepts, you need to implement them. Unfortunately, you don’t see a lot of the inner workings of running production ML because of scale, proprietary content & expensive tools. However, Made With ML is free, open and live which makes it a perfect learning opportunity for the community.
@@ -178,12 +170,11 @@ Lessons will be released weekly and each one will include:
 - `focused yet holistic`: For every concept, we'll not only cover what's most important for our specific task (this is the case study aspect) but we'll also cover related methods (this is the guide aspect) which may prove to be useful in other situations.
 
 ### Who is the author?
-- I've deployed large scale ML systems at Apple as well as smaller systems with constraints at startups and want to share the common principles I've learned.
+- I've built and deployed large scale ML systems at Apple, as well as smaller systems with constraints at startups. I currently work closely with early-stage and F500 companies in helping them deliver value with ML while diving into the best and bespoke practices of this rapidly evolving space. I want to share this knowledge with the rest of the world so we can accelerate progress in this space.
 - Connect with me on <a href="https://twitter.com/GokuMohandas" target="_blank"><i class="fab fa-twitter ai-color-info mr-1"></i>Twitter</a> and <a href="https://www.linkedin.com/in/goku" target="_blank"><i class="fab fa-linkedin ai-color-primary mr-1"></i>LinkedIn</a>
 
 ### Why is this free?
 While this content is for everyone, it's especially targeted towards people who don't have as much opportunity to learn. I believe that creativity and intelligence are randomly distributed while opportunities are siloed. I want to enable more people to create and contribute to innovation.
-
 
 <hr>
 <!-- Citation -->
@@ -194,6 +185,6 @@ To cite this content, please use:
     author       = {Goku Mohandas},
     title        = {Made With ML},
     howpublished = {\url{https://madewithml.com/}},
-    year         = {2021}
+    year         = {2022}
 }
 ```
