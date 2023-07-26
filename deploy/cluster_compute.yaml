@@ -1,0 +1,22 @@
+cloud: madewithml-us-east-2
+region: us-east2
+head_node_type:
+  name: head_node_type
+  instance_type: m5.2xlarge  # 8 CPU, 0 GPU, 32 GB RAM
+worker_node_types:
+- name: gpu_worker
+  instance_type: g4dn.xlarge  # 4 CPU, 1 GPU, 16 GB RAM
+  min_workers: 0
+  max_workers: 1
+  use_spot: False
+aws:
+  BlockDeviceMappings:
+  - DeviceName: "/dev/sda1"
+    Ebs:
+      VolumeSize: 500
+      DeleteOnTermination: true
+  TagSpecifications:
+  - ResourceType: instance
+    Tags:
+      - Key: as-feature-multi-zone
+        Value: "true"

@@ -1,0 +1,53 @@
+name: workloads
+on:
+  workflow_dispatch:  # manual
+  pull_request:
+    branches:
+    - main
+permissions: write-all
+
+jobs:
+  workloads:
+    runs-on: ubuntu-22.04
+    steps:
+
+      # Configure AWS credentials
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::593241322649:role/github-actions-madewithml
+          role-session-name: s3access
+          aws-region: us-west-2
+
+      # Set up dependencies
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.11'
+          cache: 'pip'
+      - run: python3 -m pip install anyscale==0.5.131 typer==0.9.0
+
+      # Run workloads
+      - name: Workloads
+        run: |
+          export ANYSCALE_HOST=${{ secrets.ANYSCALE_HOST }}
+          export ANYSCALE_CLI_TOKEN=${{ secrets.ANYSCALE_CLI_TOKEN }}
+          anyscale jobs submit deploy/jobs/workloads.yaml --wait
+
+      # Read results from S3
+      - name: Read results from S3
+        run: |
+          mkdir results
+          aws s3 cp s3://madewithml/${{ github.actor }}/results/ results/ --recursive
+          python .github/workflows/json_to_md.py results/training_results.json results/training_results.md
+          python .github/workflows/json_to_md.py results/evaluation_results.json results/evaluation_results.md
+
+      # Comment results to PR
+      - name: Comment training results on PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: results/training_results.md
+      - name: Comment evaluation results on PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: results/evaluation_results.md

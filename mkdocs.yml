@@ -1,0 +1,19 @@
+site_name: Made With ML
+site_url: https://madewithml.com/
+repo_url: https://github.com/GokuMohandas/Made-With-ML/
+nav:
+  - Home: index.md
+  - madewithml:
+    - data: madewithml/data.md
+    - models: madewithml/models.md
+    - train: madewithml/train.md
+    - tune: madewithml/tune.md
+    - evaluate: madewithml/evaluate.md
+    - predict: madewithml/predict.md
+    - serve: madewithml/serve.md
+    - utils: madewithml/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes

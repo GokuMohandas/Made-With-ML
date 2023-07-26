@@ -1,0 +1,12 @@
+base_image: anyscale/ray:2.6.0-py310-cu118
+env_vars: {}
+debian_packages:
+  - curl
+
+python:
+  pip_packages: []
+  conda_packages: []
+
+post_build_cmds:
+  - python3 -m pip install --upgrade pip setuptools wheel
+  - python3 -m pip install -r https://raw.githubusercontent.com/GokuMohandas/Made-With-ML/main/requirements.txt

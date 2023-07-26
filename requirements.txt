@@ -1,0 +1,48 @@
+# Default
+hyperopt==0.2.7
+ipywidgets>=8
+matplotlib==3.7.1
+mlflow==2.3.1
+nltk==3.8.1
+numpy==1.24.3
+numpyencoder==0.3.0
+pandas==2.0.1
+pretty-errors==1.2.25
+ray[air]==2.6.0
+scikit-learn==1.2.2
+snorkel==0.9.9
+SQLAlchemy==1.4.48
+torch==2.0.0
+transformers==4.28.1
+
+# Notebook
+cleanlab==2.3.1
+jupyterlab==3.6.3
+lime==0.2.0.1
+seaborn==0.12.2
+wordcloud==1.9.2
+
+# Documentation
+mkdocs==1.4.2
+mkdocstrings==0.21.2
+mkdocstrings[python]>=0.18
+
+# Styling
+black==23.3.0
+flake8==6.0.0
+Flake8-pyproject==1.2.3
+isort==5.12.0
+pyupgrade==3.3.2
+
+# Testing
+great-expectations==0.16.5
+pytest==7.3.1
+pytest-cov==4.0.0
+
+# Development
+fastapi==0.95.2
+pre-commit==3.2.2
+typer==0.9.0
+
+# Deployment
+anyscale==0.5.131

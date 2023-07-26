@@ -1,0 +1,21 @@
+name: documentation
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-22.04
+    steps:
+      # Set up dependencies
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.11'
+          cache: 'pip'
+      - run: python3 -m pip install mkdocs==1.4.2 mkdocstrings==0.21.2 "mkdocstrings[python]>=0.18"
+
+      # Deploy docs
+      - name: Deploy documentation
+        run: mkdocs gh-deploy --force

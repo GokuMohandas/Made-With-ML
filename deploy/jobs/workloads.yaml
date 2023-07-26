@@ -1,0 +1,11 @@
+name: workloads
+project_id: prj_v9izs5t1d6b512ism8c5rkq4wm
+cluster_env: madewithml-cluster-env
+compute_config: madewithml-cluster-compute
+runtime_env:
+  working_dir: .
+  upload_path: s3://madewithml/GokuMohandas/jobs  # <--- CHANGE USERNAME (case-sensitive)
+  env_vars:
+    GITHUB_USERNAME: GokuMohandas  # <--- CHANGE USERNAME (case-sensitive)
+entrypoint: bash deploy/jobs/workloads.sh
+max_retries: 0
