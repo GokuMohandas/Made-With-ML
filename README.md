@@ -33,7 +33,7 @@ Learn how to combine machine learning with software engineering to design, devel
 
 ## Overview
 
-In this course, we'll go from experimentation (model design + development) to production (model deployment + iteration). We'll do this iteratively by motivating the components that will enable us to build a *reliable* production system.
+In this course, we'll go from experimentation (design + development) to production (deployment + iteration). We'll do this iteratively by motivating the components that will enable us to build a *reliable* production system.
 
 <blockquote>
   <img width=20 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/640px-YouTube_full-color_icon_%282017%29.svg.png">&nbsp; Be sure to watch the video below for a quick overview of what we'll be building.
