@@ -1,7 +1,7 @@
 id,created_on,title,description,tag
-19,2020-03-03 13:54:31,Diffusion to Vector,Reference implementation of Diffusion2Vec (Complenet 2018) built on Gensim and NetworkX. ,graph-learning
-26,2020-03-07 23:11:58,Graph Wavelet Neural Network,"A PyTorch implementation of ""Graph Wavelet Neural Network"" (ICLR 2019) ",graph-learning
-44,2020-03-08 00:32:58,Capsule Graph Neural Network,"A PyTorch implementation of ""Capsule Graph Neural Network"" (ICLR 2019).",graph-learning
+19,2020-03-03 13:54:31,Diffusion to Vector,Reference implementation of Diffusion2Vec (Complenet 2018) built on Gensim and NetworkX. ,other
+26,2020-03-07 23:11:58,Graph Wavelet Neural Network,"A PyTorch implementation of ""Graph Wavelet Neural Network"" (ICLR 2019) ",other
+44,2020-03-08 00:32:58,Capsule Graph Neural Network,"A PyTorch implementation of ""Capsule Graph Neural Network"" (ICLR 2019).",other
 80,2020-03-20 05:59:32,NeRF: Neural Radiance Fields,Representing scenes as neural radiance fields for view synthesis.,computer-vision
 84,2020-03-20 15:18:43,Mention Classifier,"Category prediction model
 This repo contains AllenNLP model for prediction of Named Entity categories by its mentions.",natural-language-processing
@@ -14,16 +14,16 @@ This repo contains AllenNLP model for prediction of Named Entity categories by i
 141,2020-03-28 17:41:42,First Order Motion Model for Image Animation,Generating a video sequence so that an object in a source image is animated according to the motion of a driving video.,computer-vision
 142,2020-03-28 17:49:20,TorchIO:  Medical Image Processing in Deep Learning and PyTorch,Tools for medical image processing in deep learning and PyTorch,computer-vision
 144,2020-03-29 18:23:06,Finetuning Transformers with JAX + Haiku,"Walking through a port of the RoBERTa pre-trained model to JAX + Haiku, then fine-tuning the model to solve a downstream task.",natural-language-processing
-218,2020-04-06 11:29:57,Distributional RL using TensorFlow2,🐳 Implementation of various Distributional Reinforcement Learning Algorithms using TensorFlow2.,reinforcement-learning
+218,2020-04-06 11:29:57,Distributional RL using TensorFlow2,🐳 Implementation of various Distributional Reinforcement Learning Algorithms using TensorFlow2.,other
 220,2020-04-06 15:19:59,Module 2: Convolutional Neural Networks - CS231n ,In Lecture 5 we move from fully-connected neural networks to convolutional neural networks.,computer-vision
 249,2020-04-06 19:20:12,makesense.ai,Free to use online tool for labelling photos.,computer-vision
 264,2020-04-06 21:33:32,The Unreasonable Effectiveness of Recurrent Neural Networks,A close look at how RNNs are able to perform so well.,natural-language-processing
 268,2020-04-06 21:51:55,A Gentle Introduction to Text Summarization in Machine Learning,Text summarization is the technique for generating a concise and precise summary of voluminous texts while focusing on the sections that convey useful info.,natural-language-processing
-285,2020-04-07 03:45:03,A (Long) Peek into Reinforcement Learning,"In this post, we are gonna briefly go over the field of Reinforcement Learning (RL), from fundamental concepts to classic algorithms.",reinforcement-learning
+285,2020-04-07 03:45:03,A (Long) Peek into Reinforcement Learning,"In this post, we are gonna briefly go over the field of Reinforcement Learning (RL), from fundamental concepts to classic algorithms.",other
 305,2020-04-07 20:00:37,Question Answering with a Fine-Tuned BERT,What does it mean for BERT to achieve “human-level performance on Question Answering”?,natural-language-processing
-314,2020-04-08 00:06:21,The Autonomous Learning Library,A PyTorch library for building deep reinforcement learning agents.,reinforcement-learning
+314,2020-04-08 00:06:21,The Autonomous Learning Library,A PyTorch library for building deep reinforcement learning agents.,other
 317,2020-04-08 00:14:27,COCO Annotator,"✏️ Web-based image segmentation tool for object detection, localization and key points.",computer-vision
-328,2020-04-08 14:29:22,ProteinGCN: Protein model quality assessment using GCNs,Source code for the paper: ProteinGCN: Protein model quality assessment using Graph Convolutional Networks.,graph-learning
+328,2020-04-08 14:29:22,ProteinGCN: Protein model quality assessment using GCNs,Source code for the paper: ProteinGCN: Protein model quality assessment using Graph Convolutional Networks.,other
 344,2020-04-08 16:11:28,Tokenizers,💥Fast State-of-the-Art Tokenizers optimized for Research and Production.,natural-language-processing
 353,2020-04-08 17:08:41,Keras OCR,A packaged and flexible version of the CRAFT text detector and Keras CRNN recognition model. ,computer-vision
 384,2020-04-08 21:22:25,Visualizing Memorization in RNNs,Inspecting gradient magnitudes in context can be a powerful tool to see when recurrent units use short-term or long-term contextual understanding.,natural-language-processing
@@ -46,22 +46,22 @@ This repo contains AllenNLP model for prediction of Named Entity categories by i
 569,2020-04-18 13:32:36,An Introduction to Transfer Learning and HuggingFace,In this talk I'll start by introducing the recent breakthroughs in NLP that resulted from the combination of Transfer Learning schemes and Transformer architect,natural-language-processing
 570,2020-04-19 17:40:48,Introduction to Image Inpainting With Deep Learning,"In this article, we are going to learn how to do “image inpainting”, i.e. fill in missing parts of images precisely using deep learning.",computer-vision
 579,2020-04-20 00:53:19,Transfer Learning & Fine-Tuning With Keras,Your 100% up-to-date guide to transfer learning & fine-tuning with Keras.,computer-vision
-582,2020-04-20 21:38:50,CS285: Deep Reinforcement Learning,"A course on deep reinforcement learning, transfer and multi-task learning.",reinforcement-learning
+582,2020-04-20 21:38:50,CS285: Deep Reinforcement Learning,"A course on deep reinforcement learning, transfer and multi-task learning.",other
 594,2020-04-21 23:25:53,TorchServe & TorchElastic PyTorch Libraries for Serving/Training,The officially supported way to deploy and manage models with PyTorch.,mlops
 600,2020-04-22 17:37:25,Building a Simple Chatbot from Scratch in Python (using NLTK),A look at retrieval based and generative conversational AI for creating chatbots.,natural-language-processing
 612,2020-04-23 13:56:46,Implementing DCGANs using PyTorch C++ API (Libtorch),"The blog discusses the paper review of DCGANs and implementation using PyTorch C++ API in detail. From loading models to visualizing batch of the data, in C++! ",computer-vision
 620,2020-04-23 17:26:26,ELECTRA ,"Explaining the new self-supervised task for language representation learning, ELECTRA which uses ""replace token detection"".",natural-language-processing
 624,2020-04-24 00:42:41,How to Train a New Language Model From Scratch Using Transformers,"In this post we’ll demo how to train a “small” model (84 M parameters = 6 layers, 768 hidden size, 12 attention heads).",natural-language-processing
-629,2020-04-24 05:01:26,ARIMA Modeling - Guide to Time Series Forecasting in Python,"How ARIMA models works . How to train and forecast using ARIMA, SARIMA, SARIMAX and find the optimal model with Python",time-series
-649,2020-04-28 03:42:29,Spektral,Graph Neural Networks with Keras and Tensorflow 2.,graph-learning
+629,2020-04-24 05:01:26,ARIMA Modeling - Guide to Time Series Forecasting in Python,"How ARIMA models works . How to train and forecast using ARIMA, SARIMA, SARIMAX and find the optimal model with Python",other
+649,2020-04-28 03:42:29,Spektral,Graph Neural Networks with Keras and Tensorflow 2.,other
 666,2020-04-29 12:10:43,AIDeveloper,"GUI-based software for training, evaluating and applying deep neural nets for image classification ",computer-vision
 671,2020-04-29 23:22:43,MedCAT - Medical Concept Annotation Tool,A tool used to extract information from Electronic Health Records (EHRs) and link it to biomedical ontologies like SNOMED-CT and UMLS.,natural-language-processing
-681,2020-05-01 16:25:34,The AI Economist,Improving Equality and Productivity with AI-Driven Tax Policies,reinforcement-learning
+681,2020-05-01 16:25:34,The AI Economist,Improving Equality and Productivity with AI-Driven Tax Policies,other
 684,2020-05-01 16:48:19,WT5?! Training Text-to-Text Models to Explain their Predictions,We leverage the text-to-text framework proposed by Raffel et al.(2019) to train language models to output a natural text explanation alongside their prediction.,natural-language-processing
-689,2020-05-01 17:51:53,Ensemble Forecasts ,"Time series forecasting using classical methods (ETS, Holt-Winter's, SARIMA) and Prophet. I show and discuss advantages of Ensemble Forecast",time-series
-703,2020-05-04 05:09:59,Implementing Graph Neural Networks with JAX,I’ll talk about my experience on how to build and train Graph Neural Networks (GNNs) with JAX.,graph-learning
-705,2020-05-04 14:13:13,Deep Learning With Graph-Structured Representations,Novel approaches based on the theme of structuring the representations and computations of neural network-based models in the form of a graph.,graph-learning
-706,2020-05-04 14:18:58,GNNExplainer: Generating Explanations for Graph Neural Networks,General tool for explaining predictions made by graph neural networks (GNNs).,graph-learning
+689,2020-05-01 17:51:53,Ensemble Forecasts ,"Time series forecasting using classical methods (ETS, Holt-Winter's, SARIMA) and Prophet. I show and discuss advantages of Ensemble Forecast",other
+703,2020-05-04 05:09:59,Implementing Graph Neural Networks with JAX,I’ll talk about my experience on how to build and train Graph Neural Networks (GNNs) with JAX.,other
+705,2020-05-04 14:13:13,Deep Learning With Graph-Structured Representations,Novel approaches based on the theme of structuring the representations and computations of neural network-based models in the form of a graph.,other
+706,2020-05-04 14:18:58,GNNExplainer: Generating Explanations for Graph Neural Networks,General tool for explaining predictions made by graph neural networks (GNNs).,other
 710,2020-05-05 04:01:24,Differential Subspace Search in High-Dimensional Latent Space,"Differential subspace search to allow efficient iterative user exploration in such a space, without relying on domain- or data-specific assumptions.",computer-vision
 723,2020-05-05 19:45:50,DeepWay: Autonomous navigation for blind.,I have tried to make something which can be used by blind people to navigate around the streets. Have a look at the video and GitHub repo for details.,computer-vision
 737,2020-05-06 18:06:04,Nature-Scene Classification using FASTAI,Classifying Nature-scene images using deep learning  with fastai library,computer-vision
@@ -73,7 +73,7 @@ This repo contains AllenNLP model for prediction of Named Entity categories by i
 807,2020-05-11 02:25:51,Introduction to Machine Learning Problem Framing,This course helps you frame machine learning (ML) problems.,mlops
 834,2020-05-13 04:36:33,TailorGAN: Making User-Defined Fashion Designs,Generate a photo-realistic image which combines the texture from reference A and the new attribute from reference B.,computer-vision
 843,2020-05-13 14:49:21,T5 fine-tuning,A colab notebook to showcase how to fine-tune T5 model on various NLP tasks (especially non text-2-text tasks with text-2-text approach),natural-language-processing
-854,2020-05-14 12:05:20,ASAP: Pooling for Graph Neural Network (AAAI 2020),ASAP is a sparse and differentiable pooling method that addresses the limitations of previous graph pooling layers.,graph-learning
+854,2020-05-14 12:05:20,ASAP: Pooling for Graph Neural Network (AAAI 2020),ASAP is a sparse and differentiable pooling method that addresses the limitations of previous graph pooling layers.,other
 878,2020-05-16 05:27:56,Exploratory Data Analysis on MS COCO Style Datasets,A Simple Toolkit to do exploratory data analysis on MS COCO style formatted datasets.,computer-vision
 898,2020-05-17 05:11:22,Single-Stage Semantic Segmentation from Image Labels,"We attain competitive results by training a single network model
 for segmentation in a self-supervised fashion using only
@@ -92,21 +92,21 @@ image-level annotations",computer-vision
 1032,2020-05-29 14:50:28,Pix2Pix with Tf-js,"Implementation of web friendly ML models using TensorFlow.js. pix2pix, face segmentation, fast style transfer and many more ...",computer-vision
 1056,2020-05-30 09:08:31,Font Recognition Using Deep Learning - DeepFont ( Adobe ),DeepFont Paper is a technique created by Adobe.Inc to detect font from images using deep learning . They published their work as a paper for the public .,computer-vision
 1078,2020-05-31 05:04:44,Building Footprint Extraction,The project retrieves satellite imagery from Google and performs building footprint extraction using a U-Net. ,computer-vision
-1114,2020-06-01 21:00:24,Reinforcement Learning in JAX,"Implementation of interesting Deep Reinforcement Learning Algorithms using JAX based libraries (flax, haiku and rlax) As of now tasks come from OpenAI gym",reinforcement-learning
+1114,2020-06-01 21:00:24,Reinforcement Learning in JAX,"Implementation of interesting Deep Reinforcement Learning Algorithms using JAX based libraries (flax, haiku and rlax) As of now tasks come from OpenAI gym",other
 1155,2020-06-03 15:22:11,GaborNet,Modified network architecture that focuses on improving convergence and reducing training complexity.,computer-vision
 1159,2020-06-03 18:17:01,Learning To Classify Images Without Labels,A two-step approach where feature learning and clustering are decoupled.,computer-vision
 1167,2020-06-04 03:58:21,From Pre-trained Word Embeddings to Pre-trained Language Models,from Static Word Embedding to Dynamic (Contextualized) Word Embedding.,natural-language-processing
 1172,2020-06-04 07:01:13,Converting images to TF Records,A Colab Notebook showing how to convert an image dataset (for classification) to TF Records and more.,computer-vision
 1266,2020-06-09 16:09:08,Text Classification using Bert from Tensorflow-Hub,This Tutorial helps to learn about Bert Models for Classification  task on a #Tweet dataset.,natural-language-processing
 1286,2020-06-10 17:24:19,Exploring Knowledge Captured in Probability of Strings,An exploration of simple knowledge captured by language models with code examples,natural-language-processing
-1363,2020-06-13 13:46:44,Short Notes on Batch Constrained Deep Reinforcement Learning,Blog article on Off-Policy Deep Reinforcement Learning without Exploration paper by Fujimoto et al. (ICML 2019),reinforcement-learning
+1363,2020-06-13 13:46:44,Short Notes on Batch Constrained Deep Reinforcement Learning,Blog article on Off-Policy Deep Reinforcement Learning without Exploration paper by Fujimoto et al. (ICML 2019),other
 1426,2020-06-15 02:34:27,From GRU to Transformer,How recurrent units and self-attention are related to each other.,natural-language-processing
 1430,2020-06-15 04:24:12,Melanoma Classification,This was Shubhamai 3-week project for working a new kaggle competition and deploying a web application to predicting benign or malignant based on images.,computer-vision
 1434,2020-06-15 07:52:13,Universal Sentence Encoder Visually Explained,A deep-dive into how Universal Sentence Encoder learns to generate fixed-length sentence embeddings,natural-language-processing
 1445,2020-06-15 17:49:16,Image Smoothing via L0 Gradient Minimization,This is a edge-aware image smoothing algorithm. This algorithm tries to smoothen the image while preserving the global structural information of the image. ,computer-vision
 1450,2020-06-15 21:00:47,BERT NLP — How To Build a Question Answering Bot,Understanding the intuition with hands-on PyTorch code for BERT fine-tuned on SQuAD.,natural-language-processing
 1451,2020-06-16 01:21:09,EfficientDet (PyTorch),A PyTorch implementation of EfficientDet faithful to the original Google implementation with ported weights.,computer-vision
-1459,2020-06-16 03:06:10,SuperGlue: Learning Feature Matching with Graph Neural Networks,"SuperGlue, a neural network that matches two sets of local features by jointly finding correspondences and rejecting non-matchable points.",graph-learning
+1459,2020-06-16 03:06:10,SuperGlue: Learning Feature Matching with Graph Neural Networks,"SuperGlue, a neural network that matches two sets of local features by jointly finding correspondences and rejecting non-matchable points.",other
 1462,2020-06-16 03:28:40,Open Compound Domain Adaptation,"Pytorch implementation for ""Open Compound Domain Adaptation""",computer-vision
 1485,2020-06-17 16:33:50,Sudoku-Game-Solver,This is a Computer Vision Application that solves a 9x9 sudoku board game using Deep Learning and Backtracking algorithm.,computer-vision
 1488,2020-06-17 19:27:36,Smart Picture Editor,Tool to automatically remove unwanted objects from photos,computer-vision
@@ -119,16 +119,16 @@ image-level annotations",computer-vision
 1540,2020-06-21 13:03:19,codeBERT - Masked Language Model for source code ,Tutorial to use codeBERT a MLM for Python code. Model trained from scratch using roBERTa,natural-language-processing
 1588,2020-06-24 03:29:51,Multi-task Training with Hugging Face Transformers and NLP, A recipe for multi-task training with Transformers' Trainer and NLP datasets.,natural-language-processing
 1600,2020-06-25 00:45:26,BERT Distillation with Catalyst,How to distill BERT with Catalyst.,natural-language-processing
-1628,2020-06-28 06:12:20,Deep Reinforcement Learning Amidst Lifelong Non-Stationarity,"How can robots learn in changing, open-world environments? We introduce dynamic-parameter MDPs, to capture environments with persistent, unobserved changes. ",reinforcement-learning
+1628,2020-06-28 06:12:20,Deep Reinforcement Learning Amidst Lifelong Non-Stationarity,"How can robots learn in changing, open-world environments? We introduce dynamic-parameter MDPs, to capture environments with persistent, unobserved changes. ",other
 1654,2020-06-30 03:58:46,3D Detection and Domain Adaptation,1st Place Solution for Waymo Open Dataset Challenge,computer-vision
 1659,2020-07-01 02:26:20,Evaluation of Text Generation: A Survey,Evaluation methods of natural language generation (NLG) and language modeling.,natural-language-processing
 1661,2020-07-01 06:42:59,SpineNet: A Novel Architecture for Object Detection,"A meta architecture called a scale-permuted model that enables two major improvements on backbone architecture design,iscovered with neural architecture search.",computer-vision
 1665,2020-07-01 07:17:48,BERTology Meets Biology,Interpreting Attention in Protein Language Models.,natural-language-processing
 1681,2020-07-03 04:02:52,A Survey on Deep Learning for Localization and Mapping,Towards the Age of Spatial Machine Intelligence,computer-vision
 1685,2020-07-03 04:12:28,Text Data Cleanup - Dynamic Embedding Visualisation,Identify noisy text in a Machine Translation dataset through dynamic text embedding visualisation.,natural-language-processing
-1689,2020-07-03 04:29:04,Offline Reinforcement Learning,"Challenges, algorithms and benchmarks.",reinforcement-learning
-1692,2020-07-03 04:42:45,Low-Dimensional Hyperbolic Knowledge Graph Embeddings,Low-dimensional knowledge graph embeddings that simultaneously capture hierarchical relations and logical patterns.,graph-learning
-1703,2020-07-04 09:22:50,Awesome Deep RL,This project is built for people who are learning and researching on the latest deep reinforcement learning methods.,reinforcement-learning
+1689,2020-07-03 04:29:04,Offline Reinforcement Learning,"Challenges, algorithms and benchmarks.",other
+1692,2020-07-03 04:42:45,Low-Dimensional Hyperbolic Knowledge Graph Embeddings,Low-dimensional knowledge graph embeddings that simultaneously capture hierarchical relations and logical patterns.,other
+1703,2020-07-04 09:22:50,Awesome Deep RL,This project is built for people who are learning and researching on the latest deep reinforcement learning methods.,other
 1709,2020-07-05 05:25:34,Anti-Patterns in NLP (8 types of NLP idiots),A talk which discusses the recurring industrial problems in making NLP solutions. ,natural-language-processing
 1715,2020-07-06 18:25:16,Image Classifier,Pure JavaScript Image Classifier,computer-vision
 1717,2020-07-07 04:09:35,TaBERT,Pretraining for Joint Understanding of Textual and Tabular Data,natural-language-processing
@@ -157,7 +157,7 @@ image-level annotations",computer-vision
 
 ",natural-language-processing
 1905,2020-07-19 14:51:57,PyTorch CNN Trainer,A simple package to fine-tune CNNs from torchvision and Pytorch Image models by Ross Wightman.,computer-vision
-1934,2020-07-21 01:47:01,Graphein,Protein Graph Library,graph-learning
+1934,2020-07-21 01:47:01,Graphein,Protein Graph Library,other
 1935,2020-07-21 04:44:52,Integrated Gradients in TensorFlow 2,"In this tutorial, you will walk through an implementation of IG step-by-step in TensorFlow 2 to understand the pixel feature importances of an image classifier.",computer-vision
 1950,2020-07-23 00:42:09,GPT-3: A Hitchhiker's Guide,Post to guide your thinking on GPT-3.,natural-language-processing
 1959,2020-07-24 10:00:13,TeachEasy: Web app for Text Summarization & Q/A generation,An intuitive Streamlit based web app for Text Summarization and Question Answer generation so as to reduce the work for School teachers.,natural-language-processing
@@ -185,7 +185,7 @@ FrImCla is an open-source framework for Image Classification using traditional a
 2195,2020-08-20 20:45:52,Streamlit Terran Timeline,A face-recognition timeline generator tool for any kind of video!,computer-vision
 2199,2020-08-21 08:37:20,How to Set Up Continuous Integration for Machine Learning,How to Set Up Continuous Integration for Machine Learning with Github Actions and Neptune: Step by Step Guide.,mlops
 2200,2020-08-21 12:45:54,Bad passwords and the NIST guidelines,"Example project provided by DataCamp. In this project, you will write code that  automatically detects and flags the bad passwords.",natural-language-processing
-2232,2020-08-27 11:00:34,GenRL,GenRL is a PyTorch-First Reinforcement Learning library centered around reproducible and generalizable algorithm implementations.,reinforcement-learning
+2232,2020-08-27 11:00:34,GenRL,GenRL is a PyTorch-First Reinforcement Learning library centered around reproducible and generalizable algorithm implementations.,other
 2246,2020-08-30 06:05:21,Questgen- An NLP library for state-of-the-art Question Generation,"Questgen AI is an opensource, easy to use NLP library for Question generation. It can generate MCQs, Boolean (Yes/No), FAQs and also paraphrase any question.
 ",natural-language-processing
 2250,2020-08-31 09:20:55,Text Data Augmentation with MarianMT,Learn how to use machine translation models in Hugging Face Transformers for data augmentation.,natural-language-processing
@@ -196,7 +196,7 @@ FrImCla is an open-source framework for Image Classification using traditional a
 2310,2020-09-12 12:33:20,Image Super-Resolution,In this project we learn how to train a super-resolution model ESPCN on DIV2K dataset to upscale images using AI by 3x,computer-vision
 2312,2020-09-12 22:33:56,Codequestion,Ask coding questions directly from the terminal.,natural-language-processing
 2336,2020-09-19 08:40:37,G-SimCLR,TensorFlow implementation of G-SimCLR. ,computer-vision
-2339,2020-09-19 11:17:48,Neural CDEs for Long Time-Series via the Log-ODE Method,NCDEs for Long Time-Series via the Log-ODE Method.,time-series
+2339,2020-09-19 11:17:48,Neural CDEs for Long Time-Series via the Log-ODE Method,NCDEs for Long Time-Series via the Log-ODE Method.,other
 2350,2020-09-22 03:07:29,"Part 1: Deep Representations, a way towards neural style transfer",A top down approach to conceiving neural style transfer,computer-vision
 2366,2020-09-25 02:26:00,Help-Me-Read: Text Summarization using Flask and HuggingFace.,"Text summarization, translation and Questions Answers generation using HuggingFace and deployed using Flask, Streamlit. Detailed guide on github. ",natural-language-processing
 2367,2020-09-25 07:39:43,Interactive Analysis of Sentence Embeddings,Learn how to interactively explore sentence embedding and labels in Tensorflow Embedding Projector.,natural-language-processing
