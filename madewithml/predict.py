@@ -125,7 +125,7 @@ def predict(
     # Load components
     best_checkpoint = get_best_checkpoint(run_id=run_id)
     predictor = TorchPredictor.from_checkpoint(best_checkpoint)
-    preprocessor = predictor.get_preprocessor()
+    # preprocessor = predictor.get_preprocessor()
 
     # Predict
     sample_df = pd.DataFrame([{"title": title, "description": description, "tag": "other"}])

@@ -1,5 +1,6 @@
 import datetime
 import json
+import os
 
 import ray
 import typer
@@ -19,7 +20,7 @@ from ray.tune.search.hyperopt import HyperOptSearch
 from typing_extensions import Annotated
 
 from madewithml import data, train, utils
-from madewithml.config import MLFLOW_TRACKING_URI, logger
+from madewithml.config import EFS_DIR, MLFLOW_TRACKING_URI, logger
 
 # Initialize Typer CLI app
 app = typer.Typer()
@@ -117,10 +118,7 @@ def tune_models(
         experiment_name=experiment_name,
         save_artifact=True,
     )
-    run_config = RunConfig(
-        callbacks=[mlflow_callback],
-        checkpoint_config=checkpoint_config,
-    )
+    run_config = RunConfig(callbacks=[mlflow_callback], checkpoint_config=checkpoint_config, storage_path=EFS_DIR)
 
     # Hyperparameters to start with
     initial_params = json.loads(initial_params)
@@ -178,5 +176,5 @@ def tune_models(
 if __name__ == "__main__":  # pragma: no cover, application
     if ray.is_initialized():
         ray.shutdown()
-    ray.init()
+    ray.init(runtime_env={"env_vars": {"GITHUB_USERNAME": os.environ["GITHUB_USERNAME"]}})
     app()
