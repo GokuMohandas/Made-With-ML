@@ -101,6 +101,17 @@ We'll start by setting up our cluster with the environment and compute configura
 
 </details>
 
+### Credentials
+```bash
+touch .env
+```
+```bash
+# Inside .env
+GITHUB_USERNAME="CHANGE_THIS_TO_YOUR_USERNAME"  # ← CHANGE THIS
+```bash
+source .env
+```
+
 ### Git setup
 
 Create a repository by following these instructions: [Create a new repository](https://github.com/new) → name it `Made-With-ML` → Toggle `Add a README file` (**very important** as this creates a `main` branch) → Click `Create repository` (scroll down)
@@ -109,7 +120,7 @@ Now we're ready to clone the repository that has all of our code:
 
 ```bash
 git clone https://github.com/GokuMohandas/Made-With-ML.git .
-git remote set-url origin https://github.com/GITHUB_USERNAME/Made-With-ML.git  # <-- CHANGE THIS to your username
+git remote set-url origin https://github.com/$GITHUB_USERNAME/Made-With-ML.git  # <-- CHANGE THIS to your username
 git checkout -b dev
 ```
 
@@ -317,15 +328,7 @@ python madewithml/predict.py predict \
   python madewithml/serve.py --run_id $RUN_ID
   ```
 
-  While the application is running, we can use it via cURL, Python, etc.:
-
-  ```bash
-  # via cURL
-  curl -X POST -H "Content-Type: application/json" -d '{
-    "title": "Transfer learning with transformers",
-    "description": "Using transformers for transfer learning on text classification tasks."
-  }' http://127.0.0.1:8000/predict
-  ```
+  Once the application is running, we can use it via cURL, Python, etc.:
 
   ```python
   # via Python
@@ -341,13 +344,6 @@ python madewithml/predict.py predict \
   ray stop  # shutdown
   ```
 
-```bash
-export HOLDOUT_LOC="https://raw.githubusercontent.com/GokuMohandas/Made-With-ML/main/datasets/holdout.csv"
-curl -X POST -H "Content-Type: application/json" -d '{
-    "dataset_loc": "https://raw.githubusercontent.com/GokuMohandas/Made-With-ML/main/datasets/holdout.csv"
-  }' http://127.0.0.1:8000/evaluate
-```
-
 </details>
 
 <details open>
@@ -362,15 +358,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
   python madewithml/serve.py --run_id $RUN_ID
   ```
 
-  While the application is running, we can use it via cURL, Python, etc.:
-
-  ```bash
-  # via cURL
-  curl -X POST -H "Content-Type: application/json" -d '{
-    "title": "Transfer learning with transformers",
-    "description": "Using transformers for transfer learning on text classification tasks."
-  }' http://127.0.0.1:8000/predict
-  ```
+  Once the application is running, we can use it via cURL, Python, etc.:
 
   ```python
   # via Python
@@ -399,7 +387,7 @@ export RUN_ID=$(python madewithml/predict.py get-best-run-id --experiment-name $
 pytest --run-id=$RUN_ID tests/model --verbose --disable-warnings
 
 # Coverage
-python3 -m pytest --cov madewithml --cov-report html
+python3 -m pytest tests/code --cov madewithml --cov-report html --disable-warnings
 ```
 
 ## Production

@@ -1,5 +1,6 @@
 import datetime
 import json
+import os
 from typing import Tuple
 
 import numpy as np
@@ -23,7 +24,7 @@ from transformers import BertModel
 from typing_extensions import Annotated
 
 from madewithml import data, models, utils
-from madewithml.config import MLFLOW_TRACKING_URI, logger
+from madewithml.config import EFS_DIR, MLFLOW_TRACKING_URI, logger
 
 # Initialize Typer CLI app
 app = typer.Typer()
@@ -200,10 +201,7 @@ def train_model(
     )
 
     # Run config
-    run_config = RunConfig(
-        callbacks=[mlflow_callback],
-        checkpoint_config=checkpoint_config,
-    )
+    run_config = RunConfig(callbacks=[mlflow_callback], checkpoint_config=checkpoint_config, storage_path=EFS_DIR)
 
     # Dataset
     ds = data.load_data(dataset_loc=dataset_loc, num_samples=train_loop_config["num_samples"])
@@ -252,5 +250,5 @@ def train_model(
 if __name__ == "__main__":  # pragma: no cover, application
     if ray.is_initialized():
         ray.shutdown()
-    ray.init()
+    ray.init(runtime_env={"env_vars": {"GITHUB_USERNAME": os.environ["GITHUB_USERNAME"]}})
     app()
