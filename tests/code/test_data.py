@@ -54,5 +54,7 @@ def test_preprocess(df, class_to_index):
 
 def test_fit_transform(dataset_loc, preprocessor):
     ds = data.load_data(dataset_loc=dataset_loc)
-    preprocessor.fit_transform(ds)
+    preprocessor = preprocessor.fit(ds)
+    preprocessed_ds = preprocessor.transform(ds)
     assert len(preprocessor.class_to_index) == 4
+    assert ds.count() == preprocessed_ds.count()

@@ -3,11 +3,9 @@ import os
 from http import HTTPStatus
 from typing import Dict
 
-import pandas as pd
 import ray
 from fastapi import FastAPI
 from ray import serve
-from ray.train.torch import TorchPredictor
 from starlette.requests import Request
 
 from madewithml import evaluate, predict
@@ -21,7 +19,7 @@ app = FastAPI(
 )
 
 
-@serve.deployment(route_prefix="/", num_replicas="1", ray_actor_options={"num_cpus": 8, "num_gpus": 0})
+@serve.deployment(num_replicas="1", ray_actor_options={"num_cpus": 8, "num_gpus": 0})
 @serve.ingress(app)
 class ModelDeployment:
     def __init__(self, run_id: str, threshold: int = 0.9):
@@ -30,8 +28,7 @@ class ModelDeployment:
         self.threshold = threshold
         mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)  # so workers have access to model registry
         best_checkpoint = predict.get_best_checkpoint(run_id=run_id)
-        self.predictor = TorchPredictor.from_checkpoint(best_checkpoint)
-        self.preprocessor = self.predictor.get_preprocessor()
+        self.predictor = predict.TorchPredictor.from_checkpoint(best_checkpoint)
 
     @app.get("/")
     def _index(self) -> Dict:
@@ -55,11 +52,10 @@ class ModelDeployment:
         return {"results": results}
 
     @app.post("/predict/")
-    async def _predict(self, request: Request) -> Dict:
-        # Get prediction
+    async def _predict(self, request: Request):
         data = await request.json()
-        df = pd.DataFrame([{"title": data.get("title", ""), "description": data.get("description", ""), "tag": ""}])
-        results = predict.predict_with_proba(df=df, predictor=self.predictor)
+        sample_ds = ray.data.from_items([{"title": data.get("title", ""), "description": data.get("description", ""), "tag": ""}])
+        results = predict.predict_proba(ds=sample_ds, predictor=self.predictor)
 
         # Apply custom logic
         for i, result in enumerate(results):

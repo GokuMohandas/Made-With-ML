@@ -73,7 +73,6 @@ def tune_models(
         num_workers=num_workers,
         use_gpu=bool(gpu_per_worker),
         resources_per_worker={"CPU": cpu_per_worker, "GPU": gpu_per_worker},
-        _max_cpu_fraction_per_node=0.8,
     )
 
     # Dataset
@@ -90,7 +89,8 @@ def tune_models(
 
     # Preprocess
     preprocessor = data.CustomPreprocessor()
-    train_ds = preprocessor.fit_transform(train_ds)
+    preprocessor = preprocessor.fit(train_ds)
+    train_ds = preprocessor.transform(train_ds)
     val_ds = preprocessor.transform(val_ds)
     train_ds = train_ds.materialize()
     val_ds = val_ds.materialize()
@@ -102,7 +102,7 @@ def tune_models(
         scaling_config=scaling_config,
         datasets={"train": train_ds, "val": val_ds},
         dataset_config=dataset_config,
-        preprocessor=preprocessor,
+        metadata={"class_to_index": preprocessor.class_to_index},
     )
 
     # Checkpoint configuration
@@ -118,7 +118,7 @@ def tune_models(
         experiment_name=experiment_name,
         save_artifact=True,
     )
-    run_config = RunConfig(callbacks=[mlflow_callback], checkpoint_config=checkpoint_config, storage_path=EFS_DIR)
+    run_config = RunConfig(callbacks=[mlflow_callback], checkpoint_config=checkpoint_config, storage_path=EFS_DIR, local_dir=EFS_DIR)
 
     # Hyperparameters to start with
     initial_params = json.loads(initial_params)

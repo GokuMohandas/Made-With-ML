@@ -5,7 +5,6 @@ import sys
 from pathlib import Path
 
 import mlflow
-import pretty_errors  # NOQA: F401 (imported but unused)
 
 # Directories
 ROOT_DIR = Path(__file__).parent.parent.absolute()

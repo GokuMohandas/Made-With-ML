@@ -1,7 +1,7 @@
 import pytest
-from ray.train.torch.torch_predictor import TorchPredictor
 
 from madewithml import predict
+from madewithml.predict import TorchPredictor
 
 
 def pytest_addoption(parser):
