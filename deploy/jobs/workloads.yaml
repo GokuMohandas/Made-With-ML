@@ -1,5 +1,5 @@
 name: workloads
-project_id: prj_v9izs5t1d6b512ism8c5rkq4wm
+project_id: prj_wn6el5cu9dqwktk6t4cv54x8zh
 cluster_env: madewithml-cluster-env
 compute_config: madewithml-cluster-compute
 runtime_env:
