@@ -101,7 +101,18 @@ We'll start by setting up our cluster with the environment and compute configura
 
 </details>
 
+### Git setup
+
+Create a repository by following these instructions: [Create a new repository](https://github.com/new) → name it `Made-With-ML` → Toggle `Add a README file` (**very important** as this creates a `main` branch) → Click `Create repository` (scroll down)
+
+Now we're ready to clone the repository that has all of our code:
+
+```bash
+git clone https://github.com/GokuMohandas/Made-With-ML.git .
+```
+
 ### Credentials
+
 ```bash
 touch .env
 ```
@@ -111,16 +122,6 @@ GITHUB_USERNAME="CHANGE_THIS_TO_YOUR_USERNAME"  # ← CHANGE THIS
 ```
 ```bash
 source .env
-```
-
-### Git setup
-
-Create a repository by following these instructions: [Create a new repository](https://github.com/new) → name it `Made-With-ML` → Toggle `Add a README file` (**very important** as this creates a `main` branch) → Click `Create repository` (scroll down)
-
-Now we're ready to clone the repository that has all of our code:
-
-```bash
-git clone https://github.com/GokuMohandas/Made-With-ML.git .
 ```
 
 ### Virtual environment
@@ -385,7 +386,8 @@ export RUN_ID=$(python madewithml/predict.py get-best-run-id --experiment-name $
 pytest --run-id=$RUN_ID tests/model --verbose --disable-warnings
 
 # Coverage
-python3 -m pytest tests/code --cov madewithml --cov-report html --disable-warnings
+python3 -m pytest tests/code --cov madewithml --cov-report html --disable-warnings  # html report
+python3 -m pytest tests/code --cov madewithml --cov-report term --disable-warnings  # terminal report
 ```
 
 ## Production
