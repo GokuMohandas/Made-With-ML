@@ -8,7 +8,7 @@ numpy==1.24.3
 numpyencoder==0.3.0
 pandas==2.0.1
 python-dotenv==1.0.0
-ray[air]==2.6.0
+ray[air]==2.7.0
 scikit-learn==1.2.2
 snorkel==0.9.9
 SQLAlchemy==1.4.48
