@@ -4,6 +4,7 @@ stores/
 mlflow/
 results/
 workspaces/
+efs/
 
 # VSCode
 .vscode/
