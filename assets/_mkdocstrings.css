@@ -1,0 +1,57 @@
+
+/* Avoid breaking parameters name, etc. in table cells. */
+.doc-contents td code {
+  word-break: normal !important;
+}
+
+/* No line break before first paragraph of descriptions. */
+.doc-md-description,
+.doc-md-description>p:first-child {
+  display: inline;
+}
+
+/* Avoid breaking code headings. */
+.doc-heading code {
+  white-space: normal;
+}
+
+/* Improve rendering of parameters, returns and exceptions. */
+.doc-contents .field-name {
+  min-width: 100px;
+}
+
+/* Other curious-spacing fixes. */
+.doc-contents .field-name,
+.doc-contents .field-body {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.doc-contents p {
+  margin: 1em 0 1em;
+}
+
+.doc-contents .field-list {
+  margin: 0 !important;
+}
+
+.doc-contents pre {
+  padding: 0 !important;
+}
+
+.doc-contents .wy-table-responsive {
+  margin-bottom: 0 !important;
+}
+
+.doc-contents td.code {
+  padding: 0 !important;
+}
+
+.doc-contents td.linenos {
+  padding: 0 8px !important;
+}
+
+.doc-children,
+footer {
+  margin-top: 20px;
+}

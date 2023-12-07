@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://madewithml.com/madewithml/utils/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>utils - Made With ML</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "utils";
+        var mkdocs_page_input_path = "madewithml/utils.md";
+        var mkdocs_page_url = "/madewithml/utils/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Made With ML
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">madewithml</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../data/">data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../models/">models</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../train/">train</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tune/">tune</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../evaluate/">evaluate</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../predict/">predict</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../serve/">serve</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">utils</a>
+    <ul class="current">
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Made With ML</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>madewithml &raquo;</li>
+      <li>utils</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/GokuMohandas/Made-With-ML/edit/master/docs/madewithml/utils.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="doc doc-object doc-module">
+
+
+
+<a id="madewithml.utils"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.collate_fn" class="doc doc-heading">
+          <code class="highlight language-python">collate_fn(batch)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Convert a batch of numpy arrays to tensors (with appropriate padding).</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>batch</code></b>
+                  (<code><span title="typing.Dict">Dict</span>[str, <span title="numpy.ndarray">ndarray</span>]</code>)
+              –
+              <div class="doc-md-description">
+                <p>input batch as a dictionary of numpy arrays.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+                <code><span title="typing.Dict">Dict</span>[str, <span title="torch.Tensor">Tensor</span>]</code>
+            –
+            <div class="doc-md-description">
+              <p>Dict[str, torch.Tensor]: output batch as a dictionary of tensors.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def collate_fn(batch: Dict[str, np.ndarray]) -&gt; Dict[str, torch.Tensor]:  # pragma: no cover, air internal
+    """Convert a batch of numpy arrays to tensors (with appropriate padding).
+
+    Args:
+        batch (Dict[str, np.ndarray]): input batch as a dictionary of numpy arrays.
+
+    Returns:
+        Dict[str, torch.Tensor]: output batch as a dictionary of tensors.
+    """
+    batch["ids"] = pad_array(batch["ids"])
+    batch["masks"] = pad_array(batch["masks"])
+    dtypes = {"ids": torch.int32, "masks": torch.int32, "targets": torch.int64}
+    tensor_batch = {}
+    for key, array in batch.items():
+        tensor_batch[key] = torch.as_tensor(array, dtype=dtypes[key], device=get_device())
+    return tensor_batch</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.dict_to_list" class="doc doc-heading">
+          <code class="highlight language-python">dict_to_list(data, keys)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Convert a dictionary to a list of dictionaries.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>data</code></b>
+                  (<code><span title="typing.Dict">Dict</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>input dictionary.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>keys</code></b>
+                  (<code><span title="typing.List">List</span>[str]</code>)
+              –
+              <div class="doc-md-description">
+                <p>keys to include in the output list of dictionaries.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+                <code><span title="typing.List">List</span>[<span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]]</code>
+            –
+            <div class="doc-md-description">
+              <p>List[Dict[str, Any]]: output list of dictionaries.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def dict_to_list(data: Dict, keys: List[str]) -&gt; List[Dict[str, Any]]:
+    """Convert a dictionary to a list of dictionaries.
+
+    Args:
+        data (Dict): input dictionary.
+        keys (List[str]): keys to include in the output list of dictionaries.
+
+    Returns:
+        List[Dict[str, Any]]: output list of dictionaries.
+    """
+    list_of_dicts = []
+    for i in range(len(data[keys[0]])):
+        new_dict = {key: data[key][i] for key in keys}
+        list_of_dicts.append(new_dict)
+    return list_of_dicts</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.get_run_id" class="doc doc-heading">
+          <code class="highlight language-python">get_run_id(experiment_name, trial_id)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get the MLflow run ID for a specific Ray trial ID.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>experiment_name</code></b>
+                  (<code>str</code>)
+              –
+              <div class="doc-md-description">
+                <p>name of the experiment.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>trial_id</code></b>
+                  (<code>str</code>)
+              –
+              <div class="doc-md-description">
+                <p>id of the trial.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>str</code></b>(                <code>str</code>
+)            –
+            <div class="doc-md-description">
+              <p>run id of the trial.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def get_run_id(experiment_name: str, trial_id: str) -&gt; str:  # pragma: no cover, mlflow functionality
+    """Get the MLflow run ID for a specific Ray trial ID.
+
+    Args:
+        experiment_name (str): name of the experiment.
+        trial_id (str): id of the trial.
+
+    Returns:
+        str: run id of the trial.
+    """
+    trial_name = f"TorchTrainer_{trial_id}"
+    run = mlflow.search_runs(experiment_names=[experiment_name], filter_string=f"tags.trial_name = '{trial_name}'").iloc[0]
+    return run.run_id</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.load_dict" class="doc doc-heading">
+          <code class="highlight language-python">load_dict(path)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Load a dictionary from a JSON's filepath.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>path</code></b>
+                  (<code>str</code>)
+              –
+              <div class="doc-md-description">
+                <p>location of file.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>Dict</code></b>(                <code><span title="typing.Dict">Dict</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>loaded JSON data.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def load_dict(path: str) -&gt; Dict:
+    """Load a dictionary from a JSON's filepath.
+
+    Args:
+        path (str): location of file.
+
+    Returns:
+        Dict: loaded JSON data.
+    """
+    with open(path) as fp:
+        d = json.load(fp)
+    return d</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.pad_array" class="doc doc-heading">
+          <code class="highlight language-python">pad_array(arr, dtype=np.int32)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Pad an 2D array with zeros until all rows in the
+2D array are of the same length as a the longest
+row in the 2D array.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>arr</code></b>
+                  (<code><span title="numpy.array">array</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>input array</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+                <code><span title="numpy.ndarray">ndarray</span></code>
+            –
+            <div class="doc-md-description">
+              <p>np.array: zero padded array</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def pad_array(arr: np.ndarray, dtype=np.int32) -&gt; np.ndarray:
+    """Pad an 2D array with zeros until all rows in the
+    2D array are of the same length as a the longest
+    row in the 2D array.
+
+    Args:
+        arr (np.array): input array
+
+    Returns:
+        np.array: zero padded array
+    """
+    max_len = max(len(row) for row in arr)
+    padded_arr = np.zeros((arr.shape[0], max_len), dtype=dtype)
+    for i, row in enumerate(arr):
+        padded_arr[i][: len(row)] = row
+    return padded_arr</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.save_dict" class="doc doc-heading">
+          <code class="highlight language-python">save_dict(d, path, cls=None, sortkeys=False)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Save a dictionary to a specific location.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>d</code></b>
+                  (<code><span title="typing.Dict">Dict</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>data to save.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>path</code></b>
+                  (<code>str</code>)
+              –
+              <div class="doc-md-description">
+                <p>location of where to save the data.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>cls</code></b>
+                  (<code>optional</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>encoder to use on dict data. Defaults to None.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>sortkeys</code></b>
+                  (<code>bool</code>, default:
+                      <code>False</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>whether to sort keys alphabetically. Defaults to False.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def save_dict(d: Dict, path: str, cls: Any = None, sortkeys: bool = False) -&gt; None:
+    """Save a dictionary to a specific location.
+
+    Args:
+        d (Dict): data to save.
+        path (str): location of where to save the data.
+        cls (optional): encoder to use on dict data. Defaults to None.
+        sortkeys (bool, optional): whether to sort keys alphabetically. Defaults to False.
+    """
+    directory = os.path.dirname(path)
+    if directory and not os.path.exists(directory):  # pragma: no cover
+        os.makedirs(directory)
+    with open(path, "w") as fp:
+        json.dump(d, indent=2, fp=fp, cls=cls, sort_keys=sortkeys)
+        fp.write("\n")</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.utils.set_seeds" class="doc doc-heading">
+          <code class="highlight language-python">set_seeds(seed=42)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Set seeds for reproducibility.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>madewithml/utils.py</code></summary>
+            <pre class="highlight"><code class="language-python">def set_seeds(seed: int = 42):
+    """Set seeds for reproducibility."""
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    eval("setattr(torch.backends.cudnn, 'deterministic', True)")
+    eval("setattr(torch.backends.cudnn, 'benchmark', False)")
+    os.environ["PYTHONHASHSEED"] = str(seed)</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../serve/" class="btn btn-neutral float-left" title="serve"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/GokuMohandas/Made-With-ML/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../serve/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

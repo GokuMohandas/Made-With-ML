@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://madewithml.com/madewithml/predict/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>predict - Made With ML</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "predict";
+        var mkdocs_page_input_path = "madewithml/predict.md";
+        var mkdocs_page_url = "/madewithml/predict/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Made With ML
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">madewithml</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../data/">data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../models/">models</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../train/">train</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tune/">tune</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../evaluate/">evaluate</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">predict</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../serve/">serve</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../utils/">utils</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Made With ML</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>madewithml &raquo;</li>
+      <li>predict</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/GokuMohandas/Made-With-ML/edit/master/docs/madewithml/predict.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="doc doc-object doc-module">
+
+
+
+<a id="madewithml.predict"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.predict.decode" class="doc doc-heading">
+          <code class="highlight language-python">decode(indices, index_to_class)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Decode indices to labels.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>indices</code></b>
+                  (<code><span title="typing.Iterable">Iterable</span>[<span title="typing.Any">Any</span>]</code>)
+              –
+              <div class="doc-md-description">
+                <p>Iterable (list, array, etc.) with indices.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>index_to_class</code></b>
+                  (<code><span title="typing.Dict">Dict</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>mapping between indices and labels.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>List</code></b>(                <code><span title="typing.List">List</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>list of labels.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/predict.py</code></summary>
+            <pre class="highlight"><code class="language-python">def decode(indices: Iterable[Any], index_to_class: Dict) -&gt; List:
+    """Decode indices to labels.
+
+    Args:
+        indices (Iterable[Any]): Iterable (list, array, etc.) with indices.
+        index_to_class (Dict): mapping between indices and labels.
+
+    Returns:
+        List: list of labels.
+    """
+    return [index_to_class[index] for index in indices]</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.predict.format_prob" class="doc doc-heading">
+          <code class="highlight language-python">format_prob(prob, index_to_class)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Format probabilities to a dictionary mapping class label to probability.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>prob</code></b>
+                  (<code><span title="typing.Iterable">Iterable</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>probabilities.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>index_to_class</code></b>
+                  (<code><span title="typing.Dict">Dict</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>mapping between indices and labels.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>Dict</code></b>(                <code><span title="typing.Dict">Dict</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>Dictionary mapping class label to probability.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/predict.py</code></summary>
+            <pre class="highlight"><code class="language-python">def format_prob(prob: Iterable, index_to_class: Dict) -&gt; Dict:
+    """Format probabilities to a dictionary mapping class label to probability.
+
+    Args:
+        prob (Iterable): probabilities.
+        index_to_class (Dict): mapping between indices and labels.
+
+    Returns:
+        Dict: Dictionary mapping class label to probability.
+    """
+    d = {}
+    for i, item in enumerate(prob):
+        d[index_to_class[i]] = item
+    return d</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.predict.get_best_checkpoint" class="doc doc-heading">
+          <code class="highlight language-python">get_best_checkpoint(run_id)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get the best checkpoint from a specific run.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>run_id</code></b>
+                  (<code>str</code>)
+              –
+              <div class="doc-md-description">
+                <p>ID of the run to get the best checkpoint from.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>TorchCheckpoint</code></b>(                <code><span title="ray.train.torch.torch_checkpoint.TorchCheckpoint">TorchCheckpoint</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>Best checkpoint from the run.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/predict.py</code></summary>
+            <pre class="highlight"><code class="language-python">def get_best_checkpoint(run_id: str) -&gt; TorchCheckpoint:  # pragma: no cover, mlflow logic
+    """Get the best checkpoint from a specific run.
+
+    Args:
+        run_id (str): ID of the run to get the best checkpoint from.
+
+    Returns:
+        TorchCheckpoint: Best checkpoint from the run.
+    """
+    artifact_dir = urlparse(mlflow.get_run(run_id).info.artifact_uri).path  # get path from mlflow
+    results = Result.from_path(artifact_dir)
+    return results.best_checkpoints[0][0]</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.predict.get_best_run_id" class="doc doc-heading">
+          <code class="highlight language-python">get_best_run_id(experiment_name='', metric='', mode='')</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get the best run_id from an MLflow experiment.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>experiment_name</code></b>
+                  (<code>str</code>, default:
+                      <code>&#39;&#39;</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>name of the experiment.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>metric</code></b>
+                  (<code>str</code>, default:
+                      <code>&#39;&#39;</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>metric to filter by.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>mode</code></b>
+                  (<code>str</code>, default:
+                      <code>&#39;&#39;</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>direction of metric (ASC/DESC).</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>str</code></b>(                <code>str</code>
+)            –
+            <div class="doc-md-description">
+              <p>best run id from experiment.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/predict.py</code></summary>
+            <pre class="highlight"><code class="language-python">@app.command()
+def get_best_run_id(experiment_name: str = "", metric: str = "", mode: str = "") -&gt; str:  # pragma: no cover, mlflow logic
+    """Get the best run_id from an MLflow experiment.
+
+    Args:
+        experiment_name (str): name of the experiment.
+        metric (str): metric to filter by.
+        mode (str): direction of metric (ASC/DESC).
+
+    Returns:
+        str: best run id from experiment.
+    """
+    sorted_runs = mlflow.search_runs(
+        experiment_names=[experiment_name],
+        order_by=[f"metrics.{metric} {mode}"],
+    )
+    run_id = sorted_runs.iloc[0].run_id
+    print(run_id)
+    return run_id</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.predict.predict" class="doc doc-heading">
+          <code class="highlight language-python">predict(run_id=None, title=None, description=None)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Predict the tag for a project given it's title and description.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>run_id</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>id of the specific run to load from. Defaults to None.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>title</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>project title. Defaults to "".</p>
+              </div>
+            </li>
+            <li>
+              <b><code>description</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>project description. Defaults to "".</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>Dict</code></b>(                <code><span title="typing.Dict">Dict</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>prediction results for the input data.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/predict.py</code></summary>
+            <pre class="highlight"><code class="language-python">@app.command()
+def predict(
+    run_id: Annotated[str, typer.Option(help="id of the specific run to load from")] = None,
+    title: Annotated[str, typer.Option(help="project title")] = None,
+    description: Annotated[str, typer.Option(help="project description")] = None,
+) -&gt; Dict:  # pragma: no cover, tested with inference workload
+    """Predict the tag for a project given it's title and description.
+
+    Args:
+        run_id (str): id of the specific run to load from. Defaults to None.
+        title (str, optional): project title. Defaults to "".
+        description (str, optional): project description. Defaults to "".
+
+    Returns:
+        Dict: prediction results for the input data.
+    """
+    # Load components
+    best_checkpoint = get_best_checkpoint(run_id=run_id)
+    predictor = TorchPredictor.from_checkpoint(best_checkpoint)
+
+    # Predict
+    sample_ds = ray.data.from_items([{"title": title, "description": description, "tag": "other"}])
+    results = predict_proba(ds=sample_ds, predictor=predictor)
+    logger.info(json.dumps(results, cls=NumpyEncoder, indent=2))
+    return results</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.predict.predict_proba" class="doc doc-heading">
+          <code class="highlight language-python">predict_proba(ds, predictor)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Predict tags (with probabilities) for input data from a dataframe.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>df</code></b>
+                  (<code><span title="pd.DataFrame">DataFrame</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>dataframe with input features.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>predictor</code></b>
+                  (<code><span title="madewithml.predict.TorchPredictor">TorchPredictor</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>loaded predictor from a checkpoint.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>List</code></b>(                <code><span title="typing.List">List</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>list of predicted labels.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/predict.py</code></summary>
+            <pre class="highlight"><code class="language-python">def predict_proba(
+    ds: ray.data.dataset.Dataset,
+    predictor: TorchPredictor,
+) -&gt; List:  # pragma: no cover, tested with inference workload
+    """Predict tags (with probabilities) for input data from a dataframe.
+
+    Args:
+        df (pd.DataFrame): dataframe with input features.
+        predictor (TorchPredictor): loaded predictor from a checkpoint.
+
+    Returns:
+        List: list of predicted labels.
+    """
+    preprocessor = predictor.get_preprocessor()
+    preprocessed_ds = preprocessor.transform(ds)
+    outputs = preprocessed_ds.map_batches(predictor.predict_proba)
+    y_prob = np.array([d["output"] for d in outputs.take_all()])
+    results = []
+    for i, prob in enumerate(y_prob):
+        tag = preprocessor.index_to_class[prob.argmax()]
+        results.append({"prediction": tag, "probabilities": format_prob(prob, preprocessor.index_to_class)})
+    return results</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../evaluate/" class="btn btn-neutral float-left" title="evaluate"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../serve/" class="btn btn-neutral float-right" title="serve">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/GokuMohandas/Made-With-ML/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../evaluate/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../serve/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

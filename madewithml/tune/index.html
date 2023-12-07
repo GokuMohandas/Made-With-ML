@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://madewithml.com/madewithml/tune/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>tune - Made With ML</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "tune";
+        var mkdocs_page_input_path = "madewithml/tune.md";
+        var mkdocs_page_url = "/madewithml/tune/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Made With ML
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">madewithml</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../data/">data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../models/">models</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../train/">train</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">tune</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../evaluate/">evaluate</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../predict/">predict</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../serve/">serve</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../utils/">utils</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Made With ML</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>madewithml &raquo;</li>
+      <li>tune</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/GokuMohandas/Made-With-ML/edit/master/docs/madewithml/tune.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="doc doc-object doc-module">
+
+
+
+<a id="madewithml.tune"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.tune.tune_models" class="doc doc-heading">
+          <code class="highlight language-python">tune_models(experiment_name=None, dataset_loc=None, initial_params=None, num_workers=1, cpu_per_worker=1, gpu_per_worker=0, num_runs=1, num_samples=None, num_epochs=1, batch_size=256, results_fp=None)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Hyperparameter tuning experiment.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>experiment_name</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>name of the experiment for this training workload.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>dataset_loc</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>location of the dataset.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>initial_params</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>initial config for the tuning workload.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>num_workers</code></b>
+                  (<code>int</code>, default:
+                      <code>1</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of workers to use for training. Defaults to 1.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>cpu_per_worker</code></b>
+                  (<code>int</code>, default:
+                      <code>1</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of CPUs to use per worker. Defaults to 1.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>gpu_per_worker</code></b>
+                  (<code>int</code>, default:
+                      <code>0</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of GPUs to use per worker. Defaults to 0.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>num_runs</code></b>
+                  (<code>int</code>, default:
+                      <code>1</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of runs in this tuning experiment. Defaults to 1.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>num_samples</code></b>
+                  (<code>int</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of samples to use from dataset.
+If this is passed in, it will override the config. Defaults to None.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>num_epochs</code></b>
+                  (<code>int</code>, default:
+                      <code>1</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of epochs to train for.
+If this is passed in, it will override the config. Defaults to None.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>batch_size</code></b>
+                  (<code>int</code>, default:
+                      <code>256</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>number of samples per batch.
+If this is passed in, it will override the config. Defaults to None.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>results_fp</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>filepath to save the tuning results. Defaults to None.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+                <code><span title="ray.tune.result_grid.ResultGrid">ResultGrid</span></code>
+            –
+            <div class="doc-md-description">
+              <p>ray.tune.result_grid.ResultGrid: results of the tuning experiment.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/tune.py</code></summary>
+            <pre class="highlight"><code class="language-python">@app.command()
+def tune_models(
+    experiment_name: Annotated[str, typer.Option(help="name of the experiment for this training workload.")] = None,
+    dataset_loc: Annotated[str, typer.Option(help="location of the dataset.")] = None,
+    initial_params: Annotated[str, typer.Option(help="initial config for the tuning workload.")] = None,
+    num_workers: Annotated[int, typer.Option(help="number of workers to use for training.")] = 1,
+    cpu_per_worker: Annotated[int, typer.Option(help="number of CPUs to use per worker.")] = 1,
+    gpu_per_worker: Annotated[int, typer.Option(help="number of GPUs to use per worker.")] = 0,
+    num_runs: Annotated[int, typer.Option(help="number of runs in this tuning experiment.")] = 1,
+    num_samples: Annotated[int, typer.Option(help="number of samples to use from dataset.")] = None,
+    num_epochs: Annotated[int, typer.Option(help="number of epochs to train for.")] = 1,
+    batch_size: Annotated[int, typer.Option(help="number of samples per batch.")] = 256,
+    results_fp: Annotated[str, typer.Option(help="filepath to save results to.")] = None,
+) -&gt; ray.tune.result_grid.ResultGrid:
+    """Hyperparameter tuning experiment.
+
+    Args:
+        experiment_name (str): name of the experiment for this training workload.
+        dataset_loc (str): location of the dataset.
+        initial_params (str): initial config for the tuning workload.
+        num_workers (int, optional): number of workers to use for training. Defaults to 1.
+        cpu_per_worker (int, optional): number of CPUs to use per worker. Defaults to 1.
+        gpu_per_worker (int, optional): number of GPUs to use per worker. Defaults to 0.
+        num_runs (int, optional): number of runs in this tuning experiment. Defaults to 1.
+        num_samples (int, optional): number of samples to use from dataset.
+            If this is passed in, it will override the config. Defaults to None.
+        num_epochs (int, optional): number of epochs to train for.
+            If this is passed in, it will override the config. Defaults to None.
+        batch_size (int, optional): number of samples per batch.
+            If this is passed in, it will override the config. Defaults to None.
+        results_fp (str, optional): filepath to save the tuning results. Defaults to None.
+
+    Returns:
+        ray.tune.result_grid.ResultGrid: results of the tuning experiment.
+    """
+    # Set up
+    utils.set_seeds()
+    train_loop_config = {}
+    train_loop_config["num_samples"] = num_samples
+    train_loop_config["num_epochs"] = num_epochs
+    train_loop_config["batch_size"] = batch_size
+
+    # Scaling config
+    scaling_config = ScalingConfig(
+        num_workers=num_workers,
+        use_gpu=bool(gpu_per_worker),
+        resources_per_worker={"CPU": cpu_per_worker, "GPU": gpu_per_worker},
+    )
+
+    # Dataset
+    ds = data.load_data(dataset_loc=dataset_loc, num_samples=train_loop_config.get("num_samples", None))
+    train_ds, val_ds = data.stratify_split(ds, stratify="tag", test_size=0.2)
+    tags = train_ds.unique(column="tag")
+    train_loop_config["num_classes"] = len(tags)
+
+    # Dataset config
+    dataset_config = {
+        "train": DatasetConfig(fit=False, transform=False, randomize_block_order=False),
+        "val": DatasetConfig(fit=False, transform=False, randomize_block_order=False),
+    }
+
+    # Preprocess
+    preprocessor = data.CustomPreprocessor()
+    preprocessor = preprocessor.fit(train_ds)
+    train_ds = preprocessor.transform(train_ds)
+    val_ds = preprocessor.transform(val_ds)
+    train_ds = train_ds.materialize()
+    val_ds = val_ds.materialize()
+
+    # Trainer
+    trainer = TorchTrainer(
+        train_loop_per_worker=train.train_loop_per_worker,
+        train_loop_config=train_loop_config,
+        scaling_config=scaling_config,
+        datasets={"train": train_ds, "val": val_ds},
+        dataset_config=dataset_config,
+        metadata={"class_to_index": preprocessor.class_to_index},
+    )
+
+    # Checkpoint configuration
+    checkpoint_config = CheckpointConfig(
+        num_to_keep=1,
+        checkpoint_score_attribute="val_loss",
+        checkpoint_score_order="min",
+    )
+
+    # Run configuration
+    mlflow_callback = MLflowLoggerCallback(
+        tracking_uri=MLFLOW_TRACKING_URI,
+        experiment_name=experiment_name,
+        save_artifact=True,
+    )
+    run_config = RunConfig(callbacks=[mlflow_callback], checkpoint_config=checkpoint_config, storage_path=EFS_DIR, local_dir=EFS_DIR)
+
+    # Hyperparameters to start with
+    initial_params = json.loads(initial_params)
+    search_alg = HyperOptSearch(points_to_evaluate=initial_params)
+    search_alg = ConcurrencyLimiter(search_alg, max_concurrent=2)  # trade off b/w optimization and search space
+
+    # Parameter space
+    param_space = {
+        "train_loop_config": {
+            "dropout_p": tune.uniform(0.3, 0.9),
+            "lr": tune.loguniform(1e-5, 5e-4),
+            "lr_factor": tune.uniform(0.1, 0.9),
+            "lr_patience": tune.uniform(1, 10),
+        }
+    }
+
+    # Scheduler
+    scheduler = AsyncHyperBandScheduler(
+        max_t=train_loop_config["num_epochs"],  # max epoch (&lt;time_attr&gt;) per trial
+        grace_period=1,  # min epoch (&lt;time_attr&gt;) per trial
+    )
+
+    # Tune config
+    tune_config = tune.TuneConfig(
+        metric="val_loss",
+        mode="min",
+        search_alg=search_alg,
+        scheduler=scheduler,
+        num_samples=num_runs,
+    )
+
+    # Tuner
+    tuner = Tuner(
+        trainable=trainer,
+        run_config=run_config,
+        param_space=param_space,
+        tune_config=tune_config,
+    )
+
+    # Tune
+    results = tuner.fit()
+    best_trial = results.get_best_result(metric="val_loss", mode="min")
+    d = {
+        "timestamp": datetime.datetime.now().strftime("%B %d, %Y %I:%M:%S %p"),
+        "run_id": utils.get_run_id(experiment_name=experiment_name, trial_id=best_trial.metrics["trial_id"]),
+        "params": best_trial.config["train_loop_config"],
+        "metrics": utils.dict_to_list(best_trial.metrics_dataframe.to_dict(), keys=["epoch", "train_loss", "val_loss"]),
+    }
+    logger.info(json.dumps(d, indent=2))
+    if results_fp:  # pragma: no cover, saving results
+        utils.save_dict(d, results_fp)
+    return results</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../train/" class="btn btn-neutral float-left" title="train"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../evaluate/" class="btn btn-neutral float-right" title="evaluate">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/GokuMohandas/Made-With-ML/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../train/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../evaluate/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

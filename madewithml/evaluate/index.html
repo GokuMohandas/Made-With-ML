@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://madewithml.com/madewithml/evaluate/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>evaluate - Made With ML</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "evaluate";
+        var mkdocs_page_input_path = "madewithml/evaluate.md";
+        var mkdocs_page_url = "/madewithml/evaluate/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Made With ML
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">madewithml</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../data/">data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../models/">models</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../train/">train</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tune/">tune</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">evaluate</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../predict/">predict</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../serve/">serve</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../utils/">utils</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Made With ML</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>madewithml &raquo;</li>
+      <li>evaluate</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/GokuMohandas/Made-With-ML/edit/master/docs/madewithml/evaluate.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="doc doc-object doc-module">
+
+
+
+<a id="madewithml.evaluate"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.evaluate.evaluate" class="doc doc-heading">
+          <code class="highlight language-python">evaluate(run_id=None, dataset_loc=None, results_fp=None)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Evaluate on the holdout dataset.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>run_id</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>id of the specific run to load from. Defaults to None.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>dataset_loc</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>dataset (with labels) to evaluate on.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>results_fp</code></b>
+                  (<code>str</code>, default:
+                      <code>None</code>
+)
+              –
+              <div class="doc-md-description">
+                <p>location to save evaluation results to. Defaults to None.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>Dict</code></b>(                <code><span title="typing.Dict">Dict</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>model's performance metrics on the dataset.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/evaluate.py</code></summary>
+            <pre class="highlight"><code class="language-python">@app.command()
+def evaluate(
+    run_id: Annotated[str, typer.Option(help="id of the specific run to load from")] = None,
+    dataset_loc: Annotated[str, typer.Option(help="dataset (with labels) to evaluate on")] = None,
+    results_fp: Annotated[str, typer.Option(help="location to save evaluation results to")] = None,
+) -&gt; Dict:  # pragma: no cover, eval workload
+    """Evaluate on the holdout dataset.
+
+    Args:
+        run_id (str): id of the specific run to load from. Defaults to None.
+        dataset_loc (str): dataset (with labels) to evaluate on.
+        results_fp (str, optional): location to save evaluation results to. Defaults to None.
+
+    Returns:
+        Dict: model's performance metrics on the dataset.
+    """
+    # Load
+    ds = ray.data.read_csv(dataset_loc)
+    best_checkpoint = predict.get_best_checkpoint(run_id=run_id)
+    predictor = TorchPredictor.from_checkpoint(best_checkpoint)
+
+    # y_true
+    preprocessor = predictor.get_preprocessor()
+    preprocessed_ds = preprocessor.transform(ds)
+    values = preprocessed_ds.select_columns(cols=["targets"]).take_all()
+    y_true = np.stack([item["targets"] for item in values])
+
+    # y_pred
+    predictions = preprocessed_ds.map_batches(predictor).take_all()
+    y_pred = np.array([d["output"] for d in predictions])
+
+    # Metrics
+    metrics = {
+        "timestamp": datetime.datetime.now().strftime("%B %d, %Y %I:%M:%S %p"),
+        "run_id": run_id,
+        "overall": get_overall_metrics(y_true=y_true, y_pred=y_pred),
+        "per_class": get_per_class_metrics(y_true=y_true, y_pred=y_pred, class_to_index=preprocessor.class_to_index),
+        "slices": get_slice_metrics(y_true=y_true, y_pred=y_pred, ds=ds),
+    }
+    logger.info(json.dumps(metrics, indent=2))
+    if results_fp:  # pragma: no cover, saving results
+        utils.save_dict(d=metrics, path=results_fp)
+    return metrics</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.evaluate.get_overall_metrics" class="doc doc-heading">
+          <code class="highlight language-python">get_overall_metrics(y_true, y_pred)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get overall performance metrics.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>y_true</code></b>
+                  (<code><span title="numpy.ndarray">ndarray</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>ground truth labels.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>y_pred</code></b>
+                  (<code><span title="numpy.ndarray">ndarray</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>predicted labels.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>Dict</code></b>(                <code><span title="typing.Dict">Dict</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>overall metrics.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/evaluate.py</code></summary>
+            <pre class="highlight"><code class="language-python">def get_overall_metrics(y_true: np.ndarray, y_pred: np.ndarray) -&gt; Dict:  # pragma: no cover, eval workload
+    """Get overall performance metrics.
+
+    Args:
+        y_true (np.ndarray): ground truth labels.
+        y_pred (np.ndarray): predicted labels.
+
+    Returns:
+        Dict: overall metrics.
+    """
+    metrics = precision_recall_fscore_support(y_true, y_pred, average="weighted")
+    overall_metrics = {
+        "precision": metrics[0],
+        "recall": metrics[1],
+        "f1": metrics[2],
+        "num_samples": np.float64(len(y_true)),
+    }
+    return overall_metrics</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.evaluate.get_per_class_metrics" class="doc doc-heading">
+          <code class="highlight language-python">get_per_class_metrics(y_true, y_pred, class_to_index)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get per class performance metrics.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>y_true</code></b>
+                  (<code><span title="numpy.ndarray">ndarray</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>ground truth labels.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>y_pred</code></b>
+                  (<code><span title="numpy.ndarray">ndarray</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>predicted labels.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>class_to_index</code></b>
+                  (<code><span title="typing.Dict">Dict</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>dictionary mapping class to index.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+    <th class="field-name">Returns:</th>
+    <td class="field-body">
+      <ul class="first simple">
+          <li>
+<b><code>Dict</code></b>(                <code><span title="typing.Dict">Dict</span></code>
+)            –
+            <div class="doc-md-description">
+              <p>per class metrics.</p>
+            </div>
+          </li>
+      </ul>
+    </td>
+    </tr>
+  </tbody>
+</table>
+          <details class="quote">
+            <summary>Source code in <code>madewithml/evaluate.py</code></summary>
+            <pre class="highlight"><code class="language-python">def get_per_class_metrics(y_true: np.ndarray, y_pred: np.ndarray, class_to_index: Dict) -&gt; Dict:  # pragma: no cover, eval workload
+    """Get per class performance metrics.
+
+    Args:
+        y_true (np.ndarray): ground truth labels.
+        y_pred (np.ndarray): predicted labels.
+        class_to_index (Dict): dictionary mapping class to index.
+
+    Returns:
+        Dict: per class metrics.
+    """
+    per_class_metrics = {}
+    metrics = precision_recall_fscore_support(y_true, y_pred, average=None)
+    for i, _class in enumerate(class_to_index):
+        per_class_metrics[_class] = {
+            "precision": metrics[0][i],
+            "recall": metrics[1][i],
+            "f1": metrics[2][i],
+            "num_samples": np.float64(metrics[3][i]),
+        }
+    sorted_per_class_metrics = OrderedDict(sorted(per_class_metrics.items(), key=lambda tag: tag[1]["f1"], reverse=True))
+    return sorted_per_class_metrics</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.evaluate.get_slice_metrics" class="doc doc-heading">
+          <code class="highlight language-python">get_slice_metrics(y_true, y_pred, ds)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get performance metrics for slices.</p>
+
+
+
+<table class="field-list">
+  <colgroup>
+    <col class="field-name" />
+    <col class="field-body" />
+  </colgroup>
+  <tbody valign="top">
+    <tr class="field">
+      <th class="field-name">Parameters:</th>
+      <td class="field-body">
+        <ul class="first simple">
+            <li>
+              <b><code>y_true</code></b>
+                  (<code><span title="numpy.ndarray">ndarray</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>ground truth labels.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>y_pred</code></b>
+                  (<code><span title="numpy.ndarray">ndarray</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>predicted labels.</p>
+              </div>
+            </li>
+            <li>
+              <b><code>ds</code></b>
+                  (<code><span title="ray.data.Dataset">Dataset</span></code>)
+              –
+              <div class="doc-md-description">
+                <p>Ray dataset with labels.</p>
+              </div>
+            </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>      <p>Returns:
+    Dict: performance metrics for slices.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>madewithml/evaluate.py</code></summary>
+            <pre class="highlight"><code class="language-python">def get_slice_metrics(y_true: np.ndarray, y_pred: np.ndarray, ds: Dataset) -&gt; Dict:  # pragma: no cover, eval workload
+    """Get performance metrics for slices.
+
+    Args:
+        y_true (np.ndarray): ground truth labels.
+        y_pred (np.ndarray): predicted labels.
+        ds (Dataset): Ray dataset with labels.
+    Returns:
+        Dict: performance metrics for slices.
+    """
+    slice_metrics = {}
+    df = ds.to_pandas()
+    df["text"] = df["title"] + " " + df["description"]
+    slices = PandasSFApplier([nlp_llm, short_text]).apply(df)
+    for slice_name in slices.dtype.names:
+        mask = slices[slice_name].astype(bool)
+        if sum(mask):
+            metrics = precision_recall_fscore_support(y_true[mask], y_pred[mask], average="micro")
+            slice_metrics[slice_name] = {}
+            slice_metrics[slice_name]["precision"] = metrics[0]
+            slice_metrics[slice_name]["recall"] = metrics[1]
+            slice_metrics[slice_name]["f1"] = metrics[2]
+            slice_metrics[slice_name]["num_samples"] = len(y_true[mask])
+    return slice_metrics</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.evaluate.nlp_llm" class="doc doc-heading">
+          <code class="highlight language-python">nlp_llm(x)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>NLP projects that use LLMs.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>madewithml/evaluate.py</code></summary>
+            <pre class="highlight"><code class="language-python">@slicing_function()
+def nlp_llm(x):  # pragma: no cover, eval workload
+    """NLP projects that use LLMs."""
+    nlp_project = "natural-language-processing" in x.tag
+    llm_terms = ["transformer", "llm", "bert"]
+    llm_project = any(s.lower() in x.text.lower() for s in llm_terms)
+    return nlp_project and llm_project</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h2 id="madewithml.evaluate.short_text" class="doc doc-heading">
+          <code class="highlight language-python">short_text(x)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Projects with short titles and descriptions.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>madewithml/evaluate.py</code></summary>
+            <pre class="highlight"><code class="language-python">@slicing_function()
+def short_text(x):  # pragma: no cover, eval workload
+    """Projects with short titles and descriptions."""
+    return len(x.text.split()) &lt; 8  # less than 8 words</code></pre>
+          </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../tune/" class="btn btn-neutral float-left" title="tune"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../predict/" class="btn btn-neutral float-right" title="predict">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/GokuMohandas/Made-With-ML/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../tune/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../predict/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
