@@ -1,6 +1,5 @@
 #!/bin/bash
 export PYTHONPATH=$PYTHONPATH:$PWD
-export RAY_AIR_REENABLE_DEPRECATED_SYNC_TO_HEAD_NODE=1
 mkdir results
 
 # Test data

@@ -1,4 +1,4 @@
-base_image: anyscale/ray:2.6.0-py310-cu118
+base_image: anyscale/ray:2.7.0optimized-py310-cu118
 env_vars: {}
 debian_packages:
   - curl

@@ -83,7 +83,7 @@ We'll start by setting up our cluster with the environment and compute configura
   - Project: `madewithml`
   - Cluster environment name: `madewithml-cluster-env`
   # Toggle `Select from saved configurations`
-  - Compute config: `madewithml-cluster-compute`
+  - Compute config: `madewithml-cluster-compute-g5.4xlarge`
   ```
 
   > Alternatively, we can use the [CLI](https://docs.anyscale.com/reference/anyscale-cli) to create the workspace via `anyscale workspace create ...`
@@ -423,7 +423,7 @@ anyscale cluster-env build deploy/cluster_env.yaml --name $CLUSTER_ENV_NAME
 The compute configuration determines **what** resources our workloads will be executes on. We've already created this [compute configuration](./deploy/cluster_compute.yaml) for us but this is how we can create it ourselves.
 
 ```bash
-export CLUSTER_COMPUTE_NAME="madewithml-cluster-compute"
+export CLUSTER_COMPUTE_NAME="madewithml-cluster-compute-g5.4xlarge"
 anyscale cluster-compute create deploy/cluster_compute.yaml --name $CLUSTER_COMPUTE_NAME
 ```
 
