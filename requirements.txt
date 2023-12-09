@@ -2,7 +2,7 @@
 hyperopt==0.2.7
 ipywidgets>=8
 matplotlib==3.7.1
-mlflow==2.3.1
+mlflow==2.6.0
 nltk==3.8.1
 numpy==1.24.3
 numpyencoder==0.3.0
