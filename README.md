@@ -485,7 +485,7 @@ We're not going to manually deploy our application every time we make a change. 
   <img src="https://madewithml.com/static/images/mlops/cicd/cicd.png">
 </div>
 
-1. Create a new github branch to save our changes to and execute CI/CD workloads:
+1. Create a new GitHub branch to save our changes to and execute CI/CD workloads:
 ```bash
 git remote set-url origin https://github.com/$GITHUB_USERNAME/Made-With-ML.git  # <-- CHANGE THIS to your username
 git checkout -b dev
