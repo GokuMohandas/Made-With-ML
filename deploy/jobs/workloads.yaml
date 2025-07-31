@@ -4,8 +4,8 @@ cluster_env: madewithml-cluster-env
 compute_config: madewithml-cluster-compute
 runtime_env:
   working_dir: .
-  upload_path: s3://madewithml/bansal1600/jobs  # <--- CHANGE USERNAME (case-sensitive)
+  upload_path: s3://madewithml/GokuMohandas/jobs  # <--- CHANGE USERNAME (case-sensitive)
   env_vars:
-    GITHUB_USERNAME: bansal1600  # <--- CHANGE USERNAME (case-sensitive)
+    GITHUB_USERNAME: GokuMohandas  # <--- CHANGE USERNAME (case-sensitive)
 entrypoint: bash deploy/jobs/workloads.sh
 max_retries: 0
