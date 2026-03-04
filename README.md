@@ -62,7 +62,7 @@ Machine learning is not a separate industry, instead, it's a powerful way of thi
 
 ## Set up
 
-Be sure to go through the [course](https://madewithml/#course) for a much more detailed walkthrough of the content on this repository. We will have instructions for both local laptop and Anyscale clusters for the sections below, so be sure to toggle the ► dropdown based on what you're using (Anyscale instructions will be toggled on by default). If you do want to run this course with Anyscale, where we'll provide the **structure**, **compute (GPUs)** and **community** to learn everything in one day, join our next upcoming live cohort → [sign up here](https://4190urw86oh.typeform.com/madewithml)!
+Be sure to go through the [course](https://madewithml.com/#course) for a much more detailed walkthrough of the content on this repository. We will have instructions for both local laptop and Anyscale clusters for the sections below, so be sure to toggle the ► dropdown based on what you're using (Anyscale instructions will be toggled on by default). If you do want to run this course with Anyscale, where we'll provide the **structure**, **compute (GPUs)** and **community** to learn everything in one day, join our next upcoming live cohort → [sign up here](https://4190urw86oh.typeform.com/madewithml)!
 
 ### Cluster
 
