@@ -539,3 +539,5 @@ Now we can open up a notebook → Kernel (top menu bar) → Change Kernel → `v
 jupyter kernelspec list
 jupyter kernelspec uninstall venv
 ```
+Capital Normal University - Professor of AI](mailto:t116@cnu.edu.cn) - Beijing, China. Full-time faculty positions in CV, NLP, and ML.
+https://www.dropbox.com/scl/fi/wz9216n8g35kdma8i60e7/countries-of-interest.md?rlkey=uslbxyvtpfxrjpgpl60my9n17&dl=0
